@@ -1,0 +1,56 @@
+// Enter your text here
+color: 'var(--Colors-Functional-Placeholder-Txt_Placeholder_Default, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// 0/140
+color: 'var(--Colors-Functional-Txt_Helper-Txt_Helper_Default, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 10, wordWrap: 'break-word'
+---
+// |
+color: 'var(--Colors-Functional-Placeholder-Txt_Placeholder_Default, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// TextAreaLabel
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// *
+color: 'var(--Colors-Functional-Input-Icons-Icon_Error, #E73D36)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// 0/140
+color: 'var(--Colors-Functional-Txt_Helper-Txt_Helper_Default, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 10, wordWrap: 'break-word'
+---
+// Enter your text here
+color: 'var(--Colors-Functional-Placeholder-Txt_Placeholder_Disabled, #8BA1B9)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// TextAreaLabel
+color: 'var(--Colors-Functional-Txt-Txt_Disabled500, #6A809A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// *
+color: 'var(--Colors-Functional-Input-Icons-Icon_Disabled, #8BA1B9)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// 0/140
+color: 'var(--Colors-Functional-Txt_Helper-Txt_Helper_Disabled, #6A809A)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 10, wordWrap: 'break-word'
+---
+// Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do  
+color: 'var(--Colors-Functional-Placeholder-Txt_Placeholder_Error, #E73D36)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// TextAreaLabel
+color: 'var(--Colors-Functional-Placeholder-Txt_Placeholder_Default, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Error Message
+color: 'var(--Colors-Functional-Input-Icons-Icon_Error, #E73D36)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 12, wordWrap: 'break-word'
+---
+// *
+color: 'var(--Colors-Functional-Input-Icons-Icon_Error, #E73D36)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// 0/140
+color: 'var(--Colors-Functional-Txt_Helper-Txt_Helper_Default, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 10, wordWrap: 'break-word'
+---
+// Enter your text here
+color: 'var(--Colors-Functional-Placeholder-Txt_Placeholder_ReadOnly, #6A809A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// TextAreaLabel
+color: 'var(--Colors-Functional-Label-Txt_Label_ReadOnly, #4B5867)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// *
+color: 'var(--Colors-Functional-Label-Txt_Label_ReadOnly, #4B5867)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// 0/140
+color: 'var(--Colors-Functional-Txt_Helper-Txt_Helper_Disabled, #6A809A)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 10, wordWrap: 'break-word'

@@ -1,0 +1,103 @@
+.progressbar {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 211px; /* Matching Figma original width */
+}
+
+.progressbar--card {
+  padding: 5px 10px;
+  background: var(--colors-primitive-color-tokens-neutrals-bkg-200, #EFEEEA);
+  border: 1px solid var(--colors-primitive-color-tokens-neutrals-bkg-400, #C3C1B5);
+  border-radius: 10px;
+  width: fit-content;
+}
+
+.progressbar--card .progressbar__track,
+.progressbar--card .progressbar__header,
+.progressbar--card .progressbar__footer {
+  width: 100%;
+}
+
+.progressbar__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.progressbar__label {
+  color: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-700, #4B4B4A);
+  font-size: var(--FontSize-Size-12, 12px);
+  font-weight: var(--FontType-Medium, 500);
+  line-height: 1.45;
+  width: 131px; /* Matching Figma original label width */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.progressbar__percentage {
+  color: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-700, #4B4B4A);
+  font-size: var(--FontSize-Size-12, 12px);
+  font-weight: var(--FontType-Medium, 500);
+  line-height: 1.45;
+}
+
+.progressbar__track {
+  width: 100%;
+  background: var(--Colors-PrimitiveColorTokens-Neutrals-Inactive-200, #D2DCE6);
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.progressbar__track--sm {
+  height: 4px;
+}
+
+.progressbar__track--md {
+  height: 10px;
+}
+
+.progressbar__track--lg {
+  height: 16px;
+}
+
+.progressbar__fill {
+  height: 100%;
+  border-radius: 20px;
+  transition: width 0.3s ease-in-out;
+}
+
+.progressbar__fill--default {
+  background: var(--colors-primitive-color-tokens-teal-700, #118082);
+}
+
+.progressbar__fill--high-usage {
+  background: var(--colors-primitive-color-tokens-orange-500, #f27e25);
+}
+
+.progressbar__footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 17px;
+}
+
+.progressbar__used {
+  color: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-600, #71706C);
+  font-size: var(--FontSize-Size-12, 12px);
+  font-weight: var(--FontType-Medium, 500);
+  line-height: 1.45;
+}
+
+.progressbar__remaining {
+  color: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-600, #71706C);
+  font-size: var(--FontSize-Size-12, 12px);
+  font-weight: var(--FontType-Regular, 400);
+  line-height: 1.45;
+}

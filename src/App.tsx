@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { BaseButton } from './components/BaseButton';
 import { PillBadge } from './components/PillBadge';
 import { StateBadge } from './components/StateBadge';
+import { ProgressBar } from './components/ProgressBar';
 import { Checkbox } from './components/Checkbox';
 import { DatePicker } from './components/DatePicker';
 import { SingleSelectDropDown } from './components/DropDown';
@@ -175,6 +176,94 @@ function App() {
                 <StateBadge variant="active">Active (No Icon)</StateBadge>
                 <StateBadge variant="inactive" icon="plus">Inactive</StateBadge>
                 <StateBadge variant="inactive">Inactive (No Icon)</StateBadge>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* ProgressBar Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Progress Bars</h2>
+          <div className="space-y-10">
+            <div className="max-w-md">
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Sizes (4px, 10px, 16px)</h3>
+              <div className="space-y-6">
+                <ProgressBar 
+                  size="sm" 
+                  percentage={60} 
+                  label="Encounters This Month" 
+                  usedText="742 used" 
+                  remainingText="258 remaining" 
+                />
+                <ProgressBar 
+                  size="md" 
+                  percentage={74} 
+                  label="Encounters This Month" 
+                  usedText="742 used" 
+                  remainingText="258 remaining" 
+                />
+                <ProgressBar 
+                  size="lg" 
+                  percentage={74} 
+                  label="Encounters This Month" 
+                  usedText="742 used" 
+                  remainingText="258 remaining" 
+                />
+              </div>
+            </div>
+
+            <div className="max-w-md">
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Variants (Default & High Usage)</h3>
+              <div className="space-y-6">
+                <ProgressBar 
+                  variant="default" 
+                  percentage={45} 
+                  label="Default Variant" 
+                />
+                <ProgressBar 
+                  variant="high-usage" 
+                  percentage={90} 
+                  label="High Usage Variant" 
+                />
+              </div>
+            </div>
+
+            <div className="max-w-md">
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Card Mode (withCard)</h3>
+              <div className="space-y-6">
+                <ProgressBar 
+                  withCard
+                  size="sm" 
+                  percentage={74} 
+                  label="Encounters This Month" 
+                  usedText="742 used" 
+                  remainingText="258 remaining" 
+                />
+                <ProgressBar 
+                  withCard
+                  variant="high-usage"
+                  size="md" 
+                  percentage={90} 
+                  label="Usage Alert" 
+                  usedText="900 used" 
+                  remainingText="100 remaining" 
+                />
+              </div>
+            </div>
+
+            <div className="max-w-md">
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Custom Width (width prop)</h3>
+              <div className="space-y-6">
+                <ProgressBar 
+                  width="100%"
+                  percentage={30} 
+                  label="Full Width (100%)" 
+                />
+                <ProgressBar 
+                  width={350}
+                  percentage={60} 
+                  label="Fixed Width (350px)" 
+                />
               </div>
             </div>
           </div>

@@ -1,0 +1,218 @@
+<div data-layer="Switch" className="Switch" style={{width: 293, height: 968, position: 'relative', overflow: 'hidden', borderRadius: 5, border: '1px #8A38F5 solid'}}>
+  <div data-svg-wrapper data-layer="States=Default, Type=Inactive, Size=Big, Color=Teal" className="StatesDefaultTypeInactiveSizeBigColorTeal" style={{left: 20, top: 20, position: 'absolute'}}>
+    <svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="48" height="24" rx="12" fill="var(--Colors-Functional-Fill-Fill-Gray300, #B4C6D6)"/>
+    <circle cx="12" cy="12" r="10" fill="var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite, white)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Disabled, Type=Inactive, Size=Big, Color=Teal" className="StatesDisabledTypeInactiveSizeBigColorTeal" style={{left: 111, top: 18, position: 'absolute'}}>
+    <svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="48" height="24" rx="12" fill="var(--Colors-Functional-Fill-Fill-Disabled, #8BA1B9)"/>
+    <circle cx="12" cy="12" r="10" fill="var(--Colors-Functional-Fill-Fill-Gray200, #D2DCE6)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Read Only, Type=Inactive, Size=Big, Color=Teal" className="StatesReadOnlyTypeInactiveSizeBigColorTeal" style={{left: 203, top: 18, position: 'absolute'}}>
+    <svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="48" height="24" rx="12" fill="var(--Colors-Functional-Fill-Fill-ReadOnly, #4B5867)"/>
+    <circle cx="12" cy="12" r="10" fill="var(--Colors-Functional-Fill-Fill-Gray200, #D2DCE6)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Default, Type=Active, Size=Big, Color=Teal" className="StatesDefaultTypeActiveSizeBigColorTeal" style={{left: 20, top: 72, position: 'absolute'}}>
+    <svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="48" height="24" rx="12" fill="var(--Colors-Functional-Fill-Fill-Default, #118082)"/>
+    <circle cx="36" cy="12" r="10" fill="var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite, white)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Disabled, Type=Active, Size=Big, Color=Teal" className="StatesDisabledTypeActiveSizeBigColorTeal" style={{left: 109, top: 70, position: 'absolute'}}>
+    <svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="48" height="24" rx="12" fill="var(--Colors-Functional-Fill-Fill-Disabled, #8BA1B9)"/>
+    <circle cx="36" cy="12" r="10" fill="var(--Colors-Functional-Fill-Fill-Gray200, #D2DCE6)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Read Only, Type=Active, Size=Big, Color=Teal" className="StatesReadOnlyTypeActiveSizeBigColorTeal" style={{left: 201, top: 70, position: 'absolute'}}>
+    <svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="48" height="24" rx="12" fill="var(--Colors-Functional-Fill-Fill-ReadOnly, #4B5867)"/>
+    <circle cx="36" cy="12" r="10" fill="var(--Colors-Functional-Fill-Fill-Gray200, #D2DCE6)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Default, Type=Inactive, Size=Small, Color=Teal" className="StatesDefaultTypeInactiveSizeSmallColorTeal" style={{left: 22, top: 177, position: 'absolute'}}>
+    <svg width="40" height="20" viewBox="0 0 40 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="40" height="20" rx="10" fill="var(--Colors-Functional-Fill-Fill-Gray300, #B4C6D6)"/>
+    <circle cx="10" cy="10" r="8" fill="var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite, white)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Disabled, Type=Inactive, Size=Small, Color=Teal" className="StatesDisabledTypeInactiveSizeSmallColorTeal" style={{left: 115, top: 177, position: 'absolute'}}>
+    <svg width="40" height="20" viewBox="0 0 40 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="40" height="20" rx="10" fill="var(--Colors-Functional-Fill-Fill-Disabled, #8BA1B9)"/>
+    <circle cx="10" cy="10" r="8" fill="var(--Colors-Functional-Fill-Fill-Gray200, #D2DCE6)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Read Only, Type=Inactive, Size=Small, Color=Teal" className="StatesReadOnlyTypeInactiveSizeSmallColorTeal" style={{left: 203, top: 175, position: 'absolute'}}>
+    <svg width="40" height="20" viewBox="0 0 40 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="40" height="20" rx="10" fill="var(--Colors-Functional-Fill-Fill-ReadOnly, #4B5867)"/>
+    <circle cx="10" cy="10" r="8" fill="var(--Colors-Functional-Fill-Fill-Gray200, #D2DCE6)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Default, Type=Active, Size=Small, Color=Teal" className="StatesDefaultTypeActiveSizeSmallColorTeal" style={{left: 20, top: 232, position: 'absolute'}}>
+    <svg width="40" height="20" viewBox="0 0 40 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="40" height="20" rx="10" fill="var(--Colors-Functional-Fill-Fill-Default, #118082)"/>
+    <circle cx="30" cy="10" r="8" fill="var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite, white)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Disabled, Type=Active, Size=Small, Color=Teal" className="StatesDisabledTypeActiveSizeSmallColorTeal" style={{left: 115, top: 234, position: 'absolute'}}>
+    <svg width="40" height="20" viewBox="0 0 40 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="40" height="20" rx="10" fill="var(--Colors-Functional-Fill-Fill-Disabled, #8BA1B9)"/>
+    <circle cx="30" cy="10" r="8" fill="var(--Colors-Functional-Fill-Fill-Gray200, #D2DCE6)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Read Only, Type=Active, Size=Small, Color=Teal" className="StatesReadOnlyTypeActiveSizeSmallColorTeal" style={{left: 201, top: 232, position: 'absolute'}}>
+    <svg width="40" height="20" viewBox="0 0 40 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="40" height="20" rx="10" fill="var(--Colors-Functional-Fill-Fill-ReadOnly, #4B5867)"/>
+    <circle cx="30" cy="10" r="8" fill="var(--Colors-Functional-Fill-Fill-Gray200, #D2DCE6)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Default, Type=Inactive, Size=Big, Color=Fusia" className="StatesDefaultTypeInactiveSizeBigColorFusia" style={{left: 12, top: 386, position: 'absolute'}}>
+    <svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="48" height="24" rx="12" fill="var(--Colors-Functional-Fill-Fill-Gray300, #B4C6D6)"/>
+    <circle cx="12" cy="12" r="10" fill="var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite, white)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Default, Type=Inactive, Size=Big, Color=Grn+Red(Enable+Disable)" className="StatesDefaultTypeInactiveSizeBigColorGrnRedEnableDisable" style={{left: 20, top: 722, position: 'absolute'}}>
+    <svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="48" height="24" rx="12" fill="var(--Colors-Functional-Bkg-Bkg_Error-Red500, #E73D36)"/>
+    <circle cx="12" cy="12" r="10" fill="var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite, white)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Disabled, Type=Inactive, Size=Big, Color=Fusia" className="StatesDisabledTypeInactiveSizeBigColorFusia" style={{left: 103, top: 384, position: 'absolute'}}>
+    <svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="48" height="24" rx="12" fill="var(--Colors-Functional-Fill-Fill-Disabled, #8BA1B9)"/>
+    <circle cx="12" cy="12" r="10" fill="var(--Colors-Functional-Fill-Fill-Gray200, #D2DCE6)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Disabled, Type=Inactive, Size=Big, Color=Grn+Red(Enable+Disable)" className="StatesDisabledTypeInactiveSizeBigColorGrnRedEnableDisable" style={{left: 111, top: 720, position: 'absolute'}}>
+    <svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="48" height="24" rx="12" fill="var(--Colors-Functional-Fill-Fill-Disabled, #8BA1B9)"/>
+    <circle cx="12" cy="12" r="10" fill="var(--Colors-Functional-Fill-Fill-Gray200, #D2DCE6)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Read Only, Type=Inactive, Size=Big, Color=Fusia" className="StatesReadOnlyTypeInactiveSizeBigColorFusia" style={{left: 195, top: 384, position: 'absolute'}}>
+    <svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="48" height="24" rx="12" fill="var(--Colors-Functional-Fill-Fill-ReadOnly, #4B5867)"/>
+    <circle cx="12" cy="12" r="10" fill="var(--Colors-Functional-Fill-Fill-Gray200, #D2DCE6)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Read Only, Type=Inactive, Size=Big, Color=Grn+Red(Enable+Disable)" className="StatesReadOnlyTypeInactiveSizeBigColorGrnRedEnableDisable" style={{left: 203, top: 720, position: 'absolute'}}>
+    <svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="48" height="24" rx="12" fill="var(--Colors-Functional-Fill-Fill-ReadOnly, #4B5867)"/>
+    <circle cx="12" cy="12" r="10" fill="var(--Colors-Functional-Fill-Fill-Gray200, #D2DCE6)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Default, Type=Active, Size=Big, Color=Fusia" className="StatesDefaultTypeActiveSizeBigColorFusia" style={{left: 12, top: 438, position: 'absolute'}}>
+    <svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="48" height="24" rx="12" fill="var(--Colors-Functional-Fill-Fill-Brand, #AC246E)"/>
+    <circle cx="36" cy="12" r="10" fill="var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite, white)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Default, Type=Active, Size=Big, Color=Grn+Red(Enable+Disable)" className="StatesDefaultTypeActiveSizeBigColorGrnRedEnableDisable" style={{left: 20, top: 774, position: 'absolute'}}>
+    <svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="48" height="24" rx="12" fill="var(--Colors-Functional-Bkg-Bkg_Success600, #5E981D)"/>
+    <circle cx="36" cy="12" r="10" fill="var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite, white)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Disabled, Type=Active, Size=Big, Color=Fusia" className="StatesDisabledTypeActiveSizeBigColorFusia" style={{left: 101, top: 436, position: 'absolute'}}>
+    <svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="48" height="24" rx="12" fill="var(--Colors-Functional-Fill-Fill-Disabled, #8BA1B9)"/>
+    <circle cx="36" cy="12" r="10" fill="var(--Colors-Functional-Fill-Fill-Gray200, #D2DCE6)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Disabled, Type=Active, Size=Big, Color=Grn+Red(Enable+Disable)" className="StatesDisabledTypeActiveSizeBigColorGrnRedEnableDisable" style={{left: 109, top: 772, position: 'absolute'}}>
+    <svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="48" height="24" rx="12" fill="var(--Colors-Functional-Fill-Fill-Disabled, #8BA1B9)"/>
+    <circle cx="36" cy="12" r="10" fill="var(--Colors-Functional-Fill-Fill-Gray200, #D2DCE6)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Read Only, Type=Active, Size=Big, Color=Fusia" className="StatesReadOnlyTypeActiveSizeBigColorFusia" style={{left: 193, top: 436, position: 'absolute'}}>
+    <svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="48" height="24" rx="12" fill="var(--Colors-Functional-Fill-Fill-ReadOnly, #4B5867)"/>
+    <circle cx="36" cy="12" r="10" fill="var(--Colors-Functional-Fill-Fill-Gray200, #D2DCE6)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Read Only, Type=Active, Size=Big, Color=Grn+Red(Enable+Disable)" className="StatesReadOnlyTypeActiveSizeBigColorGrnRedEnableDisable" style={{left: 201, top: 772, position: 'absolute'}}>
+    <svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="48" height="24" rx="12" fill="var(--Colors-Functional-Fill-Fill-ReadOnly, #4B5867)"/>
+    <circle cx="36" cy="12" r="10" fill="var(--Colors-Functional-Fill-Fill-Gray200, #D2DCE6)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Default, Type=Inactive, Size=Small, Color=Fusia" className="StatesDefaultTypeInactiveSizeSmallColorFusia" style={{left: 14, top: 523, position: 'absolute'}}>
+    <svg width="40" height="20" viewBox="0 0 40 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="40" height="20" rx="10" fill="var(--Colors-Functional-Fill-Fill-Gray300, #B4C6D6)"/>
+    <circle cx="10" cy="10" r="8" fill="var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite, white)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Default, Type=Inactive, Size=Small, Color=Grn+Red(Enable+Disable)" className="StatesDefaultTypeInactiveSizeSmallColorGrnRedEnableDisable" style={{left: 22, top: 859, position: 'absolute'}}>
+    <svg width="40" height="20" viewBox="0 0 40 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="40" height="20" rx="10" fill="var(--Colors-Functional-Bkg-Bkg_Error-Red500, #E73D36)"/>
+    <circle cx="10" cy="10" r="8" fill="var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite, white)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Disabled, Type=Inactive, Size=Small, Color=Fusia" className="StatesDisabledTypeInactiveSizeSmallColorFusia" style={{left: 107, top: 523, position: 'absolute'}}>
+    <svg width="40" height="20" viewBox="0 0 40 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="40" height="20" rx="10" fill="var(--Colors-Functional-Fill-Fill-Disabled, #8BA1B9)"/>
+    <circle cx="10" cy="10" r="8" fill="var(--Colors-Functional-Fill-Fill-Gray200, #D2DCE6)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Disabled, Type=Inactive, Size=Small, Color=Grn+Red(Enable+Disable)" className="StatesDisabledTypeInactiveSizeSmallColorGrnRedEnableDisable" style={{left: 115, top: 859, position: 'absolute'}}>
+    <svg width="40" height="20" viewBox="0 0 40 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="40" height="20" rx="10" fill="var(--Colors-Functional-Fill-Fill-Disabled, #8BA1B9)"/>
+    <circle cx="10" cy="10" r="8" fill="var(--Colors-Functional-Fill-Fill-Gray200, #D2DCE6)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Read Only, Type=Inactive, Size=Small, Color=Fusia" className="StatesReadOnlyTypeInactiveSizeSmallColorFusia" style={{left: 195, top: 521, position: 'absolute'}}>
+    <svg width="40" height="20" viewBox="0 0 40 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="40" height="20" rx="10" fill="var(--Colors-Functional-Fill-Fill-ReadOnly, #4B5867)"/>
+    <circle cx="10" cy="10" r="8" fill="var(--Colors-Functional-Fill-Fill-Gray200, #D2DCE6)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Read Only, Type=Inactive, Size=Small, Color=Grn+Red(Enable+Disable)" className="StatesReadOnlyTypeInactiveSizeSmallColorGrnRedEnableDisable" style={{left: 203, top: 857, position: 'absolute'}}>
+    <svg width="40" height="20" viewBox="0 0 40 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="40" height="20" rx="10" fill="var(--Colors-Functional-Fill-Fill-ReadOnly, #4B5867)"/>
+    <circle cx="10" cy="10" r="8" fill="var(--Colors-Functional-Fill-Fill-Gray200, #D2DCE6)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Default, Type=Active, Size=Small, Color=Fusia" className="StatesDefaultTypeActiveSizeSmallColorFusia" style={{left: 12, top: 578, position: 'absolute'}}>
+    <svg width="40" height="20" viewBox="0 0 40 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="40" height="20" rx="10" fill="var(--Colors-Functional-Fill-Fill-Brand, #AC246E)"/>
+    <circle cx="30" cy="10" r="8" fill="var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite, white)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Default, Type=Active, Size=Small, Color=Grn+Red(Enable+Disable)" className="StatesDefaultTypeActiveSizeSmallColorGrnRedEnableDisable" style={{left: 20, top: 914, position: 'absolute'}}>
+    <svg width="40" height="20" viewBox="0 0 40 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="40" height="20" rx="10" fill="var(--Colors-Functional-Bkg-Bkg_Success600, #5E981D)"/>
+    <circle cx="30" cy="10" r="8" fill="var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite, white)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Disabled, Type=Active, Size=Small, Color=Fusia" className="StatesDisabledTypeActiveSizeSmallColorFusia" style={{left: 107, top: 580, position: 'absolute'}}>
+    <svg width="40" height="20" viewBox="0 0 40 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="40" height="20" rx="10" fill="var(--Colors-Functional-Fill-Fill-Disabled, #8BA1B9)"/>
+    <circle cx="30" cy="10" r="8" fill="var(--Colors-Functional-Fill-Fill-Gray200, #D2DCE6)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Disabled, Type=Active, Size=Small, Color=Grn+Red(Enable+Disable)" className="StatesDisabledTypeActiveSizeSmallColorGrnRedEnableDisable" style={{left: 115, top: 916, position: 'absolute'}}>
+    <svg width="40" height="20" viewBox="0 0 40 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="40" height="20" rx="10" fill="var(--Colors-Functional-Fill-Fill-Disabled, #8BA1B9)"/>
+    <circle cx="30" cy="10" r="8" fill="var(--Colors-Functional-Fill-Fill-Gray200, #D2DCE6)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Read Only, Type=Active, Size=Small, Color=Fusia" className="StatesReadOnlyTypeActiveSizeSmallColorFusia" style={{left: 193, top: 578, position: 'absolute'}}>
+    <svg width="40" height="20" viewBox="0 0 40 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="40" height="20" rx="10" fill="var(--Colors-Functional-Fill-Fill-ReadOnly, #4B5867)"/>
+    <circle cx="30" cy="10" r="8" fill="var(--Colors-Functional-Fill-Fill-Gray200, #D2DCE6)"/>
+    </svg>
+  </div>
+  <div data-svg-wrapper data-layer="States=Read Only, Type=Active, Size=Small, Color=Grn+Red(Enable+Disable)" className="StatesReadOnlyTypeActiveSizeSmallColorGrnRedEnableDisable" style={{left: 201, top: 914, position: 'absolute'}}>
+    <svg width="40" height="20" viewBox="0 0 40 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect width="40" height="20" rx="10" fill="var(--Colors-Functional-Fill-Fill-ReadOnly, #4B5867)"/>
+    <circle cx="30" cy="10" r="8" fill="var(--Colors-Functional-Fill-Fill-Gray200, #D2DCE6)"/>
+    </svg>
+  </div>
+</div>

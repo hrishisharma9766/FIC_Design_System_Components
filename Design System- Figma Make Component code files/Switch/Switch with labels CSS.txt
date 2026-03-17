@@ -1,0 +1,380 @@
+import React from "react";
+import styled from "styled-components";
+
+const StyledActivevaluelabelspan = styled.span`
+  color: var(--Colors-Functional-Txt-Txt_Default, #303030);
+  font-size: 16px;
+  font-family: DM Sans;
+  font-weight: 800;
+  line-height: 23.28px;
+  word-wrap: break-word;
+`;
+
+const StyledInactivevaluelabelspan = styled.span`
+  color: var(--Colors-Functional-Txt-Txt_Default, #303030);
+  font-size: 16px;
+  font-family: DM Sans;
+  font-weight: 400;
+  line-height: 23.28px;
+  word-wrap: break-word;
+`;
+
+const StyledMainlabelspan = styled.span`
+  color: var(--Colors-Functional-Txt-Txt_Light, #71706C);
+  font-size: 16px;
+  font-family: DM Sans;
+  font-weight: 400;
+  line-height: 23.28px;
+  word-wrap: break-word;
+`;
+
+const StyledActivevaluelabel01span = styled.span`
+  color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+  font-size: 16px;
+  font-family: DM Sans;
+  font-weight: 800;
+  line-height: 23.28px;
+  word-wrap: break-word;
+`;
+
+const StyledInactivevaluelabel01span = styled.span`
+  color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+  font-size: 16px;
+  font-family: DM Sans;
+  font-weight: 400;
+  line-height: 23.28px;
+  word-wrap: break-word;
+`;
+
+const StyledMainlabel01span = styled.span`
+  color: var(--Colors-Functional-Txt-Txt_Light, #71706C);
+  font-size: 16px;
+  font-family: DM Sans;
+  font-weight: 400;
+  line-height: 23.28px;
+  word-wrap: break-word;
+`;
+
+const StyledActivevaluelabel02span = styled.span`
+  color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+  font-size: 16px;
+  font-family: DM Sans;
+  font-weight: 800;
+  line-height: 23.28px;
+  word-wrap: break-word;
+`;
+
+const StyledInactivevaluelabel02span = styled.span`
+  color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+  font-size: 16px;
+  font-family: DM Sans;
+  font-weight: 400;
+  line-height: 23.28px;
+  word-wrap: break-word;
+`;
+
+const StyledEligibilityverificationspan = styled.span`
+  color: var(--Colors-Buttons-Pill-Badge-Txt_Pill-Badge_Label, #4B4B4A);
+  font-size: 12px;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 17.46px;
+  word-wrap: break-word;
+`;
+
+const StyledEligibilityVerification = styled.p`
+  flex: 1 1 0;
+  height: 24px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+`;
+
+const StyledInactivevaluelabel03span = styled.span`
+  color: var(--Colors-Functional-Txt-Txt_Default, #303030);
+  font-size: 16px;
+  font-family: DM Sans;
+  font-weight: 400;
+  line-height: 23.28px;
+  word-wrap: break-word;
+`;
+
+const StyledActivevaluelabel03span = styled.span`
+  color: var(--Colors-Functional-Txt-Txt_Default, #303030);
+  font-size: 16px;
+  font-family: DM Sans;
+  font-weight: 800;
+  line-height: 23.28px;
+  word-wrap: break-word;
+`;
+
+const StyledMainlabel02span = styled.span`
+  color: var(--Colors-Functional-Txt-Txt_Light, #71706C);
+  font-size: 16px;
+  font-family: DM Sans;
+  font-weight: 400;
+  line-height: 23.28px;
+  word-wrap: break-word;
+`;
+
+const StyledInactivevaluelabel04span = styled.span`
+  color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+  font-size: 16px;
+  font-family: DM Sans;
+  font-weight: 400;
+  line-height: 23.28px;
+  word-wrap: break-word;
+`;
+
+const StyledActivevaluelabel04span = styled.span`
+  color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+  font-size: 16px;
+  font-family: DM Sans;
+  font-weight: 800;
+  line-height: 23.28px;
+  word-wrap: break-word;
+`;
+
+const StyledMainlabel03span = styled.span`
+  color: var(--Colors-Functional-Txt-Txt_Light, #71706C);
+  font-size: 16px;
+  font-family: DM Sans;
+  font-weight: 400;
+  line-height: 23.28px;
+  word-wrap: break-word;
+`;
+
+const StyledInactivevaluelabel05span = styled.span`
+  color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+  font-size: 16px;
+  font-family: DM Sans;
+  font-weight: 400;
+  line-height: 23.28px;
+  word-wrap: break-word;
+`;
+
+const StyledActivevaluelabel05span = styled.span`
+  color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+  font-size: 16px;
+  font-family: DM Sans;
+  font-weight: 800;
+  line-height: 23.28px;
+  word-wrap: break-word;
+`;
+
+const StyledEligibilityverification01span = styled.span`
+  color: var(--Colors-Buttons-Pill-Badge-Txt_Pill-Badge_Label, #4B4B4A);
+  font-size: 12px;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 17.46px;
+  word-wrap: break-word;
+`;
+
+const StyledEligibilityVerification01 = styled.p`
+  flex: 1 1 0;
+  height: 24px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+`;
+
+const StyledPillBadge = styled.div`
+  width: 76px;
+  padding-left: 9px;
+  padding-right: 9px;
+  background: var(--Colors-Buttons-Pill-Badge-Bkg-Lime200, #DAF3B9);
+  border-radius: 18px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+`;
+
+const StyledPillBadge01 = styled.div`
+  width: 76px;
+  padding-left: 9px;
+  padding-right: 9px;
+  background: var(--Colors-Buttons-Pill-Badge-Bkg-Lime200, #DAF3B9);
+  border-radius: 18px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+`;
+
+const StyledSwitchWrapper01 = styled.div`
+  position: relative;
+`;
+
+const StyledTypeFirstValueActiveLabelWithLabel = styled.div`
+  padding: 4px;
+  left: 20px;
+  top: 105px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledSwitchWrapper02 = styled.div`
+  position: relative;
+`;
+
+const StyledTypeFirstValueActiveLabelWithLabelandOfferBadge = styled.div`
+  padding: 4px;
+  left: 20px;
+  top: 199.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledSwitchWrapper03 = styled.div`
+  position: relative;
+`;
+
+const StyledTypeSecondValueActiveLabelWithoutLabel = styled.div`
+  padding: 4px;
+  left: 20px;
+  top: 54px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledSwitchWrapper04 = styled.div`
+  position: relative;
+`;
+
+const StyledTypeSecondValueActiveLabelWithLabel = styled.div`
+  padding: 4px;
+  left: 20px;
+  top: 139px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledSwitchWrapper05 = styled.div`
+  position: relative;
+`;
+
+const StyledTypeSecondValueActiveLabelWithLabelandOfferBadge = styled.div`
+  padding: 4px;
+  left: 20px;
+  top: 233.50px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledSwitchWrapper = styled.div`
+  position: relative;
+`;
+
+const StyledTypeFirstValueActiveLabelWithoutLabel = styled.div`
+  padding: 4px;
+  left: 20px;
+  top: 20px;
+  position: absolute;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 8px;
+  display: inline-flex;
+`;
+
+const StyledSwitchWithLabels = styled.div`
+  width: 610px;
+  height: 286px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  border: 1px #8A38F5 solid;
+`;
+
+export const SwitchWithLabels = () => {
+  return (
+    <StyledSwitchWithLabels>
+      <StyledTypeFirstValueActiveLabelWithoutLabel>
+        <div><StyledActivevaluelabelspan>Active Value 1</StyledActivevaluelabelspan></div>
+        <div data-svg-wrapper data-layer="_SwitchWrapper" data-color="Teal" data-size="Big" data-states="Default" data-type="Inactive" style="position: relative">
+          <svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="48" height="24" rx="12" fill="var(--Colors-Functional-Fill-Fill-Gray300, #B4C6D6)"/>
+          <circle cx="12" cy="12" r="10" fill="var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite, white)"/>
+          </svg>
+        </div>
+        <div><StyledInactivevaluelabelspan>Active Value 1</StyledInactivevaluelabelspan></div>
+      </StyledTypeFirstValueActiveLabelWithoutLabel>
+      <StyledTypeFirstValueActiveLabelWithLabel>
+        <div><StyledMainlabelspan>Main Label:</StyledMainlabelspan></div>
+        <div><StyledActivevaluelabel01span>Active Value 1</StyledActivevaluelabel01span></div>
+        <div data-svg-wrapper data-layer="_SwitchWrapper_01" data-color="Teal" data-size="Big" data-states="Default" data-type="Inactive" style="position: relative">
+          <svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="48" height="24" rx="12" fill="var(--Colors-Functional-Fill-Fill-Gray300, #B4C6D6)"/>
+          <circle cx="12" cy="12" r="10" fill="var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite, white)"/>
+          </svg>
+        </div>
+        <div><StyledInactivevaluelabel01span>Active Value 1</StyledInactivevaluelabel01span></div>
+      </StyledTypeFirstValueActiveLabelWithLabel>
+      <StyledTypeFirstValueActiveLabelWithLabelandOfferBadge>
+        <div><StyledMainlabel01span>Main Label:</StyledMainlabel01span></div>
+        <div><StyledActivevaluelabel02span>Active Value 1</StyledActivevaluelabel02span></div>
+        <div data-svg-wrapper data-layer="_SwitchWrapper_02" data-color="Teal" data-size="Big" data-states="Default" data-type="Inactive" style="position: relative">
+          <svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="48" height="24" rx="12" fill="var(--Colors-Functional-Fill-Fill-Gray300, #B4C6D6)"/>
+          <circle cx="12" cy="12" r="10" fill="var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite, white)"/>
+          </svg>
+        </div>
+        <div><StyledInactivevaluelabel02span>Active Value 1</StyledInactivevaluelabel02span></div>
+        <StyledPillBadge>
+          <StyledEligibilityVerification><StyledEligibilityverificationspan>Offer Text</StyledEligibilityverificationspan></StyledEligibilityVerification>
+        </StyledPillBadge>
+      </StyledTypeFirstValueActiveLabelWithLabelandOfferBadge>
+      <StyledTypeSecondValueActiveLabelWithoutLabel>
+        <div><StyledInactivevaluelabel03span>Active Value 1</StyledInactivevaluelabel03span></div>
+        <div data-svg-wrapper data-layer="_SwitchWrapper_03" data-color="Teal" data-size="Big" data-states="Default" data-type="Active" style="position: relative">
+          <svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="48" height="24" rx="12" fill="var(--Colors-Functional-Fill-Fill-Default, #118082)"/>
+          <circle cx="36" cy="12" r="10" fill="var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite, white)"/>
+          </svg>
+        </div>
+        <div><StyledActivevaluelabel03span>Active Value 1</StyledActivevaluelabel03span></div>
+      </StyledTypeSecondValueActiveLabelWithoutLabel>
+      <StyledTypeSecondValueActiveLabelWithLabel>
+        <div><StyledMainlabel02span>Main Label:</StyledMainlabel02span></div>
+        <div><StyledInactivevaluelabel04span>Active Value 1</StyledInactivevaluelabel04span></div>
+        <div data-svg-wrapper data-layer="_SwitchWrapper_04" data-color="Teal" data-size="Big" data-states="Default" data-type="Active" style="position: relative">
+          <svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="48" height="24" rx="12" fill="var(--Colors-Functional-Fill-Fill-Default, #118082)"/>
+          <circle cx="36" cy="12" r="10" fill="var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite, white)"/>
+          </svg>
+        </div>
+        <div><StyledActivevaluelabel04span>Active Value 1</StyledActivevaluelabel04span></div>
+      </StyledTypeSecondValueActiveLabelWithLabel>
+      <StyledTypeSecondValueActiveLabelWithLabelandOfferBadge>
+        <div><StyledMainlabel03span>Main Label:</StyledMainlabel03span></div>
+        <div><StyledInactivevaluelabel05span>Active Value 1</StyledInactivevaluelabel05span></div>
+        <div data-svg-wrapper data-layer="_SwitchWrapper_05" data-color="Teal" data-size="Big" data-states="Default" data-type="Active" style="position: relative">
+          <svg width="48" height="24" viewBox="0 0 48 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="48" height="24" rx="12" fill="var(--Colors-Functional-Fill-Fill-Default, #118082)"/>
+          <circle cx="36" cy="12" r="10" fill="var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite, white)"/>
+          </svg>
+        </div>
+        <div><StyledActivevaluelabel05span>Active Value 1</StyledActivevaluelabel05span></div>
+        <StyledPillBadge01>
+          <StyledEligibilityVerification01><StyledEligibilityverification01span>Offer Text</StyledEligibilityverification01span></StyledEligibilityVerification01>
+        </StyledPillBadge01>
+      </StyledTypeSecondValueActiveLabelWithLabelandOfferBadge>
+    </StyledSwitchWithLabels>
+  );
+};

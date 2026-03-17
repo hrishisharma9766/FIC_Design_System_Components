@@ -1,0 +1,262 @@
+import React from "react";
+import styled from "styled-components";
+
+const StyledLabelspan = styled.span`
+  color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+  font-size: 14px;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 20.37px;
+  word-wrap: break-word;
+`;
+
+const StyledLabel01span = styled.span`
+  color: var(--Colors-Functional-Label-Txt_Label_ReadOnly, #4B5867);
+  font-size: 14px;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 20.37px;
+  word-wrap: break-word;
+`;
+
+const StyledLabel02span = styled.span`
+  color: var(--Colors-Functional-Label-Txt_Label_Focus, #00575C);
+  font-size: 14px;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 20.37px;
+  word-wrap: break-word;
+`;
+
+const StyledLabel03span = styled.span`
+  color: var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A);
+  font-size: 14px;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 20.37px;
+  word-wrap: break-word;
+`;
+
+const StyledLabel04span = styled.span`
+  color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+  font-size: 14px;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 20.37px;
+  word-wrap: break-word;
+`;
+
+const StyledLabel05span = styled.span`
+  color: var(--Colors-Functional-Label-Txt_Label_ReadOnly, #4B5867);
+  font-size: 14px;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 20.37px;
+  word-wrap: break-word;
+`;
+
+const StyledLabel06span = styled.span`
+  color: var(--Colors-Functional-Label-Txt_Label_Focus, #00575C);
+  font-size: 14px;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 20.37px;
+  word-wrap: break-word;
+`;
+
+const StyledLabel07span = styled.span`
+  color: var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A);
+  font-size: 14px;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 20.37px;
+  word-wrap: break-word;
+`;
+
+const StyledStateReadOnlyStatusChecked = styled.div`
+  padding: 10px;
+  left: 309px;
+  top: 20px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  display: inline-flex;
+`;
+
+const StyledStateHoverStatusChecked = styled.div`
+  padding: 10px;
+  left: 120px;
+  top: 20px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  display: inline-flex;
+`;
+
+const StyledStateDisabledStatusChecked = styled.div`
+  padding: 10px;
+  left: 209px;
+  top: 20px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  display: inline-flex;
+`;
+
+const StyledStateDefaultStatusUnchecked = styled.div`
+  padding: 10px;
+  left: 19px;
+  top: 70px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  display: inline-flex;
+`;
+
+const StyledStateReadOnlyStatusUnchecked = styled.div`
+  padding: 10px;
+  left: 309px;
+  top: 70px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  display: inline-flex;
+`;
+
+const StyledStateHoverStatusUnchecked = styled.div`
+  padding: 10px;
+  left: 118px;
+  top: 70px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  display: inline-flex;
+`;
+
+const StyledStateDisabledStatusUnchecked = styled.div`
+  padding: 10px;
+  left: 209px;
+  top: 70px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  display: inline-flex;
+`;
+
+const StyledStateDefaultStatusChecked = styled.div`
+  padding: 10px;
+  left: 20px;
+  top: 20px;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  display: inline-flex;
+`;
+
+const StyledRadioButton = styled.button`
+  width: 462px;
+  height: 147px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  border: 1px #9747FF solid;
+`;
+
+export const Radiobutton = () => {
+  return (
+    <StyledRadioButton>
+      <StyledStateDefaultStatusChecked>
+        <div data-svg-wrapper data-layer="Ellipse 2">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="8" cy="8" r="7.5" fill="var(--Colors-Functional-Bkg-Bkg_Default, white)" stroke="var(--Colors-Functional-Border-Border_Default, #C3C1B5)"/>
+          </svg>
+        </div>
+        <div data-svg-wrapper data-layer="Ellipse 3">
+          <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="5" cy="5" r="5" fill="var(--Colors-Functional-Fill-Fill-Default, #118082)"/>
+          </svg>
+        </div>
+        <div><StyledLabelspan>Label</StyledLabelspan></div>
+      </StyledStateDefaultStatusChecked>
+      <StyledStateReadOnlyStatusChecked>
+        <div data-svg-wrapper data-layer="Ellipse 2_01">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="8" cy="8" r="7.5" stroke="var(--Colors-Functional-Border-Border_ReadOnly, #B4C6D6)"/>
+          </svg>
+        </div>
+        <div data-svg-wrapper data-layer="Ellipse 3_01">
+          <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="5" cy="5" r="5" fill="var(--Colors-Functional-Fill-Fill-ReadOnly, #4B5867)"/>
+          </svg>
+        </div>
+        <div><StyledLabel01span>Label</StyledLabel01span></div>
+      </StyledStateReadOnlyStatusChecked>
+      <StyledStateHoverStatusChecked>
+        <div data-svg-wrapper data-layer="Ellipse 2_02">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="8" cy="8" r="7.5" fill="var(--Colors-Functional-Bkg-Bkg_Default, white)" stroke="var(--Colors-Functional-Border-Border_Hover, #959490)"/>
+          </svg>
+        </div>
+        <div data-svg-wrapper data-layer="Ellipse 3_02">
+          <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="5" cy="5" r="5" fill="var(--Colors-Functional-Fill-Fill-Default, #118082)"/>
+          </svg>
+        </div>
+        <div><StyledLabel02span>Label</StyledLabel02span></div>
+      </StyledStateHoverStatusChecked>
+      <StyledStateDisabledStatusChecked>
+        <div data-svg-wrapper data-layer="Ellipse 2_03">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="8" cy="8" r="7.5" fill="var(--Colors-Functional-Bkg-Bkg_Disabled, #D2DCE6)" stroke="var(--Colors-Functional-Border-Border_Disabled, #B4C6D6)"/>
+          </svg>
+        </div>
+        <div data-svg-wrapper data-layer="Ellipse 3_03">
+          <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="5" cy="5" r="5" fill="var(--Colors-Functional-Fill-Fill-Disabled, #8BA1B9)"/>
+          </svg>
+        </div>
+        <div><StyledLabel03span>Label</StyledLabel03span></div>
+      </StyledStateDisabledStatusChecked>
+      <StyledStateDefaultStatusUnchecked>
+        <div data-svg-wrapper data-layer="Ellipse 1">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="8" cy="8" r="7.5" fill="var(--Colors-Functional-Bkg-Bkg_Default, white)" stroke="var(--Colors-Functional-Border-Border_Default, #C3C1B5)"/>
+          </svg>
+        </div>
+        <div><StyledLabel04span>Label</StyledLabel04span></div>
+      </StyledStateDefaultStatusUnchecked>
+      <StyledStateReadOnlyStatusUnchecked>
+        <div data-svg-wrapper data-layer="Ellipse 1_01">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="8" cy="8" r="7.5" fill="var(--Colors-Functional-Bkg-Bkg_ReadOnly, #D2DCE6)" stroke="var(--Colors-Functional-Border-Border_ReadOnly, #B4C6D6)"/>
+          </svg>
+        </div>
+        <div><StyledLabel05span>Label</StyledLabel05span></div>
+      </StyledStateReadOnlyStatusUnchecked>
+      <StyledStateHoverStatusUnchecked>
+        <div data-svg-wrapper data-layer="Ellipse 1_02">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="8" cy="8" r="7.5" fill="var(--Colors-Functional-Bkg-Bkg_Default, white)" stroke="var(--Colors-Functional-Border-Border_Hover, #959490)"/>
+          </svg>
+        </div>
+        <div><StyledLabel06span>Label</StyledLabel06span></div>
+      </StyledStateHoverStatusUnchecked>
+      <StyledStateDisabledStatusUnchecked>
+        <div data-svg-wrapper data-layer="Ellipse 1_03">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="8" cy="8" r="7.5" fill="var(--Colors-Functional-Bkg-Bkg_Disabled, #D2DCE6)" stroke="var(--Colors-Functional-Border-Border_Disabled, #B4C6D6)"/>
+          </svg>
+        </div>
+        <div><StyledLabel07span>Label</StyledLabel07span></div>
+      </StyledStateDisabledStatusUnchecked>
+    </StyledRadioButton>
+  );
+};

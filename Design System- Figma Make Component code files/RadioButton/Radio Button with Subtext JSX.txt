@@ -1,0 +1,94 @@
+<div data-layer="RadioButton with Subtext" className="RadiobuttonWithSubtext" style={{width: 682, height: 169, position: 'relative', overflow: 'hidden', borderRadius: 5, border: '1px #8A38F5 solid'}}>
+  <div data-layer="Property 1=Default, Property 2=Checked" className="Property1DefaultProperty2Checked" style={{width: 118, height: 48, left: 20, top: 23, position: 'absolute'}}>
+    <div data-svg-wrapper data-layer="Ellipse 2" className="Ellipse2" style={{left: 10, top: 12, position: 'absolute'}}>
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="8" cy="8" r="7.5" fill="var(--Colors-Functional-Bkg-Bkg_Default, white)" stroke="var(--Colors-Functional-Border-Border_Default, #C3C1B5)"/>
+      </svg>
+    </div>
+    <div data-svg-wrapper data-layer="Ellipse 3" className="Ellipse3" style={{left: 13, top: 15, position: 'absolute'}}>
+      <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="5" cy="5" r="5" fill="var(--Colors-Functional-Fill-Fill-Default, #118082)"/>
+      </svg>
+    </div>
+    <div data-layer="Label" className="Label" style={{left: 31, top: 10, position: 'absolute', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    <div data-layer="Subtext" className="Subtext" style={{left: 31, top: 29, position: 'absolute', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'}}>Subtext</div>
+  </div>
+  <div data-layer="Property 1=Hover, Property 2=Checked" className="Property1HoverProperty2Checked" style={{width: 118, height: 48, left: 138, top: 23, position: 'absolute'}}>
+    <div data-svg-wrapper data-layer="Ellipse 2" className="Ellipse2" style={{left: 10, top: 12, position: 'absolute'}}>
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="8" cy="8" r="7.5" fill="var(--Colors-Functional-Bkg-Bkg_Default, white)" stroke="var(--Colors-Functional-Border-Border_Default, #C3C1B5)"/>
+      </svg>
+    </div>
+    <div data-svg-wrapper data-layer="Ellipse 3" className="Ellipse3" style={{left: 13, top: 15, position: 'absolute'}}>
+      <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="5" cy="5" r="5" fill="var(--Colors-Functional-Fill-Fill-Default, #118082)"/>
+      </svg>
+    </div>
+    <div data-layer="Label" className="Label" style={{left: 31, top: 10, position: 'absolute', color: 'var(--Colors-Functional-Label-Txt_Label_Focus, #00575C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    <div data-layer="Subtext" className="Subtext" style={{left: 31, top: 29, position: 'absolute', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'}}>Subtext</div>
+  </div>
+  <div data-layer="Property 1=Disabled, Property 2=Checked" className="Property1DisabledProperty2Checked" style={{width: 118, height: 48, left: 256, top: 23, position: 'absolute'}}>
+    <div data-svg-wrapper data-layer="Ellipse 2" className="Ellipse2" style={{left: 10, top: 12, position: 'absolute'}}>
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="8" cy="8" r="7.5" fill="var(--Colors-Functional-Bkg-Bkg_Disabled, #D2DCE6)" stroke="var(--Colors-Functional-Border-Border_Disabled, #B4C6D6)"/>
+      </svg>
+    </div>
+    <div data-svg-wrapper data-layer="Ellipse 3" className="Ellipse3" style={{left: 13, top: 15, position: 'absolute'}}>
+      <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="5" cy="5" r="5" fill="var(--Colors-Functional-Fill-Fill-Disabled, #8BA1B9)"/>
+      </svg>
+    </div>
+    <div data-layer="Label" className="Label" style={{left: 31, top: 10, position: 'absolute', color: 'var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    <div data-layer="Subtext" className="Subtext" style={{left: 31, top: 29, position: 'absolute', color: 'var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'}}>Subtext</div>
+  </div>
+  <div data-layer="Property 1=Read Only, Property 2=Checked" className="Property1ReadOnlyProperty2Checked" style={{width: 118, height: 48, left: 387, top: 23, position: 'absolute'}}>
+    <div data-svg-wrapper data-layer="Ellipse 2" className="Ellipse2" style={{left: 10, top: 12, position: 'absolute'}}>
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="8" cy="8" r="7.5" fill="var(--Colors-Functional-Bkg-Bkg_ReadOnly, #D2DCE6)" stroke="var(--Colors-Functional-Border-Border_ReadOnly, #B4C6D6)"/>
+      </svg>
+    </div>
+    <div data-svg-wrapper data-layer="Ellipse 3" className="Ellipse3" style={{left: 13, top: 15, position: 'absolute'}}>
+      <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="5" cy="5" r="5" fill="var(--Colors-Functional-Fill-Fill-ReadOnly, #4B5867)"/>
+      </svg>
+    </div>
+    <div data-layer="Label" className="Label" style={{left: 31, top: 10, position: 'absolute', color: 'var(--Colors-Functional-Label-Txt_Label_ReadOnly, #4B5867)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    <div data-layer="Subtext" className="Subtext" style={{left: 31, top: 29, position: 'absolute', color: 'var(--Colors-Functional-Label-Txt_Label_ReadOnly, #4B5867)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'}}>Subtext</div>
+  </div>
+  <div data-layer="Property 1=Disabled, Property 2=Unchecked" className="Property1DisabledProperty2Unchecked" style={{width: 118, height: 48, left: 256, top: 90.50, position: 'absolute'}}>
+    <div data-svg-wrapper data-layer="Ellipse 2" className="Ellipse2" style={{left: 10, top: 12, position: 'absolute'}}>
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="8" cy="8" r="7.5" fill="var(--Colors-Functional-Bkg-Bkg_Disabled, #D2DCE6)" stroke="var(--Colors-Functional-Border-Border_Disabled, #B4C6D6)"/>
+      </svg>
+    </div>
+    <div data-layer="Label" className="Label" style={{left: 31, top: 10, position: 'absolute', color: 'var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    <div data-layer="Subtext" className="Subtext" style={{left: 31, top: 29, position: 'absolute', color: 'var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'}}>Subtext</div>
+  </div>
+  <div data-layer="Property 1=Read Only, Property 2=Unchecked" className="Property1ReadOnlyProperty2Unchecked" style={{width: 118, height: 48, left: 387, top: 90.50, position: 'absolute'}}>
+    <div data-svg-wrapper data-layer="Ellipse 2" className="Ellipse2" style={{left: 10, top: 12, position: 'absolute'}}>
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="8" cy="8" r="7.5" fill="var(--Colors-Functional-Bkg-Bkg_ReadOnly, #D2DCE6)" stroke="var(--Colors-Functional-Border-Border_ReadOnly, #B4C6D6)"/>
+      </svg>
+    </div>
+    <div data-layer="Label" className="Label" style={{left: 31, top: 10, position: 'absolute', color: 'var(--Colors-Functional-Label-Txt_Label_ReadOnly, #4B5867)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    <div data-layer="Subtext" className="Subtext" style={{left: 31, top: 29, position: 'absolute', color: 'var(--Colors-Functional-Label-Txt_Label_ReadOnly, #4B5867)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'}}>Subtext</div>
+  </div>
+  <div data-layer="Property 1=Default, Property 2=Unchecked" className="Property1DefaultProperty2Unchecked" style={{width: 118, height: 48, left: 20, top: 90.50, position: 'absolute'}}>
+    <div data-svg-wrapper data-layer="Ellipse 2" className="Ellipse2" style={{left: 10, top: 12, position: 'absolute'}}>
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="8" cy="8" r="7.5" fill="var(--Colors-Functional-Bkg-Bkg_Default, white)" stroke="var(--Colors-Functional-Border-Border_Default, #C3C1B5)"/>
+      </svg>
+    </div>
+    <div data-layer="Label" className="Label" style={{left: 31, top: 10, position: 'absolute', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    <div data-layer="Subtext" className="Subtext" style={{left: 31, top: 29, position: 'absolute', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'}}>Subtext</div>
+  </div>
+  <div data-layer="Property 1=Hover, Property 2=Unchecked" className="Property1HoverProperty2Unchecked" style={{width: 118, height: 48, left: 143, top: 90.50, position: 'absolute'}}>
+    <div data-svg-wrapper data-layer="Ellipse 2" className="Ellipse2" style={{left: 10, top: 12, position: 'absolute'}}>
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="8" cy="8" r="7.5" fill="var(--Colors-Functional-Bkg-Bkg_Default, white)" stroke="var(--Colors-Functional-Border-Border_Default, #C3C1B5)"/>
+      </svg>
+    </div>
+    <div data-layer="Label" className="Label" style={{left: 31, top: 10, position: 'absolute', color: 'var(--Colors-Functional-Label-Txt_Label_Focus, #00575C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    <div data-layer="Subtext" className="Subtext" style={{left: 31, top: 29, position: 'absolute', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'}}>Subtext</div>
+  </div>
+</div>

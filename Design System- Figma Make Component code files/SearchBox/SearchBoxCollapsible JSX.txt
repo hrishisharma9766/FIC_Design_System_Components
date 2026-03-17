@@ -1,0 +1,42 @@
+<div style={{width: '100%', height: '100%', position: 'relative', overflow: 'hidden', borderRadius: 5, border: '1px #9747FF solid'}}>
+    <div style={{width: 415, height: 36, left: 20, top: 20, position: 'absolute'}}>
+        <div style={{width: 415, height: 36, left: 0, top: 0, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, border: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid'}} />
+        <div style={{width: 415, height: 36, left: 0, top: 0, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, border: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid'}} />
+        <div style={{left: 10, top: 6, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+            <div style={{width: 16, height: 16, position: 'relative'}}>
+                <div style={{width: 13.99, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Functional-Input-Icons-Icon_Default, #1A77B4)'}} />
+            </div>
+            <div style={{width: 205, height: 24, justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Placeholder-Txt_Placeholder_Default, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Search by whatever thing...</div>
+        </div>
+    </div>
+    <div style={{width: 36, height: 36, padding: 10, left: 20, top: 74, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, position: 'relative'}}>
+            <div style={{width: 13.99, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Functional-Input-Icons-Icon_Default, #1A77B4)'}} />
+        </div>
+    </div>
+    <div style={{width: 36, height: 36, padding: 10, left: 20, top: 241, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Disabled, #D2DCE6)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Disabled, #B4C6D6) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, position: 'relative'}}>
+            <div style={{width: 13.99, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Functional-Input-Icons-Icon_Disabled, #8BA1B9)'}} />
+        </div>
+    </div>
+    <div style={{width: 415, height: 36, left: 20, top: 187, position: 'absolute'}}>
+        <div style={{width: 415, height: 36, left: 0, top: 0, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, border: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid'}} />
+        <div style={{width: 415, height: 36, left: 0, top: 0, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Disabled, #D2DCE6)', borderRadius: 13, border: '1px var(--Colors-Functional-Border-Border_Disabled, #B4C6D6) solid'}} />
+        <div style={{left: 10, top: 6, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+            <div style={{width: 16, height: 16, position: 'relative'}}>
+                <div style={{width: 13.99, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Functional-Input-Icons-Icon_Disabled, #8BA1B9)'}} />
+            </div>
+            <div style={{width: 205, height: 24, justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Placeholder-Txt_Placeholder_Disabled, #8BA1B9)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Search by whatever thing...</div>
+        </div>
+    </div>
+    <div style={{width: 415, height: 36, left: 20, top: 126, position: 'absolute'}}>
+        <div style={{width: 415, height: 36, left: 0, top: 0, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, border: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid'}} />
+        <div style={{width: 415, height: 36, left: 0, top: 0, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', boxShadow: '0px 0px 0px 4px rgba(39, 188, 183, 0.25)', borderRadius: 13, border: '1px var(--Colors-Functional-Border-Border_Focus, #21A49F) solid'}} />
+        <div style={{left: 10, top: 6, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+            <div style={{width: 16, height: 16, position: 'relative'}}>
+                <div style={{width: 13.99, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Functional-Input-Icons-Icon_Default, #1A77B4)'}} />
+            </div>
+            <div style={{width: 205, height: 24, justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Sample Search Text</div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,486 @@
+import React from "react";
+import styled from "styled-components";
+
+const StyledLabelspan = styled.span`
+  color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+  font-size: 14px;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 20.37px;
+  word-wrap: break-word;
+`;
+
+const StyledLabel = styled.p`
+  left: 31px;
+  top: 10px;
+  position: absolute;
+`;
+
+const StyledSubtextspan = styled.span`
+  color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+  font-size: 10px;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 14.55px;
+  word-wrap: break-word;
+`;
+
+const StyledSubtext = styled.p`
+  left: 31px;
+  top: 29px;
+  position: absolute;
+`;
+
+const StyledLabel01span = styled.span`
+  color: var(--Colors-Functional-Label-Txt_Label_Focus, #00575C);
+  font-size: 14px;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 20.37px;
+  word-wrap: break-word;
+`;
+
+const StyledLabel01 = styled.p`
+  left: 31px;
+  top: 10px;
+  position: absolute;
+`;
+
+const StyledSubtext01span = styled.span`
+  color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+  font-size: 10px;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 14.55px;
+  word-wrap: break-word;
+`;
+
+const StyledSubtext01 = styled.p`
+  left: 31px;
+  top: 29px;
+  position: absolute;
+`;
+
+const StyledLabel02span = styled.span`
+  color: var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A);
+  font-size: 14px;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 20.37px;
+  word-wrap: break-word;
+`;
+
+const StyledLabel02 = styled.p`
+  left: 31px;
+  top: 10px;
+  position: absolute;
+`;
+
+const StyledSubtext02span = styled.span`
+  color: var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A);
+  font-size: 10px;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 14.55px;
+  word-wrap: break-word;
+`;
+
+const StyledSubtext02 = styled.p`
+  left: 31px;
+  top: 29px;
+  position: absolute;
+`;
+
+const StyledLabel03span = styled.span`
+  color: var(--Colors-Functional-Label-Txt_Label_ReadOnly, #4B5867);
+  font-size: 14px;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 20.37px;
+  word-wrap: break-word;
+`;
+
+const StyledLabel03 = styled.p`
+  left: 31px;
+  top: 10px;
+  position: absolute;
+`;
+
+const StyledSubtext03span = styled.span`
+  color: var(--Colors-Functional-Label-Txt_Label_ReadOnly, #4B5867);
+  font-size: 10px;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 14.55px;
+  word-wrap: break-word;
+`;
+
+const StyledSubtext03 = styled.p`
+  left: 31px;
+  top: 29px;
+  position: absolute;
+`;
+
+const StyledLabel04span = styled.span`
+  color: var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A);
+  font-size: 14px;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 20.37px;
+  word-wrap: break-word;
+`;
+
+const StyledLabel04 = styled.p`
+  left: 31px;
+  top: 10px;
+  position: absolute;
+`;
+
+const StyledSubtext04span = styled.span`
+  color: var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A);
+  font-size: 10px;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 14.55px;
+  word-wrap: break-word;
+`;
+
+const StyledSubtext04 = styled.p`
+  left: 31px;
+  top: 29px;
+  position: absolute;
+`;
+
+const StyledLabel05span = styled.span`
+  color: var(--Colors-Functional-Label-Txt_Label_ReadOnly, #4B5867);
+  font-size: 14px;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 20.37px;
+  word-wrap: break-word;
+`;
+
+const StyledLabel05 = styled.p`
+  left: 31px;
+  top: 10px;
+  position: absolute;
+`;
+
+const StyledSubtext05span = styled.span`
+  color: var(--Colors-Functional-Label-Txt_Label_ReadOnly, #4B5867);
+  font-size: 10px;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 14.55px;
+  word-wrap: break-word;
+`;
+
+const StyledSubtext05 = styled.p`
+  left: 31px;
+  top: 29px;
+  position: absolute;
+`;
+
+const StyledLabel06span = styled.span`
+  color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+  font-size: 14px;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 20.37px;
+  word-wrap: break-word;
+`;
+
+const StyledLabel06 = styled.p`
+  left: 31px;
+  top: 10px;
+  position: absolute;
+`;
+
+const StyledSubtext06span = styled.span`
+  color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+  font-size: 10px;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 14.55px;
+  word-wrap: break-word;
+`;
+
+const StyledSubtext06 = styled.p`
+  left: 31px;
+  top: 29px;
+  position: absolute;
+`;
+
+const StyledLabel07span = styled.span`
+  color: var(--Colors-Functional-Label-Txt_Label_Focus, #00575C);
+  font-size: 14px;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 20.37px;
+  word-wrap: break-word;
+`;
+
+const StyledLabel07 = styled.p`
+  left: 31px;
+  top: 10px;
+  position: absolute;
+`;
+
+const StyledSubtext07span = styled.span`
+  color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+  font-size: 10px;
+  font-family: DM Sans;
+  font-weight: 500;
+  line-height: 14.55px;
+  word-wrap: break-word;
+`;
+
+const StyledSubtext07 = styled.p`
+  left: 31px;
+  top: 29px;
+  position: absolute;
+`;
+
+const StyledEllipse3 = styled.div`
+  left: 13px;
+  top: 15px;
+  position: absolute;
+`;
+
+const StyledEllipse201 = styled.div`
+  left: 10px;
+  top: 12px;
+  position: absolute;
+`;
+
+const StyledEllipse301 = styled.div`
+  left: 13px;
+  top: 15px;
+  position: absolute;
+`;
+
+const StyledProperty1HoverProperty2Checked = styled.div`
+  width: 118px;
+  height: 48px;
+  left: 138px;
+  top: 23px;
+  position: absolute;
+`;
+
+const StyledEllipse202 = styled.div`
+  left: 10px;
+  top: 12px;
+  position: absolute;
+`;
+
+const StyledEllipse302 = styled.div`
+  left: 13px;
+  top: 15px;
+  position: absolute;
+`;
+
+const StyledProperty1DisabledProperty2Checked = styled.div`
+  width: 118px;
+  height: 48px;
+  left: 256px;
+  top: 23px;
+  position: absolute;
+`;
+
+const StyledEllipse203 = styled.div`
+  left: 10px;
+  top: 12px;
+  position: absolute;
+`;
+
+const StyledEllipse303 = styled.div`
+  left: 13px;
+  top: 15px;
+  position: absolute;
+`;
+
+const StyledProperty1ReadOnlyProperty2Checked = styled.div`
+  width: 118px;
+  height: 48px;
+  left: 387px;
+  top: 23px;
+  position: absolute;
+`;
+
+const StyledEllipse204 = styled.div`
+  left: 10px;
+  top: 12px;
+  position: absolute;
+`;
+
+const StyledProperty1DisabledProperty2Unchecked = styled.div`
+  width: 118px;
+  height: 48px;
+  left: 256px;
+  top: 90.50px;
+  position: absolute;
+`;
+
+const StyledEllipse205 = styled.div`
+  left: 10px;
+  top: 12px;
+  position: absolute;
+`;
+
+const StyledProperty1ReadOnlyProperty2Unchecked = styled.div`
+  width: 118px;
+  height: 48px;
+  left: 387px;
+  top: 90.50px;
+  position: absolute;
+`;
+
+const StyledEllipse206 = styled.div`
+  left: 10px;
+  top: 12px;
+  position: absolute;
+`;
+
+const StyledProperty1DefaultProperty2Unchecked = styled.div`
+  width: 118px;
+  height: 48px;
+  left: 20px;
+  top: 90.50px;
+  position: absolute;
+`;
+
+const StyledEllipse207 = styled.div`
+  left: 10px;
+  top: 12px;
+  position: absolute;
+`;
+
+const StyledProperty1HoverProperty2Unchecked = styled.div`
+  width: 118px;
+  height: 48px;
+  left: 143px;
+  top: 90.50px;
+  position: absolute;
+`;
+
+const StyledEllipse2 = styled.div`
+  left: 10px;
+  top: 12px;
+  position: absolute;
+`;
+
+const StyledProperty1DefaultProperty2Checked = styled.div`
+  width: 118px;
+  height: 48px;
+  left: 20px;
+  top: 23px;
+  position: absolute;
+`;
+
+const StyledRadioButtonwithSubtext = styled.button`
+  width: 682px;
+  height: 169px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px;
+  border: 1px #8A38F5 solid;
+`;
+
+export const RadiobuttonWithSubtext = () => {
+  return (
+    <StyledRadioButtonwithSubtext>
+      <StyledProperty1DefaultProperty2Checked>
+        <div data-svg-wrapper data-layer="Ellipse 2" style="left: 10px; top: 12px; position: absolute">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="8" cy="8" r="7.5" fill="var(--Colors-Functional-Bkg-Bkg_Default, white)" stroke="var(--Colors-Functional-Border-Border_Default, #C3C1B5)"/>
+          </svg>
+        </div>
+        <div data-svg-wrapper data-layer="Ellipse 3" style="left: 13px; top: 15px; position: absolute">
+          <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="5" cy="5" r="5" fill="var(--Colors-Functional-Fill-Fill-Default, #118082)"/>
+          </svg>
+        </div>
+        <StyledLabel><StyledLabelspan>Label</StyledLabelspan></StyledLabel>
+        <StyledSubtext><StyledSubtextspan>Subtext</StyledSubtextspan></StyledSubtext>
+      </StyledProperty1DefaultProperty2Checked>
+      <StyledProperty1HoverProperty2Checked>
+        <div data-svg-wrapper data-layer="Ellipse 2_01" style="left: 10px; top: 12px; position: absolute">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="8" cy="8" r="7.5" fill="var(--Colors-Functional-Bkg-Bkg_Default, white)" stroke="var(--Colors-Functional-Border-Border_Default, #C3C1B5)"/>
+          </svg>
+        </div>
+        <div data-svg-wrapper data-layer="Ellipse 3_01" style="left: 13px; top: 15px; position: absolute">
+          <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="5" cy="5" r="5" fill="var(--Colors-Functional-Fill-Fill-Default, #118082)"/>
+          </svg>
+        </div>
+        <StyledLabel01><StyledLabel01span>Label</StyledLabel01span></StyledLabel01>
+        <StyledSubtext01><StyledSubtext01span>Subtext</StyledSubtext01span></StyledSubtext01>
+      </StyledProperty1HoverProperty2Checked>
+      <StyledProperty1DisabledProperty2Checked>
+        <div data-svg-wrapper data-layer="Ellipse 2_02" style="left: 10px; top: 12px; position: absolute">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="8" cy="8" r="7.5" fill="var(--Colors-Functional-Bkg-Bkg_Disabled, #D2DCE6)" stroke="var(--Colors-Functional-Border-Border_Disabled, #B4C6D6)"/>
+          </svg>
+        </div>
+        <div data-svg-wrapper data-layer="Ellipse 3_02" style="left: 13px; top: 15px; position: absolute">
+          <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="5" cy="5" r="5" fill="var(--Colors-Functional-Fill-Fill-Disabled, #8BA1B9)"/>
+          </svg>
+        </div>
+        <StyledLabel02><StyledLabel02span>Label</StyledLabel02span></StyledLabel02>
+        <StyledSubtext02><StyledSubtext02span>Subtext</StyledSubtext02span></StyledSubtext02>
+      </StyledProperty1DisabledProperty2Checked>
+      <StyledProperty1ReadOnlyProperty2Checked>
+        <div data-svg-wrapper data-layer="Ellipse 2_03" style="left: 10px; top: 12px; position: absolute">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="8" cy="8" r="7.5" fill="var(--Colors-Functional-Bkg-Bkg_ReadOnly, #D2DCE6)" stroke="var(--Colors-Functional-Border-Border_ReadOnly, #B4C6D6)"/>
+          </svg>
+        </div>
+        <div data-svg-wrapper data-layer="Ellipse 3_03" style="left: 13px; top: 15px; position: absolute">
+          <svg width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="5" cy="5" r="5" fill="var(--Colors-Functional-Fill-Fill-ReadOnly, #4B5867)"/>
+          </svg>
+        </div>
+        <StyledLabel03><StyledLabel03span>Label</StyledLabel03span></StyledLabel03>
+        <StyledSubtext03><StyledSubtext03span>Subtext</StyledSubtext03span></StyledSubtext03>
+      </StyledProperty1ReadOnlyProperty2Checked>
+      <StyledProperty1DisabledProperty2Unchecked>
+        <div data-svg-wrapper data-layer="Ellipse 2_04" style="left: 10px; top: 12px; position: absolute">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="8" cy="8" r="7.5" fill="var(--Colors-Functional-Bkg-Bkg_Disabled, #D2DCE6)" stroke="var(--Colors-Functional-Border-Border_Disabled, #B4C6D6)"/>
+          </svg>
+        </div>
+        <StyledLabel04><StyledLabel04span>Label</StyledLabel04span></StyledLabel04>
+        <StyledSubtext04><StyledSubtext04span>Subtext</StyledSubtext04span></StyledSubtext04>
+      </StyledProperty1DisabledProperty2Unchecked>
+      <StyledProperty1ReadOnlyProperty2Unchecked>
+        <div data-svg-wrapper data-layer="Ellipse 2_05" style="left: 10px; top: 12px; position: absolute">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="8" cy="8" r="7.5" fill="var(--Colors-Functional-Bkg-Bkg_ReadOnly, #D2DCE6)" stroke="var(--Colors-Functional-Border-Border_ReadOnly, #B4C6D6)"/>
+          </svg>
+        </div>
+        <StyledLabel05><StyledLabel05span>Label</StyledLabel05span></StyledLabel05>
+        <StyledSubtext05><StyledSubtext05span>Subtext</StyledSubtext05span></StyledSubtext05>
+      </StyledProperty1ReadOnlyProperty2Unchecked>
+      <StyledProperty1DefaultProperty2Unchecked>
+        <div data-svg-wrapper data-layer="Ellipse 2_06" style="left: 10px; top: 12px; position: absolute">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="8" cy="8" r="7.5" fill="var(--Colors-Functional-Bkg-Bkg_Default, white)" stroke="var(--Colors-Functional-Border-Border_Default, #C3C1B5)"/>
+          </svg>
+        </div>
+        <StyledLabel06><StyledLabel06span>Label</StyledLabel06span></StyledLabel06>
+        <StyledSubtext06><StyledSubtext06span>Subtext</StyledSubtext06span></StyledSubtext06>
+      </StyledProperty1DefaultProperty2Unchecked>
+      <StyledProperty1HoverProperty2Unchecked>
+        <div data-svg-wrapper data-layer="Ellipse 2_07" style="left: 10px; top: 12px; position: absolute">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="8" cy="8" r="7.5" fill="var(--Colors-Functional-Bkg-Bkg_Default, white)" stroke="var(--Colors-Functional-Border-Border_Default, #C3C1B5)"/>
+          </svg>
+        </div>
+        <StyledLabel07><StyledLabel07span>Label</StyledLabel07span></StyledLabel07>
+        <StyledSubtext07><StyledSubtext07span>Subtext</StyledSubtext07span></StyledSubtext07>
+      </StyledProperty1HoverProperty2Unchecked>
+    </StyledRadioButtonwithSubtext>
+  );
+};
