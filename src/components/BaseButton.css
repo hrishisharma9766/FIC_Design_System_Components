@@ -1,0 +1,174 @@
+/* BaseButton.css - Strictly using original Figma tokens from theme.css and fonts.css */
+
+.base-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 999px;
+  
+  /* Standard Button Typography Tokens */
+  font-family: var(--TypographyTypes-ButtonsTypography-Standard_Button-Family, 'DM Sans', sans-serif);
+  font-size: var(--TypographyTypes-ButtonsTypography-Standard_Button-Size, 14px);
+  font-weight: var(--TypographyTypes-ButtonsTypography-Standard_Button-Type, 800);
+  
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  white-space: nowrap;
+  user-select: none;
+}
+
+.base-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* SIZES */
+/* MD matches Standard Button tokens but with explicit overrides from Figma */
+.base-button--md {
+  height: 48px;
+  padding: 12px 16px;
+  gap: 8px;
+  font-size: var(--FontSize-Size-16, 16px);
+}
+
+.base-button--lg {
+  height: 72px;
+  padding: 20px 24px;
+  font-size: var(--FontSize-Size-18, 18px);
+  gap: 12px;
+}
+
+.base-button--sm {
+  height: 35px;
+  padding: 10px 12px;
+  font-size: var(--FontSize-Size-14, 14px);
+  gap: 4px;
+}
+
+/* VARIANTS - PRIMARY */
+.base-button--primary {
+  background-color: var(--colors-buttons-primary-btn-primary-btn-bkg-default);
+  color: var(--colors-buttons-primary-btn-primary-btn-label-default, white);
+}
+
+.base-button--primary:hover:not(:disabled) {
+  background-color: var(--colors-buttons-primary-btn-primary-btn-bkg-hover);
+  color: var(--colors-buttons-primary-btn-primary-btn-label-hover, white);
+}
+
+.base-button--primary:disabled {
+  background-color: var(--colors-buttons-primary-btn-primary-btn-bkg-disabled);
+  color: var(--colors-buttons-primary-btn-primary-btn-label-disabled);
+}
+
+/* VARIANTS - BRAND */
+.base-button--brand {
+  background-color: var(--colors-buttons-brand-btn-brand-btn-bkg-default);
+  color: var(--colors-buttons-brand-btn-brand-btn-label-default, white);
+}
+
+.base-button--brand:hover:not(:disabled) {
+  background-color: var(--colors-buttons-brand-btn-brand-btn-bkg-hover);
+  color: var(--colors-buttons-brand-btn-brand-btn-label-hover, white);
+}
+
+.base-button--brand:disabled {
+  background-color: var(--colors-buttons-brand-btn-brand-btn-bkg-disabled);
+  color: var(--colors-buttons-brand-btn-brand-btn-label-disabled);
+}
+
+/* VARIANTS - SECONDARY */
+.base-button--secondary {
+  background-color: var(--colors-buttons-secondary-btn-secondary-btn-bkg-default, white);
+  color: var(--colors-buttons-secondary-btn-secondary-btn-label-default);
+  border: 1px solid var(--colors-buttons-secondary-btn-secondary-btn-border-default);
+}
+
+.base-button--secondary:hover:not(:disabled) {
+  background-color: var(--colors-buttons-secondary-btn-secondary-btn-bkg-hover);
+  color: var(--colors-buttons-secondary-btn-secondary-btn-label-hover, white);
+  border: 1px solid var(--colors-buttons-secondary-btn-secondary-btn-border-hover);
+}
+
+.base-button--secondary:disabled {
+  background-color: var(--colors-buttons-secondary-btn-secondary-btn-bkg-disabled);
+  color: var(--colors-buttons-secondary-btn-secondary-btn-label-disabled);
+  border: 1px solid var(--colors-buttons-secondary-btn-secondary-btn-border-disabled);
+}
+
+/* VARIANTS - SUCCESS */
+/* Note: Success tokens use 'brand-btn' in their name in the original theme.css */
+.base-button--success {
+  background-color: var(--colors-buttons-success-btn-brand-btn-bkg-default);
+  color: var(--colors-buttons-success-btn-brand-btn-label-default, white);
+}
+
+.base-button--success:hover:not(:disabled) {
+  background-color: var(--colors-buttons-success-btn-brand-btn-bkg-hover);
+  color: var(--colors-buttons-success-btn-brand-btn-label-hover, white);
+}
+
+.base-button--success:disabled {
+  background-color: var(--colors-buttons-success-btn-brand-btn-bkg-disabled);
+  color: var(--colors-buttons-success-btn-brand-btn-label-disabled);
+}
+
+/* ICON STYLING */
+.base-button svg, 
+.base-button i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.base-button--md svg, 
+.base-button--md i {
+  width: 24px;
+  height: 24px;
+}
+
+.base-button--lg svg, 
+.base-button--lg i {
+  width: 32px;
+  height: 32px;
+}
+
+.base-button--sm svg, 
+.base-button--sm i {
+  width: 20px;
+  height: 20px;
+}
+
+/* LOADING STATE */
+.base-button--loading {
+  position: relative;
+  color: transparent !important;
+  pointer-events: none;
+}
+
+.base-button--loading .base-button__icon,
+.base-button--loading .base-button__label {
+  visibility: hidden;
+}
+
+.base-button__spinner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 1.5em;
+  height: 1.5em;
+  border: 2px solid currentColor;
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: base-button-spin 0.6s linear infinite;
+}
+
+@keyframes base-button-spin {
+  to { transform: translate(-50%, -50%) rotate(360deg); }
+}

@@ -1,0 +1,78 @@
+/* PillBadge.css - Using original Figma tokens from theme.css */
+
+.pill-badge {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 18px;
+  padding: 0 9px;
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+  color: var(--Colors-Buttons-Pill-Badge-Txt_Pill-Badge_Label, #4B4B4A);
+  transition: all 0.2s ease-in-out;
+  width: fit-content;
+}
+
+/* For multi-line badges (Recommended + Subtext) */
+.pill-badge--stacked {
+  flex-direction: column;
+  padding: 5px;
+}
+
+/* COLOR VARIANTS */
+.pill-badge--blue {
+  background-color: var(--Colors-Buttons-Pill-Badge-Bkg-Blue200, #D2EDFF);
+}
+
+.pill-badge--fuchsia {
+  background-color: var(--Colors-Buttons-Pill-Badge-Bkg-Fusia100, #FFDAEF);
+}
+
+.pill-badge--lime {
+  background-color: var(--Colors-Buttons-Pill-Badge-Bkg-Lime200, #DAF3B9);
+}
+
+/* SIZING - Standard Label */
+.pill-badge--sm {
+  height: 24px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17.46px;
+}
+
+.pill-badge--md {
+  height: 26px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20.37px;
+}
+
+/* SIZING - Stacked Titles */
+.pill-badge__title {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pill-badge--stacked .pill-badge__title--md {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20.37px;
+}
+
+.pill-badge--stacked .pill-badge__title--lg {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23.28px;
+}
+
+.pill-badge__subtext {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 14.55px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

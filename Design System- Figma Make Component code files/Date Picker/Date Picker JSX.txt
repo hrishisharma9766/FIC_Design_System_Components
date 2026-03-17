@@ -1,0 +1,843 @@
+<div style={{width: '100%', height: '100%', position: 'relative', overflow: 'hidden', borderRadius: 5, border: '1px #9747FF solid'}}>
+    <div style={{width: 250, height: 68, left: 20, top: 120, position: 'absolute', borderRadius: 4, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 1, display: 'flex'}}>
+            <div style={{justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+                <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+                <div style={{width: 8, height: 8, position: 'relative'}}>
+                    <div style={{width: 8, height: 8, left: 0, top: 0, position: 'absolute', background: 'var(--Colors-Functional-Border-Border_Error, #E73D36)'}} />
+                </div>
+            </div>
+            <div style={{alignSelf: 'stretch', height: 36, minWidth: 200, padding: 12, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', overflow: 'hidden', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Focus, #21A49F) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                <div style={{flex: '1 1 0', color: 'var(--Colors-Functional-Border-Border_Default, #C3C1B5)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Select Date</div>
+                <div style={{width: 16, height: 16, position: 'relative'}}>
+                    <div style={{width: 16, height: 16, left: 0, top: 0, position: 'absolute', outline: '1px var(--icon-icon-neutral-outline-default, #7D7D7D) solid', outlineOffset: '-0.50px'}} />
+                </div>
+            </div>
+        </div>
+        <div data-⚠️-date-picker-style-type="Dropdown" data-📱-layout="Default" style={{padding: 12, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-end', gap: 12, display: 'flex'}}>
+            <div style={{alignSelf: 'stretch', height: 36, justifyContent: 'center', alignItems: 'flex-start', gap: 8, display: 'inline-flex'}}>
+                <div data-✨-style="Default" data-❗-is-mandatory="false" data-🆕-show-title="false" data-👀-show-icon="false" data-💡-state="Default" data-📏-size="Default" data-🔤-show-hint-text="false" style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'inline-flex'}}>
+                    <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'flex'}}>
+                        <div style={{alignSelf: 'stretch', height: 36, paddingLeft: 12, paddingRight: 12, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', overflow: 'hidden', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                            <div style={{flex: '1 1 0', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Apr</div>
+                            <div style={{width: 10, height: 10, position: 'relative'}}>
+                                <div style={{width: 10, height: 5, left: 0, top: 2.50, position: 'absolute', outline: '1px var(--Colors-Functional-Input-Icons-Icon_LightGray, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-✨-style="Default" data-❗-is-mandatory="true" data-🆕-show-title="false" data-👀-show-icon="false" data-💡-state="Default" data-📏-size="Default" data-🔤-show-hint-text="false" style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'inline-flex'}}>
+                    <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'flex'}}>
+                        <div style={{alignSelf: 'stretch', height: 36, paddingLeft: 12, paddingRight: 12, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', overflow: 'hidden', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                            <div style={{flex: '1 1 0', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>2026</div>
+                            <div style={{width: 10, height: 10, position: 'relative'}}>
+                                <div style={{width: 10, height: 5, left: 0, top: 2.50, position: 'absolute', outline: '1px var(--Colors-Functional-Input-Icons-Icon_LightGray, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style={{alignSelf: 'stretch', height: 0, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}}></div>
+            <div style={{alignSelf: 'stretch', justifyContent: 'center', alignItems: 'flex-start', display: 'inline-flex'}}>
+                <div data-⚠️-type="Day" data-💡-state="Default" style={{width: 36, padding: 4, borderRadius: 4, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                    <div style={{textAlign: 'center', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 16, wordWrap: 'break-word'}}>Mon</div>
+                </div>
+                <div data-⚠️-type="Day" data-💡-state="Default" style={{width: 36, padding: 4, borderRadius: 4, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                    <div style={{textAlign: 'center', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 16, wordWrap: 'break-word'}}>Tue</div>
+                </div>
+                <div data-⚠️-type="Day" data-💡-state="Default" style={{width: 36, padding: 4, borderRadius: 4, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                    <div style={{textAlign: 'center', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 16, wordWrap: 'break-word'}}>Wed</div>
+                </div>
+                <div data-⚠️-type="Day" data-💡-state="Default" style={{padding: 4, borderRadius: 4, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                    <div style={{textAlign: 'center', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 16, wordWrap: 'break-word'}}>Thu</div>
+                </div>
+                <div data-⚠️-type="Day" data-💡-state="Default" style={{width: 36, padding: 4, borderRadius: 4, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                    <div style={{textAlign: 'center', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 16, wordWrap: 'break-word'}}>Fri</div>
+                </div>
+                <div data-⚠️-type="Day" data-💡-state="Default" style={{width: 36, padding: 4, borderRadius: 4, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                    <div style={{textAlign: 'center', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 16, wordWrap: 'break-word'}}>Sat</div>
+                </div>
+                <div data-⚠️-type="Day" data-💡-state="Default" style={{width: 36, padding: 4, borderRadius: 4, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                    <div style={{textAlign: 'center', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 16, wordWrap: 'break-word'}}>Sun</div>
+                </div>
+            </div>
+            <div style={{alignSelf: 'stretch', justifyContent: 'center', alignItems: 'flex-start', display: 'inline-flex'}}>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Disabled" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>30</div>
+                    </div>
+                </div>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Disabled" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>31</div>
+                    </div>
+                </div>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>1</div>
+                    </div>
+                </div>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>2</div>
+                    </div>
+                </div>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>3</div>
+                    </div>
+                </div>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>4</div>
+                    </div>
+                </div>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>5</div>
+                    </div>
+                </div>
+            </div>
+            <div style={{alignSelf: 'stretch', justifyContent: 'center', alignItems: 'flex-start', display: 'inline-flex'}}>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>6</div>
+                    </div>
+                </div>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>7</div>
+                    </div>
+                </div>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>8</div>
+                    </div>
+                </div>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>9</div>
+                    </div>
+                </div>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>10</div>
+                    </div>
+                </div>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>11</div>
+                    </div>
+                </div>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>12</div>
+                    </div>
+                </div>
+            </div>
+            <div style={{alignSelf: 'stretch', justifyContent: 'center', alignItems: 'flex-start', display: 'inline-flex'}}>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>13</div>
+                    </div>
+                </div>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>14</div>
+                    </div>
+                </div>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>15</div>
+                    </div>
+                </div>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>30</div>
+                    </div>
+                </div>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Range End" style={{width: 36, height: 28, padding: 10, position: 'relative', overflow: 'hidden', borderTopRightRadius: 4, borderBottomRightRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 18, height: 28, left: 0, top: 0, position: 'absolute'}} />
+                    <div style={{width: 28, height: 28, background: 'var(--Colors-Functional-Bkg-Bkg_Active-Focus, #21A49F)', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Txt-Txt_Selected-White, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>17</div>
+                    </div>
+                </div>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Selected" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 28, height: 28, background: 'var(--Colors-Functional-Bkg-Bkg_Disabled, #D2DCE6)', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>18</div>
+                    </div>
+                </div>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 28, height: 28, borderRadius: 4, outline: '1px var(--Colors-Functional-Txt-Txt_Highlight, #21A49F) solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>19</div>
+                    </div>
+                </div>
+            </div>
+            <div style={{alignSelf: 'stretch', justifyContent: 'center', alignItems: 'flex-start', display: 'inline-flex'}}>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>20</div>
+                    </div>
+                </div>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>21</div>
+                    </div>
+                </div>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>22</div>
+                    </div>
+                </div>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>23</div>
+                    </div>
+                </div>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>24</div>
+                    </div>
+                </div>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>30</div>
+                    </div>
+                </div>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>26</div>
+                    </div>
+                </div>
+            </div>
+            <div style={{alignSelf: 'stretch', justifyContent: 'center', alignItems: 'flex-start', display: 'inline-flex'}}>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>27</div>
+                    </div>
+                </div>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>28</div>
+                    </div>
+                </div>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>29</div>
+                    </div>
+                </div>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>30</div>
+                    </div>
+                </div>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Disabled" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>1</div>
+                    </div>
+                </div>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Disabled" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>2</div>
+                    </div>
+                </div>
+                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Disabled" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>3</div>
+                    </div>
+                </div>
+            </div>
+            <div style={{alignSelf: 'stretch', height: 0, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}}></div>
+            <div style={{alignSelf: 'stretch', justifyContent: 'flex-end', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                <div style={{height: 40, padding: 10, background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Default, white)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Border_Default, #118082) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>CANCEL</div>
+                </div>
+                <div style={{height: 40, padding: 10, background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Default, #118082)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>APPLY</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 250, height: 68, left: 370, top: 120, position: 'absolute', borderRadius: 4, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 1, display: 'flex'}}>
+            <div style={{justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+                <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+                <div style={{width: 8, height: 8, position: 'relative'}}>
+                    <div style={{width: 8, height: 8, left: 0, top: 0, position: 'absolute', background: 'var(--Colors-Functional-Border-Border_Error, #E73D36)'}} />
+                </div>
+            </div>
+            <div style={{alignSelf: 'stretch', height: 36, minWidth: 200, padding: 12, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', overflow: 'hidden', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Focus, #21A49F) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                <div style={{flex: '1 1 0', color: 'var(--Colors-Functional-Border-Border_Default, #C3C1B5)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Select Date</div>
+                <div style={{width: 16, height: 16, position: 'relative'}}>
+                    <div style={{width: 16, height: 16, left: 0, top: 0, position: 'absolute', outline: '1px var(--icon-icon-neutral-outline-default, #7D7D7D) solid', outlineOffset: '-0.50px'}} />
+                </div>
+            </div>
+        </div>
+        <div style={{background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Focus, #21A49F) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+            <div style={{justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                <div style={{width: 160, alignSelf: 'stretch', paddingTop: 24, borderTopLeftRadius: 8, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div data-💡-state="Default" style={{alignSelf: 'stretch', paddingLeft: 24, paddingRight: 24, paddingTop: 8, paddingBottom: 8, justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Today</div>
+                    </div>
+                    <div data-💡-state="Default" style={{alignSelf: 'stretch', paddingLeft: 24, paddingRight: 24, paddingTop: 8, paddingBottom: 8, justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Yesterday</div>
+                    </div>
+                    <div data-💡-state="Default" style={{alignSelf: 'stretch', paddingLeft: 24, paddingRight: 24, paddingTop: 8, paddingBottom: 8, justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Last 7 days</div>
+                    </div>
+                    <div data-💡-state="Default" style={{alignSelf: 'stretch', paddingLeft: 24, paddingRight: 24, paddingTop: 8, paddingBottom: 8, justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Last 14 days</div>
+                    </div>
+                    <div data-💡-state="Selected" style={{alignSelf: 'stretch', paddingLeft: 24, paddingRight: 24, paddingTop: 8, paddingBottom: 8, background: 'var(--Colors-Functional-Bkg-Bkg_Focus, #D6FFFB)', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Custom</div>
+                    </div>
+                </div>
+                <div style={{width: 365, alignSelf: 'stretch', transform: 'rotate(-90deg)', transformOrigin: 'top left', outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}}></div>
+                <div data-⚠️-date-picker-style-type="Selector" data-📱-layout="DateRange" style={{padding: 12, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', overflow: 'hidden', borderRadius: 4, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-end', gap: 12, display: 'inline-flex'}}>
+                    <div style={{paddingBottom: 1, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderTopRightRadius: 8, borderBottomRightRadius: 8, justifyContent: 'center', alignItems: 'flex-start', gap: 24, display: 'inline-flex'}}>
+                        <div style={{flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-end', gap: 12, display: 'inline-flex'}}>
+                            <div style={{alignSelf: 'stretch', height: 36, justifyContent: 'center', alignItems: 'flex-start', gap: 8, display: 'inline-flex'}}>
+                                <div data-✨-style="Default" data-❗-is-mandatory="true" data-🆕-show-title="false" data-👀-show-icon="false" data-💡-state="Default" data-📏-size="Default" data-🔤-show-hint-text="false" style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'inline-flex'}}>
+                                    <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'flex'}}>
+                                        <div style={{alignSelf: 'stretch', height: 36, paddingLeft: 12, paddingRight: 12, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', overflow: 'hidden', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                                            <div style={{flex: '1 1 0', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Apr</div>
+                                            <div style={{width: 10, height: 10, position: 'relative'}}>
+                                                <div style={{width: 10, height: 5, left: 0, top: 2.50, position: 'absolute', outline: '1px var(--Colors-Functional-Input-Icons-Icon_LightGray, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-✨-style="Default" data-❗-is-mandatory="true" data-🆕-show-title="false" data-👀-show-icon="false" data-💡-state="Default" data-📏-size="Default" data-🔤-show-hint-text="false" style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'inline-flex'}}>
+                                    <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'flex'}}>
+                                        <div style={{alignSelf: 'stretch', height: 36, paddingLeft: 12, paddingRight: 12, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', overflow: 'hidden', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                                            <div style={{flex: '1 1 0', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>2026</div>
+                                            <div style={{width: 10, height: 10, position: 'relative'}}>
+                                                <div style={{width: 10, height: 5, left: 0, top: 2.50, position: 'absolute', outline: '1px var(--Colors-Functional-Input-Icons-Icon_LightGray, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style={{alignSelf: 'stretch', justifyContent: 'space-between', alignItems: 'flex-start', display: 'inline-flex'}}>
+                                <div data-⚠️-type="Day" data-💡-state="Default" style={{padding: 4, borderRadius: 4, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                                    <div style={{textAlign: 'center', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Mon</div>
+                                </div>
+                                <div data-⚠️-type="Day" data-💡-state="Default" style={{padding: 4, borderRadius: 4, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                                    <div style={{textAlign: 'center', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Tue</div>
+                                </div>
+                                <div data-⚠️-type="Day" data-💡-state="Default" style={{padding: 4, borderRadius: 4, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                                    <div style={{textAlign: 'center', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Wed</div>
+                                </div>
+                                <div data-⚠️-type="Day" data-💡-state="Default" style={{padding: 4, borderRadius: 4, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                                    <div style={{textAlign: 'center', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Thu</div>
+                                </div>
+                                <div data-⚠️-type="Day" data-💡-state="Default" style={{padding: 4, borderRadius: 4, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                                    <div style={{textAlign: 'center', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Fri</div>
+                                </div>
+                                <div data-⚠️-type="Day" data-💡-state="Default" style={{padding: 4, borderRadius: 4, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                                    <div style={{textAlign: 'center', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Sat</div>
+                                </div>
+                                <div data-⚠️-type="Day" data-💡-state="Default" style={{padding: 4, borderRadius: 4, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                                    <div style={{textAlign: 'center', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Sun</div>
+                                </div>
+                            </div>
+                            <div style={{justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Disabled" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>30</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Disabled" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>31</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>1</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>2</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>3</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>4</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>5</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style={{justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>6</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>7</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>8</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>9</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>10</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>11</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>12</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style={{justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>13</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>14</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>15</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>16</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>17</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>18</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Current" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, borderRadius: 4, outline: '1px var(--Colors-Functional-Border-Border_Focus, #21A49F) solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>19</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style={{justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>20</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>21</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>22</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>23</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>24</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>25</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>26</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style={{justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>27</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Range Start" style={{width: 36, height: 28, padding: 10, position: 'relative', overflow: 'hidden', borderTopLeftRadius: 4, borderBottomLeftRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 18, height: 28, left: 18, top: 0, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Focus, #D6FFFB)'}} />
+                                    <div style={{width: 28, height: 28, background: 'var(--Colors-Functional-Bkg-Bkg_Active-Focus, #21A49F)', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Txt-Txt_Selected-White, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>28</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Range Mid" style={{width: 36, height: 28, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Focus, #D6FFFB)', overflow: 'hidden', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>29</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Range Mid" style={{width: 36, height: 28, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Focus, #D6FFFB)', overflow: 'hidden', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>30</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Disabled" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>1</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Disabled" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>2</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Disabled" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>3</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-end', gap: 12, display: 'inline-flex'}}>
+                            <div style={{alignSelf: 'stretch', height: 36, justifyContent: 'center', alignItems: 'flex-start', gap: 8, display: 'inline-flex'}}>
+                                <div data-✨-style="Default" data-❗-is-mandatory="true" data-🆕-show-title="false" data-👀-show-icon="false" data-💡-state="Default" data-📏-size="Default" data-🔤-show-hint-text="false" style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'inline-flex'}}>
+                                    <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'flex'}}>
+                                        <div style={{alignSelf: 'stretch', height: 36, paddingLeft: 12, paddingRight: 12, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', overflow: 'hidden', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                                            <div style={{flex: '1 1 0', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>May</div>
+                                            <div style={{width: 10, height: 10, position: 'relative'}}>
+                                                <div style={{width: 10, height: 5, left: 0, top: 2.50, position: 'absolute', outline: '1px var(--Colors-Functional-Input-Icons-Icon_LightGray, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-✨-style="Default" data-❗-is-mandatory="true" data-🆕-show-title="false" data-👀-show-icon="false" data-💡-state="Default" data-📏-size="Default" data-🔤-show-hint-text="false" style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'inline-flex'}}>
+                                    <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'flex'}}>
+                                        <div style={{alignSelf: 'stretch', height: 36, paddingLeft: 12, paddingRight: 12, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', overflow: 'hidden', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                                            <div style={{flex: '1 1 0', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>2026</div>
+                                            <div style={{width: 10, height: 10, position: 'relative'}}>
+                                                <div style={{width: 10, height: 5, left: 0, top: 2.50, position: 'absolute', outline: '1px var(--Colors-Functional-Input-Icons-Icon_LightGray, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style={{alignSelf: 'stretch', justifyContent: 'space-between', alignItems: 'flex-start', display: 'inline-flex'}}>
+                                <div data-⚠️-type="Day" data-💡-state="Default" style={{padding: 4, borderRadius: 4, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                                    <div style={{textAlign: 'center', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Mon</div>
+                                </div>
+                                <div data-⚠️-type="Day" data-💡-state="Default" style={{padding: 4, borderRadius: 4, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                                    <div style={{textAlign: 'center', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Tue</div>
+                                </div>
+                                <div data-⚠️-type="Day" data-💡-state="Default" style={{padding: 4, borderRadius: 4, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                                    <div style={{textAlign: 'center', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Wed</div>
+                                </div>
+                                <div data-⚠️-type="Day" data-💡-state="Default" style={{padding: 4, borderRadius: 4, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                                    <div style={{textAlign: 'center', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Thu</div>
+                                </div>
+                                <div data-⚠️-type="Day" data-💡-state="Default" style={{padding: 4, borderRadius: 4, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                                    <div style={{textAlign: 'center', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Fri</div>
+                                </div>
+                                <div data-⚠️-type="Day" data-💡-state="Default" style={{padding: 4, borderRadius: 4, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                                    <div style={{textAlign: 'center', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Sat</div>
+                                </div>
+                                <div data-⚠️-type="Day" data-💡-state="Default" style={{padding: 4, borderRadius: 4, justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                                    <div style={{textAlign: 'center', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Sun</div>
+                                </div>
+                            </div>
+                            <div style={{justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Disabled" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>27</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Disabled" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>28</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Disabled" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>29</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Disabled" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>30</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Range Mid" style={{width: 36, height: 28, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Focus, #D6FFFB)', overflow: 'hidden', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>1</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Range Mid" style={{width: 36, height: 28, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Focus, #D6FFFB)', overflow: 'hidden', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>2</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Range Mid" style={{width: 36, height: 28, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Focus, #D6FFFB)', overflow: 'hidden', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>3</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style={{justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Range Mid" style={{width: 36, height: 28, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Focus, #D6FFFB)', overflow: 'hidden', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>4</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Range Mid" style={{width: 36, height: 28, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Focus, #D6FFFB)', overflow: 'hidden', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>5</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Range Mid" style={{width: 36, height: 28, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Focus, #D6FFFB)', overflow: 'hidden', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>6</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Range End" style={{width: 36, height: 28, padding: 10, position: 'relative', overflow: 'hidden', borderTopRightRadius: 4, borderBottomRightRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 18, height: 28, left: 0, top: 0, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Focus, #D6FFFB)'}} />
+                                    <div style={{width: 28, height: 28, background: 'var(--Colors-Functional-Bkg-Bkg_Active-Focus, #21A49F)', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Txt-Txt_Selected-White, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>7</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>8</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>9</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>10</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style={{justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>11</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>12</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>13</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>14</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>15</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>16</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>17</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style={{justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>18</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>19</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>20</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>21</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>22</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>23</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>24</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div style={{justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>25</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>26</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>27</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>28</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>29</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>30</div>
+                                    </div>
+                                </div>
+                                <div data-●---event-dot="false" data-✨-style="Square" data-💡-state="Default" style={{width: 36, height: 28, padding: 10, overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{width: 28, height: 28, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>31</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style={{alignSelf: 'stretch', height: 0, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}}></div>
+                    <div style={{alignSelf: 'stretch', justifyContent: 'flex-end', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                        <div style={{height: 40, padding: 10, background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Default, white)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Border_Default, #118082) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                            <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>CANCEL</div>
+                        </div>
+                        <div style={{height: 40, padding: 10, background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Default, #118082)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                            <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>APPLY</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style={{alignSelf: 'stretch', height: 0, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}}></div>
+        </div>
+    </div>
+    <div style={{width: 250, left: 20, top: 20, position: 'absolute', overflow: 'hidden', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 1, display: 'flex'}}>
+            <div style={{justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+                <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+                <div style={{width: 8, height: 8, position: 'relative'}}>
+                    <div style={{width: 8, height: 8, left: 0, top: 0, position: 'absolute', background: 'var(--Colors-Functional-Border-Border_Error, #E73D36)'}} />
+                </div>
+            </div>
+            <div style={{alignSelf: 'stretch', height: 36, minWidth: 200, padding: 12, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', overflow: 'hidden', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                <div style={{flex: '1 1 0', color: 'var(--Colors-Functional-Border-Border_Default, #C3C1B5)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Select Date</div>
+                <div style={{width: 16, height: 16, position: 'relative'}}>
+                    <div style={{width: 16, height: 16, left: 0, top: 0, position: 'absolute', outline: '1px var(--icon-icon-neutral-outline-default, #7D7D7D) solid', outlineOffset: '-0.50px'}} />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 250, left: 370, top: 20, position: 'absolute', overflow: 'hidden', borderRadius: 4, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 1, display: 'flex'}}>
+            <div style={{justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+                <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+                <div style={{width: 8, height: 8, position: 'relative'}}>
+                    <div style={{width: 8, height: 8, left: 0, top: 0, position: 'absolute', background: 'var(--Colors-Functional-Border-Border_Error, #E73D36)'}} />
+                </div>
+            </div>
+            <div style={{width: 250, height: 36, minWidth: 200, padding: 12, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', overflow: 'hidden', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                <div style={{flex: '1 1 0', color: 'var(--Colors-Functional-Border-Border_Default, #C3C1B5)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Select Date</div>
+                <div style={{width: 16, height: 16, position: 'relative'}}>
+                    <div style={{width: 16, height: 16, left: 0, top: 0, position: 'absolute', outline: '1px var(--icon-icon-neutral-outline-default, #7D7D7D) solid', outlineOffset: '-0.50px'}} />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 250, minWidth: 250, left: 370, top: 613, position: 'absolute', overflow: 'hidden', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+        <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 1, display: 'flex'}}>
+            <div style={{justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+                <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+                <div style={{width: 8, height: 8, position: 'relative'}}>
+                    <div style={{width: 8, height: 8, left: 0, top: 0, position: 'absolute', background: 'var(--Colors-Functional-Border-Border_Error, #E73D36)'}} />
+                </div>
+            </div>
+            <div style={{width: 250, height: 36, minWidth: 200, padding: 12, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', overflow: 'hidden', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                <div style={{flex: '1 1 0', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>28/04/2026 - 07/05/2026</div>
+                <div style={{width: 16, height: 16, position: 'relative'}}>
+                    <div style={{width: 16, height: 16, left: 0, top: 0, position: 'absolute', outline: '1px var(--icon-icon-neutral-outline-default, #7D7D7D) solid', outlineOffset: '-0.50px'}} />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{minWidth: 250, left: 20, top: 612, position: 'absolute', overflow: 'hidden', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 1, display: 'flex'}}>
+            <div style={{justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+                <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+                <div style={{width: 8, height: 8, position: 'relative'}}>
+                    <div style={{width: 8, height: 8, left: 0, top: 0, position: 'absolute', background: 'var(--Colors-Functional-Border-Border_Error, #E73D36)'}} />
+                </div>
+            </div>
+            <div style={{alignSelf: 'stretch', height: 36, minWidth: 200, padding: 12, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', overflow: 'hidden', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                <div style={{flex: '1 1 0', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>23/04/2026</div>
+                <div style={{width: 16, height: 16, position: 'relative'}}>
+                    <div style={{width: 16, height: 16, left: 0, top: 0, position: 'absolute', outline: '1px var(--icon-icon-neutral-outline-default, #7D7D7D) solid', outlineOffset: '-0.50px'}} />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

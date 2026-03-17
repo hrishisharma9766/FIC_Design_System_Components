@@ -1,0 +1,60 @@
+/* --- Eva Design System: Checkbox Curves & Typography --- */
+
+:root {
+  /* Border Radius (Curves) */
+  --checkbox-radius-standard: 2px;     /* Used in rows 1 and 2  */
+  --checkbox-radius-round: 9999px;    /* Used in rows 3 and 4 (Radio style) [cite: 163, 167] */
+
+  /* Colors */
+  --checkbox-label-default: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+  --checkbox-label-focus: var(--Colors-Functional-Label-Txt_Label_Focus, #00575C);
+  --checkbox-label-readonly: var(--Colors-Functional-Label-Txt_Label_ReadOnly, #4B5867);
+  --checkbox-label-disabled: var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A);
+  --checkbox-subtext-color: var(--Colors-Functional-Txt-Txt_Light, #71706C);
+}
+
+/* --- Base Structural Styles --- */
+
+.checkbox-box {
+  width: 16px; [cite: 155]
+  height: 16px; [cite: 155]
+  border-radius: var(--checkbox-radius-standard); [cite: 155]
+  transition: all 0.2s ease;
+}
+
+/* Round Variant Modifier */
+.checkbox-box--round {
+  border-radius: var(--checkbox-radius-round); [cite: 163, 167]
+}
+
+/* --- Typography Styles --- */
+
+.checkbox-label {
+  font-family: 'DM Sans', sans-serif; 
+  font-size: 14px; 
+  font-weight: 500; 
+  line-height: 20.37px; 
+  color: var(--checkbox-label-default); 
+}
+
+/* Label State Modifiers */
+.checkbox-label--focus {
+  color: var(--checkbox-label-focus); 
+}
+
+.checkbox-label--readonly {
+  color: var(--checkbox-label-readonly); [cite: 172, 178]
+}
+
+.checkbox-label--disabled {
+  color: var(--checkbox-label-disabled); [cite: 173, 179]
+}
+
+/* Subtext Styling */
+.checkbox-subtext {
+  font-family: 'DM Sans', sans-serif; [cite: 172]
+  font-size: 14px; [cite: 172]
+  font-weight: 400; [cite: 172]
+  line-height: 20.37px; [cite: 172]
+  color: var(--checkbox-subtext-color); [cite: 172]
+}

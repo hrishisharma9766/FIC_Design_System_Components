@@ -1,0 +1,127 @@
+/* Checkbox.css - Using original Figma tokens from theme.css */
+
+.checkbox-container {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: flex-start;
+  cursor: pointer;
+  user-select: none;
+}
+
+.checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.checkbox-box {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  transition: all 0.2s ease-in-out;
+  background: var(--colors-primitive-color-tokens-neutrals-static-white, white);
+  outline: 1px var(--colors-primitive-color-tokens-neutrals-bkg-400, #C3C1B5) solid;
+  outline-offset: -0.50px;
+}
+
+/* VARIANTS: Square (default) and Round */
+.checkbox-box--square {
+  border-radius: 2px;
+}
+
+.checkbox-box--round {
+  border-radius: 9999px;
+}
+
+.checkbox-box--checked {
+  background: var(--colors-primitive-color-tokens-teal-700, #118082);
+  outline: 1px var(--colors-primitive-color-tokens-teal-700, #118082) solid;
+}
+
+/* Hover State */
+.checkbox-container:hover .checkbox-box:not(.checkbox-box--disabled):not(.checkbox-box--readonly) {
+  outline: 1px var(--colors-primitive-color-tokens-neutrals-bkg-500, #959490) solid;
+}
+
+.checkbox-container--hover .checkbox-box {
+  outline: 1px var(--colors-primitive-color-tokens-neutrals-bkg-500, #959490) solid;
+}
+
+/* Disabled State */
+.checkbox-box--disabled {
+  background: var(--colors-primitive-color-tokens-neutrals-inactive-200, #D2DCE6);
+  outline: 1px var(--colors-primitive-color-tokens-neutrals-inactive-300, #B4C6D6) solid;
+  cursor: not-allowed;
+}
+
+.checkbox-box--disabled.checkbox-box--checked {
+  background: var(--colors-primitive-color-tokens-neutrals-inactive-400, #8BA1B9);
+}
+
+/* ReadOnly State */
+.checkbox-box--readonly {
+  background: var(--colors-primitive-color-tokens-neutrals-inactive-200, #D2DCE6);
+  outline: 1px var(--colors-primitive-color-tokens-neutrals-inactive-300, #B4C6D6) solid;
+  cursor: default;
+}
+
+.checkbox-box--readonly.checkbox-box--checked {
+  background: var(--colors-primitive-color-tokens-neutrals-inactive-600, #4B5867);
+}
+
+/* Focus State (Label Color Change) */
+.checkbox-container--focus .checkbox-label {
+  color: var(--colors-primitive-color-tokens-teal-800, #00575C);
+}
+
+/* CHECK ICON */
+.checkbox-icon {
+  width: 12px;
+  height: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--colors-primitive-color-tokens-neutrals-static-white, white);
+}
+
+.checkbox-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* LABEL STYLING */
+.checkbox-label {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20.37px;
+  word-wrap: break-word;
+  color: var(--colors-primitive-color-tokens-neutrals-bkg-700, #4B4B4A);
+  transition: color 0.2s ease-in-out;
+}
+
+.checkbox-label--disabled {
+  color: var(--colors-primitive-color-tokens-neutrals-inactive-500, #6A809A);
+}
+
+.checkbox-label--readonly {
+  color: var(--colors-primitive-color-tokens-neutrals-inactive-600, #4B5867);
+}
+
+/* SUBTEXT STYLING */
+.checkbox-subtext {
+  padding-left: 26px; /* Aligns subtext under label text: box(16) + gap(10) */
+  color: var(--colors-primitive-color-tokens-neutrals-bkg-600, #71706C);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.37px;
+  word-wrap: break-word;
+  margin-top: -2px; /* Pull subtext closer to label if needed to match Figma visual */
+}

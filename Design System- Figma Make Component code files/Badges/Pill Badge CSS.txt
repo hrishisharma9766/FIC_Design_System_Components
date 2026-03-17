@@ -1,0 +1,75 @@
+/* PillBadge.css */
+
+:root {
+  /* Background Color Tokens  */
+  --pill-bg-blue: var(--Colors-Buttons-Pill-Badge-Bkg-Blue200, #D2EDFF);
+  --pill-bg-fuchsia: var(--Colors-Buttons-Pill-Badge-Bkg-Fusia100, #FFDAEF);
+  --pill-bg-lime: var(--Colors-Buttons-Pill-Badge-Bkg-Lime200, #DAF3B9);
+  
+  /* Text Color Token [cite: 119, 122] */
+  --pill-text-color: var(--Colors-Buttons-Pill-Badge-Txt_Pill-Badge_Label, #4B4B4A);
+}
+
+/* Base Pill Structure [cite: 122, 126] */
+.pill-badge {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 18px;
+  padding: 0 9px;
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+  color: var(--pill-text-color);
+}
+
+/* For multi-line badges (Recommended + Subtext) [cite: 126, 127] */
+.pill-badge--stacked {
+  flex-direction: column;
+  padding: 5px;
+}
+
+/* Color Variants  */
+.pill-badge--blue { background-color: var(--pill-bg-blue); }
+.pill-badge--fuchsia { background-color: var(--pill-bg-fuchsia); }
+.pill-badge--lime { background-color: var(--pill-bg-lime); }
+
+/* Standard Label Sizing  */
+.pill-label-small {
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17.46px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.pill-label-medium {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20.37px;
+  height: 26px;
+  display: flex;
+  align-items: center;
+}
+
+/* Stacked Badge Specific Typography  */
+.pill-title-medium {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20.37px;
+  text-align: center;
+}
+
+.pill-title-large {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23.28px;
+  text-align: center;
+}
+
+.pill-subtext {
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 14.55px;
+  text-align: center;
+}

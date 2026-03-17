@@ -1,0 +1,137 @@
+/* DM Sans Font Family */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@100;400;500;600;700;800;900&display=swap');
+
+/* Archivo Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@100;400;500;600;700;800;900&display=swap');
+
+/* Roboto Font Family - Used for large numbers */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+/* ============================================
+   Typography Tokens - Evaa Design System
+   ============================================ */
+
+/* Font Family Tokens */
+:root {
+  --FontFamily-Family: 'DM Sans', sans-serif;
+  --FontFamily-Family-2: 'DM Sans', sans-serif;
+  --FontFamily-Archivo: 'Archivo', sans-serif;
+  
+  /* Font Size Tokens */
+  --FontSize-Size80: 80px;
+  --FontSize-Size72: 72px;
+  --FontSize-Size64: 64px;
+  --FontSize-Size58: 58px;
+  --FontSize-Size48: 48px;
+  --FontSize-Size40: 40px;
+  --FontSize-Size-30: 30px;
+  --FontSize-Size-28: 28px;
+  --FontSize-Size-26: 26px;
+  --FontSize-Size-24: 24px;
+  --FontSize-Size-22: 22px;
+  --FontSize-Size-20: 20px;
+  --FontSize-Size-18: 18px;
+  --FontSize-Size-16: 16px;
+  --FontSize-Size-14: 14px;
+  --FontSize-Size-12: 12px;
+  --FontSize-Size-10: 10px;
+  --button-size-14: 14px;
+  
+  /* Font Type (Weight) Tokens */
+  --FontType-Thin: 100;
+  --FontType-Regular: 400;
+  --FontType-Medium: 500;
+  --FontType-SemiBold: 600;
+  --FontType-Bold: 700;
+  --FontType-ExtraBold: 800;
+  --FontType-Black: 900;
+  
+  /* Typography Types - Display */
+  --TypographyTypes-Display-Display1-Family: var(--FontFamily-Family-2);
+  --TypographyTypes-Display-Display1-Size: var(--FontSize-Size80);
+  --TypographyTypes-Display-Display1-Type: var(--FontType-Thin);
+  --TypographyTypes-Display-Display2-Family: var(--FontFamily-Family-2);
+  --TypographyTypes-Display-Display2-Size: var(--FontSize-Size72);
+  --TypographyTypes-Display-Display2-Type: var(--FontType-Thin);
+  --TypographyTypes-Display-Display3-Family: var(--FontFamily-Family-2);
+  --TypographyTypes-Display-Display3-Size: var(--FontSize-Size64);
+  --TypographyTypes-Display-Display3-Type: var(--FontType-Thin);
+  --TypographyTypes-Display-Display4-Family: var(--FontFamily-Family-2);
+  --TypographyTypes-Display-Display4-Size: var(--FontSize-Size58);
+  --TypographyTypes-Display-Display4-Type: var(--FontType-Thin);
+  --TypographyTypes-Display-Display5-Family: var(--FontFamily-Family-2);
+  --TypographyTypes-Display-Display5-Size: var(--FontSize-Size48);
+  --TypographyTypes-Display-Display5-Type: var(--FontType-Thin);
+  --TypographyTypes-Display-Display6-Family: var(--FontFamily-Family-2);
+  --TypographyTypes-Display-Display6-Size: var(--FontSize-Size40);
+  --TypographyTypes-Display-Display6-Type: var(--FontType-Thin);
+  
+  /* Typography Types - Heading */
+  --TypographyTypes-Heading-Heading1-Family: var(--FontFamily-Family);
+  --TypographyTypes-Heading-Heading1-Size: var(--FontSize-Size-30);
+  --TypographyTypes-Heading-Heading1-Font-Weight-Thin: var(--FontType-Thin);
+  --TypographyTypes-Heading-Heading1-Font-Weight-Regular: var(--FontType-Regular);
+  --TypographyTypes-Heading-Heading1-Font-Weight-Medium: var(--FontType-Medium);
+  --TypographyTypes-Heading-Heading1-Font-Weight-Semibold: var(--FontType-SemiBold);
+  --TypographyTypes-Heading-Heading1-Font-Weight-Extrabold: var(--FontType-ExtraBold);
+  --TypographyTypes-Heading-Heading1-Font-Weight-Black: var(--FontType-Black);
+  --TypographyTypes-Heading-Heading2-Family: var(--FontFamily-Family);
+  --TypographyTypes-Heading-Heading2-Size: var(--FontSize-Size-28);
+  --TypographyTypes-Heading-Heading2-Heading2: var(--FontType-SemiBold);
+  --TypographyTypes-Heading-Heading3-Family: var(--FontFamily-Family);
+  --TypographyTypes-Heading-Heading3-Size: var(--FontSize-Size-26);
+  --TypographyTypes-Heading-Heading3-Heading3: var(--FontType-SemiBold);
+  --TypographyTypes-Heading-Heading4-Family: var(--FontFamily-Family);
+  --TypographyTypes-Heading-Heading4-Size: var(--FontSize-Size-24);
+  --TypographyTypes-Heading-Heading4-Heading4: var(--FontType-SemiBold);
+  --TypographyTypes-Heading-Heading5-Family: var(--FontFamily-Family);
+  --TypographyTypes-Heading-Heading5-Size: var(--FontSize-Size-22);
+  --TypographyTypes-Heading-Heading5-Heading5: var(--FontType-SemiBold);
+  --TypographyTypes-Heading-Heading6-Family: var(--FontFamily-Family);
+  --TypographyTypes-Heading-Heading6-Size: var(--FontSize-Size-20);
+  --TypographyTypes-Heading-Heading6-Heading6: var(--FontType-SemiBold);
+  
+  /* Typography Types - SubHeading */
+  --TypographyTypes-Heading-SubHeading1-Family: var(--FontFamily-Family);
+  --TypographyTypes-Heading-SubHeading1-Size: var(--FontSize-Size-18);
+  --TypographyTypes-Heading-SubHeading1-Sbh1SemiBold: var(--FontType-SemiBold);
+  --TypographyTypes-Heading-SubHeading1-Sbh1ExtraBold: var(--FontType-ExtraBold);
+  --TypographyTypes-Heading-SubHeading1-Sbh1Regular: var(--FontType-Regular);
+  --TypographyTypes-Heading-SubHeading1-Sbh1Medium: var(--FontType-Medium);
+  --TypographyTypes-Heading-SubHeading2-Family: var(--FontFamily-Family);
+  --TypographyTypes-Heading-SubHeading2-Size: var(--FontSize-Size-16);
+  --TypographyTypes-Heading-SubHeading2-Sbh2SemiBold: var(--FontType-SemiBold);
+  --TypographyTypes-Heading-SubHeading2-Sbh2ExtraBold: var(--FontType-ExtraBold);
+  --TypographyTypes-Heading-SubHeading2-Sbh2Medium: var(--FontType-Medium);
+  --TypographyTypes-Heading-SubHeading2-Sbh2Regular: var(--FontType-Regular);
+  --TypographyTypes-Heading-SubHeading3-Family: var(--FontFamily-Family);
+  --TypographyTypes-Heading-SubHeading3-Size: var(--FontSize-Size-14);
+  --TypographyTypes-Heading-SubHeading3-Sbh3ExtraBold: var(--FontType-ExtraBold);
+  --TypographyTypes-Heading-SubHeading3-Sbh3Semibold: var(--FontType-SemiBold);
+  --TypographyTypes-Heading-SubHeading3-Sbh3Medium: var(--FontType-Medium);
+  --TypographyTypes-Heading-SubHeading3-Sbh3Regular: var(--FontType-Regular);
+  --TypographyTypes-Heading-SubHeading3-Sbh3Black: var(--FontType-Black);
+  
+  /* Typography Types - Body */
+  --TypographyTypes-Body-Family: var(--FontFamily-Family);
+  --TypographyTypes-Body-Size: var(--FontSize-Size-14);
+  --TypographyTypes-Body-Type: var(--FontType-Regular);
+  
+  /* Typography Types - Font Size Small */
+  --TypographyTypes-Fs-fs-sm-12-Family: var(--FontFamily-Family);
+  --TypographyTypes-Fs-fs-sm-12-Size: var(--FontSize-Size-12);
+  --TypographyTypes-Fs-fs-sm-12-fs-sm: var(--FontType-Medium);
+  --TypographyTypes-Fs-fs-sm-12-fs-sm-Regular: var(--FontType-Regular);
+  
+  /* Typography Types - Font Size Extra Small */
+  --TypographyTypes-Fs-fs-xm-10-Family: var(--FontFamily-Family);
+  --TypographyTypes-Fs-fs-xm-10-Size: var(--FontSize-Size-10);
+  --TypographyTypes-Fs-fs-xm-10-Extrabold: var(--FontType-ExtraBold);
+  --TypographyTypes-Fs-fs-xm-10-Medium: var(--FontType-Medium);
+  --TypographyTypes-Fs-fs-xm-10-Regular: var(--FontType-Medium);
+  
+  /* Typography Types - Buttons */
+  --TypographyTypes-ButtonsTypography-Standard_Button-Family: var(--FontFamily-Family);
+  --TypographyTypes-ButtonsTypography-Standard_Button-Size: var(--button-size-14);
+  --TypographyTypes-ButtonsTypography-Standard_Button-Type: var(--FontType-ExtraBold);
+}

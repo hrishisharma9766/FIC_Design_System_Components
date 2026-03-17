@@ -1,0 +1,231 @@
+Checkbox:
+
+<div style={{width: '100%', height: '100%', position: 'relative', overflow: 'hidden', borderRadius: 5, border: '1px #9747FF solid'}}>
+    <div style={{padding: 10, left: 20, top: 20, position: 'absolute', justifyContent: 'center', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    </div>
+    <div style={{padding: 10, left: 119, top: 20, position: 'absolute', justifyContent: 'center', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Hover, #959490) solid', outlineOffset: '-0.50px'}} />
+        <div style={{width: 12, height: 9}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Focus, #00575C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    </div>
+    <div style={{padding: 10, left: 223, top: 20, position: 'absolute', justifyContent: 'center', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Fill-Fill-Default, #118082)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+        <div style={{width: 12, height: 9}} />
+        <div style={{width: 12, height: 9, outline: '1.50px var(--Colors-Functional-Input-Icons-Icon_White, white) solid', outlineOffset: '-0.75px'}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Focus, #00575C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    </div>
+    <div style={{padding: 10, left: 460, top: 20, position: 'absolute', justifyContent: 'center', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_ReadOnly, #D2DCE6)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_ReadOnly, #B4C6D6) solid', outlineOffset: '-0.50px'}} />
+        <div style={{width: 12, height: 9}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_ReadOnly, #4B5867)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    </div>
+    <div style={{padding: 10, left: 346, top: 20, position: 'absolute', justifyContent: 'center', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Disabled, #D2DCE6)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Disabled, #B4C6D6) solid', outlineOffset: '-0.50px'}} />
+        <div style={{width: 12, height: 9}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    </div>
+    <div style={{padding: 10, left: 20, top: 64, position: 'absolute', justifyContent: 'center', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Fill-Fill-Default, #118082)', borderRadius: 2}} />
+        <div style={{width: 12, height: 9, outline: '1.50px var(--Colors-Functional-Input-Icons-Icon_White, white) solid', outlineOffset: '-0.75px'}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    </div>
+    <div style={{padding: 10, left: 119, top: 64, position: 'absolute', justifyContent: 'center', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Fill-Fill-Default, #118082)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Hover, #959490) solid', outlineOffset: '-0.50px'}} />
+        <div style={{width: 12, height: 9, outline: '1.50px var(--Colors-Functional-Input-Icons-Icon_White, white) solid', outlineOffset: '-0.75px'}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Focus, #00575C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    </div>
+    <div style={{padding: 10, left: 223, top: 64, position: 'absolute', justifyContent: 'center', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Focus, #00575C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    </div>
+    <div style={{padding: 10, left: 346, top: 64, position: 'absolute', justifyContent: 'center', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Fill-Fill-Disabled, #8BA1B9)', borderRadius: 2}} />
+        <div style={{width: 12, height: 9, outline: '1.50px var(--Colors-Functional-Input-Icons-Icon_White, white) solid', outlineOffset: '-0.75px'}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    </div>
+    <div style={{padding: 10, left: 460, top: 64, position: 'absolute', justifyContent: 'center', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Fill-Fill-ReadOnly, #4B5867)', borderRadius: 2}} />
+        <div style={{width: 12, height: 9, background: 'var(--Colors-Functional-Fill-Fill-ReadOnly, #4B5867)', outline: '1.50px var(--Colors-Functional-Input-Icons-Icon_White, white) solid', outlineOffset: '-0.75px'}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_ReadOnly, #4B5867)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    </div>
+    <div style={{padding: 10, left: 20, top: 106, position: 'absolute', justifyContent: 'center', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, border: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid'}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    </div>
+    <div style={{padding: 10, left: 20, top: 148, position: 'absolute', justifyContent: 'center', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Fill-Fill-Default, #118082)', borderRadius: 9999}} />
+        <div style={{width: 12, height: 9, background: 'var(--Colors-Functional-Fill-Fill-Default, #118082)', outline: '1.50px var(--Colors-Functional-Input-Icons-Icon_White, white) solid', outlineOffset: '-0.75px'}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    </div>
+    <div style={{padding: 10, left: 119, top: 148, position: 'absolute', justifyContent: 'center', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Fill-Fill-Default, #118082)', borderRadius: 9999, border: '1px var(--Colors-Functional-Border-Border_Hover, #959490) solid'}} />
+        <div style={{width: 12, height: 9, outline: '1.50px var(--Colors-Functional-Input-Icons-Icon_White, white) solid', outlineOffset: '-0.75px'}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Focus, #00575C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    </div>
+    <div style={{padding: 10, left: 223, top: 106, position: 'absolute', justifyContent: 'center', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Fill-Fill-Default, #118082)', borderRadius: 9999, border: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid'}} />
+        <div style={{width: 12, height: 9, outline: '1.50px var(--Colors-Functional-Input-Icons-Icon_White, white) solid', outlineOffset: '-0.75px'}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Focus, #00575C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    </div>
+    <div style={{padding: 10, left: 460, top: 148, position: 'absolute', justifyContent: 'center', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Fill-Fill-ReadOnly, #4B5867)', borderRadius: 9999, border: '1px var(--Colors-Functional-Border-Border_ReadOnly, #B4C6D6) solid'}} />
+        <div style={{width: 12, height: 9, outline: '1.50px var(--Colors-Functional-Input-Icons-Icon_White, white) solid', outlineOffset: '-0.75px'}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_ReadOnly, #4B5867)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    </div>
+    <div style={{padding: 10, left: 346, top: 148, position: 'absolute', justifyContent: 'center', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Fill-Fill-Disabled, #8BA1B9)', borderRadius: 9999}} />
+        <div style={{width: 12, height: 9, outline: '1.50px var(--Colors-Functional-Input-Icons-Icon_White, white) solid', outlineOffset: '-0.75px'}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    </div>
+    <div style={{padding: 10, left: 119, top: 106, position: 'absolute', justifyContent: 'center', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, border: '1px var(--Colors-Functional-Border-Border_Hover, #959490) solid'}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Focus, #00575C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    </div>
+    <div style={{padding: 10, left: 223, top: 148, position: 'absolute', justifyContent: 'center', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, borderRadius: 9999, border: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid'}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Focus, #00575C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    </div>
+    <div style={{padding: 10, left: 346, top: 106, position: 'absolute', justifyContent: 'center', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Disabled, #D2DCE6)', borderRadius: 9999, border: '1px var(--Colors-Functional-Border-Border_Disabled, #B4C6D6) solid'}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    </div>
+    <div style={{padding: 10, left: 460, top: 106, position: 'absolute', justifyContent: 'center', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_ReadOnly, #D2DCE6)', borderRadius: 9999, border: '1px var(--Colors-Functional-Border-Border_ReadOnly, #B4C6D6) solid'}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_ReadOnly, #4B5867)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    </div>
+</div>
+
+Checkbox with Subtext:
+<div style={{width: '100%', height: '100%', position: 'relative', overflow: 'hidden', borderRadius: 5, border: '1px #9747FF solid'}}>
+    <div style={{width: 91, height: 57, padding: 10, left: 29, top: 20, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+        <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+            <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 4, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+            <div style={{width: 12, height: 9}} />
+        </div>
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+        <div style={{left: 31, top: 30, position: 'absolute', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Subtext</div>
+    </div>
+    <div style={{padding: 10, left: 169, top: 20, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Hover, #959490) solid', outlineOffset: '-0.50px'}} />
+        <div style={{width: 12, height: 9}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+        <div style={{color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Subtext</div>
+    </div>
+    <div style={{padding: 10, left: 293, top: 20, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Fill-Fill-Default, #118082)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+        <div style={{width: 12, height: 9}} />
+        <div style={{width: 12, height: 9, outline: '1.50px var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite, white) solid', outlineOffset: '-0.75px'}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Focus, #00575C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+        <div style={{color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Subtext</div>
+    </div>
+    <div style={{padding: 10, left: 580, top: 20, position: 'absolute', justifyContent: 'center', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_ReadOnly, #D2DCE6)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_ReadOnly, #B4C6D6) solid', outlineOffset: '-0.50px'}} />
+        <div style={{width: 12, height: 9}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_ReadOnly, #4B5867)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    </div>
+    <div style={{padding: 10, left: 426, top: 20, position: 'absolute', justifyContent: 'center', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Disabled, #D2DCE6)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Disabled, #B4C6D6) solid', outlineOffset: '-0.50px'}} />
+        <div style={{width: 12, height: 9}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    </div>
+    <div style={{padding: 10, left: 29, top: 117, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Fill-Fill-Default, #118082)', borderRadius: 2}} />
+        <div style={{width: 12, height: 9, outline: '1.50px var(--Colors-Functional-Input-Icons-Icon_White, white) solid', outlineOffset: '-0.75px'}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+        <div style={{width: 52, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+            <div style={{color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Subtext</div>
+        </div>
+    </div>
+    <div style={{padding: 10, left: 169, top: 117, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Fill-Fill-Default, #118082)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Hover, #959490) solid', outlineOffset: '-0.50px'}} />
+        <div style={{width: 12, height: 9, outline: '1.50px var(--Colors-Functional-Input-Icons-Icon_White, white) solid', outlineOffset: '-0.75px'}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Focus, #00575C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+        <div style={{width: 52, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+            <div style={{color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Subtext</div>
+        </div>
+    </div>
+    <div style={{padding: 10, left: 293, top: 117, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Fill-Fill-Default, #118082)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+        <div style={{width: 12, height: 9, outline: '1.50px var(--Colors-Functional-Input-Icons-Icon_White, white) solid', outlineOffset: '-0.75px'}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Focus, #00575C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+        <div style={{width: 52, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+            <div style={{color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Subtext</div>
+        </div>
+    </div>
+    <div style={{padding: 10, left: 426, top: 117, position: 'absolute', justifyContent: 'center', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Fill-Fill-Disabled, #8BA1B9)', borderRadius: 2}} />
+        <div style={{width: 12, height: 9, outline: '1.50px var(--Colors-Functional-Input-Icons-Icon_White, white) solid', outlineOffset: '-0.75px'}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    </div>
+    <div style={{padding: 10, left: 580, top: 117, position: 'absolute', justifyContent: 'center', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Fill-Fill-ReadOnly, #4B5867)', borderRadius: 2}} />
+        <div style={{width: 12, height: 9, outline: '1.50px var(--Colors-Functional-Input-Icons-Icon_White, white) solid', outlineOffset: '-0.75px'}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_ReadOnly, #4B5867)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    </div>
+    <div style={{width: 93, padding: 10, left: 29, top: 202, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, border: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid'}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+        <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+            <div style={{color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Subtext</div>
+        </div>
+    </div>
+    <div style={{padding: 10, left: 29, top: 288, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Fill-Fill-Default, #118082)', borderRadius: 9999}} />
+        <div style={{width: 12, height: 9, background: 'var(--Colors-Functional-Fill-Fill-Default, #118082)', outline: '1.50px var(--Colors-Functional-Input-Icons-Icon_White, white) solid', outlineOffset: '-0.75px'}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+        <div style={{width: 52, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+            <div style={{color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Subtext</div>
+        </div>
+    </div>
+    <div style={{padding: 10, left: 169, top: 288, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Fill-Fill-Default, #118082)', borderRadius: 9999, border: '1px var(--Colors-Functional-Border-Border_Hover, #959490) solid'}} />
+        <div style={{width: 12, height: 9, outline: '1.50px var(--Colors-Functional-Input-Icons-Icon_White, white) solid', outlineOffset: '-0.75px'}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Focus, #00575C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+        <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+            <div style={{color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Subtext</div>
+        </div>
+    </div>
+    <div style={{padding: 10, left: 291, top: 288, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Fill-Fill-Default, #118082)', borderRadius: 9999, border: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid'}} />
+        <div style={{width: 12, height: 9, outline: '1.50px var(--Colors-Functional-Input-Icons-Icon_White, white) solid', outlineOffset: '-0.75px'}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Focus, #00575C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+        <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+            <div style={{color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Subtext</div>
+        </div>
+    </div>
+    <div style={{padding: 10, left: 293, top: 206, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Fill-Fill-Default, #118082)', borderRadius: 9999, border: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid'}} />
+        <div style={{width: 12, height: 9, outline: '1.50px var(--Colors-Functional-Input-Icons-Icon_White, white) solid', outlineOffset: '-0.75px'}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Focus, #00575C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+        <div style={{width: 52, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+            <div style={{color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Subtext</div>
+        </div>
+    </div>
+    <div style={{padding: 10, left: 580, top: 288, position: 'absolute', justifyContent: 'center', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Fill-Fill-ReadOnly, #4B5867)', borderRadius: 9999, border: '1px var(--Colors-Functional-Border-Border_ReadOnly, #B4C6D6) solid'}} />
+        <div style={{width: 12, height: 9, outline: '1.50px var(--Colors-Functional-Input-Icons-Icon_White, white) solid', outlineOffset: '-0.75px'}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_ReadOnly, #4B5867)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    </div>
+    <div style={{padding: 10, left: 426, top: 288, position: 'absolute', justifyContent: 'center', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Fill-Fill-Disabled, #8BA1B9)', borderRadius: 9999}} />
+        <div style={{width: 12, height: 9, outline: '1.50px var(--Colors-Functional-Input-Icons-Icon_White, white) solid', outlineOffset: '-0.75px'}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    </div>
+    <div style={{padding: 10, left: 169, top: 206, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, border: '1px var(--Colors-Functional-Border-Border_Hover, #959490) solid'}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Focus, #00575C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+        <div style={{width: 52, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+            <div style={{color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Subtext</div>
+        </div>
+    </div>
+    <div style={{padding: 10, left: 426, top: 206, position: 'absolute', justifyContent: 'center', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Disabled, #D2DCE6)', borderRadius: 9999, border: '1px var(--Colors-Functional-Border-Border_Disabled, #B4C6D6) solid'}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    </div>
+    <div style={{padding: 10, left: 580, top: 206, position: 'absolute', justifyContent: 'center', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_ReadOnly, #D2DCE6)', borderRadius: 9999, border: '1px var(--Colors-Functional-Border-Border_ReadOnly, #B4C6D6) solid'}} />
+        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_ReadOnly, #4B5867)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+    </div>
+</div>

@@ -1,0 +1,87 @@
+/**
+ * Design System Fonts
+ * 
+ * This file contains the font-face declarations and font-related tokens
+ * for the Evaa Design System. It ensures that 'DM Sans' is available
+ * throughout the application.
+ */
+
+:root {
+  --FontFamily-Family: 'DM Sans', sans-serif;
+  --FontFamily-Family-2: 'DM Sans', sans-serif;
+  --FontFamily-Archivo: 'Archivo', sans-serif;
+  
+  /* Font Size Tokens */
+  --FontSize-Size80: 80px;
+  --FontSize-Size72: 72px;
+  --FontSize-Size64: 64px;
+  --FontSize-Size58: 58px;
+  --FontSize-Size48: 48px;
+  --FontSize-Size40: 40px;
+  --FontSize-Size-30: 30px;
+  --FontSize-Size-28: 28px;
+  --FontSize-Size-26: 26px;
+  --FontSize-Size-24: 24px;
+  --FontSize-Size-22: 22px;
+  --FontSize-Size-20: 20px;
+  --FontSize-Size-18: 18px;
+  --FontSize-Size-16: 16px;
+  --FontSize-Size-14: 14px;
+  --FontSize-Size-12: 12px;
+  --FontSize-Size-10: 10px;
+  --button-size-14: 14px;
+  
+  /* Font Type (Weight) Tokens */
+  --FontType-Thin: 100;
+  --FontType-Regular: 400;
+  --FontType-Medium: 500;
+  --FontType-SemiBold: 600;
+  --FontType-Bold: 700;
+  --FontType-ExtraBold: 800;
+  --FontType-Black: 900;
+  
+  /* Typography Types - Display */
+  --TypographyTypes-Display-Display1-Family: var(--FontFamily-Family-2);
+  --TypographyTypes-Display-Display1-Size: var(--FontSize-Size80);
+  --TypographyTypes-Display-Display1-Type: var(--FontType-Thin);
+  --TypographyTypes-Display-Display2-Family: var(--FontFamily-Family-2);
+  --TypographyTypes-Display-Display2-Size: var(--FontSize-Size72);
+  --TypographyTypes-Display-Display2-Type: var(--FontType-Thin);
+  --TypographyTypes-Display-Display3-Family: var(--FontFamily-Family-2);
+  --TypographyTypes-Display-Display3-Size: var(--FontSize-Size64);
+  --TypographyTypes-Display-Display3-Type: var(--FontType-Thin);
+  --TypographyTypes-Display-Display4-Family: var(--FontFamily-Family-2);
+  --TypographyTypes-Display-Display4-Size: var(--FontSize-Size58);
+  --TypographyTypes-Display-Display4-Type: var(--FontType-Thin);
+  --TypographyTypes-Display-Display5-Family: var(--FontFamily-Family-2);
+  --TypographyTypes-Display-Display5-Size: var(--FontSize-Size48);
+  --TypographyTypes-Display-Display5-Type: var(--FontType-Thin);
+  --TypographyTypes-Display-Display6-Family: var(--FontFamily-Family-2);
+  --TypographyTypes-Display-Display6-Size: var(--FontSize-Size40);
+  --TypographyTypes-Display-Display6-Type: var(--FontType-Thin);
+  
+  /* Typography Types - Heading */
+  --TypographyTypes-Heading-Heading1-Family: var(--FontFamily-Family);
+  --TypographyTypes-Heading-Heading1-Size: var(--FontSize-Size-30);
+  --TypographyTypes-Heading-Heading1-Font-Weight-Thin: var(--FontType-Thin);
+  --TypographyTypes-Heading-Heading1-Font-Weight-Regular: var(--FontType-Regular);
+  --TypographyTypes-Heading-Heading1-Font-Weight-Medium: var(--FontType-Medium);
+  --TypographyTypes-Heading-Heading1-Font-Weight-Semibold: var(--FontType-SemiBold);
+  --TypographyTypes-Heading-Heading1-Font-Weight-Extrabold: var(--FontType-ExtraBold);
+  --TypographyTypes-Heading-Heading1-Font-Weight-Black: var(--FontType-Black);
+  --TypographyTypes-Heading-Heading2-Family: var(--FontFamily-Family);
+  --TypographyTypes-Heading-Heading2-Size: var(--FontSize-Size-28);
+  --TypographyTypes-Heading-Heading2-Heading2: var(--FontType-SemiBold);
+  --TypographyTypes-Heading-Heading3-Family: var(--FontFamily-Family);
+  --TypographyTypes-Heading-Heading3-Size: var(--FontSize-Size-26);
+  --TypographyTypes-Heading-Heading3-Heading3: var(--FontType-SemiBold);
+  --TypographyTypes-Heading-Heading4-Family: var(--FontFamily-Family);
+  --TypographyTypes-Heading-Heading4-Size: var(--FontSize-Size-24);
+  --TypographyTypes-Heading-Heading4-Heading4: var(--FontType-SemiBold);
+  --TypographyTypes-Heading-Heading5-Family: var(--FontFamily-Family);
+  --TypographyTypes-Heading-Heading5-Size: var(--FontSize-Size-22);
+  --TypographyTypes-Heading-Heading5-Heading5: var(--FontType-SemiBold);
+  --TypographyTypes-Heading-Heading6-Family: var(--FontFamily-Family);
+  --TypographyTypes-Heading-Heading6-Size: var(--FontSize-Size-20);
+  --TypographyTypes-Heading-Heading6-Heading6: var(--FontType-SemiBold);
+}

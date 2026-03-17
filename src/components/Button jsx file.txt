@@ -1,0 +1,542 @@
+<div style={{width: '100%', height: '100%', position: 'relative', overflow: 'hidden', borderRadius: 5, border: '1px #9747FF solid'}}>
+    <div style={{height: 48, padding: 12, left: 500, top: 71, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Default, #118082)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 490, top: 953, position: 'absolute', background: 'var(--Colors-Buttons-BrandBtn-BrandBtn_Bkg_Default, #D72D8A)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 72, padding: 20, left: 946, top: 68, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Default, #118082)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 72, padding: 20, left: 946, top: 953, position: 'absolute', background: 'var(--Colors-Buttons-BrandBtn-BrandBtn_Bkg_Default, #D72D8A)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 500, top: 168, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Hover, #00575C)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 490, top: 1084, position: 'absolute', background: 'var(--Colors-Buttons-BrandBtn-BrandBtn_Bkg_Hover, #561237)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 72, padding: 20, left: 946, top: 163, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Hover, #00575C)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 72, padding: 20, left: 946, top: 1072, position: 'absolute', background: 'var(--Colors-Buttons-BrandBtn-BrandBtn_Bkg_Hover, #561237)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 500, top: 266, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Disabled, #EEF2F6)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 490, top: 1220, position: 'absolute', background: 'var(--Colors-Buttons-BrandBtn-BrandBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Disabled, #EEF2F6)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 72, padding: 20, left: 946, top: 259, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Disabled, #EEF2F6)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 72, padding: 20, left: 946, top: 1208, position: 'absolute', background: 'var(--Colors-Buttons-BrandBtn-BrandBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Disabled, #EEF2F6)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 503, top: 476, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Default, white)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Border_Default, #118082) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 72, paddingLeft: 16, paddingRight: 16, paddingTop: 20, paddingBottom: 20, left: 946, top: 464, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Default, white)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Border_Default, #118082) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 503, top: 582, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Hover, #71706C)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Hover, #71706C) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Hover, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 72, paddingLeft: 16, paddingRight: 16, paddingTop: 20, paddingBottom: 20, left: 946, top: 589, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Hover, #71706C)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Hover, #71706C) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Hover, white)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 503, top: 704, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Disabled, #8BA1B9) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Disabled, #EEF2F6)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 72, paddingLeft: 16, paddingRight: 16, paddingTop: 20, paddingBottom: 20, left: 946, top: 704, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Disabled, #8BA1B9) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Disabled, #EEF2F6)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 585, top: 71, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Default, #118082)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{width: 24, height: 24, position: 'relative'}}>
+            <div style={{width: 21, height: 21, left: 1.50, top: 1.50, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Default, white)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 730, top: 66, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Default, #118082)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 24, height: 24, position: 'relative'}}>
+            <div style={{width: 21, height: 21, left: 1.50, top: 1.50, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Default, white)'}} />
+        </div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 575, top: 953, position: 'absolute', background: 'var(--Colors-Buttons-BrandBtn-BrandBtn_Bkg_Default, #D72D8A)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{width: 24, height: 24, position: 'relative'}}>
+            <div style={{width: 21, height: 21, left: 1.50, top: 1.50, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Default, white)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 720, top: 953, position: 'absolute', background: 'var(--Colors-Buttons-BrandBtn-BrandBtn_Bkg_Default, #D72D8A)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 24, height: 24, position: 'relative'}}>
+            <div style={{width: 21, height: 21, left: 1.50, top: 1.50, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Default, white)'}} />
+        </div>
+    </div>
+    <div style={{height: 72, paddingLeft: 16, paddingRight: 16, paddingTop: 20, paddingBottom: 20, left: 1064, top: 68, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Default, #118082)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{width: 32, height: 32, position: 'relative'}}>
+            <div style={{width: 28, height: 28, left: 2, top: 2, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Default, white)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 72, paddingLeft: 16, paddingRight: 16, paddingTop: 20, paddingBottom: 20, left: 1217.75, top: 75, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Default, #118082)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 32, height: 32, position: 'relative'}}>
+            <div style={{width: 28, height: 28, left: 2, top: 2, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Default, white)'}} />
+        </div>
+    </div>
+    <div style={{height: 72, paddingLeft: 16, paddingRight: 16, paddingTop: 20, paddingBottom: 20, left: 1064, top: 953, position: 'absolute', background: 'var(--Colors-Buttons-BrandBtn-BrandBtn_Bkg_Default, #D72D8A)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{width: 32, height: 32, position: 'relative'}}>
+            <div style={{width: 28, height: 28, left: 2, top: 2, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Default, white)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 72, paddingLeft: 16, paddingRight: 16, paddingTop: 20, paddingBottom: 20, left: 1217.75, top: 953, position: 'absolute', background: 'var(--Colors-Buttons-BrandBtn-BrandBtn_Bkg_Default, #D72D8A)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 32, height: 32, position: 'relative'}}>
+            <div style={{width: 28, height: 28, left: 2, top: 2, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Default, white)'}} />
+        </div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 585, top: 168, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Hover, #00575C)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{width: 24, height: 24, position: 'relative'}}>
+            <div style={{width: 21, height: 21, left: 1.50, top: 1.50, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Hover, white)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 730, top: 163, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Hover, #00575C)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 24, height: 24, position: 'relative'}}>
+            <div style={{width: 21, height: 21, left: 1.50, top: 1.50, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Hover, white)'}} />
+        </div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 575, top: 1084, position: 'absolute', background: 'var(--Colors-Buttons-BrandBtn-BrandBtn_Bkg_Hover, #561237)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{width: 24, height: 24, position: 'relative'}}>
+            <div style={{width: 21, height: 21, left: 1.50, top: 1.50, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Hover, white)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 720, top: 1084, position: 'absolute', background: 'var(--Colors-Buttons-BrandBtn-BrandBtn_Bkg_Hover, #561237)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 24, height: 24, position: 'relative'}}>
+            <div style={{width: 21, height: 21, left: 1.50, top: 1.50, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Hover, white)'}} />
+        </div>
+    </div>
+    <div style={{height: 72, paddingLeft: 16, paddingRight: 16, paddingTop: 20, paddingBottom: 20, left: 1064, top: 163, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Hover, #00575C)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{width: 32, height: 32, position: 'relative'}}>
+            <div style={{width: 28, height: 28, left: 2, top: 2, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Hover, white)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 72, paddingLeft: 16, paddingRight: 16, paddingTop: 20, paddingBottom: 20, left: 1217.75, top: 170, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Hover, #00575C)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 32, height: 32, position: 'relative'}}>
+            <div style={{width: 28, height: 28, left: 2, top: 2, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Hover, white)'}} />
+        </div>
+    </div>
+    <div style={{height: 72, paddingLeft: 16, paddingRight: 16, paddingTop: 20, paddingBottom: 20, left: 1064, top: 1072, position: 'absolute', background: 'var(--Colors-Buttons-BrandBtn-BrandBtn_Bkg_Hover, #561237)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{width: 32, height: 32, position: 'relative'}}>
+            <div style={{width: 28, height: 28, left: 2, top: 2, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Hover, white)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 72, paddingLeft: 16, paddingRight: 16, paddingTop: 20, paddingBottom: 20, left: 1217.75, top: 1072, position: 'absolute', background: 'var(--Colors-Buttons-BrandBtn-BrandBtn_Bkg_Hover, #561237)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 32, height: 32, position: 'relative'}}>
+            <div style={{width: 28, height: 28, left: 2, top: 2, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Hover, white)'}} />
+        </div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 585, top: 266, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{width: 24, height: 24, position: 'relative'}}>
+            <div style={{width: 21, height: 21, left: 1.50, top: 1.50, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Disabled, #EEF2F6)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Disabled, #EEF2F6)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 730, top: 261, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Disabled, #EEF2F6)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 24, height: 24, position: 'relative'}}>
+            <div style={{width: 21, height: 21, left: 1.50, top: 1.50, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Disabled, #EEF2F6)'}} />
+        </div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 575, top: 1220, position: 'absolute', background: 'var(--Colors-Buttons-BrandBtn-BrandBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{width: 24, height: 24, position: 'relative'}}>
+            <div style={{width: 21, height: 21, left: 1.50, top: 1.50, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Disabled, #EEF2F6)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Disabled, #EEF2F6)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 720, top: 1220, position: 'absolute', background: 'var(--Colors-Buttons-BrandBtn-BrandBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Disabled, #EEF2F6)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 24, height: 24, position: 'relative'}}>
+            <div style={{width: 21, height: 21, left: 1.50, top: 1.50, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Disabled, #EEF2F6)'}} />
+        </div>
+    </div>
+    <div style={{height: 72, paddingLeft: 16, paddingRight: 16, paddingTop: 20, paddingBottom: 20, left: 1064, top: 259, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{width: 32, height: 32, position: 'relative'}}>
+            <div style={{width: 28, height: 28, left: 2, top: 2, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Disabled, #EEF2F6)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Disabled, #EEF2F6)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 72, paddingLeft: 16, paddingRight: 16, paddingTop: 20, paddingBottom: 20, left: 1217.75, top: 266, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Disabled, #EEF2F6)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 32, height: 32, position: 'relative'}}>
+            <div style={{width: 28, height: 28, left: 2, top: 2, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Disabled, #EEF2F6)'}} />
+        </div>
+    </div>
+    <div style={{height: 72, paddingLeft: 16, paddingRight: 16, paddingTop: 20, paddingBottom: 20, left: 1064, top: 1208, position: 'absolute', background: 'var(--Colors-Buttons-BrandBtn-BrandBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{width: 32, height: 32, position: 'relative'}}>
+            <div style={{width: 28, height: 28, left: 2, top: 2, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Disabled, #EEF2F6)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Disabled, #EEF2F6)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 72, paddingLeft: 16, paddingRight: 16, paddingTop: 20, paddingBottom: 20, left: 1217.75, top: 1208, position: 'absolute', background: 'var(--Colors-Buttons-BrandBtn-BrandBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Disabled, #EEF2F6)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 32, height: 32, position: 'relative'}}>
+            <div style={{width: 28, height: 28, left: 2, top: 2, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Disabled, #EEF2F6)'}} />
+        </div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 588, top: 476, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Default, white)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Border_Default, #118082) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{width: 24, height: 24, position: 'relative'}}>
+            <div style={{width: 21, height: 21, left: 1.50, top: 1.50, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 733, top: 476, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Default, white)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Border_Default, #118082) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 24, height: 24, position: 'relative'}}>
+            <div style={{width: 21, height: 21, left: 1.50, top: 1.50, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)'}} />
+        </div>
+    </div>
+    <div style={{height: 72, paddingLeft: 16, paddingRight: 16, paddingTop: 20, paddingBottom: 20, left: 1063, top: 464, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Default, white)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Border_Default, #118082) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{width: 32, height: 32, position: 'relative'}}>
+            <div style={{width: 28, height: 28, left: 2, top: 2, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 72, paddingLeft: 16, paddingRight: 16, paddingTop: 20, paddingBottom: 20, left: 1216.75, top: 464, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Default, white)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Border_Default, #118082) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 32, height: 32, position: 'relative'}}>
+            <div style={{width: 28, height: 28, left: 2, top: 2, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)'}} />
+        </div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 588, top: 582, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Hover, #71706C)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Hover, #71706C) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{width: 24, height: 24, position: 'relative'}}>
+            <div style={{width: 21, height: 21, left: 1.50, top: 1.50, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Icon_Hover, white)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Hover, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 733, top: 582, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Hover, #71706C)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Hover, #71706C) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Hover, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 24, height: 24, position: 'relative'}}>
+            <div style={{width: 21, height: 21, left: 1.50, top: 1.50, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Icon_Hover, white)'}} />
+        </div>
+    </div>
+    <div style={{height: 72, paddingLeft: 16, paddingRight: 16, paddingTop: 20, paddingBottom: 20, left: 1064, top: 589, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Hover, #71706C)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Hover, #71706C) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{width: 32, height: 32, position: 'relative'}}>
+            <div style={{width: 28, height: 28, left: 2, top: 2, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Icon_Hover, white)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Hover, white)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 72, paddingLeft: 16, paddingRight: 16, paddingTop: 20, paddingBottom: 20, left: 1217.75, top: 596, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Hover, #71706C)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Hover, #71706C) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Hover, white)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 32, height: 32, position: 'relative'}}>
+            <div style={{width: 28, height: 28, left: 2, top: 2, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Icon_Hover, white)'}} />
+        </div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 588, top: 704, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Disabled, #8BA1B9) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{width: 24, height: 24, position: 'relative'}}>
+            <div style={{width: 21, height: 21, left: 1.50, top: 1.50, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Icon_Disabled, #EDF8FF)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Disabled, #EEF2F6)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 733, top: 704, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Disabled, #8BA1B9) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Disabled, #EEF2F6)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 24, height: 24, position: 'relative'}}>
+            <div style={{width: 21, height: 21, left: 1.50, top: 1.50, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Icon_Disabled, #EDF8FF)'}} />
+        </div>
+    </div>
+    <div style={{height: 72, paddingLeft: 16, paddingRight: 16, paddingTop: 20, paddingBottom: 20, left: 1064, top: 704, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Disabled, #8BA1B9) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{width: 32, height: 32, position: 'relative'}}>
+            <div style={{width: 28, height: 28, left: 2, top: 2, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Icon_Disabled, #EDF8FF)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Disabled, #EEF2F6)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 72, paddingLeft: 16, paddingRight: 16, paddingTop: 20, paddingBottom: 20, left: 1217.75, top: 711, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Disabled, #8BA1B9) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Disabled, #EEF2F6)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 32, height: 32, position: 'relative'}}>
+            <div style={{width: 28, height: 28, left: 2, top: 2, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Icon_Disabled, #EDF8FF)'}} />
+        </div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 78, top: 81, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Default, #118082)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 68, top: 971, position: 'absolute', background: 'var(--Colors-Buttons-BrandBtn-BrandBtn_Bkg_Default, #D72D8A)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 78, top: 195, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Hover, #00575C)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 68, top: 1109, position: 'absolute', background: 'var(--Colors-Buttons-BrandBtn-BrandBtn_Bkg_Hover, #561237)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 78, top: 309, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Disabled, #EEF2F6)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 68, top: 1245, position: 'absolute', background: 'var(--Colors-Buttons-BrandBtn-BrandBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Disabled, #EEF2F6)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 81, top: 500, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Default, white)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Border_Default, #118082) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 81, top: 606, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Hover, #71706C)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Hover, #71706C) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Hover, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 81, top: 735, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Disabled, #8BA1B9) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Disabled, #EEF2F6)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 175, top: 81, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Default, #118082)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, position: 'relative'}}>
+            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Default, white)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 165, top: 971, position: 'absolute', background: 'var(--Colors-Buttons-BrandBtn-BrandBtn_Bkg_Default, #D72D8A)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, position: 'relative'}}>
+            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Default, white)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 175, top: 196, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Hover, #00575C)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, position: 'relative'}}>
+            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Hover, white)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 165, top: 1109, position: 'absolute', background: 'var(--Colors-Buttons-BrandBtn-BrandBtn_Bkg_Hover, #561237)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, position: 'relative'}}>
+            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Hover, white)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 175, top: 311, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, position: 'relative'}}>
+            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Disabled, #EEF2F6)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Disabled, #EEF2F6)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 165, top: 1245, position: 'absolute', background: 'var(--Colors-Buttons-BrandBtn-BrandBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, position: 'relative'}}>
+            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Disabled, #EEF2F6)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Disabled, #EEF2F6)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 178, top: 500, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Default, white)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Border_Default, #118082) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, position: 'relative'}}>
+            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 178, top: 606, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Hover, #71706C)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Hover, #71706C) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, position: 'relative'}}>
+            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Icon_Hover, white)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Hover, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 178, top: 735, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Disabled, #8BA1B9) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, position: 'relative'}}>
+            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Icon_Disabled, #EDF8FF)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Disabled, #EEF2F6)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 302, top: 83, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Default, #118082)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 16, height: 16, position: 'relative'}}>
+            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Default, white)'}} />
+        </div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 302, top: 198, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Hover, #00575C)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 16, height: 16, position: 'relative'}}>
+            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Hover, white)'}} />
+        </div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 302, top: 313, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Disabled, #EEF2F6)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 16, height: 16, position: 'relative'}}>
+            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Disabled, #EEF2F6)'}} />
+        </div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 305, top: 500, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Default, white)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Border_Default, #118082) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 16, height: 16, position: 'relative'}}>
+            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)'}} />
+        </div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 305, top: 606, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Hover, #71706C)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Hover, #71706C) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Hover, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 16, height: 16, position: 'relative'}}>
+            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Icon_Hover, white)'}} />
+        </div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 305, top: 735, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Disabled, #8BA1B9) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Disabled, #EEF2F6)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 16, height: 16, position: 'relative'}}>
+            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Icon_Disabled, #EDF8FF)'}} />
+        </div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 292, top: 971, position: 'absolute', background: 'var(--Colors-Buttons-BrandBtn-BrandBtn_Bkg_Default, #D72D8A)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 16, height: 16, position: 'relative'}}>
+            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Default, white)'}} />
+        </div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 292, top: 1109, position: 'absolute', background: 'var(--Colors-Buttons-BrandBtn-BrandBtn_Bkg_Hover, #561237)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 16, height: 16, position: 'relative'}}>
+            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Hover, white)'}} />
+        </div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 292, top: 1245, position: 'absolute', background: 'var(--Colors-Buttons-BrandBtn-BrandBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Disabled, #EEF2F6)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 16, height: 16, position: 'relative'}}>
+            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Disabled, #EEF2F6)'}} />
+        </div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 77.50, top: 1463, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Bkg_Default, #5E981D)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Label_Default, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 501.50, top: 1470, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Bkg_Default, #5E981D)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Label_Default, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 72, padding: 20, left: 946, top: 1467, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Bkg_Default, #5E981D)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Label_Default, white)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 77.50, top: 1576, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Bkg_Hover, #325B04)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Label_Hover, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 501.50, top: 1584, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Bkg_Hover, #325B04)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Label_Hover, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 72, padding: 20, left: 946, top: 1562, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Bkg_Hover, #325B04)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Label_Hover, white)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 77.50, top: 1690, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Label_Disabled, #EEF2F6)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 501.50, top: 1682, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Label_Disabled, #EEF2F6)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 72, padding: 20, left: 946, top: 1658, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Label_Disabled, #EEF2F6)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 174.50, top: 1463, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Bkg_Default, #5E981D)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, position: 'relative'}}>
+            <div style={{width: 14, height: 12.13, left: 1, top: 1.93, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Icon_Default, white)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Label_Default, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 585.50, top: 1470, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Bkg_Default, #5E981D)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{width: 24, height: 24, position: 'relative'}}>
+            <div style={{width: 20, height: 17.33, left: 2, top: 3.33, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Icon_Default, white)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Label_Default, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 718, top: 1470, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Bkg_Default, #5E981D)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Label_Default, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 24, height: 24, position: 'relative'}}>
+            <div style={{width: 20, height: 17.33, left: 2, top: 3.33, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Icon_Default, white)'}} />
+        </div>
+    </div>
+    <div style={{height: 72, paddingLeft: 16, paddingRight: 16, paddingTop: 20, paddingBottom: 20, left: 1064, top: 1467, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Bkg_Default, #5E981D)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{width: 32, height: 32, position: 'relative'}}>
+            <div style={{width: 28, height: 24.27, left: 2, top: 3.87, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Icon_Default, white)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Label_Default, white)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 72, paddingLeft: 16, paddingRight: 16, paddingTop: 20, paddingBottom: 20, left: 1217.75, top: 1467, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Bkg_Default, #5E981D)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Label_Default, white)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 32, height: 32, position: 'relative'}}>
+            <div style={{width: 28, height: 24.27, left: 2, top: 3.87, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Icon_Default, white)'}} />
+        </div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 174.50, top: 1577, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Bkg_Hover, #325B04)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, position: 'relative'}}>
+            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Icon_Hover, white)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Label_Hover, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 586.50, top: 1584, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Bkg_Hover, #325B04)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{width: 24, height: 24, position: 'relative'}}>
+            <div style={{width: 21, height: 21, left: 1.50, top: 1.50, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Icon_Hover, white)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Label_Hover, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 718, top: 1584, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Bkg_Hover, #325B04)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Label_Hover, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 24, height: 24, position: 'relative'}}>
+            <div style={{width: 21, height: 21, left: 1.50, top: 1.50, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Icon_Hover, white)'}} />
+        </div>
+    </div>
+    <div style={{height: 72, paddingLeft: 16, paddingRight: 16, paddingTop: 20, paddingBottom: 20, left: 1064, top: 1562, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Bkg_Hover, #325B04)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{width: 32, height: 32, position: 'relative'}}>
+            <div style={{width: 28, height: 28, left: 2, top: 2, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Icon_Hover, white)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Label_Hover, white)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 72, paddingLeft: 16, paddingRight: 16, paddingTop: 20, paddingBottom: 20, left: 1217.75, top: 1569, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Bkg_Hover, #325B04)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Label_Hover, white)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 32, height: 32, position: 'relative'}}>
+            <div style={{width: 28, height: 28, left: 2, top: 2, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Icon_Hover, white)'}} />
+        </div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 174.50, top: 1692, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{width: 16, height: 16, position: 'relative'}}>
+            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Icon_Disabled, #EEF2F6)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Label_Disabled, #EEF2F6)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 586.50, top: 1682, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{width: 24, height: 24, position: 'relative'}}>
+            <div style={{width: 21, height: 21, left: 1.50, top: 1.50, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Icon_Disabled, #EEF2F6)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Label_Disabled, #EEF2F6)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 48, padding: 12, left: 718, top: 1682, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Label_Disabled, #EEF2F6)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 24, height: 24, position: 'relative'}}>
+            <div style={{width: 21, height: 21, left: 1.50, top: 1.50, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Icon_Disabled, #EEF2F6)'}} />
+        </div>
+    </div>
+    <div style={{height: 72, paddingLeft: 16, paddingRight: 16, paddingTop: 20, paddingBottom: 20, left: 1064, top: 1658, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{width: 32, height: 32, position: 'relative'}}>
+            <div style={{width: 28, height: 28, left: 2, top: 2, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Icon_Disabled, #EEF2F6)'}} />
+        </div>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Label_Disabled, #EEF2F6)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+    </div>
+    <div style={{height: 72, paddingLeft: 16, paddingRight: 16, paddingTop: 20, paddingBottom: 20, left: 1217.75, top: 1665, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 12, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Label_Disabled, #EEF2F6)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 26.19, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 32, height: 32, position: 'relative'}}>
+            <div style={{width: 28, height: 28, left: 2, top: 2, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Icon_Disabled, #EEF2F6)'}} />
+        </div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 291.50, top: 1463, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Bkg_Default, #5E981D)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Label_Default, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 16, height: 16, position: 'relative'}}>
+            <div style={{width: 14, height: 12.13, left: 1, top: 1.93, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Icon_Default, white)'}} />
+        </div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 291.50, top: 1579, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Bkg_Hover, #325B04)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Label_Hover, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 16, height: 16, position: 'relative'}}>
+            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Icon_Hover, white)'}} />
+        </div>
+    </div>
+    <div style={{height: 35, padding: 10, left: 291.50, top: 1694, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Bkg_Disabled, #8BA1B9)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Label_Disabled, #EEF2F6)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>LABEL</div>
+        <div style={{width: 16, height: 16, position: 'relative'}}>
+            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Buttons-SuccessBtn-BrandBtn_Icon_Disabled, #EEF2F6)'}} />
+        </div>
+    </div>
+</div>

@@ -1,0 +1,54 @@
+@import "./styles/fonts.css";
+@import "./styles/theme.css";
+@import "./styles/typography-tokens.css";
+@import "tailwindcss";
+@import "./components/BaseButton.css";
+@import "./components/PillBadge.css";
+@import "./components/StateBadge.css";
+@import "./components/Checkbox.css";
+@import "./components/DatePicker.css";
+
+@theme {
+  --color-primary: var(--colors-primitive-color-tokens-teal-700);
+  --color-primary-foreground: var(--colors-primitive-color-tokens-neutrals-static-white);
+  --color-secondary: var(--colors-primitive-color-tokens-neutrals-bkg-700);
+  --color-secondary-foreground: var(--colors-primitive-color-tokens-neutrals-static-white);
+  --color-destructive: var(--colors-primitive-color-tokens-red-500);
+  --color-destructive-foreground: var(--colors-primitive-color-tokens-neutrals-static-white);
+  --color-muted: var(--colors-primitive-color-tokens-neutrals-inactive-100);
+  --color-muted-foreground: var(--colors-primitive-color-tokens-neutrals-bkg-600);
+  --color-accent: var(--colors-primitive-color-tokens-teal-500);
+  --color-accent-foreground: var(--colors-primitive-color-tokens-neutrals-static-white);
+  --color-background: var(--colors-primitive-color-tokens-neutrals-static-white);
+  --color-foreground: var(--colors-primitive-color-tokens-neutrals-bkg-800);
+  --color-border: var(--colors-primitive-color-tokens-neutrals-bkg-400);
+  --color-input: var(--colors-primitive-color-tokens-neutrals-bkg-400);
+  --color-ring: var(--colors-primitive-color-tokens-teal-500);
+
+  --font-sans: var(--FontFamily-Family);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-sans);
+  }
+
+  /* Custom Scrollbar */
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 12px;
+    border-radius: 11px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: var(--colors-primitive-color-tokens-neutrals-bkg-300);
+    border-radius: 11px;
+  }
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background: var(--colors-primitive-color-tokens-neutrals-bkg-500);
+    border-radius: 11px;
+    border: 1px solid var(--colors-primitive-color-tokens-neutrals-bkg-400);
+  }
+}

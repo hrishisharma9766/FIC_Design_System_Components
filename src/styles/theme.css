@@ -1,0 +1,274 @@
+/**
+ * Design System Theme Tokens
+ * 
+ * This file centralizes the color and functional tokens exported from Figma.
+ * These variables are mapped to Tailwind CSS theme colors in index.css.
+ */
+
+:root {
+  /* Primitive Color Tokens - Neutrals */
+  --colors-primitive-color-tokens-neutrals-bkg-100: #F6F6F3;
+  --font-size: 16px;
+  
+  /* Font Family Tokens */
+  --FontFamily-Family: 'DM Sans', sans-serif;
+  --FontFamily-Family-2: 'DM Sans', sans-serif;
+  
+  /* Font Size Tokens */
+  --FontSize-Size80: 80px;
+  --FontSize-Size72: 72px;
+  --FontSize-Size64: 64px;
+  --FontSize-Size58: 58px;
+  --FontSize-Size48: 48px;
+  --FontSize-Size40: 40px;
+  --FontSize-Size-30: 30px;
+  --FontSize-Size-28: 28px;
+  --FontSize-Size-26: 26px;
+  --FontSize-Size-24: 24px;
+  --FontSize-Size-22: 22px;
+  --FontSize-Size-20: 20px;
+  --FontSize-Size-18: 18px;
+  --FontSize-Size-16: 16px;
+  --FontSize-Size-14: 14px;
+  --FontSize-Size-12: 12px;
+  --FontSize-Size-10: 10px;
+  --button-size-14: 14px;
+  
+  /* Font Type (Weight) Tokens */
+  --FontType-Thin: 100;
+  --FontType-Regular: 400;
+  --FontType-Medium: 500;
+  --FontType-SemiBold: 600;
+  --FontType-Bold: 700;
+  --FontType-ExtraBold: 800;
+  --FontType-Black: 900;
+  
+  /* Typography Tokens - Mode 1 */
+  --TypographyTypes-Display-Display1-Family: var(--FontFamily-Family-2);
+  --TypographyTypes-Display-Display1-Size: var(--FontSize-Size80);
+  --TypographyTypes-Display-Display1-Type: var(--FontType-Thin);
+  --TypographyTypes-Display-Display2-Family: var(--FontFamily-Family-2);
+  --TypographyTypes-Display-Display2-Size: var(--FontSize-Size72);
+  --TypographyTypes-Display-Display2-Type: var(--FontType-Thin);
+  --TypographyTypes-Display-Display3-Family: var(--FontFamily-Family-2);
+  --TypographyTypes-Display-Display3-Size: var(--FontSize-Size64);
+  --TypographyTypes-Display-Display3-Type: var(--FontType-Thin);
+  --TypographyTypes-Display-Display4-Family: var(--FontFamily-Family-2);
+  --TypographyTypes-Display-Display4-Size: var(--FontSize-Size58);
+  --TypographyTypes-Display-Display4-Type: var(--FontType-Thin);
+  --TypographyTypes-Display-Display5-Family: var(--FontFamily-Family-2);
+  --TypographyTypes-Display-Display5-Size: var(--FontSize-Size48);
+  --TypographyTypes-Display-Display5-Type: var(--FontType-Thin);
+  --TypographyTypes-Display-Display6-Family: var(--FontFamily-Family-2);
+  --TypographyTypes-Display-Display6-Size: var(--FontSize-Size40);
+  --TypographyTypes-Display-Display6-Type: var(--FontType-Thin);
+  --TypographyTypes-Heading-Heading1-Family: var(--FontFamily-Family);
+  --TypographyTypes-Fs-fs-xm-10-Family: var(--FontFamily-Family);
+  --TypographyTypes-Body-Family: var(--FontFamily-Family);
+  --TypographyTypes-Body-Size: var(--FontSize-Size-14);
+  --TypographyTypes-Body-Type: var(--FontType-Regular);
+  --TypographyTypes-Fs-fs-xm-10-Size: var(--FontSize-Size-10);
+  --TypographyTypes-Fs-fs-xm-10-Extrabold: var(--FontType-ExtraBold);
+  --TypographyTypes-Fs-fs-xm-10-Medium: var(--FontType-Medium);
+  --TypographyTypes-Fs-fs-xm-10-Regular: var(--FontType-Medium);
+  --TypographyTypes-Fs-fs-sm-12-Family: var(--FontFamily-Family);
+  --TypographyTypes-Fs-fs-sm-12-Size: var(--FontSize-Size-12);
+  --TypographyTypes-Fs-fs-sm-12-fs-sm: var(--FontType-Medium);
+  --TypographyTypes-Fs-fs-sm-12-fs-sm-Regular: var(--FontType-Regular);
+  --TypographyTypes-Heading-Heading1-Size: var(--FontSize-Size-30);
+  --TypographyTypes-Heading-Heading1-Font-Weight-Thin: var(--FontType-Thin);
+  --TypographyTypes-Heading-Heading1-Font-Weight-Regular: var(--FontType-Regular);
+  --TypographyTypes-Heading-Heading1-Font-Weight-Medium: var(--FontType-Medium);
+  --TypographyTypes-Heading-Heading1-Font-Weight-Semibold: var(--FontType-SemiBold);
+  --TypographyTypes-Heading-Heading1-Font-Weight-Extrabold: var(--FontType-ExtraBold);
+  --TypographyTypes-Heading-Heading1-Font-Weight-Black: var(--FontType-Black);
+  --TypographyTypes-Heading-Heading2-Family: var(--FontFamily-Family);
+  --TypographyTypes-Heading-Heading2-Size: var(--FontSize-Size-28);
+  --TypographyTypes-Heading-Heading2-Heading2: var(--FontType-SemiBold);
+  --TypographyTypes-Heading-Heading3-Family: var(--FontFamily-Family);
+  --TypographyTypes-Heading-Heading4-Family: var(--FontFamily-Family);
+  --TypographyTypes-Heading-Heading4-Size: var(--FontSize-Size-24);
+  --TypographyTypes-Heading-Heading4-Heading4: var(--FontType-SemiBold);
+  --TypographyTypes-Heading-Heading3-Size: var(--FontSize-Size-26);
+  --TypographyTypes-Heading-Heading3-Heading3: var(--FontType-SemiBold);
+  --TypographyTypes-Heading-Heading5-Family: var(--FontFamily-Family);
+  --TypographyTypes-Heading-Heading5-Size: var(--FontSize-Size-22);
+  --TypographyTypes-Heading-Heading5-Heading5: var(--FontType-SemiBold);
+  --TypographyTypes-Heading-Heading6-Family: var(--FontFamily-Family);
+  --TypographyTypes-Heading-Heading6-Size: var(--FontSize-Size-20);
+  --TypographyTypes-Heading-Heading6-Heading6: var(--FontType-SemiBold);
+  --TypographyTypes-Heading-SubHeading1-Family: var(--FontFamily-Family);
+  --TypographyTypes-Heading-SubHeading1-Size: var(--FontSize-Size-18);
+  --TypographyTypes-Heading-SubHeading1-Sbh1SemiBold: var(--FontType-SemiBold);
+  --TypographyTypes-Heading-SubHeading1-Sbh1ExtraBold: var(--FontType-ExtraBold);
+  --TypographyTypes-Heading-SubHeading1-Sbh1Regular: var(--FontType-Regular);
+  --TypographyTypes-Heading-SubHeading1-Sbh1Medium: var(--FontType-Medium);
+  --TypographyTypes-Heading-SubHeading2-Family: var(--FontFamily-Family);
+  --TypographyTypes-Heading-SubHeading3-Family: var(--FontFamily-Family);
+  --TypographyTypes-Heading-SubHeading3-Size: var(--FontSize-Size-14);
+  --TypographyTypes-Heading-SubHeading3-Sbh3ExtraBold: var(--FontType-ExtraBold);
+  --TypographyTypes-Heading-SubHeading3-Sbh3Semibold: var(--FontType-SemiBold);
+  --TypographyTypes-Heading-SubHeading3-Sbh3Medium: var(--FontType-Medium);
+  --TypographyTypes-Heading-SubHeading3-Sbh3Regular: var(--FontType-Regular);
+  --TypographyTypes-Heading-SubHeading3-Sbh3Black: var(--FontType-Black);
+  --TypographyTypes-Heading-SubHeading2-Size: var(--FontSize-Size-16);
+  --TypographyTypes-Heading-SubHeading2-Sbh2SemiBold: var(--FontType-SemiBold);
+  --TypographyTypes-Heading-SubHeading2-Sbh2ExtraBold: var(--FontType-ExtraBold);
+  --TypographyTypes-Heading-SubHeading2-Sbh2Medium: var(--FontType-Medium);
+  --TypographyTypes-Heading-SubHeading2-Sbh2Regular: var(--FontType-Regular);
+  --TypographyTypes-ButtonsTypography-Standard_Button-Family: var(--FontFamily-Family);
+  --TypographyTypes-ButtonsTypography-Standard_Button-Size: var(--button-size-14);
+  --TypographyTypes-ButtonsTypography-Standard_Button-Type: var(--FontType-ExtraBold);
+  --txt_textbox: var(--txt-ButtonLabelPrimary);
+  
+  /* Evaa Design System - Primitive Color Tokens */
+  --colors-primitive-color-tokens-blue-50: #edf8ff;
+  --colors-primitive-color-tokens-blue-100: #d2edff;
+  --colors-primitive-color-tokens-blue-200: #b4e1ff;
+  --colors-primitive-color-tokens-blue-300: #94d4ff;
+  --colors-primitive-color-tokens-blue-400: #64b9f2;
+  --colors-primitive-color-tokens-blue-500: #35a0e7;
+  --colors-primitive-color-tokens-blue-600: #1a77b4;
+  --colors-primitive-color-tokens-blue-700: #195f8e;
+  --colors-primitive-color-tokens-blue-800: #024572;
+  
+  --colors-primitive-color-tokens-fuscia-50: #feecf6;
+  --colors-primitive-color-tokens-fuscia-100: #ffdaef;
+  --colors-primitive-color-tokens-fuscia-200: #ffaeda;
+  --colors-primitive-color-tokens-fuscia-300: #f387c2;
+  --colors-primitive-color-tokens-fuscia-400: #e65ca7;
+  --colors-primitive-color-tokens-fuscia-500: #d72d8a;
+  --colors-primitive-color-tokens-fuscia-600: #ac246e;
+  --colors-primitive-color-tokens-fuscia-700: #811b53;
+  --colors-primitive-color-tokens-fuscia-800: #561237;
+  
+  --colors-primitive-color-tokens-lime-50: #f0fae2;
+  --colors-primitive-color-tokens-lime-100: #eeffd6;
+  --colors-primitive-color-tokens-lime-200: #daf3b9;
+  --colors-primitive-color-tokens-lime-300: #c5ed91;
+  --colors-primitive-color-tokens-lime-400: #abdd65;
+  --colors-primitive-color-tokens-lime-500: #92d03d;
+  --colors-primitive-color-tokens-lime-600: #5e981d;
+  --colors-primitive-color-tokens-lime-700: #578421;
+  --colors-primitive-color-tokens-lime-800: #325b04;
+  
+  --colors-primitive-color-tokens-neutrals-bkg-50: #f9f9f6;
+  --colors-primitive-color-tokens-neutrals-bkg-100: #f6f6f1;
+  --colors-primitive-color-tokens-neutrals-bkg-200: #efeeea;
+  --colors-primitive-color-tokens-neutrals-bkg-300: #e5e4dd;
+  --colors-primitive-color-tokens-neutrals-bkg-400: #c3c1b5;
+  --colors-primitive-color-tokens-neutrals-bkg-500: #959490;
+  --colors-primitive-color-tokens-neutrals-bkg-600: #71706c;
+  --colors-primitive-color-tokens-neutrals-bkg-700: #4b4b4a;
+  --colors-primitive-color-tokens-neutrals-bkg-800: #303030;
+  
+  --colors-primitive-color-tokens-neutrals-inactive-50: #f4f8fb;
+  --colors-primitive-color-tokens-neutrals-inactive-100: #eef2f6;
+  --colors-primitive-color-tokens-neutrals-inactive-200: #d2dce6;
+  --colors-primitive-color-tokens-neutrals-inactive-300: #b4c6d6;
+  --colors-primitive-color-tokens-neutrals-inactive-400: #8ba1b9;
+  --colors-primitive-color-tokens-neutrals-inactive-500: #6a809a;
+  --colors-primitive-color-tokens-neutrals-inactive-600: #4b5867;
+  --colors-primitive-color-tokens-neutrals-inactive-700: #2c3a4a;
+  --colors-primitive-color-tokens-neutrals-inactive-800: #101725;
+  
+  --colors-primitive-color-tokens-neutrals-static-black: #000000;
+  --colors-primitive-color-tokens-neutrals-static-white: #ffffff;
+  
+  --colors-primitive-color-tokens-orange-50: #fff3e6;
+  --colors-primitive-color-tokens-orange-100: #ffe9d3;
+  --colors-primitive-color-tokens-orange-200: #ffd3b1;
+  --colors-primitive-color-tokens-orange-300: #ffbe8d;
+  --colors-primitive-color-tokens-orange-400: #ffa663;
+  --colors-primitive-color-tokens-orange-500: #f27e25;
+  --colors-primitive-color-tokens-orange-600: #b4530e;
+  --colors-primitive-color-tokens-orange-700: #944b1d;
+  --colors-primitive-color-tokens-orange-800: #6e3000;
+  
+  --colors-primitive-color-tokens-red-50: #ffeae9;
+  --colors-primitive-color-tokens-red-100: #ffd3d2;
+  --colors-primitive-color-tokens-red-200: #ffb0ae;
+  --colors-primitive-color-tokens-red-300: #ff8884;
+  --colors-primitive-color-tokens-red-400: #f1605b;
+  --colors-primitive-color-tokens-red-500: #e73d36;
+  --colors-primitive-color-tokens-red-600: #c9221c;
+  --colors-primitive-color-tokens-red-700: #9a1712;
+  --colors-primitive-color-tokens-red-800: #860501;
+  
+  --colors-primitive-color-tokens-teal-50: #edf8ff;
+  --colors-primitive-color-tokens-teal-100: #d6fffb;
+  --colors-primitive-color-tokens-teal-200: #b1f4ed;
+  --colors-primitive-color-tokens-teal-300: #70e5dd;
+  --colors-primitive-color-tokens-teal-400: #4ecfca;
+  --colors-primitive-color-tokens-teal-500: #27bcb7;
+  --colors-primitive-color-tokens-teal-600: #21a49f;
+  --colors-primitive-color-tokens-teal-700: #118082;
+  --colors-primitive-color-tokens-teal-800: #00575c;
+  
+  --colors-primitive-color-tokens-yellow-50: #fffaea;
+  --colors-primitive-color-tokens-yellow-100: #fff4cd;
+  --colors-primitive-color-tokens-yellow-200: #ffeaac;
+  --colors-primitive-color-tokens-yellow-300: #ffda7f;
+  --colors-primitive-color-tokens-yellow-400: #f7c544;
+  --colors-primitive-color-tokens-yellow-500: #f3b51e;
+  --colors-primitive-color-tokens-yellow-600: #d49a05;
+  --colors-primitive-color-tokens-yellow-700: #976e00;
+  --colors-primitive-color-tokens-yellow-800: #7c5300;
+  
+  /* Evaa Design System - Button Variables */
+  /* Primary Button */
+  --colors-buttons-primary-btn-primary-btn-bkg-default: var(--colors-primitive-color-tokens-teal-700);
+  --colors-buttons-primary-btn-primary-btn-bkg-disabled: var(--colors-primitive-color-tokens-neutrals-inactive-400);
+  --colors-buttons-primary-btn-primary-btn-bkg-hover: var(--colors-primitive-color-tokens-teal-800);
+  --colors-buttons-primary-btn-primary-btn-icon-default: var(--colors-primitive-color-tokens-neutrals-static-white);
+  --colors-buttons-primary-btn-primary-btn-icon-disabled: var(--colors-primitive-color-tokens-neutrals-inactive-100);
+  --colors-buttons-primary-btn-primary-btn-icon-hover: var(--colors-primitive-color-tokens-neutrals-static-white);
+  --colors-buttons-primary-btn-primary-btn-label-default: var(--colors-primitive-color-tokens-neutrals-static-white);
+  --colors-buttons-primary-btn-primary-btn-label-disabled: var(--colors-primitive-color-tokens-neutrals-inactive-100);
+  --colors-buttons-primary-btn-primary-btn-label-hover: var(--colors-primitive-color-tokens-neutrals-static-white);
+  
+  /* Secondary Button */
+  --colors-buttons-secondary-btn-secondary-btn-bkg-default: var(--colors-primitive-color-tokens-neutrals-static-white);
+  --colors-buttons-secondary-btn-secondary-btn-bkg-disabled: var(--colors-primitive-color-tokens-neutrals-inactive-400);
+  --colors-buttons-secondary-btn-secondary-btn-bkg-hover: var(--colors-primitive-color-tokens-neutrals-bkg-600);
+  --colors-buttons-secondary-btn-secondary-btn-border-default: var(--colors-primitive-color-tokens-teal-700);
+  --colors-buttons-secondary-btn-secondary-btn-border-disabled: var(--colors-primitive-color-tokens-neutrals-inactive-400);
+  --colors-buttons-secondary-btn-secondary-btn-border-hover: var(--colors-primitive-color-tokens-neutrals-bkg-600);
+  --colors-buttons-secondary-btn-secondary-btn-icon-default: var(--colors-primitive-color-tokens-neutrals-bkg-600);
+  --colors-buttons-secondary-btn-secondary-btn-icon-disabled: var(--colors-primitive-color-tokens-teal-50);
+  --colors-buttons-secondary-btn-secondary-btn-icon-hover: var(--colors-primitive-color-tokens-neutrals-static-white);
+  --colors-buttons-secondary-btn-secondary-btn-label-default: var(--colors-primitive-color-tokens-neutrals-bkg-700);
+  --colors-buttons-secondary-btn-secondary-btn-label-disabled: var(--colors-primitive-color-tokens-neutrals-inactive-100);
+  --colors-buttons-secondary-btn-secondary-btn-label-hover: var(--colors-primitive-color-tokens-neutrals-static-white);
+  
+  /* Brand Button */
+  --colors-buttons-brand-btn-brand-btn-bkg-default: var(--colors-primitive-color-tokens-fuscia-500);
+  --colors-buttons-brand-btn-brand-btn-bkg-disabled: var(--colors-primitive-color-tokens-neutrals-inactive-400);
+  --colors-buttons-brand-btn-brand-btn-bkg-hover: var(--colors-primitive-color-tokens-fuscia-800);
+  --colors-buttons-brand-btn-brand-btn-icon-default: var(--colors-primitive-color-tokens-neutrals-static-white);
+  --colors-buttons-brand-btn-brand-btn-icon-disabled: var(--colors-primitive-color-tokens-neutrals-inactive-100);
+  --colors-buttons-brand-btn-brand-btn-icon-hover: var(--colors-primitive-color-tokens-neutrals-static-white);
+  --colors-buttons-brand-btn-brand-btn-label-default: var(--colors-primitive-color-tokens-neutrals-static-white);
+  --colors-buttons-brand-btn-brand-btn-label-disabled: var(--colors-primitive-color-tokens-neutrals-inactive-100);
+  --colors-buttons-brand-btn-brand-btn-label-hover: var(--colors-primitive-color-tokens-neutrals-static-white);
+  
+  /* Success Button */
+  --colors-buttons-success-btn-brand-btn-bkg-default: var(--colors-primitive-color-tokens-lime-600);
+  --colors-buttons-success-btn-brand-btn-bkg-disabled: var(--colors-primitive-color-tokens-neutrals-inactive-400);
+  --colors-buttons-success-btn-brand-btn-bkg-hover: var(--colors-primitive-color-tokens-lime-800);
+  --colors-buttons-success-btn-brand-btn-icon-default: var(--colors-primitive-color-tokens-neutrals-static-white);
+  --colors-buttons-success-btn-brand-btn-icon-disabled: var(--colors-primitive-color-tokens-neutrals-inactive-100);
+  --colors-buttons-success-btn-brand-btn-icon-hover: var(--colors-primitive-color-tokens-neutrals-static-white);
+  --colors-buttons-success-btn-brand-btn-label-default: var(--colors-primitive-color-tokens-neutrals-static-white);
+  --colors-buttons-success-btn-brand-btn-label-disabled: var(--colors-primitive-color-tokens-neutrals-inactive-100);
+  --colors-buttons-success-btn-brand-btn-label-hover: var(--colors-primitive-color-tokens-neutrals-static-white);
+
+  /* Pill Badge Tokens */
+  --colors-buttons-pill-badge-bkg-blue200: var(--colors-primitive-color-tokens-blue-100);
+  --colors-buttons-pill-badge-bkg-fusia200: var(--colors-primitive-color-tokens-fuscia-100);
+  --colors-buttons-pill-badge-bkg-lime200: var(--colors-primitive-color-tokens-lime-200);
+  --colors-buttons-pill-badge-txt-pill-badge-label: var(--colors-primitive-color-tokens-neutrals-bkg-700);
+
+  /* Additional Tokens */
+  --ButtonCurves: 25px;
+}

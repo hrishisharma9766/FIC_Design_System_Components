@@ -1,0 +1,57 @@
+/* StateBadge.css - Using original Figma tokens from theme.css */
+
+.state-badge {
+  height: 24px;
+  padding: 8px;
+  border-radius: 24px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  box-sizing: border-box;
+  font-family: 'DM Sans', sans-serif;
+  transition: all 0.2s ease-in-out;
+  width: fit-content;
+}
+
+/* STATE VARIANTS */
+.state-badge--active {
+  background-color: var(--Colors-Buttons-Active-Inactive-Bkg_Active, #1A77B4);
+}
+
+.state-badge--inactive {
+  background-color: var(--Colors-Buttons-Active-Inactive-Bkg_Inactive, #959490);
+}
+
+/* TYPOGRAPHY */
+.state-badge__label {
+  color: var(--Colors-Buttons-Active-Inactive-Txt_Label_Active, white);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17.46px;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* ICON STYLE */
+.state-badge__icon {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--Colors-Functional-Input-Icons-Icon_White, white);
+}
+
+/* Helper class for the icon placeholder from Figma */
+.state-badge__icon-placeholder {
+  width: 14px;
+  height: 14px;
+  background-color: var(--Colors-Functional-Input-Icons-Icon_White, white);
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+}
