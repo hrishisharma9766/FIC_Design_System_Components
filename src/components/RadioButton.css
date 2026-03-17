@@ -1,0 +1,132 @@
+/* RadioButton.css */
+
+.radio-button {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 5px; /* Gap between visual and content */
+  cursor: pointer;
+  position: relative;
+  user-select: none;
+}
+
+.radio-button--disabled,
+.radio-button--readonly {
+  cursor: default;
+}
+
+/* Hide native input */
+.radio-button__input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+  margin: 0;
+}
+
+/* Visual wrapper for the circles */
+.radio-button__wrapper {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  margin-top: 2px; /* Align with first line of label */
+}
+
+.radio-button__visual {
+  width: 100%;
+  height: 100%;
+  cursor: inherit;
+  display: block;
+}
+
+/* Outer Circle (16x16) */
+.radio-button__outer-circle {
+  display: grid;
+  place-items: center;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--colors-primitive-color-tokens-neutrals-static-white, #ffffff);
+  border: 1px solid var(--colors-primitive-color-tokens-neutrals-bkg-400, #C3C1B5);
+  transition: border-color 0.2s ease;
+  box-sizing: border-box;
+  line-height: 0;
+  overflow: hidden; /* Ensure inner circle doesn't leak */
+}
+
+/* Hover State */
+.radio-button:not(.radio-button--disabled):not(.radio-button--readonly):hover .radio-button__outer-circle {
+  border-color: var(--colors-primitive-color-tokens-neutrals-bkg-500, #959490);
+}
+
+/* Inner Circle (10x10) - Visible when checked */
+.radio-button__inner-circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--colors-primitive-color-tokens-teal-700, #118082);
+  flex-shrink: 0;
+  display: block;
+}
+
+/* Content (Label + Subtext) */
+.radio-button__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-button__label {
+  color: var(--colors-primitive-color-tokens-neutrals-bkg-700, #4B4B4A);
+  font-size: var(--FontSize-Size-14, 14px);
+  font-weight: var(--FontType-Medium, 500);
+  line-height: 20.37px;
+  cursor: inherit;
+  transition: color 0.2s ease;
+}
+
+/* Label Hover */
+.radio-button:not(.radio-button--disabled):not(.radio-button--readonly):hover .radio-button__label {
+  color: var(--colors-primitive-color-tokens-teal-800, #00575C);
+}
+
+.radio-button__subtext {
+  color: var(--colors-primitive-color-tokens-neutrals-bkg-700, #4B4B4A);
+  font-size: var(--FontSize-Size-10, 10px);
+  font-weight: var(--FontType-Medium, 500);
+  line-height: 14.55px;
+}
+
+/* --- States --- */
+
+/* Checked State Label */
+/* (In Figma, checked label color is the same as default unless hovered) */
+
+/* Disabled State */
+.radio-button--disabled .radio-button__outer-circle {
+  background: var(--colors-primitive-color-tokens-neutrals-inactive-200, #D2DCE6);
+  border-color: var(--colors-primitive-color-tokens-neutrals-inactive-300, #B4C6D6);
+}
+
+.radio-button--disabled .radio-button__inner-circle {
+  background: var(--colors-primitive-color-tokens-neutrals-inactive-400, #8BA1B9);
+}
+
+.radio-button--disabled .radio-button__label,
+.radio-button--disabled .radio-button__subtext {
+  color: var(--colors-primitive-color-tokens-neutrals-inactive-500, #6A809A);
+}
+
+/* Read Only State */
+.radio-button--readonly .radio-button__outer-circle {
+  background: var(--colors-primitive-color-tokens-neutrals-inactive-200, #D2DCE6);
+  border-color: var(--colors-primitive-color-tokens-neutrals-inactive-300, #B4C6D6);
+}
+
+.radio-button--readonly .radio-button__inner-circle {
+  background: var(--colors-primitive-color-tokens-neutrals-inactive-600, #4B5867);
+}
+
+.radio-button--readonly .radio-button__label,
+.radio-button--readonly .radio-button__subtext {
+  color: var(--colors-primitive-color-tokens-neutrals-inactive-600, #4B5867);
+}

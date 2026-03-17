@@ -1,8 +1,9 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { BaseButton } from './components/BaseButton';
 import { PillBadge } from './components/PillBadge';
 import { StateBadge } from './components/StateBadge';
 import { ProgressBar } from './components/ProgressBar';
+import { RadioButton } from './components/RadioButton';
 import { Checkbox } from './components/Checkbox';
 import { DatePicker } from './components/DatePicker';
 import { SingleSelectDropDown } from './components/DropDown';
@@ -340,6 +341,76 @@ function App() {
                   label="Radio Checked" 
                   checked={checkedItems.radioChecked} 
                   onChange={() => toggleChecked('radioChecked')} 
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Radio Button Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Radio Buttons</h2>
+          <div className="space-y-8">
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-3">Standard Radio Buttons</h3>
+              <div className="flex flex-wrap gap-8 items-start">
+                <RadioButton 
+                  label="Default" 
+                  name="radio-group-1"
+                  checked={checkedItems.radioDefault} 
+                  onChange={() => setCheckedItems(prev => ({ ...prev, radioDefault: true, radioChecked: false }))} 
+                />
+                <RadioButton 
+                  label="Checked" 
+                  name="radio-group-1"
+                  checked={checkedItems.radioChecked} 
+                  onChange={() => setCheckedItems(prev => ({ ...prev, radioChecked: true, radioDefault: false }))} 
+                />
+                <RadioButton 
+                  label="Disabled"
+                  disabled
+                  checked={false} 
+                />
+                <RadioButton 
+                  label="Read Only" 
+                  readOnly
+                  checked={true} 
+                />
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-3">Radio Buttons with Subtext</h3>
+              <div className="flex flex-wrap gap-12 items-start">
+                <RadioButton 
+                  label="Label" 
+                  subtext="Subtext"
+                  name="radio-group-2"
+                  checked={checkedItems.radioDefault}
+                  onChange={() => setCheckedItems(prev => ({ ...prev, radioDefault: true, radioChecked: false }))}
+                />
+                <RadioButton 
+                  label="Label" 
+                  subtext="Subtext"
+                  name="radio-group-2"
+                  checked={checkedItems.radioChecked}
+                  onChange={() => setCheckedItems(prev => ({ ...prev, radioChecked: true, radioDefault: false }))}
+                />
+                <RadioButton 
+                  label="Label" 
+                  subtext="Subtext"
+                  disabled
+                  name="radio-group-2"
+                  checked={checkedItems.radioChecked}
+                  onChange={() => setCheckedItems(prev => ({ ...prev, radioChecked: true, radioDefault: false }))}
+                />
+                <RadioButton 
+                  label="Label" 
+                  subtext="Subtext"
+                  readOnly
+                  name="radio-group-2"
+                  checked={checkedItems.radioChecked}
+                  onChange={() => setCheckedItems(prev => ({ ...prev, radioChecked: true, radioDefault: false }))}
                 />
               </div>
             </div>
