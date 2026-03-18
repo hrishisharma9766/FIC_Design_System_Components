@@ -2,7 +2,9 @@ import React from 'react';
 import './Button.css';
 
 // Common style for DM Sans (mirrored from input-fields.tsx)
-const dmSansStyle = { fontFamily: "'DM Sans', sans-serif" };
+const dmSansStyle: React.CSSProperties = {
+  fontFamily: 'var(--FontFamily-Family, "DM Sans", sans-serif)',
+};
 
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: 'primary' | 'secondary' | 'brand' | 'success';

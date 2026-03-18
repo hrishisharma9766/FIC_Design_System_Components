@@ -1,5 +1,5 @@
 import React from 'react';
-import './Switch.css';
+import './SwitchWithLabel.css';
 
 /**
  * Common style for DM Sans font, matching other components in the system.
@@ -8,18 +8,23 @@ const dmSansStyle: React.CSSProperties = {
   fontFamily: 'var(--FontFamily-Family, "DM Sans", sans-serif)',
 };
 
+// Re-defining types here for complete component independence as requested
 export type SwitchSize = 'big' | 'small';
 export type SwitchColor = 'teal' | 'fusia' | 'green-red' | 'green' | 'red';
 
-export interface SwitchProps extends Omit<React.InputHTMLAttributes<HTMLInputElement>, 'size'> {
+export interface SwitchWithLabelProps extends Omit<React.InputHTMLAttributes<HTMLInputElement>, 'size'> {
   size?: SwitchSize;
   colorVariant?: SwitchColor;
+  label?: string;
+  activeLabel?: string;
+  inactiveLabel?: string;
+  offerText?: string;
   readOnly?: boolean;
 }
 
 /**
  * Internal Toggle Component
- * Just the input and the track, used by Switch
+ * Encapsulated within SwitchWithLabel for complete independence.
  */
 const Toggle = React.forwardRef<HTMLInputElement, React.InputHTMLAttributes<HTMLInputElement> & { readOnly?: boolean }>(
   ({ id, checked, onChange, disabled, readOnly, ...props }, ref) => (
@@ -44,23 +49,35 @@ const Toggle = React.forwardRef<HTMLInputElement, React.InputHTMLAttributes<HTML
 Toggle.displayName = 'Toggle';
 
 /**
- * Base Switch Toggle Component
+ * SwitchWithLabel Component
  * 
  * @example
  * ```tsx
- * // Simple usage
- * <Switch defaultChecked />
+ * // With main label and status labels
+ * <SwitchWithLabel 
+ *   label="Notifications" 
+ *   activeLabel="On" 
+ *   inactiveLabel="Off" 
+ *   defaultChecked 
+ * />
  * 
- * // Controlled usage
- * const [checked, setChecked] = useState(false);
- * <Switch checked={checked} onChange={(e) => setChecked(e.target.checked)} colorVariant="fusia" size="small" />
+ * // With offer badge
+ * <SwitchWithLabel 
+ *   label="Plan" 
+ *   offerText="20% OFF" 
+ *   colorVariant="green" 
+ * />
  * ```
  */
-export const Switch = React.forwardRef<HTMLInputElement, SwitchProps>(
+export const SwitchWithLabel = React.forwardRef<HTMLInputElement, SwitchWithLabelProps>(
   (
     {
       size = 'big',
       colorVariant = 'teal',
+      label,
+      activeLabel,
+      inactiveLabel,
+      offerText,
       checked: controlledChecked,
       defaultChecked,
       onChange,
@@ -88,7 +105,7 @@ export const Switch = React.forwardRef<HTMLInputElement, SwitchProps>(
     };
 
     // Generate unique ID if not provided for accessibility
-    const switchId = id || `switch-${Math.random().toString(36).substring(2, 9)}`;
+    const switchId = id || `switch-labeled-${Math.random().toString(36).substring(2, 9)}`;
 
     const containerClasses = [
       'switch-container',
@@ -103,6 +120,18 @@ export const Switch = React.forwardRef<HTMLInputElement, SwitchProps>(
     return (
       <div className={containerClasses} style={dmSansStyle}>
         <div className="switch__content-wrapper">
+          {label && (
+            <label htmlFor={switchId} className="switch__main-label">
+              {label}
+            </label>
+          )}
+
+          {inactiveLabel && (
+            <span className={`switch__value-label switch__value-label--inactive ${!isChecked ? 'switch__value-label--active-state' : ''}`}>
+              {inactiveLabel}
+            </span>
+          )}
+
           <Toggle
             ref={ref}
             id={switchId}
@@ -112,10 +141,22 @@ export const Switch = React.forwardRef<HTMLInputElement, SwitchProps>(
             readOnly={readOnly}
             {...props}
           />
+
+          {activeLabel && (
+            <span className={`switch__value-label switch__value-label--active ${isChecked ? 'switch__value-label--active-state' : ''}`}>
+              {activeLabel}
+            </span>
+          )}
+
+          {offerText && (
+            <div className="switch__offer-badge">
+              {offerText}
+            </div>
+          )}
         </div>
       </div>
     );
   }
 );
 
-Switch.displayName = 'Switch';
+SwitchWithLabel.displayName = 'SwitchWithLabel';

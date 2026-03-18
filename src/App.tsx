@@ -1,13 +1,5 @@
 import { useState } from 'react';
-import { Button } from './components/Button';
-import { PillBadge } from './components/PillBadge';
-import { StateBadge } from './components/StateBadge';
-import { ProgressBar } from './components/ProgressBar';
-import { RadioButton } from './components/RadioButton';
-import { Checkbox } from './components/Checkbox';
-import { DatePicker } from './components/DatePicker';
-import { SearchBox } from './components/SearchBox';
-import { Switch } from './components/Switch';
+import { Button, Checkbox, DatePicker, PillBadge, ProgressBar, RadioButton, SearchBox, StateBadge, Switch, SwitchWithLabel, TextArea } from './index';
 
 function App() {
   const [checkedItems, setCheckedItems] = useState({
@@ -538,18 +530,18 @@ function App() {
             <div>
               <h3 className="text-sm font-semibold text-muted-foreground mb-4">With Labels & Badges</h3>
               <div className="space-y-8">
-                <Switch 
+                <SwitchWithLabel 
                   label="Main Label:" 
                   inactiveLabel="Value 1" 
                   activeLabel="Value 2" 
                 />
-                <Switch 
+                <SwitchWithLabel 
                   label="Main Label:" 
                   inactiveLabel="Value 1" 
                   activeLabel="Value 2" 
                   defaultChecked 
                 />
-                <Switch 
+                <SwitchWithLabel 
                   label="Offer Switch:" 
                   inactiveLabel="Standard" 
                   activeLabel="Premium" 
@@ -565,6 +557,59 @@ function App() {
         <footer className="mt-12 pt-8 border-t border-border text-center text-muted-foreground text-sm">
           <p>Evaa Design System Component Showcase</p>
         </footer>
+        {/* TextArea Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">TextArea</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Default & States</h3>
+              <div className="space-y-6">
+                <TextArea 
+                  label="Default TextArea" 
+                  placeholder="Enter your text here" 
+                  helperText="This is a helper text"
+                />
+                <TextArea 
+                  label="With Character Count" 
+                  placeholder="Type something..." 
+                  showCount 
+                  maxLength={140}
+                  defaultValue="Lorem ipsum dolor sit amet."
+                />
+                <TextArea 
+                  label="Required TextArea" 
+                  placeholder="This field is required" 
+                  required
+                />
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Validation & ReadOnly</h3>
+              <div className="space-y-6">
+                <TextArea 
+                  label="Error State" 
+                  placeholder="Invalid input" 
+                  error
+                  errorMessage="This is an error message"
+                  defaultValue="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+                />
+                <TextArea 
+                  label="Disabled State" 
+                  placeholder="Cannot type here" 
+                  disabled 
+                  defaultValue="This textarea is disabled"
+                />
+                <TextArea 
+                  label="ReadOnly State" 
+                  placeholder="Read only content" 
+                  readOnly 
+                  defaultValue="This textarea is read-only"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
   );

@@ -2,8 +2,8 @@ import React from 'react';
 import './StateBadge.css';
 
 // Reusing dmSansStyle pattern from Button/InputFields/PillBadge
-const dmSansStyle = {
-  fontFamily: "'DM Sans', sans-serif",
+const dmSansStyle: React.CSSProperties = {
+  fontFamily: 'var(--FontFamily-Family, "DM Sans", sans-serif)',
 };
 
 // Reusing the same icon logic from Button for consistency

@@ -2,8 +2,8 @@ import React from 'react';
 import './PillBadge.css';
 
 // Reusing dmSansStyle pattern from Button/InputFields
-const dmSansStyle = {
-  fontFamily: "'DM Sans', sans-serif",
+const dmSansStyle: React.CSSProperties = {
+  fontFamily: 'var(--FontFamily-Family, "DM Sans", sans-serif)',
 };
 
 export interface PillBadgeProps extends React.HTMLAttributes<HTMLDivElement> {

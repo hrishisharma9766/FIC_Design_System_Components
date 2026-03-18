@@ -1,0 +1,155 @@
+/* TextArea.css - Using original Figma tokens from theme.css */
+
+.textarea-container {
+  display: flex;
+  flex-direction: column;
+  width: 267px;
+  gap: 2px;
+  position: relative;
+}
+
+/* Header (Label and Count) */
+.textarea__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.textarea__label {
+  color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+  font-size: var(--FontSize-Size-14, 14px);
+  font-weight: var(--FontType-SemiBold, 600);
+  line-height: 20.37px;
+  display: flex;
+  gap: 2px;
+}
+
+.textarea__required {
+  color: var(--Colors-Functional-Input-Icons-Icon_Error, #E73D36);
+}
+
+.textarea__count {
+  color: var(--Colors-Functional-Txt_Helper-Txt_Helper_Default, #71706C);
+  font-size: var(--FontSize-Size-10, 10px);
+  font-weight: var(--FontType-Regular, 400);
+  line-height: 10px;
+}
+
+/* Wrapper and Input */
+.textarea__wrapper {
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  background: var(--colors-primitive-color-tokens-neutrals-static-white, white);
+  border-radius: 13px;
+  outline: 1px solid var(--colors-primitive-color-tokens-neutrals-bkg-400, #C3C1B5);
+  outline-offset: -1px;
+  min-height: 70px;
+  transition: all 0.2s ease-in-out;
+}
+
+.textarea__input {
+  width: 100%;
+  min-height: 70px;
+  padding: 10px;
+  border: none;
+  background: transparent;
+  resize: vertical;
+  color: var(--colors-primitive-color-tokens-neutrals-bkg-800, #303030);
+  font-family: var(--FontFamily-Family, 'DM Sans', sans-serif);
+  font-size: var(--FontSize-Size-14, 14px);
+  font-weight: var(--FontType-Medium, 500);
+  line-height: 20.37px;
+  outline: none;
+}
+
+.textarea__input::placeholder {
+  color: var(--Colors-Functional-Placeholder-Txt_Placeholder_Default, #71706C);
+}
+
+.textarea__input:focus {
+  outline: none;
+}
+
+.textarea__wrapper:has(.textarea__input:focus) {
+  outline: 1px solid var(--colors-primitive-color-tokens-teal-600, #21A49F);
+}
+
+/* Error State */
+.textarea-container--error .textarea__wrapper {
+  background: var(--colors-primitive-color-tokens-red-100, #FFD3D2);
+  outline: 1px solid var(--colors-primitive-color-tokens-red-500, #E73D36);
+}
+
+.textarea-container--error .textarea__input {
+  color: var(--colors-primitive-color-tokens-red-500, #E73D36);
+}
+
+.textarea-container--error .textarea__input::placeholder {
+  color: var(--Colors-Functional-Placeholder-Txt_Placeholder_Error, #E73D36);
+}
+
+.textarea__error-icon {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: var(--colors-primitive-color-tokens-red-500, #E73D36);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.textarea__error-message {
+  color: var(--colors-primitive-color-tokens-red-500, #E73D36);
+  font-size: var(--FontSize-Size-10, 10px);
+  font-weight: var(--FontType-Regular, 400);
+  line-height: 12px;
+}
+
+/* Disabled State */
+.textarea-container--disabled .textarea__wrapper {
+  background: var(--colors-primitive-color-tokens-neutrals-inactive-200, #D2DCE6);
+  outline: 1px solid var(--colors-primitive-color-tokens-neutrals-inactive-300, #B4C6D6);
+  cursor: not-allowed;
+}
+
+.textarea-container--disabled .textarea__input {
+  color: var(--Colors-Functional-Placeholder-Txt_Placeholder_Disabled, #8BA1B9);
+  cursor: not-allowed;
+}
+
+.textarea-container--disabled .textarea__label {
+  color: var(--colors-primitive-color-tokens-neutrals-inactive-500, #6A809A);
+}
+
+.textarea-container--disabled .textarea__count {
+  color: var(--colors-primitive-color-tokens-neutrals-inactive-500, #6A809A);
+}
+
+/* ReadOnly State */
+.textarea-container--readonly .textarea__wrapper {
+  background: var(--colors-primitive-color-tokens-neutrals-inactive-200, #D2DCE6);
+  outline: 1px solid var(--colors-primitive-color-tokens-neutrals-inactive-300, #B4C6D6);
+}
+
+.textarea-container--readonly .textarea__input {
+  color: var(--Colors-Functional-Placeholder-Txt_Placeholder_ReadOnly, #6A809A);
+}
+
+.textarea-container--readonly .textarea__label {
+  color: var(--colors-primitive-color-tokens-neutrals-inactive-600, #4B5867);
+}
+
+/* Helper Text & Error Message Footer */
+.textarea__footer {
+    padding-left: 15px;
+  margin-top: -4px; /* Reduced gap from box */
+}
+
+.textarea__helper-text {
+  color: var(--Colors-Functional-Txt_Helper-Txt_Helper_Default, #71706C);
+  font-size: var(--FontSize-Size-10, 10px);
+  font-weight: var(--FontType-Regular, 400);
+  line-height: 10px;
+}

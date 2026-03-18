@@ -8,4 +8,6 @@ export * from './components/ProgressBar';
 export * from './components/RadioButton';
 export * from './components/SearchBox';
 export * from './components/StateBadge';
-export * from './components/Switch';
+export { Switch, type SwitchSize, type SwitchColor, type SwitchProps } from './components/Switch';
+export { SwitchWithLabel, type SwitchWithLabelProps } from './components/SwitchWithLabel';
+export * from './components/TextArea';

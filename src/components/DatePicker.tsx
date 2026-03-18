@@ -2,8 +2,8 @@ import React, { useState, useRef, useEffect, useMemo } from 'react';
 import './DatePicker.css';
 
 // dmSansStyle helper for consistent font-family application
-const dmSansStyle = {
-  fontFamily: "'DM Sans', sans-serif",
+const dmSansStyle: React.CSSProperties = {
+  fontFamily: 'var(--FontFamily-Family, "DM Sans", sans-serif)',
 };
 
 // Internal SVG Helper Icons for portability

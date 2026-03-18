@@ -5,7 +5,7 @@ import './RadioButton.css';
  * Common style for DM Sans font, matching other components in the system.
  */
 const dmSansStyle: React.CSSProperties = {
-  fontFamily: '"DM Sans", sans-serif',
+  fontFamily: 'var(--FontFamily-Family, "DM Sans", sans-serif)',
 };
 
 export interface RadioButtonProps extends React.InputHTMLAttributes<HTMLInputElement> {

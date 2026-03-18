@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import './SearchBox.css';
 
 const dmSansStyle: React.CSSProperties = {
-  fontFamily: '"DM Sans", sans-serif',
+  fontFamily: 'var(--FontFamily-Family, "DM Sans", sans-serif)',
 };
 
 export interface SearchBoxProps extends React.InputHTMLAttributes<HTMLInputElement> {

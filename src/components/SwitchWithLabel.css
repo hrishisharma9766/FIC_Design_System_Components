@@ -1,5 +1,5 @@
 /* ============================================
-   Switch Component - BEM Styling
+   SwitchWithLabel Component - BEM Styling
    Using Design System Tokens from theme.css
    ============================================ */
 
@@ -9,13 +9,37 @@
   width: fit-content;
 }
 
-/* Content Wrapper */
+/* Content Wrapper (Labels + Switch) */
 .switch__content-wrapper {
   display: flex;
   align-items: center;
+  gap: 8px;
 }
 
-/* Basic Switch Structure */
+/* Label Styling */
+.switch__main-label {
+  color: var(--colors-primitive-color-tokens-neutrals-bkg-600, #71706C);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.28px;
+  margin-right: 4px; /* Small gap after main label */
+}
+
+/* Value Labels */
+.switch__value-label {
+  color: var(--colors-primitive-color-tokens-neutrals-bkg-700, #4B4B4A);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.28px;
+  transition: font-weight 0.2s ease, color 0.2s ease;
+}
+
+.switch__value-label--active-state {
+  font-weight: 800;
+  color: var(--colors-primitive-color-tokens-neutrals-bkg-800, #303030);
+}
+
+/* Basic Switch Structure (Duplicated from Switch.css for complete independence) */
 .switch {
   position: relative;
   display: inline-block;
@@ -135,6 +159,12 @@
   background-color: var(--colors-primitive-color-tokens-neutrals-inactive-200, #D2DCE6);
 }
 
+.switch-container--disabled .switch__main-label,
+.switch-container--disabled .switch__value-label {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
 /* ReadOnly State */
 .switch-container--readonly .switch__track,
 .switch-container--readonly.switch-container--checked .switch__track,
@@ -145,4 +175,19 @@
 
 .switch-container--readonly .switch__handle {
   background-color: var(--colors-primitive-color-tokens-neutrals-inactive-200, #D2DCE6);
+}
+
+/* Offer Badge Styling */
+.switch__offer-badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 9px;
+  background-color: var(--colors-primitive-color-tokens-lime-200, #DAF3B9);
+  border-radius: 18px;
+  color: var(--colors-primitive-color-tokens-neutrals-bkg-700, #4B4B4A);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17.46px;
+  height: 24px;
 }

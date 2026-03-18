@@ -2,8 +2,8 @@ import React from 'react';
 import './ProgressBar.css';
 
 // Reusing dmSansStyle pattern from other components
-const dmSansStyle = {
-  fontFamily: "'DM Sans', sans-serif",
+const dmSansStyle: React.CSSProperties = {
+  fontFamily: 'var(--FontFamily-Family, "DM Sans", sans-serif)',
 };
 
 export interface ProgressBarProps extends React.HTMLAttributes<HTMLDivElement> {
