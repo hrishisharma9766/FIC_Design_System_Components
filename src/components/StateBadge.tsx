@@ -1,12 +1,12 @@
 import React from 'react';
 import './StateBadge.css';
 
-// Reusing dmSansStyle pattern from BaseButton/InputFields/PillBadge
+// Reusing dmSansStyle pattern from Button/InputFields/PillBadge
 const dmSansStyle = {
   fontFamily: "'DM Sans', sans-serif",
 };
 
-// Reusing the same icon logic from BaseButton for consistency
+// Reusing the same icon logic from Button for consistency
 const getIcon = (iconName: string) => {
   switch (iconName) {
     case 'plus':
@@ -46,7 +46,7 @@ export interface StateBadgeProps extends React.HTMLAttributes<HTMLDivElement> {
 
 /**
  * StateBadge - A reusable status badge component with icon support.
- * Mirrors the pattern used in BaseButton and PillBadge.
+ * Mirrors the pattern used in Button and PillBadge.
  */
 export const StateBadge = React.forwardRef<HTMLDivElement, StateBadgeProps>(
   (

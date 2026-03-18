@@ -1,6 +1,6 @@
-/* BaseButton.css - Strictly using original Figma tokens from theme.css and fonts.css */
+/* Button.css - Strictly using original Figma tokens from theme.css and fonts.css */
 
-.base-button {
+.button {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -21,28 +21,28 @@
   user-select: none;
 }
 
-.base-button:disabled {
+.button:disabled {
   cursor: not-allowed;
   opacity: 0.6;
 }
 
 /* SIZES */
 /* MD matches Standard Button tokens but with explicit overrides from Figma */
-.base-button--md {
+.button--md {
   height: 48px;
   padding: 12px 16px;
   gap: 8px;
   font-size: var(--FontSize-Size-16, 16px);
 }
 
-.base-button--lg {
+.button--lg {
   height: 72px;
   padding: 20px 24px;
   font-size: var(--FontSize-Size-18, 18px);
   gap: 12px;
 }
 
-.base-button--sm {
+.button--sm {
   height: 35px;
   padding: 10px 12px;
   font-size: var(--FontSize-Size-14, 14px);
@@ -50,51 +50,51 @@
 }
 
 /* VARIANTS - PRIMARY */
-.base-button--primary {
+.button--primary {
   background-color: var(--colors-buttons-primary-btn-primary-btn-bkg-default);
   color: var(--colors-buttons-primary-btn-primary-btn-label-default, white);
 }
 
-.base-button--primary:hover:not(:disabled) {
+.button--primary:hover:not(:disabled) {
   background-color: var(--colors-buttons-primary-btn-primary-btn-bkg-hover);
   color: var(--colors-buttons-primary-btn-primary-btn-label-hover, white);
 }
 
-.base-button--primary:disabled {
+.button--primary:disabled {
   background-color: var(--colors-buttons-primary-btn-primary-btn-bkg-disabled);
   color: var(--colors-buttons-primary-btn-primary-btn-label-disabled);
 }
 
 /* VARIANTS - BRAND */
-.base-button--brand {
+.button--brand {
   background-color: var(--colors-buttons-brand-btn-brand-btn-bkg-default);
   color: var(--colors-buttons-brand-btn-brand-btn-label-default, white);
 }
 
-.base-button--brand:hover:not(:disabled) {
+.button--brand:hover:not(:disabled) {
   background-color: var(--colors-buttons-brand-btn-brand-btn-bkg-hover);
   color: var(--colors-buttons-brand-btn-brand-btn-label-hover, white);
 }
 
-.base-button--brand:disabled {
+.button--brand:disabled {
   background-color: var(--colors-buttons-brand-btn-brand-btn-bkg-disabled);
   color: var(--colors-buttons-brand-btn-brand-btn-label-disabled);
 }
 
 /* VARIANTS - SECONDARY */
-.base-button--secondary {
+.button--secondary {
   background-color: var(--colors-buttons-secondary-btn-secondary-btn-bkg-default, white);
   color: var(--colors-buttons-secondary-btn-secondary-btn-label-default);
   border: 1px solid var(--colors-buttons-secondary-btn-secondary-btn-border-default);
 }
 
-.base-button--secondary:hover:not(:disabled) {
+.button--secondary:hover:not(:disabled) {
   background-color: var(--colors-buttons-secondary-btn-secondary-btn-bkg-hover);
   color: var(--colors-buttons-secondary-btn-secondary-btn-label-hover, white);
   border: 1px solid var(--colors-buttons-secondary-btn-secondary-btn-border-hover);
 }
 
-.base-button--secondary:disabled {
+.button--secondary:disabled {
   background-color: var(--colors-buttons-secondary-btn-secondary-btn-bkg-disabled);
   color: var(--colors-buttons-secondary-btn-secondary-btn-label-disabled);
   border: 1px solid var(--colors-buttons-secondary-btn-secondary-btn-border-disabled);
@@ -102,61 +102,61 @@
 
 /* VARIANTS - SUCCESS */
 /* Note: Success tokens use 'brand-btn' in their name in the original theme.css */
-.base-button--success {
+.button--success {
   background-color: var(--colors-buttons-success-btn-brand-btn-bkg-default);
   color: var(--colors-buttons-success-btn-brand-btn-label-default, white);
 }
 
-.base-button--success:hover:not(:disabled) {
+.button--success:hover:not(:disabled) {
   background-color: var(--colors-buttons-success-btn-brand-btn-bkg-hover);
   color: var(--colors-buttons-success-btn-brand-btn-label-hover, white);
 }
 
-.base-button--success:disabled {
+.button--success:disabled {
   background-color: var(--colors-buttons-success-btn-brand-btn-bkg-disabled);
   color: var(--colors-buttons-success-btn-brand-btn-label-disabled);
 }
 
 /* ICON STYLING */
-.base-button svg, 
-.base-button i {
+.button svg, 
+.button i {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
 }
 
-.base-button--md svg, 
-.base-button--md i {
+.button--md svg, 
+.button--md i {
   width: 24px;
   height: 24px;
 }
 
-.base-button--lg svg, 
-.base-button--lg i {
+.button--lg svg, 
+.button--lg i {
   width: 32px;
   height: 32px;
 }
 
-.base-button--sm svg, 
-.base-button--sm i {
+.button--sm svg, 
+.button--sm i {
   width: 20px;
   height: 20px;
 }
 
 /* LOADING STATE */
-.base-button--loading {
+.button--loading {
   position: relative;
   color: transparent !important;
   pointer-events: none;
 }
 
-.base-button--loading .base-button__icon,
-.base-button--loading .base-button__label {
+.button--loading .button__icon,
+.button--loading .button__label {
   visibility: hidden;
 }
 
-.base-button__spinner {
+.button__spinner {
   position: absolute;
   left: 50%;
   top: 50%;
@@ -166,9 +166,9 @@
   border: 2px solid currentColor;
   border-top-color: transparent;
   border-radius: 50%;
-  animation: base-button-spin 0.6s linear infinite;
+  animation: button-spin 0.6s linear infinite;
 }
 
-@keyframes base-button-spin {
+@keyframes button-spin {
   to { transform: translate(-50%, -50%) rotate(360deg); }
 }

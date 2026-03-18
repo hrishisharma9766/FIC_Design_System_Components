@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { BaseButton } from './components/BaseButton';
+import { Button } from './components/Button';
 import { PillBadge } from './components/PillBadge';
 import { StateBadge } from './components/StateBadge';
 import { ProgressBar } from './components/ProgressBar';
@@ -34,55 +34,55 @@ function App() {
       </header>
 
       <div className="space-y-12">
-        {/* Buttons Section (Now using BaseButton) */}
+        {/* Buttons Section (Now using Button) */}
         <section className="bg-background p-6 rounded-[13px] border border-border">
-          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Base Buttons</h2>
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Buttons</h2>
           <div className="flex flex-wrap gap-4 items-center">
-            <BaseButton size="sm" variant="primary">Primary Button (SM)</BaseButton>
-            <BaseButton variant="secondary">Secondary Button</BaseButton>
-            <BaseButton variant="brand">Brand Button</BaseButton>
-            <BaseButton size="lg" variant="success">Success Button (LG)</BaseButton>
+            <Button size="sm" variant="primary">Primary Button (SM)</Button>
+            <Button variant="secondary">Secondary Button</Button>
+            <Button variant="brand">Brand Button</Button>
+            <Button size="lg" variant="success">Success Button (LG)</Button>
           </div>
           <div className="flex flex-wrap gap-4 items-center mt-6">
-            <BaseButton disabled variant="primary">Primary Disabled</BaseButton>
-            <BaseButton disabled variant="secondary">Secondary Disabled</BaseButton>
-            <BaseButton disabled variant="brand">Brand Disabled</BaseButton>
-            <BaseButton disabled variant="success">Success Disabled</BaseButton>
+            <Button disabled variant="primary">Primary Disabled</Button>
+            <Button disabled variant="secondary">Secondary Disabled</Button>
+            <Button disabled variant="brand">Brand Disabled</Button>
+            <Button disabled variant="success">Success Disabled</Button>
           </div>
         </section>
 
-        {/* BaseButton (New) Section */}
+        {/* Button (New) Section */}
         <section className="bg-background p-6 rounded-[13px] border border-border">
-          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">BaseButton (Encapsulated CSS)</h2>
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Button (Encapsulated CSS)</h2>
           <div className="space-y-8">
             <div>
               <h3 className="text-sm font-semibold text-muted-foreground mb-3">Variants</h3>
               <div className="flex flex-wrap gap-4 items-center">
-                <BaseButton variant="primary">Primary</BaseButton>
-                <BaseButton variant="secondary">Secondary</BaseButton>
-                <BaseButton variant="brand">Brand</BaseButton>
-                <BaseButton variant="success">Success</BaseButton>
+                <Button variant="primary">Primary</Button>
+                <Button variant="secondary">Secondary</Button>
+                <Button variant="brand">Brand</Button>
+                <Button variant="success">Success</Button>
               </div>
             </div>
 
             <div>
               <h3 className="text-sm font-semibold text-muted-foreground mb-3">Sizes</h3>
               <div className="flex flex-wrap gap-4 items-end">
-                <BaseButton size="sm">Small (36px)</BaseButton>
-                <BaseButton size="md">Medium (48px)</BaseButton>
-                <BaseButton size="lg">Large (72px)</BaseButton>
+                <Button size="sm">Small (36px)</Button>
+                <Button size="md">Medium (48px)</Button>
+                <Button size="lg">Large (72px)</Button>
               </div>
             </div>
 
             <div>
               <h3 className="text-sm font-semibold text-muted-foreground mb-3">States & Icons</h3>
               <div className="flex flex-wrap gap-4 items-center">
-                <BaseButton isLoading>Loading</BaseButton>
-                <BaseButton disabled>Disabled</BaseButton>
-                <BaseButton variant="secondary" disabled>Secondary Disabled</BaseButton>
-                <BaseButton leftIcon="plus">With Left Icon</BaseButton>
-                <BaseButton variant="brand" rightIcon="arrow-right">With Right Icon</BaseButton>
-                <BaseButton variant="success" leftIcon="check" rightIcon="chevron-down">Double Icons</BaseButton>
+                <Button isLoading>Loading</Button>
+                <Button disabled>Disabled</Button>
+                <Button variant="secondary" disabled>Secondary Disabled</Button>
+                <Button leftIcon="plus">With Left Icon</Button>
+                <Button variant="brand" rightIcon="arrow-right">With Right Icon</Button>
+                <Button variant="success" leftIcon="check" rightIcon="chevron-down">Double Icons</Button>
               </div>
             </div>
           </div>

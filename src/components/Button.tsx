@@ -1,10 +1,10 @@
 import React from 'react';
-import './BaseButton.css';
+import './Button.css';
 
 // Common style for DM Sans (mirrored from input-fields.tsx)
 const dmSansStyle = { fontFamily: "'DM Sans', sans-serif" };
 
-export interface BaseButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   variant?: 'primary' | 'secondary' | 'brand' | 'success';
   size?: 'sm' | 'md' | 'lg';
   isLoading?: boolean;
@@ -14,11 +14,11 @@ export interface BaseButtonProps extends React.ButtonHTMLAttributes<HTMLButtonEl
 }
 
 /**
- * BaseButton - A standalone button component relying on BaseButton.css
+ * Button - A standalone button component relying on Button.css
  * This component maps design system tokens to functional states without
  * relying on Tailwind utility classes for its core styling.
  */
-export const BaseButton = React.forwardRef<HTMLButtonElement, BaseButtonProps>(
+export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
   (
     {
       className = '',
@@ -44,10 +44,10 @@ export const BaseButton = React.forwardRef<HTMLButtonElement, BaseButtonProps>(
 
     // Construct class names
     const classNames = [
-      'base-button',
-      `base-button--${variant}`,
-      `base-button--${size}`,
-      isLoading ? 'base-button--loading' : '',
+      'button',
+      `button--${variant}`,
+      `button--${size}`,
+      isLoading ? 'button--loading' : '',
       className,
     ]
       .filter(Boolean)
@@ -61,18 +61,18 @@ export const BaseButton = React.forwardRef<HTMLButtonElement, BaseButtonProps>(
         style={{ ...dmSansStyle, ...style }}
         {...props}
       >
-        {isLoading && <span className="base-button__spinner" aria-hidden="true" />}
+        {isLoading && <span className="button__spinner" aria-hidden="true" />}
         
         {leftIcon && !isLoading && (
-          <span className="base-button__icon base-button__icon--left" aria-hidden="true">
+          <span className="button__icon button__icon--left" aria-hidden="true">
             {renderIcon(leftIcon)}
           </span>
         )}
         
-        <span className="base-button__label">{children}</span>
+        <span className="button__label">{children}</span>
         
         {rightIcon && !isLoading && (
-          <span className="base-button__icon base-button__icon--right" aria-hidden="true">
+          <span className="button__icon button__icon--right" aria-hidden="true">
             {renderIcon(rightIcon)}
           </span>
         )}
@@ -81,4 +81,4 @@ export const BaseButton = React.forwardRef<HTMLButtonElement, BaseButtonProps>(
   }
 );
 
-BaseButton.displayName = 'BaseButton';
+Button.displayName = 'Button';

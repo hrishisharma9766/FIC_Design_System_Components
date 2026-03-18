@@ -1,6 +1,6 @@
 import './styles/theme.css';
 
-export * from './components/BaseButton';
+export * from './components/Button';
 export * from './components/Checkbox';
 export * from './components/DatePicker';
 export * from './components/PillBadge';

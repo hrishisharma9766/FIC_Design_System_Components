@@ -17,7 +17,7 @@ export interface CheckboxProps extends React.InputHTMLAttributes<HTMLInputElemen
 /**
  * Checkbox Component - A reusable checkbox component with variants and subtext.
  * Handles: Standard Checkbox, Checkbox with Subtext, and Round (Radio) variants.
- * Mirrors the architecture of BaseButton, PillBadge, and StateBadge.
+ * Mirrors the architecture of Button, PillBadge, and StateBadge.
  */
 export const Checkbox = React.forwardRef<HTMLInputElement, CheckboxProps>(
   (

@@ -2,7 +2,7 @@
 @import "./styles/theme.css";
 @import "./styles/typography-tokens.css";
 @import "tailwindcss";
-@import "./components/BaseButton.css";
+@import "./components/Button.css";
 @import "./components/PillBadge.css";
 @import "./components/StateBadge.css";
 @import "./components/Checkbox.css";
