@@ -1,13 +1,4 @@
-/**
- * Design System Theme Tokens
- * 
- * This file centralizes the color and functional tokens exported from Figma.
- * These variables are mapped to Tailwind CSS theme colors in index.css.
- */
-
 :root {
-  /* Primitive Color Tokens - Neutrals */
-  --colors-primitive-color-tokens-neutrals-bkg-100: #F6F6F3;
   --font-size: 16px;
   
   /* Font Family Tokens */
@@ -120,6 +111,25 @@
   --TypographyTypes-ButtonsTypography-Standard_Button-Size: var(--button-size-14);
   --TypographyTypes-ButtonsTypography-Standard_Button-Type: var(--FontType-ExtraBold);
   --txt_textbox: var(--txt-ButtonLabelPrimary);
+  
+  /* Typography variables (legacy - keeping for compatibility) */
+  --text-h1: var(--FontSize-Size-30);
+  --text-h2: var(--FontSize-Size-28);
+  --text-h3: var(--FontSize-Size-26);
+  --text-h4: var(--FontSize-Size-24);
+  --text-base: var(--FontSize-Size-14);
+  --text-label: var(--FontSize-Size-12);
+  --text-button-primary: var(--FontSize-Size-16);
+  --text-large-number: var(--FontSize-Size-30);
+  
+  /* Font weights (legacy - keeping for compatibility) */
+  --font-weight-thin: var(--FontType-Thin);
+  --font-weight-normal: var(--FontType-Regular);
+  --font-weight-medium: var(--FontType-Medium);
+  --font-weight-semibold: var(--FontType-SemiBold);
+  --font-weight-bold: var(--FontType-Bold);
+  --font-weight-extrabold: var(--FontType-ExtraBold);
+  --font-weight-black: var(--FontType-Black);
   
   /* Evaa Design System - Primitive Color Tokens */
   --colors-primitive-color-tokens-blue-50: #edf8ff;
@@ -262,13 +272,766 @@
   --colors-buttons-success-btn-brand-btn-label-default: var(--colors-primitive-color-tokens-neutrals-static-white);
   --colors-buttons-success-btn-brand-btn-label-disabled: var(--colors-primitive-color-tokens-neutrals-inactive-100);
   --colors-buttons-success-btn-brand-btn-label-hover: var(--colors-primitive-color-tokens-neutrals-static-white);
-
-  /* Pill Badge Tokens */
+  
+  /* Pill Badge */
   --colors-buttons-pill-badge-bkg-blue200: var(--colors-primitive-color-tokens-blue-100);
   --colors-buttons-pill-badge-bkg-fusia200: var(--colors-primitive-color-tokens-fuscia-100);
   --colors-buttons-pill-badge-bkg-lime200: var(--colors-primitive-color-tokens-lime-200);
   --colors-buttons-pill-badge-txt-pill-badge-label: var(--colors-primitive-color-tokens-neutrals-bkg-700);
-
+  
+  /* ============================================
+     PascalCase Color Tokens (Figma Export Format)
+     ============================================ */
+  
+  /* Canvas and Brand Shortcuts */
+  --Canvas: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-100);
+  --Fusia: var(--Colors-PrimitiveColorTokens-Fuscia-500);
+  --Plum: var(--Colors-PrimitiveColorTokens-Fuscia-800);
+  
+  /* Primitive Color Tokens - PascalCase Format */
+  --Colors-PrimitiveColorTokens-Neutrals-Bkg-50: #F9F9F6FF;
+  --Colors-PrimitiveColorTokens-Neutrals-Bkg-100: #F6F6F1FF;
+  --Colors-PrimitiveColorTokens-Neutrals-Bkg-200: #EFEEEAFF;
+  --Colors-PrimitiveColorTokens-Neutrals-Bkg-300: #E5E4DDFF;
+  --Colors-PrimitiveColorTokens-Neutrals-Bkg-400: #C3C1B5FF;
+  --Colors-PrimitiveColorTokens-Neutrals-Bkg-500: #959490FF;
+  --Colors-PrimitiveColorTokens-Neutrals-Bkg-600: #71706CFF;
+  --Colors-PrimitiveColorTokens-Neutrals-Bkg-700: #4B4B4AFF;
+  --Colors-PrimitiveColorTokens-Neutrals-Bkg-800: #303030FF;
+  --Colors-PrimitiveColorTokens-Neutrals-Inactive-50: #F4F8FBFF;
+  --Colors-PrimitiveColorTokens-Neutrals-Inactive-100: #EEF2F6FF;
+  --Colors-PrimitiveColorTokens-Neutrals-Inactive-200: #D2DCE6FF;
+  --Colors-PrimitiveColorTokens-Neutrals-Inactive-300: #B4C6D6FF;
+  --Colors-PrimitiveColorTokens-Neutrals-Inactive-400: #8BA1B9FF;
+  --Colors-PrimitiveColorTokens-Neutrals-Inactive-500: #6A809AFF;
+  --Colors-PrimitiveColorTokens-Neutrals-Inactive-600: #4B5867FF;
+  --Colors-PrimitiveColorTokens-Neutrals-Inactive-700: #2C3A4AFF;
+  --Colors-PrimitiveColorTokens-Neutrals-Inactive-800: #101725FF;
+  --Colors-PrimitiveColorTokens-Neutrals-StaticWhite: #FFFFFFFF;
+  --Colors-PrimitiveColorTokens-Neutrals-StaticBlack: #000000FF;
+  --Colors-PrimitiveColorTokens-Purple-50: #FCF4FDFF;
+  --Colors-PrimitiveColorTokens-Purple-100: #F8E6F9FF;
+  --Colors-PrimitiveColorTokens-Purple-200: #F1C4F3FF;
+  --Colors-PrimitiveColorTokens-Purple-300: #D795D9FF;
+  --Colors-PrimitiveColorTokens-Purple-400: #B768B9FF;
+  --Colors-PrimitiveColorTokens-Purple-500: #922D94FF;
+  --Colors-PrimitiveColorTokens-Purple-600: #730F76FF;
+  --Colors-PrimitiveColorTokens-Purple-700: #5C135DFF;
+  --Colors-PrimitiveColorTokens-Purple-800: #3B053CFF;
+  --Colors-PrimitiveColorTokens-Fuscia-50: #FEECF6FF;
+  --Colors-PrimitiveColorTokens-Fuscia-100: #FFDAEFFF;
+  --Colors-PrimitiveColorTokens-Fuscia-200: #FFAEDAFF;
+  --Colors-PrimitiveColorTokens-Fuscia-300: #F387C2FF;
+  --Colors-PrimitiveColorTokens-Fuscia-400: #E65CA7FF;
+  --Colors-PrimitiveColorTokens-Fuscia-500: #D72D8AFF;
+  --Colors-PrimitiveColorTokens-Fuscia-600: #AC246EFF;
+  --Colors-PrimitiveColorTokens-Fuscia-700: #811B53FF;
+  --Colors-PrimitiveColorTokens-Fuscia-800: #561237FF;
+  --Colors-PrimitiveColorTokens-Red-50: #FFEAE9FF;
+  --Colors-PrimitiveColorTokens-Red-100: #FFD3D2FF;
+  --Colors-PrimitiveColorTokens-Red-200: #FFB0AEFF;
+  --Colors-PrimitiveColorTokens-Red-300: #FF8884FF;
+  --Colors-PrimitiveColorTokens-Red-400: #F1605BFF;
+  --Colors-PrimitiveColorTokens-Red-500: #E73D36FF;
+  --Colors-PrimitiveColorTokens-Red-600: #C9221CFF;
+  --Colors-PrimitiveColorTokens-Red-700: #9A1712FF;
+  --Colors-PrimitiveColorTokens-Red-800: #860501FF;
+  --Colors-PrimitiveColorTokens-Yellow-50: #FFFAEAFF;
+  --Colors-PrimitiveColorTokens-Yellow-100: #FFF4CDFF;
+  --Colors-PrimitiveColorTokens-Yellow-200: #FFEAACFF;
+  --Colors-PrimitiveColorTokens-Yellow-300: #FFDA7FFF;
+  --Colors-PrimitiveColorTokens-Yellow-400: #F7C544FF;
+  --Colors-PrimitiveColorTokens-Yellow-500: #F3B51EFF;
+  --Colors-PrimitiveColorTokens-Yellow-600: #D49A05FF;
+  --Colors-PrimitiveColorTokens-Yellow-700: #976E00FF;
+  --Colors-PrimitiveColorTokens-Yellow-800: #7C5300FF;
+  --Colors-PrimitiveColorTokens-Teal-50: #EDF8FFFF;
+  --Colors-PrimitiveColorTokens-Teal-100: #D6FFFBFF;
+  --Colors-PrimitiveColorTokens-Teal-200: #B1F4EDFF;
+  --Colors-PrimitiveColorTokens-Teal-300: #70E5DDFF;
+  --Colors-PrimitiveColorTokens-Teal-400: #4ECFCAFF;
+  --Colors-PrimitiveColorTokens-Teal-500: #27BCB7FF;
+  --Colors-PrimitiveColorTokens-Teal-600: #21A49FFF;
+  --Colors-PrimitiveColorTokens-Teal-700: #118082FF;
+  --Colors-PrimitiveColorTokens-Teal-800: #00575CFF;
+  --Colors-PrimitiveColorTokens-Blue-50: #EDF8FFFF;
+  --Colors-PrimitiveColorTokens-Blue-100: #D2EDFFFF;
+  --Colors-PrimitiveColorTokens-Blue-200: #B4E1FFFF;
+  --Colors-PrimitiveColorTokens-Blue-300: #94D4FFFF;
+  --Colors-PrimitiveColorTokens-Blue-400: #64B9F2FF;
+  --Colors-PrimitiveColorTokens-Blue-500: #35A0E7FF;
+  --Colors-PrimitiveColorTokens-Blue-600: #1A77B4FF;
+  --Colors-PrimitiveColorTokens-Blue-700: #195F8EFF;
+  --Colors-PrimitiveColorTokens-Blue-800: #024572FF;
+  --Colors-PrimitiveColorTokens-Orange-50: #FFF3E6FF;
+  --Colors-PrimitiveColorTokens-Orange-100: #FFE9D3FF;
+  --Colors-PrimitiveColorTokens-Orange-200: #FFD3B1FF;
+  --Colors-PrimitiveColorTokens-Orange-300: #FFBE8DFF;
+  --Colors-PrimitiveColorTokens-Orange-400: #FFA663FF;
+  --Colors-PrimitiveColorTokens-Orange-500: #F27E25FF;
+  --Colors-PrimitiveColorTokens-Orange-600: #B4530EFF;
+  --Colors-PrimitiveColorTokens-Orange-700: #944B1DFF;
+  --Colors-PrimitiveColorTokens-Orange-800: #6E3000FF;
+  --Colors-PrimitiveColorTokens-Lime-50: #F0FAE2FF;
+  --Colors-PrimitiveColorTokens-Lime-100: #EEFFD6FF;
+  --Colors-PrimitiveColorTokens-Lime-200: #DAF3B9FF;
+  --Colors-PrimitiveColorTokens-Lime-300: #C5ED91FF;
+  --Colors-PrimitiveColorTokens-Lime-400: #ABDD65FF;
+  --Colors-PrimitiveColorTokens-Lime-500: #92D03DFF;
+  --Colors-PrimitiveColorTokens-Lime-600: #5E981DFF;
+  --Colors-PrimitiveColorTokens-Lime-700: #578421FF;
+  --Colors-PrimitiveColorTokens-Lime-800: #325B04FF;
+  
+  /* Button Color Tokens - PascalCase Format */
+  --Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default: var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite);
+  --Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Hover: var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite);
+  --Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Disabled: var(--Colors-PrimitiveColorTokens-Neutrals-Inactive-100);
+  --Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Default: var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite);
+  --Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Hover: var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite);
+  --Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Disabled: var(--Colors-PrimitiveColorTokens-Neutrals-Inactive-100);
+  --Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Default: var(--Colors-PrimitiveColorTokens-Teal-700);
+  --Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Hover: var(--Colors-PrimitiveColorTokens-Teal-800);
+  --Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Disabled: var(--Colors-PrimitiveColorTokens-Neutrals-Inactive-400);
+  --Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-700);
+  --Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Hover: var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite);
+  --Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Disabled: var(--Colors-PrimitiveColorTokens-Neutrals-Inactive-100);
+  --Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Default: var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite);
+  --Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Hover: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-600);
+  --Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Disabled: var(--Colors-PrimitiveColorTokens-Neutrals-Inactive-400);
+  --Colors-Buttons-SecondaryBtn-SecondaryBtn_Border_Default: var(--Colors-PrimitiveColorTokens-Teal-700);
+  --Colors-Buttons-SecondaryBtn-SecondaryBtn_Border_Hover: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-600);
+  --Colors-Buttons-SecondaryBtn-SecondaryBtn_Border_Disabled: var(--Colors-PrimitiveColorTokens-Neutrals-Inactive-400);
+  --Colors-Buttons-SecondaryBtn-SecondaryBtn_Icon_Default: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-600);
+  --Colors-Buttons-SecondaryBtn-SecondaryBtn_Icon_Hover: var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite);
+  --Colors-Buttons-SecondaryBtn-SecondaryBtn_Icon_Disabled: var(--Colors-PrimitiveColorTokens-Teal-50);
+  --Colors-Buttons-BrandBtn-BrandBtn_Label_Default: var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite);
+  --Colors-Buttons-BrandBtn-BrandBtn_Label_Hover: var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite);
+  --Colors-Buttons-BrandBtn-BrandBtn_Label_Disabled: var(--Colors-PrimitiveColorTokens-Neutrals-Inactive-100);
+  --Colors-Buttons-BrandBtn-BrandBtn_Icon_Default: var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite);
+  --Colors-Buttons-BrandBtn-BrandBtn_Icon_Hover: var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite);
+  --Colors-Buttons-BrandBtn-BrandBtn_Icon_Disabled: var(--Colors-PrimitiveColorTokens-Neutrals-Inactive-100);
+  --Colors-Buttons-BrandBtn-BrandBtn_Bkg_Default: var(--Colors-PrimitiveColorTokens-Fuscia-500);
+  --Colors-Buttons-BrandBtn-BrandBtn_Bkg_Hover: var(--Colors-PrimitiveColorTokens-Fuscia-800);
+  --Colors-Buttons-BrandBtn-BrandBtn_Bkg_Disabled: var(--Colors-PrimitiveColorTokens-Neutrals-Inactive-400);
+  --Colors-Buttons-SuccessBtn-BrandBtn_Label_Default: var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite);
+  --Colors-Buttons-SuccessBtn-BrandBtn_Label_Hover: var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite);
+  --Colors-Buttons-SuccessBtn-BrandBtn_Label_Disabled: var(--Colors-PrimitiveColorTokens-Neutrals-Inactive-100);
+  --Colors-Buttons-SuccessBtn-BrandBtn_Icon_Default: var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite);
+  --Colors-Buttons-SuccessBtn-BrandBtn_Icon_Hover: var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite);
+  --Colors-Buttons-SuccessBtn-BrandBtn_Icon_Disabled: var(--Colors-PrimitiveColorTokens-Neutrals-Inactive-100);
+  --Colors-Buttons-SuccessBtn-BrandBtn_Bkg_Default: var(--Colors-PrimitiveColorTokens-Lime-600);
+  --Colors-Buttons-SuccessBtn-BrandBtn_Bkg_Hover: var(--Colors-PrimitiveColorTokens-Lime-800);
+  --Colors-Buttons-SuccessBtn-BrandBtn_Bkg_Disabled: var(--Colors-PrimitiveColorTokens-Neutrals-Inactive-400);
+  --Colors-Buttons-Pill-Badge-Txt_Pill-Badge_Label: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-700);
+  --Colors-Buttons-Pill-Badge-Bkg-Blue200: var(--Colors-PrimitiveColorTokens-Blue-100);
+  --Colors-Buttons-Pill-Badge-Bkg-Fusia100: var(--Colors-PrimitiveColorTokens-Fuscia-100);
+  --Colors-Buttons-Pill-Badge-Bkg-Lime200: var(--Colors-PrimitiveColorTokens-Lime-200);
+  
+  /* Navigation Color Tokens - PascalCase Format */
+  --Colors-Navigation-Other-Divider: var(--Colors-PrimitiveColorTokens-Neutrals-Inactive-200);
+  --Colors-Navigation-Other-Txt_Sectionheader: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-500);
+  --Colors-Navigation-Other-Txt_MenuLabels: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-700);
+  --Colors-Navigation-Other-Txt_SubMenuLabels: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-600);
+  --Colors-Navigation-Other-Bkg_ActiveCount: var(--Colors-PrimitiveColorTokens-Red-500);
+  --Colors-Navigation-Other-Bkg_Panel: var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite);
+  --Colors-Navigation-Other-Bkg_Menu_Hover: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-200);
+  --Colors-Navigation-Other-Bkg_Menu_Selection: var(--Colors-PrimitiveColorTokens-Fuscia-50);
+  
+  /* Functional Color Tokens - PascalCase Format */
+  --Colors-Functional-Border-Border_Default: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-400);
+  --Colors-Functional-Border-Border_Focus: var(--Colors-PrimitiveColorTokens-Teal-600);
+  --Colors-Functional-Bkg-Bkg_Default: var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite);
+  --Colors-Functional-Txt-Txt_Default: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-800);
+  
+  /* Brand Color Tokens - PascalCase Format */
+  --Colors-PrimitiveColorTokens-Brand-EVAA-EVAA-Canvas: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-100);
+  --Colors-PrimitiveColorTokens-Brand-EVAA-EVAA-Fusia: var(--Colors-PrimitiveColorTokens-Fuscia-500);
+  --Colors-PrimitiveColorTokens-Brand-EVAA-EVAA-Plum: var(--Colors-PrimitiveColorTokens-Fuscia-800);
+  --Colors-PrimitiveColorTokens-Brand-MaximEyes-EVAA-Canvas: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-100);
+  --Colors-PrimitiveColorTokens-Brand-MaximEyes-EVAA-Lime: #AEE930FF;
+  --Colors-PrimitiveColorTokens-Brand-MaximEyes-EVAA-InnerForest: #002515FF;
+  --Colors-PrimitiveColorTokens-Brand-MaximEyes-EVAA-Springtime: #008A1EFF;
+  --Colors-PrimitiveColorTokens-Brand-MaximEyes-EVAA-Goldenrod: #DB9C42FF;
+  
   /* Additional Tokens */
+  --txt-ButtonLabelPrimary: DOWNLOAD;
+  --txt-PrimaryButtonLabel14: DOWNLOAD;
   --ButtonCurves: 25px;
+  --PrimaryButtonDisabled: #A1A5AEFF;
+  --ActiveStatusBG: #1A77B4FF;
+  --ActiveStatusBadgeLabel: Active;
+  --InputField-Stroke-Default: #D0CEC3FF;
+  
+  /* ============================================
+     Badge Components - Light & Dark Mode Support
+     ============================================ */
+  
+  /* StatusBadge - Active State */
+  --colors-badge-status-active-bkg: #1A77B4; /* Blue600 - same for light and dark mode */
+  --colors-badge-status-active-text: #FFFFFF; /* Static white */
+  --colors-badge-status-active-icon: #FFFFFF; /* Static white */
+  
+  /* StatusBadge - Inactive State */
+  --colors-badge-status-inactive-bkg-light: #959490; /* Bkg-500 light mode */
+  --colors-badge-status-inactive-bkg-dark: #E5E4DD; /* Bkg-500 dark mode */
+  --colors-badge-status-inactive-bkg: var(--colors-badge-status-inactive-bkg-light); /* Default to light mode */
+  --colors-badge-status-inactive-text: #FFFFFF; /* Static white */
+  --colors-badge-status-inactive-icon: #FFFFFF; /* Static white */
+  
+  /* PillShaped_Badge - Blue Variant */
+  --colors-badge-pill-blue-bkg-light: #B4E1FF; /* Blue200 light mode */
+  --colors-badge-pill-blue-bkg-dark: #35A0E7; /* Blue600 dark mode */
+  --colors-badge-pill-blue-bkg: var(--colors-badge-pill-blue-bkg-light); /* Default to light mode */
+  
+  /* PillShaped_Badge - Fusia Variant */
+  --colors-badge-pill-fusia-bkg-light: #FFDAEF; /* Fusia200 light mode */
+  --colors-badge-pill-fusia-bkg-dark: #811B53; /* Fusia100 dark mode */
+  --colors-badge-pill-fusia-bkg: var(--colors-badge-pill-fusia-bkg-light); /* Default to light mode */
+  
+  /* PillShaped_Badge - Lime Variant */
+  --colors-badge-pill-lime-bkg-light: #DAF3B9; /* Lime200 light mode */
+  --colors-badge-pill-lime-bkg-dark: #5E981D; /* Lime200 dark mode */
+  --colors-badge-pill-lime-bkg: var(--colors-badge-pill-lime-bkg-light); /* Default to light mode */
+  
+  /* PillShaped_Badge - Text (same for all variants) */
+  --colors-badge-pill-text: var(--colors-primitive-color-tokens-neutrals-bkg-700);
+  
+  /* ============================================
+     AdminTopNav - Navigation Component Colors
+     ============================================ */
+  
+  /* AdminTopNav - Brand Logo */
+  --colors-admin-nav-logo-brand: var(--colors-primitive-color-tokens-fuscia-500); /* #E00090 */
+  
+  /* AdminTopNav - Dropdown Background and Border */
+  --colors-admin-nav-dropdown-bkg: var(--colors-primitive-color-tokens-neutrals-static-white);
+  --colors-admin-nav-dropdown-border: var(--border); /* #c3c1b5 */
+  --colors-admin-nav-dropdown-text: var(--colors-primitive-color-tokens-neutrals-bkg-600); /* #71706c */
+  
+  /* AdminTopNav - Icon Colors */
+  --colors-admin-nav-icon-help: var(--colors-primitive-color-tokens-fuscia-700); /* #922D94 purple */
+  --colors-admin-nav-icon-setup: var(--colors-primitive-color-tokens-neutrals-bkg-500); /* #959490 gray */
+  --colors-admin-nav-icon-user: var(--colors-primitive-color-tokens-neutrals-bkg-500); /* #959490 gray */
+  --colors-admin-nav-icon-dropdown-arrow: var(--colors-primitive-color-tokens-neutrals-bkg-600); /* #71706c */
+  
+  /* AdminTopNav - Alert/Notification Badge */
+  --colors-admin-nav-alert-warning: var(--colors-primitive-color-tokens-yellow-600); /* #D49A05 */
+  --colors-admin-nav-alert-error: var(--colors-primitive-color-tokens-red-500); /* #E24723 */
+  --colors-admin-nav-alert-count-text: var(--colors-primitive-color-tokens-neutrals-static-white);
+  
+  /* Navigation */
+  --colors-navigation-other-bkg-active-count: var(--colors-primitive-color-tokens-red-500);
+  --colors-navigation-other-divider: var(--colors-primitive-color-tokens-neutrals-inactive-200);
+  --colors-navigation-other-txt-menu-labels: var(--colors-primitive-color-tokens-neutrals-bkg-700);
+  --colors-navigation-other-txt-sectionheader: var(--colors-primitive-color-tokens-neutrals-bkg-500);
+  --colors-navigation-other-txt-sub-menu-labels: var(--colors-primitive-color-tokens-neutrals-bkg-600);
+  --colors-navigation-icons-blue600: var(--colors-primitive-color-tokens-blue-600);
+  --colors-navigation-icons-teal600: var(--colors-primitive-color-tokens-teal-700);
+  --colors-navigation-icons-lime600: var(--colors-primitive-color-tokens-lime-600);
+  --colors-navigation-icons-fusia600: var(--colors-primitive-color-tokens-fuscia-600);
+  --colors-navigation-icons-gray-bkg-700: var(--colors-primitive-color-tokens-neutrals-bkg-700);
+  --colors-navigation-text-primary: #374151;
+  
+  /* Navigation Backgrounds */
+  --colors-fusia-50: #FDF2F8;
+  --colors-bkg-200: #F3F4F6;
+  --colors-bkg-300: #E5E7EB;
+  
+  /* ============================================
+     Input Fields - Evaa Design System
+     ============================================ */
+  
+  /* Input Field - Default State */
+  --colors-input-field-border-default: #d1d5db;
+  --colors-input-field-border-hover: var(--colors-primitive-color-tokens-teal-400);
+  --colors-input-field-border-focus: var(--colors-primitive-color-tokens-teal-500);
+  --colors-input-field-border-disabled: #e5e7eb;
+  --colors-input-field-border-readonly: var(--colors-primitive-color-tokens-blue-100);
+  
+  --colors-input-field-bkg-default: var(--colors-primitive-color-tokens-neutrals-static-white);
+  --colors-input-field-bkg-disabled: #f3f4f6;
+  --colors-input-field-bkg-readonly: rgba(237, 248, 255, 0.5);
+  --colors-input-field-bkg-hover: var(--colors-primitive-color-tokens-neutrals-static-white);
+  --colors-input-field-bkg-focus: var(--colors-primitive-color-tokens-neutrals-static-white);
+  
+  --colors-input-field-text-default: #1f2937;
+  --colors-input-field-text-placeholder: #9ca3af;
+  --colors-input-field-text-disabled: #6b7280;
+  --colors-input-field-text-label: #374151;
+  --colors-input-field-text-helper: #9ca3af;
+  --colors-input-field-text-counter: #9ca3af;
+  
+  /* Input Field - Error State */
+  --colors-input-field-border-error: #fca5a1;
+  --colors-input-field-bkg-error: #fef2f2;
+  --colors-input-field-text-error: #7f1d1d;
+  --colors-input-field-text-helper-error: var(--colors-primitive-color-tokens-red-600);
+  --colors-input-field-icon-error: var(--colors-primitive-color-tokens-red-500);
+  
+  /* Input Field - Prefix/Icon Addon */
+  --colors-input-field-prefix-bkg-default: #f9fafb;
+  --colors-input-field-prefix-bkg-error: #fee2e2;
+  --colors-input-field-prefix-border-default: #d1d5db;
+  --colors-input-field-prefix-border-error: #fca5a1;
+  --colors-input-field-prefix-text-default: #4b5563;
+  --colors-input-field-prefix-text-error: var(--colors-primitive-color-tokens-red-500);
+  --colors-input-field-icon-default: #6b7280;
+  --colors-input-field-icon-disabled: #9ca3af;
+  
+  /* Input Field - Sizing */
+  --input-field-height: 40px;
+  --input-field-padding-x: 12px;
+  --input-field-padding-y: 10px;
+  --input-field-prefix-padding-x: 16px;
+  --input-field-border-width: 1px;
+  --input-field-border-radius: var(--radius-md, 8px);
+  
+  /* Functional Colors - Backgrounds */
+  --colors-functional-bkg-bkg-active: var(--colors-primitive-color-tokens-teal-600);
+  --colors-functional-bkg-bkg-info500: var(--colors-primitive-color-tokens-blue-500);
+  --colors-functional-bkg-bkg-info100: var(--colors-primitive-color-tokens-blue-100);
+  --colors-functional-bkg-bkg-success600: var(--colors-primitive-color-tokens-lime-600);
+  --colors-functional-bkg-bkg-success100: var(--colors-primitive-color-tokens-lime-100);
+  --colors-functional-bkg-bkg-warning-orange500: var(--colors-primitive-color-tokens-orange-500);
+  --colors-functional-bkg-bkg-warning-orange100: var(--colors-primitive-color-tokens-orange-100);
+  --colors-functional-bkg-bkg-error-red500: var(--colors-primitive-color-tokens-red-500);
+  --colors-functional-bkg-bkg-error-red100: var(--colors-primitive-color-tokens-red-100);
+  
+  /* Functional Colors - Text */
+  --colors-functional-txt-txt-default: var(--colors-primitive-color-tokens-neutrals-bkg-800);
+  --colors-functional-txt-txt-info: var(--colors-primitive-color-tokens-blue-700);
+  --colors-functional-txt-txt-success: var(--colors-primitive-color-tokens-lime-600);
+  --colors-functional-txt-txt-warning-orange600: var(--colors-primitive-color-tokens-orange-600);
+  --colors-functional-txt-txt-error: var(--colors-primitive-color-tokens-red-600);
+  --colors-functional-txt-txt-selected-white: var(--colors-primitive-color-tokens-neutrals-static-white);
+  
+  /* Border radius */
+  --button-curves: 1.5625rem;
+  
+  /* Spacing */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  
+  /* Legacy theme tokens - maintain compatibility */
+  /* The default background color for the application. */
+  --background: rgba(255, 255, 255, 1.00);
+  /* The default color for elements or text that appears on top of the background. */
+  --foreground: rgba(48, 48, 48, 1.00);
+  /* The background color for cards, modals, and other containers. */
+  --card: rgba(255, 255, 255, 1.00);
+  /* The default color for text or elements that appear on top of cards, modals and other background containers. */
+  --card-foreground: rgba(75, 75, 74, 1.00);
+  /* The background color for dropdowns and tooltips. */
+  --popover: rgba(229, 228, 221, 1.00);
+  /* The default color for text or elements that appear on top of dropdowns and tooltips. */
+  --popover-foreground: rgba(48, 48, 48, 1.00);
+  /* The primary color used for buttons, links, and other interactive elements. */
+  --primary: rgba(17, 128, 130, 1.00);
+  /* The default color for text or elements that appear on top of primary colored elements. */
+  --primary-foreground: rgba(255, 255, 255, 1.00);
+  /* The secondary color used for secondary(but NOT-DESTRUCTIVE) buttons and interactive elements. */
+  --secondary: rgba(0, 0, 0, 0);
+  /* The default color for text or elements that appear on top of secondary colored elements. */
+  --secondary-foreground: rgba(75, 75, 74, 1.00);
+  /* The muted color used for less prominent elements, such as disabled buttons or disabled text. */
+  --muted: rgba(210, 220, 230, 1.00);
+  /* The default color for text or elements that appear on top of muted colored elements. */
+  --muted-foreground: rgba(139, 161, 185, 1.00);
+  /* The accent color used for highlights, links, and other interactive elements. */
+  --accent: rgba(17, 128, 130, 1.00);
+  /* The default color for text or elements that appear on top of accent colored elements. */
+  --accent-foreground: rgba(255, 255, 255, 1.00);
+  /* The color used for background in destructive actions, such as delete buttons or error messages. */
+  --destructive: rgba(231, 61, 54, 1.00);
+  /* The default color for text or elements that appear on top of destructive colored elements. */
+  --destructive-foreground: rgba(255, 255, 255, 1.00);
+  /* The default border color for elements such as inputs, buttons, and other containers. */
+  --border: rgba(195, 193, 181, 1.00);
+  /* The default background color for input fields once the text has been filled. Should be either transparent or match the input-background. */
+  --input: rgba(255, 255, 255, 1.00);
+  /* The default background color for input fields, text areas, and other input elements. */
+  --input-background: rgba(255, 255, 255, 1.00);
+  /* The color for focus rings, outlines, and other focus indicators. */
+  --ring: rgba(33, 164, 159, 1.00);
+  /* Shadow for small elevations, such as cards or modals. */
+  --elevation-sm: 0px 2px 4px 0px rgba(0, 0, 0, 0.08);
+  /* The color for chart elements, such as a bar or line in a chart. */
+  --chart-1: rgba(17, 128, 130, 1.00);
+  /* The color for another chart element, such as a bar or line in a chart. */
+  --chart-2: rgba(146, 208, 61, 1.00);
+  /* The color for another chart element, such as a bar or line in a chart. */
+  --chart-3: rgba(242, 126, 37, 1.00);
+  /* The color for another chart element, such as a bar or line in a chart. */
+  --chart-4: rgba(215, 45, 138, 1.00);
+  /* The color for another chart element, such as a bar or line in a chart. */
+  --chart-5: rgba(53, 160, 231, 1.00);
+  /* The default border radius for elements such as buttons, tooltip, and other containers. */
+  --radius: 13px;
+  /* Button border radius for pill-shaped buttons. */
+  --radius-button: 999px;
+  /* Card border radius used for dashboard cards and modals. */
+  --radius-card: 13px;
+  /* Small border radius used for tooltips. */
+  --radius-small: 4px;
+  /* The background color for sidebars, navigation menus, and other persistent elements. */
+  --sidebar: rgba(246, 246, 241, 1.00);
+  /* The default color for text or elements that appear on top of sidebars, navigation menus, and other persistent elements. */
+  --sidebar-foreground: rgba(75, 75, 74, 1.00);
+  /* The primary color used for buttons, links, and other interactive elements in sidebars and navigation menus. */
+  --sidebar-primary: rgba(17, 128, 130, 1.00);
+  /* The default color for text or elements that appear on top of primary colored elements in sidebars and navigation menus. */
+  --sidebar-primary-foreground: rgba(255, 255, 255, 1.00);
+  /* The accent color used for highlights, links, and other interactive elements in sidebars and navigation menus. */
+  --sidebar-accent: rgba(17, 128, 130, 1.00);
+  /* The default color for text or elements that appear on top of accent colored elements in sidebars and navigation menus. */
+  --sidebar-accent-foreground: rgba(255, 255, 255, 1.00);
+  /* The default border color for elements in sidebars and navigation menus. */
+  --sidebar-border: rgba(195, 193, 181, 1.00);
+  /* The default color for focus rings, outlines, and other focus indicators in sidebars and navigation menus. */
+  --sidebar-ring: rgba(33, 164, 159, 1.00);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-input-background: var(--input-background);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: var(--radius-small);
+  --radius-md: var(--radius);
+  --radius-lg: var(--radius-card);
+  --radius-xl: var(--radius-button);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'DM Sans', sans-serif;
+  }
+}
+
+/**
+ * Base typography. This is not applied to elements which have an ancestor with a Tailwind text class.
+ */
+@layer base {
+  :where(:not(:has([class*=" text-"]), :not(:has([class^="text-"])))) {
+    h1 {
+      font-family: 'DM Sans', sans-serif;
+      font-size: var(--text-h1);
+      font-weight: var(--font-weight-thin);
+      line-height: 1.5;
+    }
+
+    h2 {
+      font-family: 'DM Sans', sans-serif;
+      font-size: var(--text-h2);
+      font-weight: var(--font-weight-semibold);
+      line-height: 1.5;
+    }
+
+    h3 {
+      font-family: 'DM Sans', sans-serif;
+      font-size: var(--text-h3);
+      font-weight: var(--font-weight-semibold);
+      line-height: 1.5;
+    }
+
+    h4 {
+      font-family: 'DM Sans', sans-serif;
+      font-size: var(--text-h4);
+      font-weight: var(--font-weight-semibold);
+      line-height: 1.5;
+    }
+
+    p {
+      font-family: 'DM Sans', sans-serif;
+      font-size: var(--text-base);
+      font-weight: var(--font-weight-normal);
+      line-height: 1.5;
+      color: var(--colors-primitive-color-tokens-neutrals-bkg-800);
+    }
+
+    label {
+      font-family: 'DM Sans', sans-serif;
+      font-size: var(--text-label);
+      font-weight: var(--font-weight-medium);
+      line-height: 1.5;
+    }
+
+    button {
+      font-family: 'DM Sans', sans-serif;
+      font-size: var(--text-button-primary);
+      font-weight: var(--font-weight-extrabold);
+      line-height: 1.5;
+      text-transform: uppercase;
+    }
+
+    input {
+      font-family: 'DM Sans', sans-serif;
+      font-size: var(--text-base);
+      font-weight: var(--font-weight-normal);
+      line-height: 1.5;
+    }
+
+    select {
+      font-family: 'DM Sans', sans-serif;
+      font-size: var(--text-base);
+      font-weight: var(--font-weight-medium);
+      line-height: 1.5;
+    }
+  }
+}
+
+/* Large number typography for statistics and metrics */
+.large-number {
+  font-family: 'Roboto', sans-serif;
+  font-size: var(--text-large-number);
+  font-weight: var(--font-weight-normal);
+  line-height: 1.5;
+}
+
+/* ============================================
+   Evaa Design System Typography Classes
+   ============================================ */
+
+/* Display Classes */
+.txt-display1-thin-80 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 80px;
+  font-weight: var(--font-weight-thin);
+  line-height: 1.2;
+}
+
+.txt-display2-thin-72 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 72px;
+  font-weight: var(--font-weight-thin);
+  line-height: 1.2;
+}
+
+.txt-display3-thin-64 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 64px;
+  font-weight: var(--font-weight-thin);
+  line-height: 1.2;
+}
+
+.txt-display4-thin-58 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 58px;
+  font-weight: var(--font-weight-thin);
+  line-height: 1.2;
+}
+
+.txt-display5-thin-48 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 48px;
+  font-weight: var(--font-weight-thin);
+  line-height: 1.2;
+}
+
+.txt-display6-thin-40 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 40px;
+  font-weight: var(--font-weight-thin);
+  line-height: 1.2;
+}
+
+/* Heading Classes */
+.txt-h1-heading-Regular-30 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 30px;
+  font-weight: var(--font-weight-normal);
+  line-height: 1.5;
+}
+
+.txt-h2-heading-SemiBold-28 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 28px;
+  font-weight: var(--font-weight-semibold);
+  line-height: 1.5;
+}
+
+.txt-h3-heading-SemiBold-26 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 26px;
+  font-weight: var(--font-weight-semibold);
+  line-height: 1.5;
+}
+
+.txt-h4-heading-SemiBold-24 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 24px;
+  font-weight: var(--font-weight-semibold);
+  line-height: 1.5;
+}
+
+.txt-h5-heading-SemiBold-22 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 22px;
+  font-weight: var(--font-weight-semibold);
+  line-height: 1.5;
+}
+
+.txt-h6-heading-SemiBold-20 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 20px;
+  font-weight: var(--font-weight-semibold);
+  line-height: 1.5;
+}
+
+/* Sub Heading Classes - 18px */
+.txt-sb1-semibold-18 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px;
+  font-weight: var(--font-weight-semibold);
+  line-height: 1.5;
+}
+
+.txt-sb1-Extrabold-18 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 18px;
+  font-weight: var(--font-weight-extrabold);
+  line-height: 1.5;
+}
+
+/* Sub Heading Classes - 16px */
+.txt-sb2-semibold-16 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-weight: var(--font-weight-semibold);
+  line-height: 1.5;
+}
+
+.txt-sb2-Extrabold-16 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-weight: var(--font-weight-extrabold);
+  line-height: 1.5;
+}
+
+.txt-sb2-Medium-16 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-weight: var(--font-weight-medium);
+  line-height: 1.5;
+}
+
+/* Sub Heading Classes - 14px */
+.txt-sb3-black-14 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: var(--font-weight-black);
+  line-height: 1.5;
+}
+
+.txt-sb3-extrabold-14 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: var(--font-weight-extrabold);
+  line-height: 1.5;
+}
+
+.txt-sb3-semibold-14 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: var(--font-weight-semibold);
+  line-height: 1.5;
+}
+
+.txt-sb3-medium-14 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: var(--font-weight-medium);
+  line-height: 1.5;
+}
+
+.txt-sb3-regular-14 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: var(--font-weight-normal);
+  line-height: 1.5;
+}
+
+/* Font Size - Small Classes */
+.txt-fs-sm-medium-12 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12px;
+  font-weight: var(--font-weight-medium);
+  line-height: 1.5;
+}
+
+.txt-fs-sm-Regular-12 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 12px;
+  font-weight: var(--font-weight-normal);
+  line-height: 1.5;
+}
+
+.txt-fs-xm-medium-10 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 10px;
+  font-weight: var(--font-weight-medium);
+  line-height: 1.5;
+}
+
+.txt-fs-xm-extrabold-10 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 10px;
+  font-weight: var(--font-weight-extrabold);
+  line-height: 1.5;
+}
+
+/* Body and Paragraph Classes */
+.txt-body-regular-14 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: var(--font-weight-normal);
+  line-height: 1.5;
+}
+
+.txt-paragraph-regular-14 {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  font-weight: var(--font-weight-normal);
+  line-height: 1.5;
+}
+
+html {
+  font-size: var(--font-size);
 }

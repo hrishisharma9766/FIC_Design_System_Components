@@ -6,49 +6,10 @@ import { ProgressBar } from './components/ProgressBar';
 import { RadioButton } from './components/RadioButton';
 import { Checkbox } from './components/Checkbox';
 import { DatePicker } from './components/DatePicker';
-import { SingleSelectDropDown } from './components/DropDown';
-import { InputField, InputField_Phone } from './components/InputFields';
-import { EvaaTable } from './components/Table';
-import { TimePicker } from './components/TimePicker';
+import { SearchBox } from './components/SearchBox';
+import { Switch } from './components/Switch';
 
 function App() {
-  const [dropdownValue, setDropdownValue] = useState('');
-  const [inputValue, setInputValue] = useState('');
-
-  const tableData = [
-    {
-      id: '1',
-      location: 'North Clinic',
-      accountId: 'ACC-001',
-      acceptorId: 'ACCP-101',
-      acceptorToken: 'TK-7788',
-      actionType: 'edit-cancel' as const,
-    },
-    {
-      id: '2',
-      location: 'South Clinic',
-      accountId: 'ACC-002',
-      acceptorId: 'ACCP-102',
-      acceptorToken: 'TK-9922',
-      actionType: 'save-cancel' as const,
-      alternateBackground: true,
-    },
-    {
-      id: '3',
-      location: 'West Medical',
-      accountId: 'ACC-003',
-      acceptorId: 'ACCP-103',
-      acceptorToken: 'TK-1144',
-      isEditingAccountId: true,
-    },
-  ];
-
-  const dropdownOptions = [
-    { value: 'option1', label: 'Option 1' },
-    { value: 'option2', label: 'Option 2' },
-    { value: 'option3', label: 'Option 3' },
-  ];
-
   const [checkedItems, setCheckedItems] = useState({
     default: false,
     hover: false,
@@ -471,98 +432,139 @@ function App() {
           </div>
         </section>
 
-        {/* Input Fields Section */}
+        {/* SearchBox Section */}
         <section className="bg-background p-6 rounded-[13px] border border-border">
-          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Input Fields</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            <InputField 
-              label="Standard Input" 
-              placeholder="Type something..." 
-              value={inputValue}
-              onChange={(e) => setInputValue(e.target.value)}
-              helperText="This is a helper text"
-            />
-            <InputField 
-              label="Input with Error" 
-              placeholder="Invalid value" 
-              error="This field is required"
-              value=""
-              onChange={() => {}}
-            />
-            <InputField 
-              label="Disabled Input" 
-              placeholder="I am disabled" 
-              disabled 
-              value=""
-              onChange={() => {}}
-            />
-            <InputField 
-              label="Input with Prefix" 
-              placeholder="Username" 
-              prefix="user"
-              value=""
-              onChange={() => {}}
-            />
-            <InputField_Phone 
-              label="Phone Input" 
-              placeholder="(555) 000-0000"
-              value=""
-              onChange={() => {}}
-            />
-            <InputField 
-              label="Password" 
-              type="password"
-              placeholder="Enter password"
-              rightIcon="eye"
-              value=""
-              onChange={() => {}}
-            />
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Search Box</h2>
+          <div className="space-y-8">
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Standard Search Box</h3>
+              <div className="flex flex-col gap-6 max-w-md">
+                <SearchBox placeholder="Search by whatever thing..." />
+                <SearchBox placeholder="Search (Hover state)" className="search-box--hover" />
+                <SearchBox placeholder="Search (Disabled state)" disabled />
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Collapsible Search Box</h3>
+              <div className="flex gap-6 items-center">
+                <SearchBox collapsible placeholder="Click to expand..." />
+                <SearchBox collapsible disabled placeholder="Collapsible disabled" />
+              </div>
+            </div>
           </div>
         </section>
 
-        {/* Dropdowns Section */}
+        {/* Switch Section */}
         <section className="bg-background p-6 rounded-[13px] border border-border">
-          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Dropdowns</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
-            <SingleSelectDropDown 
-              label="Small Dropdown" 
-              size="small"
-              options={dropdownOptions}
-              value={dropdownValue}
-              onChange={setDropdownValue}
-            />
-            <SingleSelectDropDown 
-              label="Medium Dropdown" 
-              size="medium"
-              options={dropdownOptions}
-              value={dropdownValue}
-              onChange={setDropdownValue}
-            />
-            <SingleSelectDropDown 
-              label="Large Dropdown" 
-              size="large"
-              options={dropdownOptions}
-              value={dropdownValue}
-              onChange={setDropdownValue}
-            />
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Switch Components</h2>
+          <div className="space-y-12">
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Color Variants & Sizes</h3>
+              <div className="flex flex-wrap gap-12 items-end">
+                <div className="flex flex-col gap-2 items-center">
+                  <span className="text-xs text-muted-foreground">Teal (Big)</span>
+                  <Switch colorVariant="teal" size="big" defaultChecked />
+                </div>
+                <div className="flex flex-col gap-2 items-center">
+                  <span className="text-xs text-muted-foreground">Fusia (Big)</span>
+                  <Switch colorVariant="fusia" size="big" defaultChecked />
+                </div>
+                <div className="flex flex-col gap-2 items-center">
+                  <span className="text-xs text-muted-foreground">Green (Big)</span>
+                  <Switch colorVariant="green" size="big" defaultChecked />
+                </div>
+                <div className="flex flex-col gap-2 items-center">
+                  <span className="text-xs text-muted-foreground">Red (Big)</span>
+                  <Switch colorVariant="red" size="big" defaultChecked />
+                </div>
+                <div className="flex flex-col gap-2 items-center">
+                  <span className="text-xs text-muted-foreground">Green/Red (Big)</span>
+                  <Switch colorVariant="green-red" size="big" defaultChecked />
+                </div>
+                <div className="flex flex-col gap-2 items-center">
+                  <span className="text-xs text-muted-foreground">Teal (Small)</span>
+                  <Switch colorVariant="teal" size="small" defaultChecked />
+                </div>
+                <div className="flex flex-col gap-2 items-center">
+                  <span className="text-xs text-muted-foreground">Fusia (Small)</span>
+                  <Switch colorVariant="fusia" size="small" defaultChecked />
+                </div>
+                <div className="flex flex-col gap-2 items-center">
+                  <span className="text-xs text-muted-foreground">Green (Small)</span>
+                  <Switch colorVariant="green" size="small" defaultChecked />
+                </div>
+                <div className="flex flex-col gap-2 items-center">
+                  <span className="text-xs text-muted-foreground">Red (Small)</span>
+                  <Switch colorVariant="red" size="small" defaultChecked />
+                </div>
+                <div className="flex flex-col gap-2 items-center">
+                  <span className="text-xs text-muted-foreground">Green/Red (Small)</span>
+                  <Switch colorVariant="green-red" size="small" defaultChecked />
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">States</h3>
+              <div className="flex flex-wrap gap-12 items-end">
+                <div className="flex flex-col gap-2 items-center">
+                  <span className="text-xs text-muted-foreground">Default (Inactive)</span>
+                  <Switch />
+                </div>
+                <div className="flex flex-col gap-2 items-center">
+                  <span className="text-xs text-muted-foreground">Default (Active)</span>
+                  <Switch defaultChecked />
+                </div>
+                <div className="flex flex-col gap-2 items-center">
+                  <span className="text-xs text-muted-foreground">Disabled (Inactive)</span>
+                  <Switch disabled />
+                </div>
+                <div className="flex flex-col gap-2 items-center">
+                  <span className="text-xs text-muted-foreground">Disabled (Active)</span>
+                  <Switch disabled defaultChecked />
+                </div>
+                <div className="flex flex-col gap-2 items-center">
+                  <span className="text-xs text-muted-foreground">Read Only (Inactive)</span>
+                  <Switch readOnly />
+                </div>
+                <div className="flex flex-col gap-2 items-center">
+                  <span className="text-xs text-muted-foreground">Read Only (Active)</span>
+                  <Switch readOnly defaultChecked />
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">With Labels & Badges</h3>
+              <div className="space-y-8">
+                <Switch 
+                  label="Main Label:" 
+                  inactiveLabel="Value 1" 
+                  activeLabel="Value 2" 
+                />
+                <Switch 
+                  label="Main Label:" 
+                  inactiveLabel="Value 1" 
+                  activeLabel="Value 2" 
+                  defaultChecked 
+                />
+                <Switch 
+                  label="Offer Switch:" 
+                  inactiveLabel="Standard" 
+                  activeLabel="Premium" 
+                  offerText="Save 20%" 
+                  defaultChecked 
+                />
+              </div>
+            </div>
           </div>
         </section>
 
-        {/* Time Picker Section */}
-        <section className="bg-background p-6 rounded-[13px] border border-border">
-          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Time Picker</h2>
-          <div className="flex flex-wrap gap-8 items-start">
-            <TimePicker label="Select Time (12h)" format="12h" />
-            <TimePicker label="Select Time (24h)" format="24h" />
-            <TimePicker label="Range Picker" type="range" />
-          </div>
-        </section>
-
-        {/* Table Section */}
-        <section className="bg-background p-6 rounded-[13px] border border-border">
-          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Data Table</h2>
-          <EvaaTable data={tableData} showHeaderCheckbox={true} title="Location Management" />
-        </section>
+        {/* Footer */}
+        <footer className="mt-12 pt-8 border-t border-border text-center text-muted-foreground text-sm">
+          <p>Evaa Design System Component Showcase</p>
+        </footer>
       </div>
     </div>
   );

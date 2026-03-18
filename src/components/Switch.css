@@ -1,0 +1,194 @@
+/* ============================================
+   Switch Component - BEM Styling
+   Using Design System Tokens from theme.css
+   ============================================ */
+
+/* Main Container */
+.switch-container {
+  display: block;
+  width: fit-content;
+}
+
+/* Label Styling */
+.switch__main-label {
+  color: var(--colors-primitive-color-tokens-neutrals-bkg-600, #71706C);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.28px;
+  margin-right: 4px; /* Small gap after main label */
+}
+
+/* Content Wrapper (Labels + Switch) */
+.switch__content-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Value Labels */
+.switch__value-label {
+  color: var(--colors-primitive-color-tokens-neutrals-bkg-700, #4B4B4A);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.28px;
+  transition: font-weight 0.2s ease, color 0.2s ease;
+}
+
+.switch__value-label--active-state {
+  font-weight: 800;
+  color: var(--colors-primitive-color-tokens-neutrals-bkg-800, #303030);
+}
+
+/* Basic Switch Structure */
+.switch {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.switch__input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+/* Track Styling */
+.switch__track {
+  display: block;
+  background-color: var(--colors-primitive-color-tokens-neutrals-inactive-300, #B4C6D6);
+  border-radius: 12px;
+  transition: background-color 0.2s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+/* Handle Styling */
+.switch__handle {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  background-color: var(--colors-primitive-color-tokens-neutrals-static-white, #FFFFFF);
+  border-radius: 50%;
+  transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+/* ============================================
+   Sizes
+   ============================================ */
+
+/* Big Size (48x24) */
+.switch-container--big .switch__track {
+  width: 48px;
+  height: 24px;
+}
+
+.switch-container--big .switch__handle {
+  width: 20px;
+  height: 20px;
+}
+
+/* Small Size (40x20) */
+.switch-container--small .switch__track {
+  width: 40px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+.switch-container--small .switch__handle {
+  width: 16px;
+  height: 16px;
+}
+
+/* ============================================
+   States & Variants
+   ============================================ */
+
+/* Checked / Active States */
+/* Using both container class and input:checked for maximum compatibility */
+.switch-container--checked.switch-container--teal .switch__track,
+.switch-container--teal .switch__input:checked + .switch__track {
+  background-color: var(--colors-primitive-color-tokens-teal-700, #118082);
+}
+
+.switch-container--checked.switch-container--fusia .switch__track,
+.switch-container--fusia .switch__input:checked + .switch__track {
+  background-color: var(--colors-primitive-color-tokens-fuscia-600, #AC246E);
+}
+
+.switch-container--checked.switch-container--green-red .switch__track,
+.switch-container--green-red .switch__input:checked + .switch__track {
+  background-color: var(--colors-primitive-color-tokens-lime-600, #5E981D);
+}
+
+.switch-container--checked.switch-container--green .switch__track,
+.switch-container--green .switch__input:checked + .switch__track {
+  background-color: var(--colors-primitive-color-tokens-lime-600, #5E981D);
+}
+
+.switch-container--checked.switch-container--red .switch__track,
+.switch-container--red .switch__input:checked + .switch__track {
+  background-color: var(--colors-primitive-color-tokens-red-500, #E73D36);
+}
+
+/* Inactive State for Green/Red variant (uses Red) */
+.switch-container--green-red:not(.switch-container--checked) .switch__track,
+.switch-container--green-red .switch__input:not(:checked) + .switch__track {
+  background-color: var(--colors-primitive-color-tokens-red-500, #E73D36);
+}
+
+/* Handle Movement */
+.switch-container--big.switch-container--checked .switch__handle,
+.switch-container--big .switch__input:checked + .switch__track .switch__handle {
+  transform: translateX(24px);
+}
+
+.switch-container--small.switch-container--checked .switch__handle,
+.switch-container--small .switch__input:checked + .switch__track .switch__handle {
+  transform: translateX(20px);
+}
+
+/* Disabled State */
+.switch-container--disabled .switch__track,
+.switch-container--disabled.switch-container--checked .switch__track,
+.switch-container--disabled .switch__input:checked + .switch__track {
+  background-color: var(--colors-primitive-color-tokens-neutrals-inactive-400, #8BA1B9);
+  cursor: not-allowed;
+}
+
+.switch-container--disabled .switch__handle {
+  background-color: var(--colors-primitive-color-tokens-neutrals-inactive-200, #D2DCE6);
+}
+
+.switch-container--disabled .switch__main-label,
+.switch-container--disabled .switch__value-label {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* ReadOnly State */
+.switch-container--readonly .switch__track,
+.switch-container--readonly.switch-container--checked .switch__track,
+.switch-container--readonly .switch__input:checked + .switch__track {
+  background-color: var(--colors-primitive-color-tokens-neutrals-inactive-600, #4B5867);
+  cursor: default;
+}
+
+.switch-container--readonly .switch__handle {
+  background-color: var(--colors-primitive-color-tokens-neutrals-inactive-200, #D2DCE6);
+}
+
+/* Offer Badge Styling */
+.switch__offer-badge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 9px;
+  background-color: var(--colors-primitive-color-tokens-lime-200, #DAF3B9);
+  border-radius: 18px;
+  color: var(--colors-primitive-color-tokens-neutrals-bkg-700, #4B4B4A);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17.46px;
+  height: 24px;
+}

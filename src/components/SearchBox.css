@@ -1,0 +1,90 @@
+.search-box {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-sizing: border-box;
+}
+
+.search-box__wrapper {
+  display: flex;
+  align-items: center;
+  background: var(--colors-primitive-color-tokens-neutrals-static-white, #ffffff);
+  border: 1px solid var(--colors-primitive-color-tokens-neutrals-bkg-400, #C3C1B5);
+  border-radius: 13px;
+  height: 36px;
+  padding: 0 10px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: hidden;
+  cursor: text;
+}
+
+.search-box--collapsed .search-box__wrapper {
+  width: 36px;
+  padding: 0;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.search-box--expanded .search-box__wrapper {
+  width: 415px; /* Default width from Figma */
+  max-width: 100%;
+}
+
+/* Hover State */
+.search-box:not(.search-box--disabled) .search-box__wrapper:hover {
+  border-color: var(--colors-primitive-color-tokens-neutrals-bkg-500, #959490);
+}
+
+/* Focus State */
+.search-box:not(.search-box--disabled):focus-within .search-box__wrapper {
+  border-color: var(--colors-primitive-color-tokens-teal-600, #21A49F);
+  box-shadow: 0px 0px 0px 4px rgba(39, 188, 183, 0.25);
+}
+
+.search-box__icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  color: var(--colors-primitive-color-tokens-blue-600, #1A77B4);
+  transition: color 0.2s ease;
+}
+
+.search-box__input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  outline: none;
+  height: 100%;
+  margin-left: 8px;
+  font-size: var(--FontSize-Size-14, 14px);
+  font-weight: var(--FontType-Medium, 500);
+  line-height: 20.37px;
+  color: var(--colors-primitive-color-tokens-neutrals-bkg-800, #303030);
+}
+
+.search-box__input::placeholder {
+  color: var(--colors-primitive-color-tokens-neutrals-bkg-600, #71706C);
+}
+
+/* Disabled State */
+.search-box--disabled .search-box__wrapper {
+  background: var(--colors-primitive-color-tokens-neutrals-inactive-200, #D2DCE6);
+  border-color: var(--colors-primitive-color-tokens-neutrals-inactive-300, #B4C6D6);
+  cursor: default;
+}
+
+.search-box--disabled .search-box__icon-container {
+  color: var(--colors-primitive-color-tokens-neutrals-inactive-400, #8BA1B9);
+}
+
+.search-box--disabled .search-box__input {
+  color: var(--colors-primitive-color-tokens-neutrals-inactive-400, #8BA1B9);
+}
+
+.search-box--disabled .search-box__input::placeholder {
+  color: var(--colors-primitive-color-tokens-neutrals-inactive-400, #8BA1B9);
+}
