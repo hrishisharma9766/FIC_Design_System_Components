@@ -1,0 +1,137 @@
+/* SimpleTable.css - Based on Figma "Table without Heading & Button" and theme.css */
+
+.simple-table-container {
+  width: 100%;
+  background: var(--Colors-Functional-Bkg-Bkg_Default, white);
+  border-radius: 13px;
+  border: 1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid;
+  overflow: hidden; /* To ensure the border radius clips the table content */
+  font-family: var(--FontFamily-Family, 'DM Sans', sans-serif);
+}
+
+.simple-table-container--responsive {
+  overflow-x: auto;
+}
+
+.simple-table-wrapper {
+  width: 100%;
+}
+
+.simple-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+/* Header Cells */
+.simple-table__cell--header {
+  padding: 10px;
+  background: var(--Colors-Functional-Bkg-Bkg_Default, white);
+  border-bottom: 1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid;
+  color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+  font-size: var(--FontSize-Size-14, 14px);
+  font-weight: var(--FontType-ExtraBold, 800);
+  line-height: 20.37px;
+  white-space: nowrap;
+}
+
+/* Vertical borders between header cells (as seen in Figma) */
+.simple-table__cell--header:not(:first-child) {
+  border-left: 1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid;
+}
+
+.simple-table__header-content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Sortable Header */
+.simple-table__cell--sortable {
+  cursor: pointer;
+  user-select: none;
+}
+
+.simple-table__cell--sortable:hover {
+  background-color: var(--Colors-PrimitiveColorTokens-Blue-50, #EDF8FF);
+}
+
+.simple-table__sort-icon {
+  font-size: 12px;
+  color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+  opacity: 0.5;
+  transition: opacity 0.2s;
+}
+
+.simple-table__cell--sortable:hover .simple-table__sort-icon {
+  opacity: 1;
+}
+
+.simple-table__sort-icon.asc,
+.simple-table__sort-icon.desc {
+  opacity: 1;
+  color: var(--Colors-PrimitiveColorTokens-Blue-600, #0077C8);
+}
+
+/* Data Cells */
+.simple-table__cell {
+  padding: 10px;
+  border-bottom: 1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid;
+  color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+  font-size: var(--FontSize-Size-14, 14px);
+  font-weight: var(--FontType-Medium, 500);
+  line-height: 20.37px;
+}
+
+/* Vertical borders between data cells (as seen in Figma) */
+.simple-table__cell:not(:first-child) {
+  border-left: 1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid;
+}
+
+/* Last row shouldn't have bottom border to keep the container clean */
+.simple-table__row:last-child .simple-table__cell {
+  border-bottom: none;
+}
+
+/* Variants */
+.simple-table-container--striped .simple-table__row:nth-child(even) {
+  background-color: var(--Colors-PrimitiveColorTokens-Blue-50, #EDF8FF);
+}
+
+/* Hover State */
+.simple-table__row:hover {
+  background-color: var(--Colors-PrimitiveColorTokens-Blue-100, #D2EDFF);
+}
+
+/* Selected State */
+.simple-table__row--selected {
+  background-color: var(--Colors-PrimitiveColorTokens-Blue-200, #B4E1FF) !important;
+}
+
+/* Checkbox Column */
+.simple-table__cell--checkbox {
+  width: 40px;
+  text-align: center;
+}
+
+.simple-table__checkbox-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.simple-table__checkbox {
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  border: 1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid;
+  cursor: pointer;
+}
+
+/* Empty State */
+.simple-table__cell--empty {
+  text-align: center;
+  padding: 20px;
+  font-weight: var(--FontType-Medium, 500);
+  color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+}

@@ -1,0 +1,366 @@
+<div style={{width: '100%', height: '100%', position: 'relative', overflow: 'hidden', borderRadius: 5, border: '1px #9747FF solid'}}>
+    <div style={{width: 1116, padding: 8, left: 21, top: 21, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 12, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'}}>Location Credentials</div>
+        <div style={{alignSelf: 'stretch', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+            <div style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>No location credentials have been set up. To get started, create a new token.</div>
+            <div style={{height: 35, padding: 10, background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Default, #118082)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>Create New Token</div>
+            </div>
+        </div>
+        <div data-property-1="DefaultTable" style={{background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+            <div style={{width: 207, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                <div data-property-1="Left curveBox+Label" style={{alignSelf: 'stretch', padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderTopLeftRadius: 13, borderLeft: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderTop: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 18, height: 18, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 4, border: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid'}} />
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>Location Name</div>
+                </div>
+                <div data-property-1="Label+CheckBox" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderLeft: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 18, height: 18, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 4, border: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid'}} />
+                    <div style={{width: 135, justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Downtown Center...</div>
+                </div>
+                <div data-property-1="Label+CheckBox" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-PrimitiveColorTokens-Blue-50, #EDF8FF)', borderLeft: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 18, height: 18, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 4, border: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid'}} />
+                    <div style={{width: 135, justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Westside Vision...</div>
+                </div>
+                <div data-property-1="Label+CheckBox" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderLeft: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 18, height: 18, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 4, border: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid'}} />
+                    <div style={{width: 135, justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Eastgate Eye Care</div>
+                </div>
+                <div data-property-1="Label+CheckBox" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-PrimitiveColorTokens-Blue-50, #EDF8FF)', borderLeft: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 18, height: 18, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 4, border: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid'}} />
+                    <div style={{width: 135, justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Northpark Eyewear...</div>
+                </div>
+                <div data-property-1="Label+CheckBox" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderLeft: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 18, height: 18, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 4, border: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid'}} />
+                    <div style={{width: 135, justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Downtown Center...</div>
+                </div>
+            </div>
+            <div style={{flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                <div data-property-1="labelnobothborder" style={{width: 208, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderTop: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>Account Id</div>
+                </div>
+                <div data-property-1="Inputfield" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 208, height: 32, paddingLeft: 16, paddingRight: 16, paddingTop: 8, paddingBottom: 8, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', overflow: 'hidden', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'Arial', fontWeight: '400', lineHeight: 21, wordWrap: 'break-word'}}>ACC001</div>
+                    </div>
+                </div>
+                <div data-property-1="labelnobothborder" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-PrimitiveColorTokens-Blue-50, #EDF8FF)', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>ACC002</div>
+                </div>
+                <div data-property-1="labelnobothborder" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>ACC003</div>
+                </div>
+                <div data-property-1="labelnobothborder" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-PrimitiveColorTokens-Blue-50, #EDF8FF)', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Not set</div>
+                </div>
+                <div data-property-1="labelnobothborder" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>ACC005</div>
+                </div>
+            </div>
+            <div style={{flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                <div data-property-1="labelnobothborder" style={{width: 208, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderTop: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>Acceptor ID</div>
+                </div>
+                <div data-property-1="Inputfield" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 208, height: 32, paddingLeft: 16, paddingRight: 16, paddingTop: 8, paddingBottom: 8, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', overflow: 'hidden', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'Arial', fontWeight: '400', lineHeight: 21, wordWrap: 'break-word'}}>ACP001</div>
+                    </div>
+                </div>
+                <div data-property-1="labelnobothborder" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-PrimitiveColorTokens-Blue-50, #EDF8FF)', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>ACP002</div>
+                </div>
+                <div data-property-1="labelnobothborder" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>ACP003</div>
+                </div>
+                <div data-property-1="labelnobothborder" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-PrimitiveColorTokens-Blue-50, #EDF8FF)', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Not set</div>
+                </div>
+                <div data-property-1="labelnobothborder" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>ACP005</div>
+                </div>
+            </div>
+            <div style={{flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                <div data-property-1="labelnobothborder" style={{width: 208, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderTop: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>Acceptor Token</div>
+                </div>
+                <div data-property-1="Inputfield" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 208, height: 32, paddingLeft: 16, paddingRight: 16, paddingTop: 8, paddingBottom: 8, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', overflow: 'hidden', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'Arial', fontWeight: '400', lineHeight: 21, wordWrap: 'break-word'}}>TOK001</div>
+                    </div>
+                </div>
+                <div data-property-1="labelnobothborder" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-PrimitiveColorTokens-Blue-50, #EDF8FF)', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>*****</div>
+                </div>
+                <div data-property-1="labelnobothborder" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>*****</div>
+                </div>
+                <div data-property-1="labelnobothborder" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-PrimitiveColorTokens-Blue-50, #EDF8FF)', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Not set</div>
+                </div>
+                <div data-property-1="labelnobothborder" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>*****</div>
+                </div>
+            </div>
+            <div style={{width: 267, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                <div data-property-1="RightcurveLabel" style={{alignSelf: 'stretch', padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderTopRightRadius: 13, borderTop: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderRight: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'center', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>Actions</div>
+                </div>
+                <div data-property-1="Buttons" style={{alignSelf: 'stretch', height: 40, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRight: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div data-icon="LeftIcon" data-size="Small" data-state="Default" data-type="Secondary" style={{height: 35, padding: 10, borderRadius: 6, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 13.99, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Lime600, #5E981D)'}} />
+                        </div>
+                        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Edit</div>
+                    </div>
+                    <div data-icon="LeftIcon" data-size="Small" data-state="Default" data-type="Secondary" style={{height: 35, padding: 10, borderRadius: 6, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 10.53, height: 10.53, left: 2.73, top: 2.73, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Alert-High-Red500, #E73D36)'}} />
+                        </div>
+                        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Cancel</div>
+                    </div>
+                </div>
+                <div data-property-1="Buttons" style={{alignSelf: 'stretch', height: 40, padding: 10, background: 'var(--Colors-PrimitiveColorTokens-Blue-50, #EDF8FF)', borderRight: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div data-icon="LeftIcon" data-size="Small" data-state="Default" data-type="Secondary" style={{height: 35, padding: 10, borderRadius: 6, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 13.99, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Lime600, #5E981D)'}} />
+                        </div>
+                        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Save</div>
+                    </div>
+                    <div data-icon="LeftIcon" data-size="Small" data-state="Default" data-type="Secondary" style={{height: 35, padding: 10, borderRadius: 6, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 10.53, height: 10.53, left: 2.73, top: 2.73, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Alert-High-Red500, #E73D36)'}} />
+                        </div>
+                        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Cancel</div>
+                    </div>
+                </div>
+                <div data-property-1="Buttons" style={{alignSelf: 'stretch', height: 40, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRight: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div data-icon="LeftIcon" data-size="Small" data-state="Default" data-type="Secondary" style={{height: 35, padding: 10, borderRadius: 6, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 13.99, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Lime600, #5E981D)'}} />
+                        </div>
+                        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Edit</div>
+                    </div>
+                    <div data-icon="LeftIcon" data-size="Small" data-state="Default" data-type="Secondary" style={{height: 35, padding: 10, borderRadius: 6, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 10.53, height: 10.53, left: 2.73, top: 2.73, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Alert-High-Red500, #E73D36)'}} />
+                        </div>
+                        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Cancel</div>
+                    </div>
+                </div>
+                <div data-property-1="Buttons" style={{alignSelf: 'stretch', height: 40, padding: 10, background: 'var(--Colors-PrimitiveColorTokens-Blue-50, #EDF8FF)', borderRight: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div data-icon="LeftIcon" data-size="Small" data-state="Default" data-type="Secondary" style={{height: 35, padding: 10, borderRadius: 6, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 13.99, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Lime600, #5E981D)'}} />
+                        </div>
+                        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Save</div>
+                    </div>
+                    <div data-icon="LeftIcon" data-size="Small" data-state="Default" data-type="Secondary" style={{height: 35, padding: 10, borderRadius: 6, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 10.53, height: 10.53, left: 2.73, top: 2.73, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Alert-High-Red500, #E73D36)'}} />
+                        </div>
+                        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Cancel</div>
+                    </div>
+                </div>
+                <div data-property-1="RightCurve+Buttons" style={{alignSelf: 'stretch', height: 40, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderBottomRightRadius: 13, borderLeft: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderRight: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div data-icon="LeftIcon" data-size="Small" data-state="Default" data-type="Secondary" style={{height: 35, padding: 10, borderRadius: 6, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 13.99, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Lime600, #5E981D)'}} />
+                        </div>
+                        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Edit</div>
+                    </div>
+                    <div data-icon="LeftIcon" data-size="Small" data-state="Default" data-type="Secondary" style={{height: 35, padding: 10, borderRadius: 6, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 10.53, height: 10.53, left: 2.73, top: 2.73, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Alert-High-Red500, #E73D36)'}} />
+                        </div>
+                        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Cancel</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style={{width: 1, height: 281, left: 1090, top: 0, position: 'absolute'}} />
+    </div>
+    <div style={{width: 1116, padding: 8, left: 21, top: 367, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 12, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'}}>Location Credentials</div>
+        <div style={{alignSelf: 'stretch', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>No location credentials have been set up. To get started, create a new token.</div>
+        <div data-property-1="DefaultTable" style={{background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+            <div style={{width: 207, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                <div data-property-1="Left curveBox+Label" style={{alignSelf: 'stretch', padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderTopLeftRadius: 13, borderLeft: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderTop: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 18, height: 18, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 4, border: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid'}} />
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>Location Name</div>
+                </div>
+                <div data-property-1="Label+CheckBox" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderLeft: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 18, height: 18, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 4, border: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid'}} />
+                    <div style={{width: 135, justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Downtown Center...</div>
+                </div>
+                <div data-property-1="Label+CheckBox" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-PrimitiveColorTokens-Blue-50, #EDF8FF)', borderLeft: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 18, height: 18, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 4, border: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid'}} />
+                    <div style={{width: 135, justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Westside Vision...</div>
+                </div>
+                <div data-property-1="Label+CheckBox" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderLeft: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 18, height: 18, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 4, border: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid'}} />
+                    <div style={{width: 135, justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Eastgate Eye Care</div>
+                </div>
+                <div data-property-1="Label+CheckBox" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-PrimitiveColorTokens-Blue-50, #EDF8FF)', borderLeft: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 18, height: 18, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 4, border: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid'}} />
+                    <div style={{width: 135, justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Northpark Eyewear...</div>
+                </div>
+                <div data-property-1="Label+CheckBox" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderLeft: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 18, height: 18, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 4, border: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid'}} />
+                    <div style={{width: 135, justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Downtown Center...</div>
+                </div>
+            </div>
+            <div style={{flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                <div data-property-1="labelnobothborder" style={{width: 208, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderTop: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>Account Id</div>
+                </div>
+                <div data-property-1="Inputfield" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 208, height: 32, paddingLeft: 16, paddingRight: 16, paddingTop: 8, paddingBottom: 8, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', overflow: 'hidden', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'Arial', fontWeight: '400', lineHeight: 21, wordWrap: 'break-word'}}>ACC001</div>
+                    </div>
+                </div>
+                <div data-property-1="labelnobothborder" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-PrimitiveColorTokens-Blue-50, #EDF8FF)', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>ACC002</div>
+                </div>
+                <div data-property-1="labelnobothborder" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>ACC003</div>
+                </div>
+                <div data-property-1="labelnobothborder" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-PrimitiveColorTokens-Blue-50, #EDF8FF)', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Not set</div>
+                </div>
+                <div data-property-1="labelnobothborder" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>ACC005</div>
+                </div>
+            </div>
+            <div style={{flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                <div data-property-1="labelnobothborder" style={{width: 208, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderTop: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>Acceptor ID</div>
+                </div>
+                <div data-property-1="Inputfield" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 208, height: 32, paddingLeft: 16, paddingRight: 16, paddingTop: 8, paddingBottom: 8, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', overflow: 'hidden', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'Arial', fontWeight: '400', lineHeight: 21, wordWrap: 'break-word'}}>ACP001</div>
+                    </div>
+                </div>
+                <div data-property-1="labelnobothborder" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-PrimitiveColorTokens-Blue-50, #EDF8FF)', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>ACP002</div>
+                </div>
+                <div data-property-1="labelnobothborder" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>ACP003</div>
+                </div>
+                <div data-property-1="labelnobothborder" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-PrimitiveColorTokens-Blue-50, #EDF8FF)', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Not set</div>
+                </div>
+                <div data-property-1="labelnobothborder" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>ACP005</div>
+                </div>
+            </div>
+            <div style={{flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                <div data-property-1="labelnobothborder" style={{width: 208, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderTop: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>Acceptor Token</div>
+                </div>
+                <div data-property-1="Inputfield" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{width: 208, height: 32, paddingLeft: 16, paddingRight: 16, paddingTop: 8, paddingBottom: 8, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', overflow: 'hidden', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'Arial', fontWeight: '400', lineHeight: 21, wordWrap: 'break-word'}}>TOK001</div>
+                    </div>
+                </div>
+                <div data-property-1="labelnobothborder" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-PrimitiveColorTokens-Blue-50, #EDF8FF)', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>*****</div>
+                </div>
+                <div data-property-1="labelnobothborder" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>*****</div>
+                </div>
+                <div data-property-1="labelnobothborder" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-PrimitiveColorTokens-Blue-50, #EDF8FF)', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Not set</div>
+                </div>
+                <div data-property-1="labelnobothborder" style={{width: 208, height: 40, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>*****</div>
+                </div>
+            </div>
+            <div style={{width: 267, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                <div data-property-1="RightcurveLabel" style={{alignSelf: 'stretch', padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderTopRightRadius: 13, borderTop: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderRight: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'center', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>Actions</div>
+                </div>
+                <div data-property-1="Buttons" style={{alignSelf: 'stretch', height: 40, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRight: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div data-icon="LeftIcon" data-size="Small" data-state="Default" data-type="Secondary" style={{height: 35, padding: 10, borderRadius: 6, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 13.99, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Lime600, #5E981D)'}} />
+                        </div>
+                        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Edit</div>
+                    </div>
+                    <div data-icon="LeftIcon" data-size="Small" data-state="Default" data-type="Secondary" style={{height: 35, padding: 10, borderRadius: 6, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 10.53, height: 10.53, left: 2.73, top: 2.73, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Alert-High-Red500, #E73D36)'}} />
+                        </div>
+                        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Cancel</div>
+                    </div>
+                </div>
+                <div data-property-1="Buttons" style={{alignSelf: 'stretch', height: 40, padding: 10, background: 'var(--Colors-PrimitiveColorTokens-Blue-50, #EDF8FF)', borderRight: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div data-icon="LeftIcon" data-size="Small" data-state="Default" data-type="Secondary" style={{height: 35, padding: 10, borderRadius: 6, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 13.99, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Lime600, #5E981D)'}} />
+                        </div>
+                        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Save</div>
+                    </div>
+                    <div data-icon="LeftIcon" data-size="Small" data-state="Default" data-type="Secondary" style={{height: 35, padding: 10, borderRadius: 6, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 10.53, height: 10.53, left: 2.73, top: 2.73, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Alert-High-Red500, #E73D36)'}} />
+                        </div>
+                        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Cancel</div>
+                    </div>
+                </div>
+                <div data-property-1="Buttons" style={{alignSelf: 'stretch', height: 40, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRight: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div data-icon="LeftIcon" data-size="Small" data-state="Default" data-type="Secondary" style={{height: 35, padding: 10, borderRadius: 6, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 13.99, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Lime600, #5E981D)'}} />
+                        </div>
+                        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Edit</div>
+                    </div>
+                    <div data-icon="LeftIcon" data-size="Small" data-state="Default" data-type="Secondary" style={{height: 35, padding: 10, borderRadius: 6, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 10.53, height: 10.53, left: 2.73, top: 2.73, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Alert-High-Red500, #E73D36)'}} />
+                        </div>
+                        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Cancel</div>
+                    </div>
+                </div>
+                <div data-property-1="Buttons" style={{alignSelf: 'stretch', height: 40, padding: 10, background: 'var(--Colors-PrimitiveColorTokens-Blue-50, #EDF8FF)', borderRight: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div data-icon="LeftIcon" data-size="Small" data-state="Default" data-type="Secondary" style={{height: 35, padding: 10, borderRadius: 6, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 13.99, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Lime600, #5E981D)'}} />
+                        </div>
+                        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Save</div>
+                    </div>
+                    <div data-icon="LeftIcon" data-size="Small" data-state="Default" data-type="Secondary" style={{height: 35, padding: 10, borderRadius: 6, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 10.53, height: 10.53, left: 2.73, top: 2.73, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Alert-High-Red500, #E73D36)'}} />
+                        </div>
+                        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Cancel</div>
+                    </div>
+                </div>
+                <div data-property-1="RightCurve+Buttons" style={{alignSelf: 'stretch', height: 40, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderBottomRightRadius: 13, borderLeft: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderRight: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div data-icon="LeftIcon" data-size="Small" data-state="Default" data-type="Secondary" style={{height: 35, padding: 10, borderRadius: 6, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 13.99, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Lime600, #5E981D)'}} />
+                        </div>
+                        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Edit</div>
+                    </div>
+                    <div data-icon="LeftIcon" data-size="Small" data-state="Default" data-type="Secondary" style={{height: 35, padding: 10, borderRadius: 6, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 10.53, height: 10.53, left: 2.73, top: 2.73, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Alert-High-Red500, #E73D36)'}} />
+                        </div>
+                        <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Cancel</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style={{width: 1, height: 281, left: 1090, top: 0, position: 'absolute'}} />
+    </div>
+    <div style={{width: 1116, height: 225, padding: 8, left: 21, top: 719, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 12, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'}}>Location Credentials</div>
+        <div style={{alignSelf: 'stretch', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>No location credentials have been set up. To get started, create a new token.</div>
+        <div style={{alignSelf: 'stretch', flex: '1 1 0', paddingTop: 20, paddingBottom: 20, borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 13, display: 'flex'}}>
+            <div style={{width: 259.14, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 13, display: 'flex'}}>
+                <div style={{width: 32, height: 32, position: 'relative'}} />
+                <div style={{alignSelf: 'stretch', textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_ReadOnly, #4B5867)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>No location credentials have been set up. To get started, create a new token.</div>
+            </div>
+        </div>
+        <div style={{width: 1, height: 281, left: 1090, top: 0, position: 'absolute'}} />
+    </div>
+</div>

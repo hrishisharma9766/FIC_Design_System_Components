@@ -1,0 +1,134 @@
+.table-container {
+  width: 100%;
+  padding: 8px;
+  background: var(--Colors-Functional-Bkg-Bkg_Default, white);
+  border-radius: 13px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  font-family: var(--FontFamily-Family, 'DM Sans', sans-serif);
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding: 0 8px;
+}
+
+.table-header__content {
+  flex: 1;
+}
+
+.table-header__title {
+  color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.45;
+  margin: 0;
+}
+
+.table-header__subtitle {
+  color: var(--Colors-Functional-Txt-Txt_Light, #71706C);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.45;
+  margin: 4px 0 0 0;
+}
+
+.table-header__button {
+  height: 35px;
+  padding: 0 16px;
+  background: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Default, #118082);
+  color: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white);
+  border: none;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 800;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2s ease;
+}
+
+.table-header__button:hover {
+  opacity: 0.9;
+}
+
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  border-radius: 13px;
+  outline: 1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid;
+  outline-offset: -1px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--Colors-Functional-Bkg-Bkg_Default, white);
+}
+
+.table__cell {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid;
+  color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.45;
+}
+
+.table__cell--header {
+  background: var(--Colors-Functional-Bkg-Bkg_Default, white);
+  font-weight: 800;
+  border-top: 1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid;
+}
+
+.table__cell--checkbox {
+  width: 48px;
+  text-align: center;
+  border-left: 1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid;
+}
+
+/* Zebra striping from Figma: Blue-50 for even rows */
+.table__row {
+  transition: background-color 0.2s ease;
+}
+
+.table__row:nth-child(even) {
+  background-color: var(--Colors-PrimitiveColorTokens-Blue-50, #EDF8FF);
+}
+
+.table__row:hover {
+  background-color: var(--Colors-PrimitiveColorTokens-Blue-100, #D2EDFF);
+}
+
+.table__row--selected {
+  background-color: var(--Colors-PrimitiveColorTokens-Blue-200, #B4E1FF) !important;
+}
+
+.table__checkbox-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table__checkbox {
+  width: 18px;
+  height: 18px;
+  background: var(--Colors-Functional-Bkg-Bkg_Default, white);
+  border: 1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid;
+  border-radius: 4px;
+  cursor: pointer;
+  accent-color: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Default, #118082);
+}
+
+.table__cell--empty {
+  text-align: center;
+  padding: 24px;
+  color: var(--Colors-Functional-Txt-Txt_Light, #71706C);
+  font-style: italic;
+}

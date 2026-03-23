@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Button, Checkbox, DatePicker, PillBadge, ProgressBar, RadioButton, SearchBox, StateBadge, Switch, SwitchWithLabel, TextArea } from './index';
+import { Button, Checkbox, DatePicker, PillBadge, ProgressBar, RadioButton, SearchBox, SimpleTable, StateBadge, Switch, SwitchWithLabel, Table, TextArea } from './index';
 
 function App() {
   const [checkedItems, setCheckedItems] = useState({
@@ -14,8 +14,28 @@ function App() {
     radioChecked: true,
   });
 
+  const [selectedTableItems, setSelectedTableItems] = useState<any[]>([]);
+  const [selectedSimpleTableItems, setSelectedSimpleTableItems] = useState<any[]>([]);
+  const [simpleVariant, setSimpleVariant] = useState<'default' | 'striped'>('striped');
+
   const toggleChecked = (id: string) => {
     setCheckedItems(prev => ({ ...prev, [id]: !prev[id as keyof typeof prev] }));
+  };
+
+  const handleRowSelect = (item: any, isSelected: boolean) => {
+    if (isSelected) {
+      setSelectedTableItems(prev => [...prev, item]);
+    } else {
+      setSelectedTableItems(prev => prev.filter(i => i.id !== item.id));
+    }
+  };
+
+  const handleSimpleRowSelect = (item: any, isSelected: boolean) => {
+    if (isSelected) {
+      setSelectedSimpleTableItems(prev => [...prev, item]);
+    } else {
+      setSelectedSimpleTableItems(prev => prev.filter(i => i.id !== item.id));
+    }
   };
 
   return (
@@ -550,6 +570,92 @@ function App() {
                 />
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* Table Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Table</h2>
+          <div className="space-y-8">
+            <h3 className="text-lg font-semibold mb-2">Table with Heading & Button</h3>
+            <Table 
+              title="Location Credentials"
+              subtitle="No location credentials have been set up. To get started, create a new token."
+              actionButton={{ label: "Create New Token", onClick: () => alert('Create New Token Clicked') }}
+              columns={[
+                { header: "Location Name", accessor: "name", width: 250 },
+                { header: "Account Id", accessor: "accountId" },
+                { header: "Acceptor ID", accessor: "acceptorId" },
+                { header: "Acceptor Token", accessor: "token" },
+                { 
+                  header: "Actions", 
+                  accessor: (item: any) => (
+                    <div className="flex gap-2">
+                      <Button size="sm" variant="secondary" onClick={() => alert(`Editing ${item.name}`)}>Edit</Button>
+                      <Button size="sm" variant="secondary" onClick={() => alert(`Deleting ${item.name}`)}>Delete</Button>
+                    </div>
+                  )
+                }
+              ]}
+              data={[
+                { id: 1, name: "Downtown Center", accountId: "ACC001", acceptorId: "ACP001", token: "TOK001" },
+                { id: 2, name: "Westside Vision", accountId: "ACC002", acceptorId: "ACP002", token: "*****" },
+                { id: 3, name: "Eastgate Eye Care", accountId: "ACC003", acceptorId: "ACP003", token: "*****" },
+                { id: 4, name: "Northpark Eyewear", accountId: "Not set", acceptorId: "Not set", token: "Not set" },
+                { id: 5, name: "Downtown Center", accountId: "ACC005", acceptorId: "ACP005", token: "*****" },
+              ]}
+              onRowSelect={handleRowSelect}
+              selectedItems={selectedTableItems}
+            />
+
+            <h3 className="text-lg font-semibold mt-8 mb-2">Table without Heading & Button (SimpleTable)</h3>
+            <div className="mb-4 flex gap-4">
+              <Button size="sm" onClick={() => setSimpleVariant(simpleVariant === 'striped' ? 'default' : 'striped')}>
+                Toggle Variant: {simpleVariant}
+              </Button>
+            </div>
+            <SimpleTable 
+              variant={simpleVariant as 'default' | 'striped'}
+              isResponsive={true}
+              onColumnSort={(key, dir) => console.log(`Sorting ${key} by ${dir}`)}
+              columns={[
+                { header: "Location Name", accessor: "name", width: 250, isSortable: true, sortDirection: 'asc' },
+                { header: "Account Id", accessor: "accountId", isSortable: true },
+                { header: "Acceptor ID", accessor: "acceptorId", isSortable: true },
+                { header: "Acceptor Token", accessor: "token" },
+                { 
+                  header: "Actions", 
+                  accessor: (item: any) => (
+                    <div className="flex gap-2">
+                      <Button size="sm" variant="secondary" onClick={() => alert(`Editing ${item.name}`)}>Edit</Button>
+                      <Button size="sm" variant="secondary" onClick={() => alert(`Deleting ${item.name}`)}>Delete</Button>
+                    </div>
+                  )
+                }
+              ]}
+              data={[
+                { id: 1, name: "Downtown Center", accountId: "ACC001", acceptorId: "ACP001", token: "TOK001" },
+                { id: 2, name: "Westside Vision", accountId: "ACC002", acceptorId: "ACP002", token: "*****" },
+                { id: 3, name: "Eastgate Eye Care", accountId: "ACC003", acceptorId: "ACP003", token: "*****" },
+                { id: 4, name: "Northpark Eyewear", accountId: "Not set", acceptorId: "Not set", token: "Not set" },
+                { id: 5, name: "Downtown Center", accountId: "ACC005", acceptorId: "ACP005", token: "*****" },
+              ]}
+              onRowSelect={handleSimpleRowSelect}
+              selectedItems={selectedSimpleTableItems}
+              noDataMessage="Custom no data message"
+            />
+
+            <h3 className="text-lg font-semibold mt-8 mb-2">SimpleTable - No Data Variant</h3>
+            <SimpleTable 
+              columns={[
+                { header: "Location Name", accessor: "name", width: 250 },
+                { header: "Account Id", accessor: "accountId" },
+                { header: "Acceptor ID", accessor: "acceptorId" },
+                { header: "Acceptor Token", accessor: "token" },
+              ]}
+              data={[]}
+              noDataMessage="No location credentials found. Please add a new one."
+            />
           </div>
         </section>
 
