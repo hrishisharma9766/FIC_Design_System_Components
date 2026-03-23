@@ -1,0 +1,177 @@
+<div style={{width: '100%', height: '100%', position: 'relative', overflow: 'hidden', borderRadius: 5, border: '1px #8A38F5 solid'}}>
+    <div style={{width: 662, padding: 8, left: 20, top: 142, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Focus, #D6FFFB)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Focus, #21A49F) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+        <div style={{width: 24, height: 24, position: 'relative'}}>
+            <div style={{width: 18.85, height: 20, left: 2.57, top: 2, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Blue600, #1A77B4)'}} />
+        </div>
+        <div style={{flex: '1 1 0', height: 65, minWidth: 450, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+            <div style={{width: 720, paddingBottom: 4, paddingLeft: 4, paddingRight: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                <div style={{alignSelf: 'stretch', minWidth: 300, color: 'var(--Colors-Functional-Txt-Txt_Info, #195F8E)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'}}>HIPAA Compliance</div>
+                <div style={{alignSelf: 'stretch', minWidth: 300, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Configure WorldPay credentials for each location and set up hosted e-commerce payments.</div>
+            </div>
+        </div>
+    </div>
+    <div style={{padding: 8, left: 15.50, top: 20, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Error-Red50, #FFEAE9)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Error, #E73D36) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+        <div style={{width: 24, height: 24, position: 'relative'}}>
+            <div style={{width: 22, height: 22, left: 1, top: 1, position: 'absolute'}}>
+                <div style={{width: 19.25, height: 19.25, left: 1.38, top: 1.38, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Red700, #9A1712)'}} />
+            </div>
+        </div>
+        <div style={{width: 614, height: 65, minWidth: 450, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+            <div style={{width: 720, paddingBottom: 4, paddingLeft: 4, paddingRight: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                <div style={{alignSelf: 'stretch', minWidth: 300, color: 'var(--Colors-Functional-Txt-Txt_Error, #C9221C)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'}}>HIPAA Compliance</div>
+                <div style={{alignSelf: 'stretch', minWidth: 300, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Configure WorldPay credentials for each location and set up hosted e-commerce payments.</div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 662, padding: 8, left: 20, top: 264, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Info50, #EDF8FF)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Info, #64B9F2) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+        <div style={{width: 24, height: 24, position: 'relative'}}>
+            <div style={{width: 22, height: 22, left: 1, top: 1, position: 'absolute'}}>
+                <div style={{width: 19.25, height: 19.25, left: 1.38, top: 1.38, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Blue600, #1A77B4)'}} />
+            </div>
+        </div>
+        <div style={{flex: '1 1 0', height: 65, minWidth: 450, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+            <div style={{flex: '1 1 0', paddingBottom: 4, paddingLeft: 4, paddingRight: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                <div style={{alignSelf: 'stretch', minWidth: 300, color: 'var(--Colors-Functional-Txt-Txt_Info, #195F8E)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'}}>HIPAA Compliance</div>
+                <div style={{alignSelf: 'stretch', minWidth: 300, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Configure WorldPay credentials for each location and set up hosted e-commerce payments.</div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 786, padding: 8, left: 20, top: 386, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Success100, #EEFFD6)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Success, #92D03D) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+        <div style={{width: 24, height: 24, position: 'relative'}}>
+            <div style={{width: 22, height: 22, left: 1, top: 1, position: 'absolute'}}>
+                <div style={{width: 19.25, height: 19.25, left: 1.38, top: 1.38, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Lime600, #5E981D)'}} />
+            </div>
+        </div>
+        <div style={{width: 720, height: 65, minWidth: 450, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+            <div style={{flex: '1 1 0', paddingBottom: 4, paddingLeft: 4, paddingRight: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                <div style={{alignSelf: 'stretch', minWidth: 300, color: 'var(--Colors-Functional-Txt-Txt_Success, #5E981D)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'}}>HIPAA Compliance</div>
+                <div style={{alignSelf: 'stretch', minWidth: 300, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Configure WorldPay credentials for each location and set up hosted e-commerce payments.</div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 269, height: 141, left: 22.50, top: 583, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Success100, #EEFFD6)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Success, #92D03D) solid', outlineOffset: '-1px'}}>
+        <div style={{width: 237.36, left: 16, top: 16, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-end', gap: 6, display: 'inline-flex'}}>
+            <div style={{alignSelf: 'stretch', height: 24, position: 'relative', background: 'rgba(0, 0, 0, 0)'}}>
+                <div style={{left: 0, top: 0, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                    <div style={{width: 24, height: 24, position: 'relative'}}>
+                        <div style={{width: 22, height: 22, left: 1, top: 1, position: 'absolute'}}>
+                            <div style={{width: 19.25, height: 19.25, left: 1.38, top: 1.38, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Lime600, #5E981D)'}} />
+                        </div>
+                    </div>
+                    <div style={{width: 133, height: 24, color: '#111827', fontSize: 16, fontFamily: 'Inter', fontWeight: '500', lineHeight: 24, wordWrap: 'break-word'}}>Discount Preview</div>
+                </div>
+            </div>
+            <div style={{width: 205, flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start', gap: 6, display: 'flex'}}>
+                <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', gap: 6, display: 'inline-flex'}}>
+                    <div style={{width: 107.70, height: 20, color: '#6B7280', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Original Price</div>
+                    <div style={{color: '#6B7280', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>$0.00</div>
+                </div>
+                <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', gap: 6, display: 'inline-flex'}}>
+                    <div style={{color: '#6B7280', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Discount:</div>
+                    <div style={{width: 287.67, height: 20, color: '#10B981', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'}}>-$0.00 (0%)</div>
+                </div>
+                <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', gap: 6, display: 'inline-flex'}}>
+                    <div style={{color: '#6B7280', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Final Price</div>
+                    <div style={{width: 287.67, height: 20, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'}}>$0.00</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{height: 85, padding: 10, left: 20, top: 765, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+        <div style={{width: 16, height: 16, position: 'relative'}}>
+            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+        </div>
+        <div style={{width: 607, height: 65, minWidth: 450, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'inline-flex'}}>
+            <div style={{alignSelf: 'stretch', paddingBottom: 4, paddingLeft: 4, paddingRight: 4, justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                <div style={{flex: '1 1 0', minWidth: 300, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Configure WorldPay credentials for each location and set up hosted e-commerce payments.</div>
+            </div>
+            <div style={{padding: 4, justifyContent: 'flex-start', alignItems: 'center', gap: 16, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                <div style={{width: 240, height: 20, justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                    <div style={{width: 16, height: 16, position: 'relative'}}>
+                        <div style={{width: 13.36, height: 14, left: 1.32, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                    </div>
+                    <div style={{flex: '1 1 0', height: 20, justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{width: 213, color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>WorldPay Sales: 1-855-529-3515</div>
+                    </div>
+                </div>
+                <div data-show-icon="true" data-type="Teal" style={{height: 25, minWidth: 140, paddingLeft: 10, paddingRight: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 16, outline: '1px var(--Colors-Functional-Border-Border_Focus, #21A49F) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+                    <div style={{height: 25, justifyContent: 'flex-start', alignItems: 'center', gap: 6, display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                        <div style={{minWidth: 80, justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>View Licenses &amp; Billing</div>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Functional-Input-Icons-Icon_Teal500, #21A49F)'}} />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{height: 85, padding: 10, left: 20, top: 870, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Brand-100, #FEECF6)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Brand-300, #F387C2) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+        <div style={{width: 16, height: 16, position: 'relative'}}>
+            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+        </div>
+        <div style={{width: 607, height: 65, minWidth: 450, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'inline-flex'}}>
+            <div style={{alignSelf: 'stretch', paddingBottom: 4, paddingLeft: 4, paddingRight: 4, justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                <div style={{flex: '1 1 0', minWidth: 300, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Configure WorldPay credentials for each location and set up hosted e-commerce payments.</div>
+            </div>
+            <div style={{padding: 4, justifyContent: 'flex-start', alignItems: 'center', gap: 16, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                <div style={{width: 240, height: 20, justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                    <div style={{width: 16, height: 16, position: 'relative'}}>
+                        <div style={{width: 13.36, height: 14, left: 1.32, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                    </div>
+                    <div style={{flex: '1 1 0', height: 20, justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{width: 213, color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>WorldPay Sales: 1-855-529-3515</div>
+                    </div>
+                </div>
+                <div data-show-icon="true" data-type="Brand" style={{height: 25, minWidth: 140, paddingLeft: 10, paddingRight: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 16, outline: '1px var(--Colors-Functional-Border-Border_Brand-500, #D72D8A) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+                    <div style={{height: 25, justifyContent: 'flex-start', alignItems: 'center', gap: 6, display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                        <div style={{minWidth: 80, justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Brand, #AC246E)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>View Licenses &amp; Billing</div>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Functional-Input-Icons-Icon_Brand, #D72D8A)'}} />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{height: 85, padding: 10, left: 20, top: 975, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Focus, #D6FFFB)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Focus, #21A49F) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+        <div style={{width: 16, height: 16, position: 'relative'}}>
+            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+        </div>
+        <div style={{width: 607, height: 65, minWidth: 450, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'inline-flex'}}>
+            <div style={{alignSelf: 'stretch', paddingBottom: 4, paddingLeft: 4, paddingRight: 4, justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                <div style={{flex: '1 1 0', minWidth: 300, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Configure WorldPay credentials for each location and set up hosted e-commerce payments.</div>
+            </div>
+            <div style={{padding: 4, justifyContent: 'flex-start', alignItems: 'center', gap: 16, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                <div style={{width: 240, height: 20, justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                    <div style={{width: 16, height: 16, position: 'relative'}}>
+                        <div style={{width: 13.36, height: 14, left: 1.32, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                    </div>
+                    <div style={{flex: '1 1 0', height: 20, justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{width: 213, color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>WorldPay Sales: 1-855-529-3515</div>
+                    </div>
+                </div>
+                <div data-show-icon="true" data-type="Teal" style={{height: 25, minWidth: 140, paddingLeft: 10, paddingRight: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 16, outline: '1px var(--Colors-Functional-Border-Border_Focus, #21A49F) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+                    <div style={{height: 25, justifyContent: 'flex-start', alignItems: 'center', gap: 6, display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                        <div style={{minWidth: 80, justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>View Licenses &amp; Billing</div>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Functional-Input-Icons-Icon_Teal500, #21A49F)'}} />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 734, height: 29, padding: 2, left: 22.50, top: 494, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Success100, #EEFFD6)', borderRadius: 10, outline: '1px var(--Colors-Functional-Border-Border_Success, #92D03D) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 2, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+        <div style={{width: 718, height: 25, paddingLeft: 4, paddingRight: 4, paddingTop: 2, paddingBottom: 2, justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
+            <div style={{flex: '1 1 0', alignSelf: 'stretch', paddingTop: 6, paddingBottom: 6, justifyContent: 'flex-start', alignItems: 'center', gap: 6, display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                <div style={{width: 16, height: 16, position: 'relative'}}>
+                    <div style={{width: 16, height: 16, left: 0, top: 0, position: 'absolute'}}>
+                        <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Lime700, #578421)'}} />
+                    </div>
+                </div>
+                <div style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt_Helper-Txt_Helper_Success, #5E981D)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Add One more provider for subsequent provider discount</div>
+            </div>
+            <div style={{width: 191, alignSelf: 'stretch', textAlign: 'right', color: 'var(--Colors-Functional-Txt-Txt_Success, #5E981D)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>Get 5% Discount</div>
+        </div>
+    </div>
+</div>

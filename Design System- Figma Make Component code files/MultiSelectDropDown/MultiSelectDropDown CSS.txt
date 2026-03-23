@@ -1,0 +1,314 @@
+// Input_Label
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Select
+color: 'var(--Colors-Functional-Placeholder-Txt_Placeholder_Default, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Input_Label
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Select
+color: 'var(--Colors-Functional-Placeholder-Txt_Placeholder_Default, #71706C)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Input_Label
+color: 'var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Option1
+color: 'var(--Colors-Functional-Txt-Txt_Disabled500, #6A809A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Input_Label
+color: 'var(--Colors-Functional-Label-Txt_Label_ReadOnly, #4B5867)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Option1
+color: 'var(--Colors-Functional-Txt-Txt_ReadOnly, #4B5867)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Input_Label
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Select
+color: 'var(--Colors-Functional-Placeholder-Txt_Placeholder_Default, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Input_Label
+color: 'var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Option1
+color: 'var(--Colors-Functional-Txt-Txt_Disabled500, #6A809A)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Input_Label
+color: 'var(--Colors-Functional-Label-Txt_Label_ReadOnly, #4B5867)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Option1
+color: 'var(--Colors-Functional-Txt-Txt_ReadOnly, #4B5867)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Input_Label
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Select
+color: 'var(--Colors-Functional-Placeholder-Txt_Placeholder_Default, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Input_Label
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Selected Option
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Select All
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Selected
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Static
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Static
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Hover
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Input_Label
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Option1
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Select All
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Hover
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Option1<br/><br/>    Option1.1<br/><br/>    Option1.2
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Input_Label
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Option1
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Select All
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Static
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Hover
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Static
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Selected
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Input_Label
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Option1
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Select All
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Static
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Option1
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Option1.1<br/><br/>Option1.2
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Input_Label
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Select
+color: 'var(--Colors-Functional-Placeholder-Txt_Placeholder_Default, #71706C)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Input_Label
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Selected Option
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Select All
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Selected
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Static
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Static
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Hover
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Input_Label
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Option1
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Select All
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Option1.1
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Static
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Option1 Selected
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Option1.2 Selected
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Input_Label
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Option1
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Select All
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Option Selected
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Hover
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Static
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Select All
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Input_Label
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Option1
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Select All
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Static
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Option1.1
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Option1.2
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Option1
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Input_Label
+color: 'var(--Colors-Functional-Label-Txt_Label_Disabled, #6A809A)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Option1
+color: 'var(--Colors-Functional-Txt-Txt_Disabled500, #6A809A)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Input_Label
+color: 'var(--Colors-Functional-Label-Txt_Label_ReadOnly, #4B5867)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Option1
+color: 'var(--Colors-Functional-Txt-Txt_ReadOnly, #4B5867)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Input_Label
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Select
+color: 'var(--Colors-Functional-Placeholder-Txt_Placeholder_Default, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Input_Label
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Selected Option
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Select All
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Option 1 Selected
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Static
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Static
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Hover
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Input_Label
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Selected Option
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Select All
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Static
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Option1.1
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Option1 Option 1 Selected
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Option1.2 Option 1 Selected
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Input_Label
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Option1
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Select All
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Option
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Hover
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Static
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Static
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Input_Label
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Option1
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Select All
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Option1
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Hover
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Option1.1
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Option1.2
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'

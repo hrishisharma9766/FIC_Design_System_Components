@@ -1,0 +1,32 @@
+// Enterprise Optical Group (Organization)
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Grant access to all businesses and locations
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// VisionCare Optical Centers
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// All locations within this business
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Westside Eye Clinic
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Downtown Vision Center
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Eastgate Optical
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Enterprise Optical Group (Organization)
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Grant access to all businesses and locations
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// VisionCare Optical Centers
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// All locations within this business
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'

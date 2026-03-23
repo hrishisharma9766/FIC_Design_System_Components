@@ -1,0 +1,319 @@
+// Header
+color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+ font-size: 24px;
+ font-family: DM Sans;
+ font-weight: 600;
+ line-height: 34.92px;
+ word-wrap: break-word
+---
+// Sub Header 
+color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+ font-size: 14px;
+ font-family: DM Sans;
+ font-weight: 500;
+ line-height: 20.37px;
+ word-wrap: break-word
+---
+// OK
+color: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white);
+ font-size: 16px;
+ font-family: DM Sans;
+ font-weight: 800;
+ line-height: 23.28px;
+ word-wrap: break-word
+---
+// CANCEL
+color: var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A);
+ font-size: 16px;
+ font-family: DM Sans;
+ font-weight: 800;
+ line-height: 23.28px;
+ word-wrap: break-word
+---
+// Header
+color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+ font-size: 24px;
+ font-family: DM Sans;
+ font-weight: 600;
+ line-height: 34.92px;
+ word-wrap: break-word
+---
+// Sub Header 
+color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+ font-size: 14px;
+ font-family: DM Sans;
+ font-weight: 500;
+ line-height: 20.37px;
+ word-wrap: break-word
+---
+// CANCEL
+color: var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A);
+ font-size: 16px;
+ font-family: DM Sans;
+ font-weight: 800;
+ line-height: 23.28px;
+ word-wrap: break-word
+---
+// OK
+color: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white);
+ font-size: 16px;
+ font-family: DM Sans;
+ font-weight: 800;
+ line-height: 23.28px;
+ word-wrap: break-word
+---
+// Header
+color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+ font-size: 24px;
+ font-family: DM Sans;
+ font-weight: 600;
+ line-height: 34.92px;
+ word-wrap: break-word
+---
+// Sub Header 
+color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+ font-size: 14px;
+ font-family: DM Sans;
+ font-weight: 500;
+ line-height: 20.37px;
+ word-wrap: break-word
+---
+// CANCEL
+color: var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A);
+ font-size: 16px;
+ font-family: DM Sans;
+ font-weight: 800;
+ line-height: 23.28px;
+ word-wrap: break-word
+---
+// OK
+color: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white);
+ font-size: 16px;
+ font-family: DM Sans;
+ font-weight: 800;
+ line-height: 23.28px;
+ word-wrap: break-word
+---
+// Header
+color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+ font-size: 24px;
+ font-family: DM Sans;
+ font-weight: 600;
+ line-height: 34.92px;
+ word-wrap: break-word
+---
+// Sub Header 
+color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+ font-size: 14px;
+ font-family: DM Sans;
+ font-weight: 500;
+ line-height: 20.37px;
+ word-wrap: break-word
+---
+// CANCEL
+color: var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A);
+ font-size: 16px;
+ font-family: DM Sans;
+ font-weight: 800;
+ line-height: 23.28px;
+ word-wrap: break-word
+---
+// OK
+color: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white);
+ font-size: 16px;
+ font-family: DM Sans;
+ font-weight: 800;
+ line-height: 23.28px;
+ word-wrap: break-word
+---
+// Header
+color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+ font-size: 24px;
+ font-family: DM Sans;
+ font-weight: 600;
+ line-height: 34.92px;
+ word-wrap: break-word
+---
+// Sub Header 
+color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+ font-size: 14px;
+ font-family: DM Sans;
+ font-weight: 500;
+ line-height: 20.37px;
+ word-wrap: break-word
+---
+// CANCEL
+color: var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A);
+ font-size: 16px;
+ font-family: DM Sans;
+ font-weight: 800;
+ line-height: 23.28px;
+ word-wrap: break-word
+---
+// OK
+color: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white);
+ font-size: 16px;
+ font-family: DM Sans;
+ font-weight: 800;
+ line-height: 23.28px;
+ word-wrap: break-word
+---
+// Header
+color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+ font-size: 24px;
+ font-family: DM Sans;
+ font-weight: 600;
+ line-height: 34.92px;
+ word-wrap: break-word
+---
+// Sub Header 
+color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+ font-size: 14px;
+ font-family: DM Sans;
+ font-weight: 500;
+ line-height: 20.37px;
+ word-wrap: break-word
+---
+// CANCEL
+color: var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A);
+ font-size: 16px;
+ font-family: DM Sans;
+ font-weight: 800;
+ line-height: 23.28px;
+ word-wrap: break-word
+---
+// OK
+color: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white);
+ font-size: 16px;
+ font-family: DM Sans;
+ font-weight: 800;
+ line-height: 23.28px;
+ word-wrap: break-word
+---
+// Header
+color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+ font-size: 24px;
+ font-family: DM Sans;
+ font-weight: 600;
+ line-height: 34.92px;
+ word-wrap: break-word
+---
+// Sub Header 
+color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+ font-size: 14px;
+ font-family: DM Sans;
+ font-weight: 500;
+ line-height: 20.37px;
+ word-wrap: break-word
+---
+// CANCEL
+color: var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A);
+ font-size: 16px;
+ font-family: DM Sans;
+ font-weight: 800;
+ line-height: 23.28px;
+ word-wrap: break-word
+---
+// OK
+color: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white);
+ font-size: 16px;
+ font-family: DM Sans;
+ font-weight: 800;
+ line-height: 23.28px;
+ word-wrap: break-word
+---
+// Header
+color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+ font-size: 24px;
+ font-family: DM Sans;
+ font-weight: 600;
+ line-height: 34.92px;
+ word-wrap: break-word
+---
+// Sub Header 
+color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+ font-size: 14px;
+ font-family: DM Sans;
+ font-weight: 500;
+ line-height: 20.37px;
+ word-wrap: break-word
+---
+// CANCEL
+color: var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A);
+ font-size: 16px;
+ font-family: DM Sans;
+ font-weight: 800;
+ line-height: 23.28px;
+ word-wrap: break-word
+---
+// OK
+color: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white);
+ font-size: 16px;
+ font-family: DM Sans;
+ font-weight: 800;
+ line-height: 23.28px;
+ word-wrap: break-word
+---
+// Header
+color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+ font-size: 24px;
+ font-family: DM Sans;
+ font-weight: 600;
+ line-height: 34.92px;
+ word-wrap: break-word
+---
+// Sub Header 
+color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+ font-size: 14px;
+ font-family: DM Sans;
+ font-weight: 500;
+ line-height: 20.37px;
+ word-wrap: break-word
+---
+// CANCEL
+color: var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A);
+ font-size: 16px;
+ font-family: DM Sans;
+ font-weight: 800;
+ line-height: 23.28px;
+ word-wrap: break-word
+---
+// OK
+color: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white);
+ font-size: 16px;
+ font-family: DM Sans;
+ font-weight: 800;
+ line-height: 23.28px;
+ word-wrap: break-word
+---
+// Header
+color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+ font-size: 24px;
+ font-family: DM Sans;
+ font-weight: 600;
+ line-height: 34.92px;
+ word-wrap: break-word
+---
+// Sub Header 
+color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+ font-size: 14px;
+ font-family: DM Sans;
+ font-weight: 500;
+ line-height: 20.37px;
+ word-wrap: break-word
+---
+// CANCEL
+color: var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A);
+ font-size: 16px;
+ font-family: DM Sans;
+ font-weight: 800;
+ line-height: 23.28px;
+ word-wrap: break-word
+---
+// OK
+color: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white);
+ font-size: 16px;
+ font-family: DM Sans;
+ font-weight: 800;
+ line-height: 23.28px;
+ word-wrap: break-word

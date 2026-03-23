@@ -1,0 +1,62 @@
+// Select a file or drag and drop here
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// JPG, PNG or PDF, file size no more than 10MB
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// SELECT FILE(S)
+color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Select a file or drag and drop here
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// JPG, PNG or PDF, file size no more than 10MB
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// SELECT FILE
+color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Success!
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 20, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 29.10, wordWrap: 'break-word'
+---
+// Documents have been uploaded successfully, check your registered email for confirmation.
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// RETURN HOME
+color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Success!
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 20, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 29.10, wordWrap: 'break-word'
+---
+// Documents have been uploaded successfully, check your registered email for confirmation.
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Select a file or drag and drop here
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// JPG, PNG or PDF, file size no more than 10MB
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// SELECT FILE
+color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// ProductImage_1.png
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Preview
+color: 'var(--Colors-Functional-Label-Txt_Label_Focus, #00575C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// 5.7MB
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'
+---
+// ProductImage_2.png
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// 5.7MB
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'
+---
+// ProductImage_2.png
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// 5.7MB
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'

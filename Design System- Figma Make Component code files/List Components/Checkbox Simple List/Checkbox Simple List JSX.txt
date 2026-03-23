@@ -1,0 +1,132 @@
+<div style={{width: '100%', height: '100%', position: 'relative', overflow: 'hidden', borderRadius: 5, border: '1px #8A38F5 solid'}}>
+    <div style={{width: 188, padding: 4, left: 20, top: 20, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 2, display: 'inline-flex'}}>
+        <div data-haslabel="true" data-shape="Square" data-state="Default" data-status="Unchecked" style={{padding: 10, justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+            <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+            <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Optometrists</div>
+        </div>
+        <div data-haslabel="true" data-shape="Square" data-state="Default" data-status="Unchecked" style={{padding: 10, justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+            <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+            <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Ophthalmologists</div>
+        </div>
+        <div data-haslabel="true" data-shape="Square" data-state="Default" data-status="Unchecked" style={{padding: 10, justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+            <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+            <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Front Desk Staff</div>
+        </div>
+        <div data-haslabel="true" data-shape="Square" data-state="Default" data-status="Unchecked" style={{padding: 10, justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+            <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+            <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Billing Specialists</div>
+        </div>
+        <div data-haslabel="true" data-shape="Square" data-state="Default" data-status="Unchecked" style={{padding: 10, justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+            <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+            <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Optical Technicians</div>
+        </div>
+        <div data-haslabel="true" data-shape="Square" data-state="Default" data-status="Unchecked" style={{padding: 10, justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+            <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+            <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Practice Managers</div>
+        </div>
+    </div>
+    <div style={{width: 238, padding: 4, left: 20, top: 436, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-end', display: 'flex'}}>
+            <div data-haslabel="true" data-shape="Square" data-state="Default" data-status="Unchecked" style={{alignSelf: 'stretch', padding: 10, justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+                <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+                <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>VisionCare Optical Centers</div>
+            </div>
+            <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 2, display: 'flex'}}>
+                <div data-haslabel="true" data-shape="Square" data-state="Default" data-status="Unchecked" style={{padding: 10, justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+                    <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+                    <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Downtown Vision Center</div>
+                </div>
+                <div data-haslabel="true" data-shape="Square" data-state="Default" data-status="Unchecked" style={{padding: 10, justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+                    <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+                    <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Front Desk Staff</div>
+                </div>
+                <div data-haslabel="true" data-shape="Square" data-state="Default" data-status="Unchecked" style={{padding: 10, justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+                    <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+                    <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Westside Eye Clinic</div>
+                </div>
+                <div data-haslabel="true" data-shape="Square" data-state="Default" data-status="Unchecked" style={{alignSelf: 'stretch', padding: 10, justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+                    <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+                    <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Northbrook Optical</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{paddingLeft: 6, paddingRight: 6, paddingTop: 16, paddingBottom: 16, left: 20, top: 677, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+        <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 12, display: 'flex'}}>
+            <div style={{width: 36, height: 40, position: 'relative'}}>
+                <div data-haslabel="false" data-shape="Square" data-state="Default" data-status="Unchecked" style={{width: 41, height: 40, padding: 10, left: 0, top: 0, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+                    <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+                </div>
+            </div>
+            <div style={{width: 186.42, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+                <div style={{alignSelf: 'stretch', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'}}>Dr. Sarah Chen</div>
+                <div style={{alignSelf: 'stretch', height: 20, position: 'relative'}}>
+                    <div style={{left: 0, top: 0, position: 'absolute', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Ophthalmologist</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 265, paddingLeft: 20, paddingRight: 20, paddingTop: 10, paddingBottom: 10, left: 20, top: 908, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+        <div style={{justifyContent: 'flex-end', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+            <div style={{width: 186.42, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+                <div style={{alignSelf: 'stretch', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'}}>Dr. Sarah Chen</div>
+                <div style={{alignSelf: 'stretch', height: 20, position: 'relative'}}>
+                    <div style={{left: 0, top: 0, position: 'absolute', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Ophthalmologist</div>
+                </div>
+            </div>
+            <div style={{width: 41, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                <div data-haslabel="false" data-shape="Square" data-state="Default" data-status="Unchecked" style={{width: 41, height: 40, padding: 10, justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+                    <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 242.42, paddingLeft: 6, paddingRight: 6, paddingTop: 16, paddingBottom: 16, left: 22.79, top: 789.75, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', justifyContent: 'space-between', alignItems: 'center', display: 'inline-flex'}}>
+            <div style={{width: 36, height: 40, position: 'relative'}}>
+                <div data-haslabel="false" data-shape="Square" data-state="Default" data-status="Unchecked" style={{width: 41, height: 40, padding: 10, left: 0, top: 0, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+                    <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+                </div>
+            </div>
+            <div style={{width: 186.42, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+                <div style={{alignSelf: 'stretch', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'}}>Dr. Sarah Chen</div>
+            </div>
+        </div>
+    </div>
+    <div style={{paddingLeft: 20, paddingRight: 20, paddingTop: 16, paddingBottom: 16, left: 20, top: 1001.50, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+        <div style={{width: 186.42, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+            <div style={{alignSelf: 'stretch', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'}}>Dr. Sarah Chen</div>
+        </div>
+        <div style={{width: 36, height: 40, position: 'relative'}}>
+            <div data-haslabel="false" data-shape="Square" data-state="Default" data-status="Unchecked" style={{width: 41, height: 40, padding: 10, left: 0, top: 0, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+                <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+            </div>
+        </div>
+    </div>
+    <div style={{width: 1002, padding: 4, left: 20, top: 340, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div data-haslabel="true" data-shape="Square" data-state="Default" data-status="Unchecked" style={{padding: 10, justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+            <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+            <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Optometrists</div>
+        </div>
+        <div data-haslabel="true" data-shape="Square" data-state="Default" data-status="Unchecked" style={{padding: 10, justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+            <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+            <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Ophthalmologists</div>
+        </div>
+        <div data-haslabel="true" data-shape="Square" data-state="Default" data-status="Unchecked" style={{padding: 10, justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+            <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+            <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Front Desk Staff</div>
+        </div>
+        <div data-haslabel="true" data-shape="Square" data-state="Default" data-status="Unchecked" style={{padding: 10, justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+            <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+            <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Billing Specialists</div>
+        </div>
+        <div data-haslabel="true" data-shape="Square" data-state="Default" data-status="Unchecked" style={{padding: 10, justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+            <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+            <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Optical Technicians</div>
+        </div>
+        <div data-haslabel="true" data-shape="Square" data-state="Default" data-status="Unchecked" style={{padding: 10, justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+            <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+            <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Practice Managers</div>
+        </div>
+    </div>
+</div>

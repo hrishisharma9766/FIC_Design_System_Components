@@ -1,0 +1,908 @@
+<div data-layer="Product Card with Para+Bullet List" className="ProductCardWithParaBulletList" style={{width: '100%', height: '100%', position: 'relative', overflow: 'hidden', borderRadius: 5, border: '1px #8A38F5 solid'}}>
+    <div data-layer="Type=Default, Theme=Fusia" className="TypeDefaultThemeFusia" style={{width: 302, height: 884.92, left: 20, top: 20, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+        <div data-layer="Frame 47326" className="Frame47326" style={{alignSelf: 'stretch', height: 884.92, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16, display: 'flex'}}>
+            <div data-layer="Frame 47321" className="Frame47321" style={{alignSelf: 'stretch', flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16, display: 'flex'}}>
+                <div data-layer="Frame 47325" className="Frame47325" style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16, display: 'flex'}}>
+                    <div data-layer="Frame 47317" className="Frame47317" style={{alignSelf: 'stretch', height: 668.06, position: 'relative'}}>
+                        <div data-layer="Frame 47320" className="Frame47320" style={{width: 293.74, left: 4, top: 4, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 16, display: 'inline-flex'}}>
+                            <div data-layer="ProductCardContent" className="Productcardcontent" style={{alignSelf: 'stretch', height: 468.34, paddingLeft: 8, paddingRight: 8, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 6, display: 'flex'}}>
+                                <div data-layer="PillBadge" data-pillbadge_color="Green" data-single-line="Double Lines" data-size="Small" className="Pillbadge" style={{padding: 5, background: 'var(--Colors-Buttons-Pill-Badge-Bkg-Lime200, #DAF3B9)', borderRadius: 18, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                                    <div data-layer="Recommended" className="Recommended" style={{width: 158.81, height: 16.34, textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-Pill-Badge-Txt_Pill-Badge_Label, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Recommended</div>
+                                    <div data-layer="Most practices start here" className="MostPracticesStartHere" style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-Pill-Badge-Txt_Pill-Badge_Label, #4B4B4A)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'}}>Most practices start here</div>
+                                </div>
+                                <div data-layer="Frame 47318" className="Frame47318" style={{alignSelf: 'stretch', flex: '1 1 0', paddingTop: 4, paddingBottom: 4, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 6, display: 'flex'}}>
+                                    <div data-layer="Plan Name" className="PlanName" style={{alignSelf: 'stretch', textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 20, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 29.10, wordWrap: 'break-word'}}>Plan Name</div>
+                                    <div data-layer="Paragraph" className="Paragraph" style={{width: 263, padding: 4, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                                        <div data-layer="Everything you need to manage billing, end to end. The 360 Billing Suite combines eligibility checks, claims submission, and payment posting into one streamlined workflow." className="EverythingYouNeedToManageBillingEndToEndThe360BillingSuiteCombinesEligibilityChecksClaimsSubmissionAndPaymentPostingIntoOneStreamlinedWorkflow" style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Everything you need to manage billing, end to end. The 360 Billing Suite combines eligibility checks, claims submission, and payment posting into one streamlined workflow.</div>
+                                    </div>
+                                    <div data-layer="List With label" data-has-heading="true" className="ListWithLabel" style={{width: 263, padding: 4, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'flex'}}>
+                                        <div data-layer="Label" className="Label" style={{alignSelf: 'stretch', height: 18, position: 'relative'}}>
+                                            <div data-layer="Great for:" className="GreatFor" style={{width: 251, height: 18, left: 0, top: 0, position: 'absolute', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Great for:</div>
+                                        </div>
+                                        <div data-layer="Frame 47313" className="Frame47313" style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'flex'}}>
+                                            <div data-layer="_ListRow/Item1" className="ListrowItem1" style={{alignSelf: 'stretch', padding: 2, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                                                <div data-svg-wrapper data-layer="Size16(Colored)Icon/Check" className="Size16ColoredIconCheck" style={{position: 'relative'}}>
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14.7071 3.29292C15.0976 3.68349 15.0976 4.31776 14.7071 4.70833L6.70796 12.7071C6.31738 13.0976 5.68307 13.0976 5.29249 12.7071L1.29294 8.7077C0.902355 8.31714 0.902355 7.68286 1.29294 7.2923C1.68352 6.90173 2.31782 6.90173 2.7084 7.2923L6.00179 10.5824L13.2947 3.29292C13.6853 2.90236 14.3196 2.90236 14.7102 3.29292H14.7071Z" fill="var(--Colors-Navigation-Icons-Lime600, #5E981D)"/>
+                                                    </svg>
+                                                </div>
+                                                <div data-layer="Show one price per card by default" className="ShowOnePricePerCardByDefault" style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Show one price per card by default</div>
+                                            </div>
+                                            <div data-layer="_ListRow/Item1" className="ListrowItem1" style={{alignSelf: 'stretch', padding: 2, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                                                <div data-svg-wrapper data-layer="Size16(Colored)Icon/Check" className="Size16ColoredIconCheck" style={{position: 'relative'}}>
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14.7071 3.29292C15.0976 3.68349 15.0976 4.31776 14.7071 4.70833L6.70796 12.7071C6.31738 13.0976 5.68307 13.0976 5.29249 12.7071L1.29294 8.7077C0.902355 8.31714 0.902355 7.68286 1.29294 7.2923C1.68352 6.90173 2.31782 6.90173 2.7084 7.2923L6.00179 10.5824L13.2947 3.29292C13.6853 2.90236 14.3196 2.90236 14.7102 3.29292H14.7071Z" fill="var(--Colors-Navigation-Icons-Lime600, #5E981D)"/>
+                                                    </svg>
+                                                </div>
+                                                <div data-layer="Show one price per card by default" className="ShowOnePricePerCardByDefault" style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Use the toggle to animate the change</div>
+                                            </div>
+                                            <div data-layer="_ListRow/Item1" className="ListrowItem1" style={{alignSelf: 'stretch', padding: 2, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                                                <div data-svg-wrapper data-layer="Size16(Colored)Icon/Check" className="Size16ColoredIconCheck" style={{position: 'relative'}}>
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M14.7071 3.29292C15.0976 3.68349 15.0976 4.31776 14.7071 4.70833L6.70796 12.7071C6.31738 13.0976 5.68307 13.0976 5.29249 12.7071L1.29294 8.7077C0.902355 8.31714 0.902355 7.68286 1.29294 7.2923C1.68352 6.90173 2.31782 6.90173 2.7084 7.2923L6.00179 10.5824L13.2947 3.29292C13.6853 2.90236 14.3196 2.90236 14.7102 3.29292H14.7071Z" fill="var(--Colors-Navigation-Icons-Lime600, #5E981D)"/>
+                                                    </svg>
+                                                </div>
+                                                <div data-layer="Show one price per card by default" className="ShowOnePricePerCardByDefault" style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>De-emphasize “per provider/month” repetition — show once per section</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div data-layer="PlanDetails" className="Plandetails" style={{padding: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 18, display: 'flex'}}>
+                                <div data-layer="PriceSlider" data-has-delete-icon="true" data-icon="Without Delete Icon" data-label="With Label -Center" data-size="PriceSliderLarge" className="Priceslider" style={{width: 285, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 8, display: 'flex'}}>
+                                    <div data-layer="Label" className="Label" style={{alignSelf: 'stretch', textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Add Number of Providers</div>
+                                    <div data-layer="PriceSlider/Size3" className="PricesliderSize3" style={{alignSelf: 'stretch', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                                        <div data-layer="PriceSlider/PriceSliderLarge" className="PricesliderPricesliderlarge" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+                                            <div data-layer="_SliderButtons" data-property-1="_MinusSliderButton" data-size="Large" className="Sliderbuttons" style={{width: 32, height: 32, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                                                <div data-svg-wrapper data-layer="Size16(Gray)Icon/Minus" className="Size16GrayIconMinus" style={{left: 8, top: 8, position: 'absolute'}}>
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M15 8C15 8.55312 14.5188 9 13.9231 9H2.07692C1.48125 9 1 8.55312 1 8C1 7.44687 1.48125 7 2.07692 7H13.9231C14.5188 7 15 7.44687 15 8Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div data-layer="_NumberSlot" data-size="Large" className="Numberslot" style={{width: 40, height: 32, paddingLeft: 4, paddingRight: 4, paddingTop: 1, paddingBottom: 1, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 4, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                                <div data-layer="0" style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'}}>0</div>
+                                            </div>
+                                            <div data-layer="_SliderButtons" data-property-1="_PlusSliderButton" data-size="Large" className="Sliderbuttons" style={{width: 32, height: 32, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                                                <div data-svg-wrapper data-layer="Size16(Gray)Icon/Plus" className="Size16GrayIconPlus" style={{left: 8, top: 8, position: 'absolute'}}>
+                                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M9.07692 2.07692C9.07692 1.48125 8.59567 1 8 1C7.40433 1 6.92308 1.48125 6.92308 2.07692V6.92308H2.07692C1.48125 6.92308 1 7.40433 1 8C1 8.59567 1.48125 9.07692 2.07692 9.07692H6.92308V13.9231C6.92308 14.5188 7.40433 15 8 15C8.59567 15 9.07692 14.5188 9.07692 13.9231V9.07692H13.9231C14.5188 9.07692 15 8.59567 15 8C15 7.40433 14.5188 6.92308 13.9231 6.92308H9.07692V2.07692Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-layer="ProductCardTab/Type5" className="ProductcardtabType5" style={{alignSelf: 'stretch', paddingTop: 4, paddingBottom: 4, background: 'var(--Colors-Functional-Bkg-Bkg_Dark, #EFEEEA)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+                                    <div data-layer="Frame 47303" className="Frame47303" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 6, display: 'flex'}}>
+                                        <div data-layer="button" className="Button" style={{width: 110, height: 34, paddingLeft: 22, paddingRight: 22, paddingTop: 7, paddingBottom: 7, boxShadow: '0px 2px 4px #E7EDEC, 0px 2px 4px rgba(231, 237, 236, 0.25)', borderRadius: 9999, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                            <div data-layer="Frame 47297" className="Frame47297" style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
+                                                <div data-layer="Monthly" className="Monthly" style={{width: 65.61, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Monthly</div>
+                                            </div>
+                                        </div>
+                                        <div data-layer="button" className="Button" style={{width: 161, height: 34, paddingLeft: 22, paddingRight: 22, paddingTop: 7, paddingBottom: 7, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', boxShadow: '0px 2px 4px #E7EDEC, 0px 2px 4px rgba(231, 237, 236, 0.25)', borderRadius: 9999, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                            <div data-layer="Frame 47297" className="Frame47297" style={{width: 143, justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                                                <div data-layer="Frame 47300" className="Frame47300" style={{width: 143, height: 20, position: 'relative'}}>
+                                                    <div data-layer="Frame 47297" className="Frame47297" style={{width: 153, height: 20, left: -5, top: 0, position: 'absolute', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                                                        <div data-layer="Yearly" className="Yearly" style={{width: 59.14, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Yearly</div>
+                                                        <div data-layer="(Save 10%)" className="Save10" style={{flex: '1 1 0', textAlign: 'center', color: 'var(--Colors-Functional-Label-Txt_Label_Success, #5E981D)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>(Save 10%)</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div data-layer="_PricingBlock/Double Amount/Small" className="PricingblockDoubleAmountSmall" style={{width: 234, justifyContent: 'flex-start', alignItems: 'center', gap: 7, display: 'inline-flex'}}>
+                                    <div data-layer="Frame 1" className="Frame1" style={{flex: '1 1 0', padding: 4, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 2, display: 'inline-flex'}}>
+                                        <div data-layer="$1299.00" className="129900" style={{alignSelf: 'stretch', height: 15, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '900', lineHeight: 20.37, wordWrap: 'break-word'}}>$1299.00</div>
+                                        <div data-layer="per provider/month" className="PerProviderMonth" style={{alignSelf: 'stretch', height: 14.71, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'}}>per provider/month</div>
+                                    </div>
+                                    <div data-layer="Frame 2" className="Frame2" style={{flex: '1 1 0', padding: 4, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 2, display: 'inline-flex'}}>
+                                        <div data-layer="$1299.00" className="129900" style={{alignSelf: 'stretch', height: 15, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '900', lineHeight: 20.37, wordWrap: 'break-word'}}>$1299.00</div>
+                                        <div data-layer="per provider/month" className="PerProviderMonth" style={{alignSelf: 'stretch', height: 14.71, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'}}>per provider/month</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-layer="_ShoppingCardFooterComponent" data-has-explore-plans-link="true" data-show-license-type="true" data-theme="Fusia" className="Shoppingcardfootercomponent" style={{alignSelf: 'stretch', padding: 12, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 16, outline: '1px var(--Colors-Functional-Border-Border_Brand-500, #D72D8A) solid', outlineOffset: '-0.50px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 12, display: 'flex'}}>
+                <div data-layer="Frame 47296" className="Frame47296" style={{alignSelf: 'stretch', paddingTop: 10, paddingBottom: 10, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'flex'}}>
+                    <div data-layer="Frame 91" className="Frame91" style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 11, display: 'flex'}}>
+                        <div data-layer="Frame 90" className="Frame90" style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 2, display: 'flex'}}>
+                            <div data-layer="360 Billing Suite Price" className="BillingSuitePrice" style={{alignSelf: 'stretch', height: 32, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 24, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 34.92, wordWrap: 'break-word'}}>$1169.10</div>
+                            <div data-layer="per provider/month" className="PerProviderMonth" style={{alignSelf: 'stretch', height: 20.86, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>per provider/month</div>
+                        </div>
+                        <div data-layer="Btn" className="Btn" style={{alignSelf: 'stretch', height: 48, padding: 12, background: 'var(--Colors-Buttons-BrandBtn-BrandBtn_Bkg_Default, #D72D8A)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                            <div data-layer="LABEL" className="Label" style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>Add To Cart</div>
+                        </div>
+                    </div>
+                    <div data-layer="Frame 47295" className="Frame47295" style={{paddingTop: 4, paddingBottom: 4, justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                        <div data-layer="Frame 47294" className="Frame47294" style={{width: 97, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                            <div data-layer="Link Button/Teal/Default" data-has-icon="false" className="LinkButtonTealDefault" style={{alignSelf: 'stretch', paddingLeft: 10, paddingRight: 10, paddingTop: 4, paddingBottom: 4, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Teal-600, #118082) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 11, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                                <div data-layer="View Licenses & Billing" className="ViewLicensesBilling" style={{flex: '1 1 0', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Explore Plans</div>
+                            </div>
+                        </div>
+                        <div data-layer="Frame 47294" className="Frame47294" style={{width: 74, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                            <div data-layer="Link Button/Teal/Default" data-has-icon="false" className="LinkButtonTealDefault" style={{alignSelf: 'stretch', paddingLeft: 10, paddingRight: 10, paddingTop: 4, paddingBottom: 4, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Teal-600, #118082) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 11, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                                <div data-layer="View Licenses & Billing" className="ViewLicensesBilling" style={{flex: '1 1 0', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Start trial</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-layer="Type=Default, Theme=Teal" className="TypeDefaultThemeTeal" style={{width: 302, left: 32, top: 1008.45, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+        <div data-layer="Frame 47321" className="Frame47321" style={{alignSelf: 'stretch', height: 884.06, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16, display: 'flex'}}>
+            <div data-layer="Frame 47317" className="Frame47317" style={{alignSelf: 'stretch', flex: '1 1 0', position: 'relative'}}>
+                <div data-layer="Frame 47320" className="Frame47320" style={{width: 293.74, left: 4, top: 4, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 16, display: 'inline-flex'}}>
+                    <div data-layer="ProductCardContent" className="Productcardcontent" style={{alignSelf: 'stretch', height: 468.34, paddingLeft: 8, paddingRight: 8, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 6, display: 'flex'}}>
+                        <div data-layer="PillBadge" data-pillbadge_color="Green" data-single-line="Double Lines" data-size="Small" className="Pillbadge" style={{padding: 5, background: 'var(--Colors-Buttons-Pill-Badge-Bkg-Lime200, #DAF3B9)', borderRadius: 18, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                            <div data-layer="Recommended" className="Recommended" style={{width: 158.81, height: 16.34, textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-Pill-Badge-Txt_Pill-Badge_Label, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Recommended</div>
+                            <div data-layer="Most practices start here" className="MostPracticesStartHere" style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-Pill-Badge-Txt_Pill-Badge_Label, #4B4B4A)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'}}>Most practices start here</div>
+                        </div>
+                        <div data-layer="Frame 47318" className="Frame47318" style={{alignSelf: 'stretch', flex: '1 1 0', paddingTop: 4, paddingBottom: 4, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 6, display: 'flex'}}>
+                            <div data-layer="Plan Name" className="PlanName" style={{alignSelf: 'stretch', textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 20, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 29.10, wordWrap: 'break-word'}}>Plan Name</div>
+                            <div data-layer="Paragraph" className="Paragraph" style={{width: 263, padding: 4, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                                <div data-layer="Everything you need to manage billing, end to end. The 360 Billing Suite combines eligibility checks, claims submission, and payment posting into one streamlined workflow." className="EverythingYouNeedToManageBillingEndToEndThe360BillingSuiteCombinesEligibilityChecksClaimsSubmissionAndPaymentPostingIntoOneStreamlinedWorkflow" style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Everything you need to manage billing, end to end. The 360 Billing Suite combines eligibility checks, claims submission, and payment posting into one streamlined workflow.</div>
+                            </div>
+                            <div data-layer="List With label" data-has-heading="true" className="ListWithLabel" style={{width: 263, padding: 4, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'flex'}}>
+                                <div data-layer="Label" className="Label" style={{alignSelf: 'stretch', height: 18, position: 'relative'}}>
+                                    <div data-layer="Great for:" className="GreatFor" style={{width: 251, height: 18, left: 0, top: 0, position: 'absolute', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Great for:</div>
+                                </div>
+                                <div data-layer="Frame 47313" className="Frame47313" style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'flex'}}>
+                                    <div data-layer="_ListRow/Item1" className="ListrowItem1" style={{alignSelf: 'stretch', padding: 2, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                                        <div data-svg-wrapper data-layer="Size16(Colored)Icon/Check" className="Size16ColoredIconCheck" style={{position: 'relative'}}>
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.7071 3.29292C15.0976 3.68349 15.0976 4.31776 14.7071 4.70833L6.70796 12.7071C6.31738 13.0976 5.68307 13.0976 5.29249 12.7071L1.29294 8.7077C0.902355 8.31714 0.902355 7.68286 1.29294 7.2923C1.68352 6.90173 2.31782 6.90173 2.7084 7.2923L6.00179 10.5824L13.2947 3.29292C13.6853 2.90236 14.3196 2.90236 14.7102 3.29292H14.7071Z" fill="var(--Colors-Navigation-Icons-Lime600, #5E981D)"/>
+                                            </svg>
+                                        </div>
+                                        <div data-layer="Show one price per card by default" className="ShowOnePricePerCardByDefault" style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Show one price per card by default</div>
+                                    </div>
+                                    <div data-layer="_ListRow/Item1" className="ListrowItem1" style={{alignSelf: 'stretch', padding: 2, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                                        <div data-svg-wrapper data-layer="Size16(Colored)Icon/Check" className="Size16ColoredIconCheck" style={{position: 'relative'}}>
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.7071 3.29292C15.0976 3.68349 15.0976 4.31776 14.7071 4.70833L6.70796 12.7071C6.31738 13.0976 5.68307 13.0976 5.29249 12.7071L1.29294 8.7077C0.902355 8.31714 0.902355 7.68286 1.29294 7.2923C1.68352 6.90173 2.31782 6.90173 2.7084 7.2923L6.00179 10.5824L13.2947 3.29292C13.6853 2.90236 14.3196 2.90236 14.7102 3.29292H14.7071Z" fill="var(--Colors-Navigation-Icons-Lime600, #5E981D)"/>
+                                            </svg>
+                                        </div>
+                                        <div data-layer="Show one price per card by default" className="ShowOnePricePerCardByDefault" style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Use the toggle to animate the change</div>
+                                    </div>
+                                    <div data-layer="_ListRow/Item1" className="ListrowItem1" style={{alignSelf: 'stretch', padding: 2, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                                        <div data-svg-wrapper data-layer="Size16(Colored)Icon/Check" className="Size16ColoredIconCheck" style={{position: 'relative'}}>
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M14.7071 3.29292C15.0976 3.68349 15.0976 4.31776 14.7071 4.70833L6.70796 12.7071C6.31738 13.0976 5.68307 13.0976 5.29249 12.7071L1.29294 8.7077C0.902355 8.31714 0.902355 7.68286 1.29294 7.2923C1.68352 6.90173 2.31782 6.90173 2.7084 7.2923L6.00179 10.5824L13.2947 3.29292C13.6853 2.90236 14.3196 2.90236 14.7102 3.29292H14.7071Z" fill="var(--Colors-Navigation-Icons-Lime600, #5E981D)"/>
+                                            </svg>
+                                        </div>
+                                        <div data-layer="Show one price per card by default" className="ShowOnePricePerCardByDefault" style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>De-emphasize “per provider/month” repetition — show once per section</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-layer="PlanDetails" className="Plandetails" style={{padding: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 18, display: 'flex'}}>
+                        <div data-layer="PriceSlider" data-has-delete-icon="true" data-icon="Without Delete Icon" data-label="With Label -Center" data-size="PriceSliderLarge" className="Priceslider" style={{width: 285, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 8, display: 'flex'}}>
+                            <div data-layer="Label" className="Label" style={{alignSelf: 'stretch', textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Add Number of Providers</div>
+                            <div data-layer="PriceSlider/Size3" className="PricesliderSize3" style={{alignSelf: 'stretch', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                                <div data-layer="PriceSlider/PriceSliderLarge" className="PricesliderPricesliderlarge" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+                                    <div data-layer="_SliderButtons" data-property-1="_MinusSliderButton" data-size="Large" className="Sliderbuttons" style={{width: 32, height: 32, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                                        <div data-svg-wrapper data-layer="Size16(Gray)Icon/Minus" className="Size16GrayIconMinus" style={{left: 8, top: 8, position: 'absolute'}}>
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M15 8C15 8.55312 14.5188 9 13.9231 9H2.07692C1.48125 9 1 8.55312 1 8C1 7.44687 1.48125 7 2.07692 7H13.9231C14.5188 7 15 7.44687 15 8Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div data-layer="_NumberSlot" data-size="Large" className="Numberslot" style={{width: 40, height: 32, paddingLeft: 4, paddingRight: 4, paddingTop: 1, paddingBottom: 1, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 4, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div data-layer="0" style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'}}>0</div>
+                                    </div>
+                                    <div data-layer="_SliderButtons" data-property-1="_PlusSliderButton" data-size="Large" className="Sliderbuttons" style={{width: 32, height: 32, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                                        <div data-svg-wrapper data-layer="Size16(Gray)Icon/Plus" className="Size16GrayIconPlus" style={{left: 8, top: 8, position: 'absolute'}}>
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.07692 2.07692C9.07692 1.48125 8.59567 1 8 1C7.40433 1 6.92308 1.48125 6.92308 2.07692V6.92308H2.07692C1.48125 6.92308 1 7.40433 1 8C1 8.59567 1.48125 9.07692 2.07692 9.07692H6.92308V13.9231C6.92308 14.5188 7.40433 15 8 15C8.59567 15 9.07692 14.5188 9.07692 13.9231V9.07692H13.9231C14.5188 9.07692 15 8.59567 15 8C15 7.40433 14.5188 6.92308 13.9231 6.92308H9.07692V2.07692Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-layer="ProductCardTab/Type5" className="ProductcardtabType5" style={{alignSelf: 'stretch', paddingTop: 4, paddingBottom: 4, background: 'var(--Colors-Functional-Bkg-Bkg_Dark, #EFEEEA)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+                            <div data-layer="Frame 47303" className="Frame47303" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 6, display: 'flex'}}>
+                                <div data-layer="button" className="Button" style={{width: 110, height: 34, paddingLeft: 22, paddingRight: 22, paddingTop: 7, paddingBottom: 7, boxShadow: '0px 2px 4px #E7EDEC, 0px 2px 4px rgba(231, 237, 236, 0.25)', borderRadius: 9999, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div data-layer="Frame 47297" className="Frame47297" style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
+                                        <div data-layer="Monthly" className="Monthly" style={{width: 65.61, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Monthly</div>
+                                    </div>
+                                </div>
+                                <div data-layer="button" className="Button" style={{width: 161, height: 34, paddingLeft: 22, paddingRight: 22, paddingTop: 7, paddingBottom: 7, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', boxShadow: '0px 2px 4px #E7EDEC, 0px 2px 4px rgba(231, 237, 236, 0.25)', borderRadius: 9999, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div data-layer="Frame 47297" className="Frame47297" style={{width: 143, justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                                        <div data-layer="Frame 47300" className="Frame47300" style={{width: 143, height: 20, position: 'relative'}}>
+                                            <div data-layer="Frame 47297" className="Frame47297" style={{width: 153, height: 20, left: -5, top: 0, position: 'absolute', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                                                <div data-layer="Yearly" className="Yearly" style={{width: 59.14, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Yearly</div>
+                                                <div data-layer="(Save 10%)" className="Save10" style={{flex: '1 1 0', textAlign: 'center', color: 'var(--Colors-Functional-Label-Txt_Label_Success, #5E981D)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>(Save 10%)</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-layer="_PricingBlock/Double Amount/Small" className="PricingblockDoubleAmountSmall" style={{width: 234, justifyContent: 'flex-start', alignItems: 'center', gap: 7, display: 'inline-flex'}}>
+                            <div data-layer="Frame 1" className="Frame1" style={{flex: '1 1 0', padding: 4, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 2, display: 'inline-flex'}}>
+                                <div data-layer="$1299.00" className="129900" style={{alignSelf: 'stretch', height: 15, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '900', lineHeight: 20.37, wordWrap: 'break-word'}}>$1299.00</div>
+                                <div data-layer="per provider/month" className="PerProviderMonth" style={{alignSelf: 'stretch', height: 14.71, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'}}>per provider/month</div>
+                            </div>
+                            <div data-layer="Frame 2" className="Frame2" style={{flex: '1 1 0', padding: 4, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 2, display: 'inline-flex'}}>
+                                <div data-layer="$1299.00" className="129900" style={{alignSelf: 'stretch', height: 15, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '900', lineHeight: 20.37, wordWrap: 'break-word'}}>$1299.00</div>
+                                <div data-layer="per provider/month" className="PerProviderMonth" style={{alignSelf: 'stretch', height: 14.71, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'}}>per provider/month</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-layer="_ShoppingCardFooterComponent" data-has-explore-plans-link="true" data-show-license-type="true" data-theme="Teal" className="Shoppingcardfootercomponent" style={{alignSelf: 'stretch', padding: 12, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 16, outline: '1px var(--Colors-Functional-Border-Border_Focus, #21A49F) solid', outlineOffset: '-0.50px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 12, display: 'flex'}}>
+                <div data-layer="Frame 47296" className="Frame47296" style={{alignSelf: 'stretch', paddingTop: 10, paddingBottom: 10, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'flex'}}>
+                    <div data-layer="Frame 91" className="Frame91" style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 11, display: 'flex'}}>
+                        <div data-layer="Frame 90" className="Frame90" style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 2, display: 'flex'}}>
+                            <div data-layer="360 Billing Suite Price" className="BillingSuitePrice" style={{alignSelf: 'stretch', height: 32, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 24, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 34.92, wordWrap: 'break-word'}}>$1169.10</div>
+                            <div data-layer="per provider/month" className="PerProviderMonth" style={{alignSelf: 'stretch', height: 20, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>per provider/month</div>
+                        </div>
+                        <div data-layer="Btn" className="Btn" style={{alignSelf: 'stretch', height: 48, padding: 12, background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Default, #118082)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                            <div data-layer="LABEL" className="Label" style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>Add To Cart</div>
+                        </div>
+                    </div>
+                    <div data-layer="Frame 47295" className="Frame47295" style={{alignSelf: 'stretch', paddingTop: 4, paddingBottom: 4, justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                        <div data-layer="Frame 47294" className="Frame47294" style={{width: 97, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                            <div data-layer="Link Button/Teal/Default" data-has-icon="false" className="LinkButtonTealDefault" style={{alignSelf: 'stretch', paddingLeft: 10, paddingRight: 10, paddingTop: 4, paddingBottom: 4, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Teal-600, #118082) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 11, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                                <div data-layer="View Licenses & Billing" className="ViewLicensesBilling" style={{flex: '1 1 0', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Explore Plans</div>
+                            </div>
+                        </div>
+                        <div data-layer="Frame 47294" className="Frame47294" style={{width: 74, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                            <div data-layer="Link Button/Teal/Default" data-has-icon="false" className="LinkButtonTealDefault" style={{alignSelf: 'stretch', paddingLeft: 10, paddingRight: 10, paddingTop: 4, paddingBottom: 4, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Teal-600, #118082) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 11, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                                <div data-layer="View Licenses & Billing" className="ViewLicensesBilling" style={{flex: '1 1 0', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Start trial</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-layer="Type=Not recommended, Theme=Fusia" className="TypeNotRecommendedThemeFusia" style={{width: 302, left: 376, top: 24, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+        <div data-layer="Frame 47322" className="Frame47322" style={{alignSelf: 'stretch', height: 853.86, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16, display: 'flex'}}>
+            <div data-layer="Frame 47317" className="Frame47317" style={{alignSelf: 'stretch', flex: '1 1 0', position: 'relative'}}>
+                <div data-layer="ProductCardContent" className="Productcardcontent" style={{width: 294, height: 403, padding: 8, left: 4, top: 4, position: 'absolute'}} />
+                <div data-layer="Frame 47319" className="Frame47319" style={{width: 285, height: 608, left: 7, top: 12, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 16, display: 'inline-flex'}}>
+                    <div data-layer="Frame 47318" className="Frame47318" style={{alignSelf: 'stretch', height: 401, paddingTop: 4, paddingBottom: 4, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 6, display: 'flex'}}>
+                        <div data-layer="Plan Name" className="PlanName" style={{alignSelf: 'stretch', textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 20, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 29.10, wordWrap: 'break-word'}}>Plan Name</div>
+                        <div data-layer="Paragraph" className="Paragraph" style={{width: 263, padding: 4, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                            <div data-layer="Everything you need to manage billing, end to end. The 360 Billing Suite combines eligibility checks, claims submission, and payment posting into one streamlined workflow." className="EverythingYouNeedToManageBillingEndToEndThe360BillingSuiteCombinesEligibilityChecksClaimsSubmissionAndPaymentPostingIntoOneStreamlinedWorkflow" style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Everything you need to manage billing, end to end. The 360 Billing Suite combines eligibility checks, claims submission, and payment posting into one streamlined workflow.</div>
+                        </div>
+                        <div data-layer="List With label" data-has-heading="true" className="ListWithLabel" style={{width: 263, padding: 4, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'flex'}}>
+                            <div data-layer="Label" className="Label" style={{alignSelf: 'stretch', height: 18, position: 'relative'}}>
+                                <div data-layer="Great for:" className="GreatFor" style={{width: 251, height: 18, left: 0, top: 0, position: 'absolute', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Great for:</div>
+                            </div>
+                            <div data-layer="Frame 47313" className="Frame47313" style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'flex'}}>
+                                <div data-layer="_ListRow/Item1" className="ListrowItem1" style={{alignSelf: 'stretch', padding: 2, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                                    <div data-svg-wrapper data-layer="Size16(Colored)Icon/Check" className="Size16ColoredIconCheck" style={{position: 'relative'}}>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.7071 3.29292C15.0976 3.68349 15.0976 4.31776 14.7071 4.70833L6.70796 12.7071C6.31738 13.0976 5.68307 13.0976 5.29249 12.7071L1.29294 8.7077C0.902355 8.31714 0.902355 7.68286 1.29294 7.2923C1.68352 6.90173 2.31782 6.90173 2.7084 7.2923L6.00179 10.5824L13.2947 3.29292C13.6853 2.90236 14.3196 2.90236 14.7102 3.29292H14.7071Z" fill="var(--Colors-Navigation-Icons-Lime600, #5E981D)"/>
+                                        </svg>
+                                    </div>
+                                    <div data-layer="Show one price per card by default" className="ShowOnePricePerCardByDefault" style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Show one price per card by default</div>
+                                </div>
+                                <div data-layer="_ListRow/Item1" className="ListrowItem1" style={{alignSelf: 'stretch', padding: 2, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                                    <div data-svg-wrapper data-layer="Size16(Colored)Icon/Check" className="Size16ColoredIconCheck" style={{position: 'relative'}}>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.7071 3.29292C15.0976 3.68349 15.0976 4.31776 14.7071 4.70833L6.70796 12.7071C6.31738 13.0976 5.68307 13.0976 5.29249 12.7071L1.29294 8.7077C0.902355 8.31714 0.902355 7.68286 1.29294 7.2923C1.68352 6.90173 2.31782 6.90173 2.7084 7.2923L6.00179 10.5824L13.2947 3.29292C13.6853 2.90236 14.3196 2.90236 14.7102 3.29292H14.7071Z" fill="var(--Colors-Navigation-Icons-Lime600, #5E981D)"/>
+                                        </svg>
+                                    </div>
+                                    <div data-layer="Show one price per card by default" className="ShowOnePricePerCardByDefault" style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Use the toggle to animate the change</div>
+                                </div>
+                                <div data-layer="_ListRow/Item1" className="ListrowItem1" style={{alignSelf: 'stretch', padding: 2, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                                    <div data-svg-wrapper data-layer="Size16(Colored)Icon/Check" className="Size16ColoredIconCheck" style={{position: 'relative'}}>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.7071 3.29292C15.0976 3.68349 15.0976 4.31776 14.7071 4.70833L6.70796 12.7071C6.31738 13.0976 5.68307 13.0976 5.29249 12.7071L1.29294 8.7077C0.902355 8.31714 0.902355 7.68286 1.29294 7.2923C1.68352 6.90173 2.31782 6.90173 2.7084 7.2923L6.00179 10.5824L13.2947 3.29292C13.6853 2.90236 14.3196 2.90236 14.7102 3.29292H14.7071Z" fill="var(--Colors-Navigation-Icons-Lime600, #5E981D)"/>
+                                        </svg>
+                                    </div>
+                                    <div data-layer="Show one price per card by default" className="ShowOnePricePerCardByDefault" style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>De-emphasize “per provider/month” repetition — show once per section</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-layer="PlanDetails" className="Plandetails" style={{padding: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 18, display: 'flex'}}>
+                        <div data-layer="PriceSlider" data-has-delete-icon="true" data-icon="Without Delete Icon" data-label="With Label -Center" data-size="PriceSliderLarge" className="Priceslider" style={{width: 285, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 8, display: 'flex'}}>
+                            <div data-layer="Label" className="Label" style={{alignSelf: 'stretch', textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Add Number of Providers</div>
+                            <div data-layer="PriceSlider/Size3" className="PricesliderSize3" style={{alignSelf: 'stretch', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                                <div data-layer="PriceSlider/PriceSliderLarge" className="PricesliderPricesliderlarge" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+                                    <div data-layer="_SliderButtons" data-property-1="_MinusSliderButton" data-size="Large" className="Sliderbuttons" style={{width: 32, height: 32, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                                        <div data-svg-wrapper data-layer="Size16(Gray)Icon/Minus" className="Size16GrayIconMinus" style={{left: 8, top: 8, position: 'absolute'}}>
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M15 8C15 8.55312 14.5188 9 13.9231 9H2.07692C1.48125 9 1 8.55312 1 8C1 7.44687 1.48125 7 2.07692 7H13.9231C14.5188 7 15 7.44687 15 8Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div data-layer="_NumberSlot" data-size="Large" className="Numberslot" style={{width: 40, height: 32, paddingLeft: 4, paddingRight: 4, paddingTop: 1, paddingBottom: 1, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 4, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div data-layer="0" style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'}}>0</div>
+                                    </div>
+                                    <div data-layer="_SliderButtons" data-property-1="_PlusSliderButton" data-size="Large" className="Sliderbuttons" style={{width: 32, height: 32, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                                        <div data-svg-wrapper data-layer="Size16(Gray)Icon/Plus" className="Size16GrayIconPlus" style={{left: 8, top: 8, position: 'absolute'}}>
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.07692 2.07692C9.07692 1.48125 8.59567 1 8 1C7.40433 1 6.92308 1.48125 6.92308 2.07692V6.92308H2.07692C1.48125 6.92308 1 7.40433 1 8C1 8.59567 1.48125 9.07692 2.07692 9.07692H6.92308V13.9231C6.92308 14.5188 7.40433 15 8 15C8.59567 15 9.07692 14.5188 9.07692 13.9231V9.07692H13.9231C14.5188 9.07692 15 8.59567 15 8C15 7.40433 14.5188 6.92308 13.9231 6.92308H9.07692V2.07692Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-layer="ProductCardTab/Type5" className="ProductcardtabType5" style={{alignSelf: 'stretch', paddingTop: 4, paddingBottom: 4, background: 'var(--Colors-Functional-Bkg-Bkg_Dark, #EFEEEA)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+                            <div data-layer="Frame 47303" className="Frame47303" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 6, display: 'flex'}}>
+                                <div data-layer="button" className="Button" style={{width: 110, height: 34, paddingLeft: 22, paddingRight: 22, paddingTop: 7, paddingBottom: 7, boxShadow: '0px 2px 4px #E7EDEC, 0px 2px 4px rgba(231, 237, 236, 0.25)', borderRadius: 9999, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div data-layer="Frame 47297" className="Frame47297" style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
+                                        <div data-layer="Monthly" className="Monthly" style={{width: 65.61, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Monthly</div>
+                                    </div>
+                                </div>
+                                <div data-layer="button" className="Button" style={{width: 161, height: 34, paddingLeft: 22, paddingRight: 22, paddingTop: 7, paddingBottom: 7, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', boxShadow: '0px 2px 4px #E7EDEC, 0px 2px 4px rgba(231, 237, 236, 0.25)', borderRadius: 9999, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div data-layer="Frame 47297" className="Frame47297" style={{width: 143, justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                                        <div data-layer="Frame 47300" className="Frame47300" style={{width: 143, height: 20, position: 'relative'}}>
+                                            <div data-layer="Frame 47297" className="Frame47297" style={{width: 153, height: 20, left: -5, top: 0, position: 'absolute', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                                                <div data-layer="Yearly" className="Yearly" style={{width: 59.14, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Yearly</div>
+                                                <div data-layer="(Save 10%)" className="Save10" style={{flex: '1 1 0', textAlign: 'center', color: 'var(--Colors-Functional-Label-Txt_Label_Success, #5E981D)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>(Save 10%)</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-layer="_PricingBlock/Double Amount/Small" className="PricingblockDoubleAmountSmall" style={{width: 234, justifyContent: 'flex-start', alignItems: 'center', gap: 7, display: 'inline-flex'}}>
+                            <div data-layer="Frame 1" className="Frame1" style={{flex: '1 1 0', padding: 4, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 2, display: 'inline-flex'}}>
+                                <div data-layer="$1299.00" className="129900" style={{alignSelf: 'stretch', height: 15, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '900', lineHeight: 20.37, wordWrap: 'break-word'}}>$1299.00</div>
+                                <div data-layer="per provider/month" className="PerProviderMonth" style={{alignSelf: 'stretch', height: 14.71, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'}}>per provider/month</div>
+                            </div>
+                            <div data-layer="Frame 2" className="Frame2" style={{flex: '1 1 0', padding: 4, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 2, display: 'inline-flex'}}>
+                                <div data-layer="$1299.00" className="129900" style={{alignSelf: 'stretch', height: 15, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '900', lineHeight: 20.37, wordWrap: 'break-word'}}>$1299.00</div>
+                                <div data-layer="per provider/month" className="PerProviderMonth" style={{alignSelf: 'stretch', height: 14.71, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'}}>per provider/month</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-layer="_ShoppingCardFooterComponent" data-has-explore-plans-link="true" data-show-license-type="true" data-theme="Fusia" className="Shoppingcardfootercomponent" style={{alignSelf: 'stretch', padding: 12, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 16, outline: '1px var(--Colors-Functional-Border-Border_Brand-500, #D72D8A) solid', outlineOffset: '-0.50px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 12, display: 'flex'}}>
+                <div data-layer="Frame 47296" className="Frame47296" style={{alignSelf: 'stretch', paddingTop: 10, paddingBottom: 10, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'flex'}}>
+                    <div data-layer="Frame 91" className="Frame91" style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 11, display: 'flex'}}>
+                        <div data-layer="Frame 90" className="Frame90" style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 2, display: 'flex'}}>
+                            <div data-layer="360 Billing Suite Price" className="BillingSuitePrice" style={{alignSelf: 'stretch', height: 32, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 24, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 34.92, wordWrap: 'break-word'}}>$1169.10</div>
+                            <div data-layer="per provider/month" className="PerProviderMonth" style={{alignSelf: 'stretch', height: 20.86, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>per provider/month</div>
+                        </div>
+                        <div data-layer="Btn" className="Btn" style={{alignSelf: 'stretch', height: 48, padding: 12, background: 'var(--Colors-Buttons-BrandBtn-BrandBtn_Bkg_Default, #D72D8A)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                            <div data-layer="LABEL" className="Label" style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>Add To Cart</div>
+                        </div>
+                    </div>
+                    <div data-layer="Frame 47295" className="Frame47295" style={{paddingTop: 4, paddingBottom: 4, justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                        <div data-layer="Frame 47294" className="Frame47294" style={{width: 97, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                            <div data-layer="Link Button/Teal/Default" data-has-icon="false" className="LinkButtonTealDefault" style={{alignSelf: 'stretch', paddingLeft: 10, paddingRight: 10, paddingTop: 4, paddingBottom: 4, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Teal-600, #118082) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 11, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                                <div data-layer="View Licenses & Billing" className="ViewLicensesBilling" style={{flex: '1 1 0', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Explore Plans</div>
+                            </div>
+                        </div>
+                        <div data-layer="Frame 47294" className="Frame47294" style={{width: 74, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                            <div data-layer="Link Button/Teal/Default" data-has-icon="false" className="LinkButtonTealDefault" style={{alignSelf: 'stretch', paddingLeft: 10, paddingRight: 10, paddingTop: 4, paddingBottom: 4, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Teal-600, #118082) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 11, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                                <div data-layer="View Licenses & Billing" className="ViewLicensesBilling" style={{flex: '1 1 0', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Start trial</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-layer="Type=Not recommended, Theme=Teal" className="TypeNotRecommendedThemeTeal" style={{width: 302, left: 388, top: 1012.45, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+        <div data-layer="Frame 47322" className="Frame47322" style={{alignSelf: 'stretch', height: 637, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16, display: 'flex'}}>
+            <div data-layer="Frame 47317" className="Frame47317" style={{alignSelf: 'stretch', flex: '1 1 0', position: 'relative'}}>
+                <div data-layer="ProductCardContent" className="Productcardcontent" style={{width: 294, height: 403, padding: 8, left: 4, top: 4, position: 'absolute'}} />
+                <div data-layer="Frame 47319" className="Frame47319" style={{width: 285, height: 608, left: 7, top: 12, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 16, display: 'inline-flex'}}>
+                    <div data-layer="Frame 47318" className="Frame47318" style={{alignSelf: 'stretch', height: 401, paddingTop: 4, paddingBottom: 4, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 6, display: 'flex'}}>
+                        <div data-layer="Plan Name" className="PlanName" style={{alignSelf: 'stretch', textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 20, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 29.10, wordWrap: 'break-word'}}>Plan Name</div>
+                        <div data-layer="Paragraph" className="Paragraph" style={{width: 263, padding: 4, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                            <div data-layer="Everything you need to manage billing, end to end. The 360 Billing Suite combines eligibility checks, claims submission, and payment posting into one streamlined workflow." className="EverythingYouNeedToManageBillingEndToEndThe360BillingSuiteCombinesEligibilityChecksClaimsSubmissionAndPaymentPostingIntoOneStreamlinedWorkflow" style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Everything you need to manage billing, end to end. The 360 Billing Suite combines eligibility checks, claims submission, and payment posting into one streamlined workflow.</div>
+                        </div>
+                        <div data-layer="List With label" data-has-heading="true" className="ListWithLabel" style={{width: 263, padding: 4, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'flex'}}>
+                            <div data-layer="Label" className="Label" style={{alignSelf: 'stretch', height: 18, position: 'relative'}}>
+                                <div data-layer="Great for:" className="GreatFor" style={{width: 251, height: 18, left: 0, top: 0, position: 'absolute', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Great for:</div>
+                            </div>
+                            <div data-layer="Frame 47313" className="Frame47313" style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'flex'}}>
+                                <div data-layer="_ListRow/Item1" className="ListrowItem1" style={{alignSelf: 'stretch', padding: 2, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                                    <div data-svg-wrapper data-layer="Size16(Colored)Icon/Check" className="Size16ColoredIconCheck" style={{position: 'relative'}}>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.7071 3.29292C15.0976 3.68349 15.0976 4.31776 14.7071 4.70833L6.70796 12.7071C6.31738 13.0976 5.68307 13.0976 5.29249 12.7071L1.29294 8.7077C0.902355 8.31714 0.902355 7.68286 1.29294 7.2923C1.68352 6.90173 2.31782 6.90173 2.7084 7.2923L6.00179 10.5824L13.2947 3.29292C13.6853 2.90236 14.3196 2.90236 14.7102 3.29292H14.7071Z" fill="var(--Colors-Navigation-Icons-Lime600, #5E981D)"/>
+                                        </svg>
+                                    </div>
+                                    <div data-layer="Show one price per card by default" className="ShowOnePricePerCardByDefault" style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Show one price per card by default</div>
+                                </div>
+                                <div data-layer="_ListRow/Item1" className="ListrowItem1" style={{alignSelf: 'stretch', padding: 2, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                                    <div data-svg-wrapper data-layer="Size16(Colored)Icon/Check" className="Size16ColoredIconCheck" style={{position: 'relative'}}>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.7071 3.29292C15.0976 3.68349 15.0976 4.31776 14.7071 4.70833L6.70796 12.7071C6.31738 13.0976 5.68307 13.0976 5.29249 12.7071L1.29294 8.7077C0.902355 8.31714 0.902355 7.68286 1.29294 7.2923C1.68352 6.90173 2.31782 6.90173 2.7084 7.2923L6.00179 10.5824L13.2947 3.29292C13.6853 2.90236 14.3196 2.90236 14.7102 3.29292H14.7071Z" fill="var(--Colors-Navigation-Icons-Lime600, #5E981D)"/>
+                                        </svg>
+                                    </div>
+                                    <div data-layer="Show one price per card by default" className="ShowOnePricePerCardByDefault" style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Use the toggle to animate the change</div>
+                                </div>
+                                <div data-layer="_ListRow/Item1" className="ListrowItem1" style={{alignSelf: 'stretch', padding: 2, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                                    <div data-svg-wrapper data-layer="Size16(Colored)Icon/Check" className="Size16ColoredIconCheck" style={{position: 'relative'}}>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.7071 3.29292C15.0976 3.68349 15.0976 4.31776 14.7071 4.70833L6.70796 12.7071C6.31738 13.0976 5.68307 13.0976 5.29249 12.7071L1.29294 8.7077C0.902355 8.31714 0.902355 7.68286 1.29294 7.2923C1.68352 6.90173 2.31782 6.90173 2.7084 7.2923L6.00179 10.5824L13.2947 3.29292C13.6853 2.90236 14.3196 2.90236 14.7102 3.29292H14.7071Z" fill="var(--Colors-Navigation-Icons-Lime600, #5E981D)"/>
+                                        </svg>
+                                    </div>
+                                    <div data-layer="Show one price per card by default" className="ShowOnePricePerCardByDefault" style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>De-emphasize “per provider/month” repetition — show once per section</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-layer="PlanDetails" className="Plandetails" style={{padding: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 18, display: 'flex'}}>
+                        <div data-layer="PriceSlider" data-has-delete-icon="true" data-icon="Without Delete Icon" data-label="With Label -Center" data-size="PriceSliderLarge" className="Priceslider" style={{width: 285, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 8, display: 'flex'}}>
+                            <div data-layer="Label" className="Label" style={{alignSelf: 'stretch', textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Add Number of Providers</div>
+                            <div data-layer="PriceSlider/Size3" className="PricesliderSize3" style={{alignSelf: 'stretch', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                                <div data-layer="PriceSlider/PriceSliderLarge" className="PricesliderPricesliderlarge" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+                                    <div data-layer="_SliderButtons" data-property-1="_MinusSliderButton" data-size="Large" className="Sliderbuttons" style={{width: 32, height: 32, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                                        <div data-svg-wrapper data-layer="Size16(Gray)Icon/Minus" className="Size16GrayIconMinus" style={{left: 8, top: 8, position: 'absolute'}}>
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M15 8C15 8.55312 14.5188 9 13.9231 9H2.07692C1.48125 9 1 8.55312 1 8C1 7.44687 1.48125 7 2.07692 7H13.9231C14.5188 7 15 7.44687 15 8Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div data-layer="_NumberSlot" data-size="Large" className="Numberslot" style={{width: 40, height: 32, paddingLeft: 4, paddingRight: 4, paddingTop: 1, paddingBottom: 1, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 4, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div data-layer="0" style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'}}>0</div>
+                                    </div>
+                                    <div data-layer="_SliderButtons" data-property-1="_PlusSliderButton" data-size="Large" className="Sliderbuttons" style={{width: 32, height: 32, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                                        <div data-svg-wrapper data-layer="Size16(Gray)Icon/Plus" className="Size16GrayIconPlus" style={{left: 8, top: 8, position: 'absolute'}}>
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.07692 2.07692C9.07692 1.48125 8.59567 1 8 1C7.40433 1 6.92308 1.48125 6.92308 2.07692V6.92308H2.07692C1.48125 6.92308 1 7.40433 1 8C1 8.59567 1.48125 9.07692 2.07692 9.07692H6.92308V13.9231C6.92308 14.5188 7.40433 15 8 15C8.59567 15 9.07692 14.5188 9.07692 13.9231V9.07692H13.9231C14.5188 9.07692 15 8.59567 15 8C15 7.40433 14.5188 6.92308 13.9231 6.92308H9.07692V2.07692Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-layer="ProductCardTab/Type5" className="ProductcardtabType5" style={{alignSelf: 'stretch', paddingTop: 4, paddingBottom: 4, background: 'var(--Colors-Functional-Bkg-Bkg_Dark, #EFEEEA)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+                            <div data-layer="Frame 47303" className="Frame47303" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 6, display: 'flex'}}>
+                                <div data-layer="button" className="Button" style={{width: 110, height: 34, paddingLeft: 22, paddingRight: 22, paddingTop: 7, paddingBottom: 7, boxShadow: '0px 2px 4px #E7EDEC, 0px 2px 4px rgba(231, 237, 236, 0.25)', borderRadius: 9999, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div data-layer="Frame 47297" className="Frame47297" style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
+                                        <div data-layer="Monthly" className="Monthly" style={{width: 65.61, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Monthly</div>
+                                    </div>
+                                </div>
+                                <div data-layer="button" className="Button" style={{width: 161, height: 34, paddingLeft: 22, paddingRight: 22, paddingTop: 7, paddingBottom: 7, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', boxShadow: '0px 2px 4px #E7EDEC, 0px 2px 4px rgba(231, 237, 236, 0.25)', borderRadius: 9999, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div data-layer="Frame 47297" className="Frame47297" style={{width: 143, justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                                        <div data-layer="Frame 47300" className="Frame47300" style={{width: 143, height: 20, position: 'relative'}}>
+                                            <div data-layer="Frame 47297" className="Frame47297" style={{width: 153, height: 20, left: -5, top: 0, position: 'absolute', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                                                <div data-layer="Yearly" className="Yearly" style={{width: 59.14, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Yearly</div>
+                                                <div data-layer="(Save 10%)" className="Save10" style={{flex: '1 1 0', textAlign: 'center', color: 'var(--Colors-Functional-Label-Txt_Label_Success, #5E981D)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>(Save 10%)</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-layer="_PricingBlock/Double Amount/Small" className="PricingblockDoubleAmountSmall" style={{width: 234, justifyContent: 'flex-start', alignItems: 'center', gap: 7, display: 'inline-flex'}}>
+                            <div data-layer="Frame 1" className="Frame1" style={{flex: '1 1 0', padding: 4, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 2, display: 'inline-flex'}}>
+                                <div data-layer="$1299.00" className="129900" style={{alignSelf: 'stretch', height: 15, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '900', lineHeight: 20.37, wordWrap: 'break-word'}}>$1299.00</div>
+                                <div data-layer="per provider/month" className="PerProviderMonth" style={{alignSelf: 'stretch', height: 14.71, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'}}>per provider/month</div>
+                            </div>
+                            <div data-layer="Frame 2" className="Frame2" style={{flex: '1 1 0', padding: 4, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 2, display: 'inline-flex'}}>
+                                <div data-layer="$1299.00" className="129900" style={{alignSelf: 'stretch', height: 15, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '900', lineHeight: 20.37, wordWrap: 'break-word'}}>$1299.00</div>
+                                <div data-layer="per provider/month" className="PerProviderMonth" style={{alignSelf: 'stretch', height: 14.71, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'}}>per provider/month</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-layer="_ShoppingCardFooterComponent" data-has-explore-plans-link="true" data-show-license-type="true" data-theme="Teal" className="Shoppingcardfootercomponent" style={{alignSelf: 'stretch', padding: 12, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 16, outline: '1px var(--Colors-Functional-Border-Border_Focus, #21A49F) solid', outlineOffset: '-0.50px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 12, display: 'flex'}}>
+            <div data-layer="Frame 47296" className="Frame47296" style={{width: 283.09, paddingTop: 10, paddingBottom: 10, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'flex'}}>
+                <div data-layer="Frame 91" className="Frame91" style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 11, display: 'flex'}}>
+                    <div data-layer="Frame 90" className="Frame90" style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 2, display: 'flex'}}>
+                        <div data-layer="360 Billing Suite Price" className="BillingSuitePrice" style={{alignSelf: 'stretch', height: 32, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 24, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 34.92, wordWrap: 'break-word'}}>$1169.10</div>
+                        <div data-layer="per provider/month" className="PerProviderMonth" style={{alignSelf: 'stretch', height: 20, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>per provider/month</div>
+                    </div>
+                    <div data-layer="Btn" className="Btn" style={{alignSelf: 'stretch', height: 48, padding: 12, background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Default, #118082)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                        <div data-layer="LABEL" className="Label" style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>Add To Cart</div>
+                    </div>
+                </div>
+                <div data-layer="Frame 47295" className="Frame47295" style={{alignSelf: 'stretch', paddingTop: 4, paddingBottom: 4, justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div data-layer="Frame 47294" className="Frame47294" style={{width: 97, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                        <div data-layer="Link Button/Teal/Default" data-has-icon="false" className="LinkButtonTealDefault" style={{alignSelf: 'stretch', paddingLeft: 10, paddingRight: 10, paddingTop: 4, paddingBottom: 4, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Teal-600, #118082) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 11, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                            <div data-layer="View Licenses & Billing" className="ViewLicensesBilling" style={{flex: '1 1 0', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Explore Plans</div>
+                        </div>
+                    </div>
+                    <div data-layer="Frame 47294" className="Frame47294" style={{width: 74, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                        <div data-layer="Link Button/Teal/Default" data-has-icon="false" className="LinkButtonTealDefault" style={{alignSelf: 'stretch', paddingLeft: 10, paddingRight: 10, paddingTop: 4, paddingBottom: 4, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Teal-600, #118082) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 11, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                            <div data-layer="View Licenses & Billing" className="ViewLicensesBilling" style={{flex: '1 1 0', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Start trial</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-layer="Type=Without Bullet List, Theme=Fusia" className="TypeWithoutBulletListThemeFusia" style={{width: 302, left: 732, top: 24, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+        <div data-layer="Frame 47323" className="Frame47323" style={{alignSelf: 'stretch', height: 650.86, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16, display: 'flex'}}>
+            <div data-layer="Frame 47317" className="Frame47317" style={{alignSelf: 'stretch', flex: '1 1 0', position: 'relative'}}>
+                <div data-layer="ProductCardContent" className="Productcardcontent" style={{width: 294, height: 403, padding: 8, left: 4, top: 4, position: 'absolute'}} />
+                <div data-layer="Frame 47319" className="Frame47319" style={{width: 285, height: 608, left: 7, top: 12, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 16, display: 'inline-flex'}}>
+                    <div data-layer="Frame 47318" className="Frame47318" style={{alignSelf: 'stretch', paddingTop: 4, paddingBottom: 4, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 6, display: 'flex'}}>
+                        <div data-layer="Plan Name" className="PlanName" style={{alignSelf: 'stretch', textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 20, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 29.10, wordWrap: 'break-word'}}>Plan Name</div>
+                        <div data-layer="Paragraph" className="Paragraph" style={{width: 263, padding: 4, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                            <div data-layer="Everything you need to manage billing, end to end. The 360 Billing Suite combines eligibility checks, claims submission, and payment posting into one streamlined workflow." className="EverythingYouNeedToManageBillingEndToEndThe360BillingSuiteCombinesEligibilityChecksClaimsSubmissionAndPaymentPostingIntoOneStreamlinedWorkflow" style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Submit clean claims with built-in scrubbing and real-time status updates from the clearinghouse.</div>
+                        </div>
+                        <div data-layer="Paragraph" className="Paragraph" style={{width: 263, padding: 4, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                            <div data-layer="Everything you need to manage billing, end to end. The 360 Billing Suite combines eligibility checks, claims submission, and payment posting into one streamlined workflow." className="EverythingYouNeedToManageBillingEndToEndThe360BillingSuiteCombinesEligibilityChecksClaimsSubmissionAndPaymentPostingIntoOneStreamlinedWorkflow" style={{flex: '1 1 0'}}><span style="color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'Inter', fontWeight: '500', lineHeight: 23.28, wordWrap: 'break-word'">Why practices love it:</span><span style="color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'">
+              Less rework, fewer denials, faster reimbursement.</span></div>
+                        </div>
+                    </div>
+                    <div data-layer="PlanDetails" className="Plandetails" style={{padding: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 18, display: 'flex'}}>
+                        <div data-layer="PriceSlider" data-has-delete-icon="true" data-icon="Without Delete Icon" data-label="With Label -Center" data-size="PriceSliderLarge" className="Priceslider" style={{width: 285, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 8, display: 'flex'}}>
+                            <div data-layer="Label" className="Label" style={{alignSelf: 'stretch', textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Add Number of Providers</div>
+                            <div data-layer="PriceSlider/Size3" className="PricesliderSize3" style={{alignSelf: 'stretch', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                                <div data-layer="PriceSlider/PriceSliderLarge" className="PricesliderPricesliderlarge" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+                                    <div data-layer="_SliderButtons" data-property-1="_MinusSliderButton" data-size="Large" className="Sliderbuttons" style={{width: 32, height: 32, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                                        <div data-svg-wrapper data-layer="Size16(Gray)Icon/Minus" className="Size16GrayIconMinus" style={{left: 8, top: 8, position: 'absolute'}}>
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M15 8C15 8.55312 14.5188 9 13.9231 9H2.07692C1.48125 9 1 8.55312 1 8C1 7.44687 1.48125 7 2.07692 7H13.9231C14.5188 7 15 7.44687 15 8Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div data-layer="_NumberSlot" data-size="Large" className="Numberslot" style={{width: 40, height: 32, paddingLeft: 4, paddingRight: 4, paddingTop: 1, paddingBottom: 1, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 4, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div data-layer="0" style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'}}>0</div>
+                                    </div>
+                                    <div data-layer="_SliderButtons" data-property-1="_PlusSliderButton" data-size="Large" className="Sliderbuttons" style={{width: 32, height: 32, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                                        <div data-svg-wrapper data-layer="Size16(Gray)Icon/Plus" className="Size16GrayIconPlus" style={{left: 8, top: 8, position: 'absolute'}}>
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.07692 2.07692C9.07692 1.48125 8.59567 1 8 1C7.40433 1 6.92308 1.48125 6.92308 2.07692V6.92308H2.07692C1.48125 6.92308 1 7.40433 1 8C1 8.59567 1.48125 9.07692 2.07692 9.07692H6.92308V13.9231C6.92308 14.5188 7.40433 15 8 15C8.59567 15 9.07692 14.5188 9.07692 13.9231V9.07692H13.9231C14.5188 9.07692 15 8.59567 15 8C15 7.40433 14.5188 6.92308 13.9231 6.92308H9.07692V2.07692Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-layer="ProductCardTab/Type5" className="ProductcardtabType5" style={{alignSelf: 'stretch', paddingTop: 4, paddingBottom: 4, background: 'var(--Colors-Functional-Bkg-Bkg_Dark, #EFEEEA)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+                            <div data-layer="Frame 47303" className="Frame47303" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 6, display: 'flex'}}>
+                                <div data-layer="button" className="Button" style={{width: 110, height: 34, paddingLeft: 22, paddingRight: 22, paddingTop: 7, paddingBottom: 7, boxShadow: '0px 2px 4px #E7EDEC, 0px 2px 4px rgba(231, 237, 236, 0.25)', borderRadius: 9999, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div data-layer="Frame 47297" className="Frame47297" style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
+                                        <div data-layer="Monthly" className="Monthly" style={{width: 65.61, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Monthly</div>
+                                    </div>
+                                </div>
+                                <div data-layer="button" className="Button" style={{width: 161, height: 34, paddingLeft: 22, paddingRight: 22, paddingTop: 7, paddingBottom: 7, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', boxShadow: '0px 2px 4px #E7EDEC, 0px 2px 4px rgba(231, 237, 236, 0.25)', borderRadius: 9999, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div data-layer="Frame 47297" className="Frame47297" style={{width: 143, justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                                        <div data-layer="Frame 47300" className="Frame47300" style={{width: 143, height: 20, position: 'relative'}}>
+                                            <div data-layer="Frame 47297" className="Frame47297" style={{width: 153, height: 20, left: -5, top: 0, position: 'absolute', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                                                <div data-layer="Yearly" className="Yearly" style={{width: 59.14, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Yearly</div>
+                                                <div data-layer="(Save 10%)" className="Save10" style={{flex: '1 1 0', textAlign: 'center', color: 'var(--Colors-Functional-Label-Txt_Label_Success, #5E981D)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>(Save 10%)</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-layer="_PricingBlock/Double Amount/Small" className="PricingblockDoubleAmountSmall" style={{width: 234, justifyContent: 'flex-start', alignItems: 'center', gap: 7, display: 'inline-flex'}}>
+                            <div data-layer="Frame 1" className="Frame1" style={{flex: '1 1 0', padding: 4, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 2, display: 'inline-flex'}}>
+                                <div data-layer="$1299.00" className="129900" style={{alignSelf: 'stretch', height: 15, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '900', lineHeight: 20.37, wordWrap: 'break-word'}}>$1299.00</div>
+                                <div data-layer="per provider/month" className="PerProviderMonth" style={{alignSelf: 'stretch', height: 14.71, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'}}>per provider/month</div>
+                            </div>
+                            <div data-layer="Frame 2" className="Frame2" style={{flex: '1 1 0', padding: 4, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 2, display: 'inline-flex'}}>
+                                <div data-layer="$1299.00" className="129900" style={{alignSelf: 'stretch', height: 15, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '900', lineHeight: 20.37, wordWrap: 'break-word'}}>$1299.00</div>
+                                <div data-layer="per provider/month" className="PerProviderMonth" style={{alignSelf: 'stretch', height: 14.71, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'}}>per provider/month</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-layer="_ShoppingCardFooterComponent" data-has-explore-plans-link="true" data-show-license-type="true" data-theme="Fusia" className="Shoppingcardfootercomponent" style={{alignSelf: 'stretch', padding: 12, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 16, outline: '1px var(--Colors-Functional-Border-Border_Brand-500, #D72D8A) solid', outlineOffset: '-0.50px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 12, display: 'flex'}}>
+                <div data-layer="Frame 47296" className="Frame47296" style={{alignSelf: 'stretch', paddingTop: 10, paddingBottom: 10, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'flex'}}>
+                    <div data-layer="Frame 91" className="Frame91" style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 11, display: 'flex'}}>
+                        <div data-layer="Frame 90" className="Frame90" style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 2, display: 'flex'}}>
+                            <div data-layer="360 Billing Suite Price" className="BillingSuitePrice" style={{alignSelf: 'stretch', height: 32, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 24, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 34.92, wordWrap: 'break-word'}}>$1169.10</div>
+                            <div data-layer="per provider/month" className="PerProviderMonth" style={{alignSelf: 'stretch', height: 20.86, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>per provider/month</div>
+                        </div>
+                        <div data-layer="Btn" className="Btn" style={{alignSelf: 'stretch', height: 48, padding: 12, background: 'var(--Colors-Buttons-BrandBtn-BrandBtn_Bkg_Default, #D72D8A)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                            <div data-layer="LABEL" className="Label" style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>Add To Cart</div>
+                        </div>
+                    </div>
+                    <div data-layer="Frame 47295" className="Frame47295" style={{paddingTop: 4, paddingBottom: 4, justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                        <div data-layer="Frame 47294" className="Frame47294" style={{width: 97, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                            <div data-layer="Link Button/Teal/Default" data-has-icon="false" className="LinkButtonTealDefault" style={{alignSelf: 'stretch', paddingLeft: 10, paddingRight: 10, paddingTop: 4, paddingBottom: 4, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Teal-600, #118082) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 11, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                                <div data-layer="View Licenses & Billing" className="ViewLicensesBilling" style={{flex: '1 1 0', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Explore Plans</div>
+                            </div>
+                        </div>
+                        <div data-layer="Frame 47294" className="Frame47294" style={{width: 74, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                            <div data-layer="Link Button/Teal/Default" data-has-icon="false" className="LinkButtonTealDefault" style={{alignSelf: 'stretch', paddingLeft: 10, paddingRight: 10, paddingTop: 4, paddingBottom: 4, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Teal-600, #118082) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 11, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                                <div data-layer="View Licenses & Billing" className="ViewLicensesBilling" style={{flex: '1 1 0', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Start trial</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-layer="Type=Without Bullet List, Theme=Teal" className="TypeWithoutBulletListThemeTeal" style={{height: 634, left: 744, top: 1012.45, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+        <div data-layer="Frame 47323" className="Frame47323" style={{width: 302, flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16, display: 'flex'}}>
+            <div data-layer="Frame 47317" className="Frame47317" style={{alignSelf: 'stretch', height: 434, position: 'relative'}}>
+                <div data-layer="ProductCardContent" className="Productcardcontent" style={{width: 294, height: 403, padding: 8, left: 4, top: 4, position: 'absolute'}} />
+                <div data-layer="Frame 47319" className="Frame47319" style={{width: 285, height: 608, left: 7, top: 12, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 16, display: 'inline-flex'}}>
+                    <div data-layer="Frame 47318" className="Frame47318" style={{alignSelf: 'stretch', paddingTop: 4, paddingBottom: 4, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 6, display: 'flex'}}>
+                        <div data-layer="Plan Name" className="PlanName" style={{alignSelf: 'stretch', textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 20, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 29.10, wordWrap: 'break-word'}}>Plan Name</div>
+                        <div data-layer="Paragraph" className="Paragraph" style={{width: 263, padding: 4, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                            <div data-layer="Everything you need to manage billing, end to end. The 360 Billing Suite combines eligibility checks, claims submission, and payment posting into one streamlined workflow." className="EverythingYouNeedToManageBillingEndToEndThe360BillingSuiteCombinesEligibilityChecksClaimsSubmissionAndPaymentPostingIntoOneStreamlinedWorkflow" style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Submit clean claims with built-in scrubbing and real-time status updates from the clearinghouse.</div>
+                        </div>
+                        <div data-layer="Paragraph" className="Paragraph" style={{width: 263, padding: 4, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                            <div data-layer="Everything you need to manage billing, end to end. The 360 Billing Suite combines eligibility checks, claims submission, and payment posting into one streamlined workflow." className="EverythingYouNeedToManageBillingEndToEndThe360BillingSuiteCombinesEligibilityChecksClaimsSubmissionAndPaymentPostingIntoOneStreamlinedWorkflow" style={{flex: '1 1 0'}}><span style="color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'Inter', fontWeight: '500', lineHeight: 23.28, wordWrap: 'break-word'">Why practices love it:</span><span style="color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'">
+              Less rework, fewer denials, faster reimbursement.</span></div>
+                        </div>
+                    </div>
+                    <div data-layer="PlanDetails" className="Plandetails" style={{padding: 4, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 18, display: 'flex'}}>
+                        <div data-layer="PriceSlider" data-has-delete-icon="true" data-icon="Without Delete Icon" data-label="With Label -Center" data-size="PriceSliderLarge" className="Priceslider" style={{width: 285, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 8, display: 'flex'}}>
+                            <div data-layer="Label" className="Label" style={{alignSelf: 'stretch', textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Add Number of Providers</div>
+                            <div data-layer="PriceSlider/Size3" className="PricesliderSize3" style={{alignSelf: 'stretch', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                                <div data-layer="PriceSlider/PriceSliderLarge" className="PricesliderPricesliderlarge" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+                                    <div data-layer="_SliderButtons" data-property-1="_MinusSliderButton" data-size="Large" className="Sliderbuttons" style={{width: 32, height: 32, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                                        <div data-svg-wrapper data-layer="Size16(Gray)Icon/Minus" className="Size16GrayIconMinus" style={{left: 8, top: 8, position: 'absolute'}}>
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M15 8C15 8.55312 14.5188 9 13.9231 9H2.07692C1.48125 9 1 8.55312 1 8C1 7.44687 1.48125 7 2.07692 7H13.9231C14.5188 7 15 7.44687 15 8Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div data-layer="_NumberSlot" data-size="Large" className="Numberslot" style={{width: 40, height: 32, paddingLeft: 4, paddingRight: 4, paddingTop: 1, paddingBottom: 1, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 4, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                        <div data-layer="0" style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'}}>0</div>
+                                    </div>
+                                    <div data-layer="_SliderButtons" data-property-1="_PlusSliderButton" data-size="Large" className="Sliderbuttons" style={{width: 32, height: 32, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                                        <div data-svg-wrapper data-layer="Size16(Gray)Icon/Plus" className="Size16GrayIconPlus" style={{left: 8, top: 8, position: 'absolute'}}>
+                                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M9.07692 2.07692C9.07692 1.48125 8.59567 1 8 1C7.40433 1 6.92308 1.48125 6.92308 2.07692V6.92308H2.07692C1.48125 6.92308 1 7.40433 1 8C1 8.59567 1.48125 9.07692 2.07692 9.07692H6.92308V13.9231C6.92308 14.5188 7.40433 15 8 15C8.59567 15 9.07692 14.5188 9.07692 13.9231V9.07692H13.9231C14.5188 9.07692 15 8.59567 15 8C15 7.40433 14.5188 6.92308 13.9231 6.92308H9.07692V2.07692Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-layer="ProductCardTab/Type5" className="ProductcardtabType5" style={{alignSelf: 'stretch', paddingTop: 4, paddingBottom: 4, background: 'var(--Colors-Functional-Bkg-Bkg_Dark, #EFEEEA)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+                            <div data-layer="Frame 47303" className="Frame47303" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 6, display: 'flex'}}>
+                                <div data-layer="button" className="Button" style={{width: 110, height: 34, paddingLeft: 22, paddingRight: 22, paddingTop: 7, paddingBottom: 7, boxShadow: '0px 2px 4px #E7EDEC, 0px 2px 4px rgba(231, 237, 236, 0.25)', borderRadius: 9999, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div data-layer="Frame 47297" className="Frame47297" style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
+                                        <div data-layer="Monthly" className="Monthly" style={{width: 65.61, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Monthly</div>
+                                    </div>
+                                </div>
+                                <div data-layer="button" className="Button" style={{width: 161, height: 34, paddingLeft: 22, paddingRight: 22, paddingTop: 7, paddingBottom: 7, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', boxShadow: '0px 2px 4px #E7EDEC, 0px 2px 4px rgba(231, 237, 236, 0.25)', borderRadius: 9999, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div data-layer="Frame 47297" className="Frame47297" style={{width: 143, justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                                        <div data-layer="Frame 47300" className="Frame47300" style={{width: 143, height: 20, position: 'relative'}}>
+                                            <div data-layer="Frame 47297" className="Frame47297" style={{width: 153, height: 20, left: -5, top: 0, position: 'absolute', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                                                <div data-layer="Yearly" className="Yearly" style={{width: 59.14, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Yearly</div>
+                                                <div data-layer="(Save 10%)" className="Save10" style={{flex: '1 1 0', textAlign: 'center', color: 'var(--Colors-Functional-Label-Txt_Label_Success, #5E981D)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>(Save 10%)</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div data-layer="_PricingBlock/Double Amount/Small" className="PricingblockDoubleAmountSmall" style={{width: 234, justifyContent: 'flex-start', alignItems: 'center', gap: 7, display: 'inline-flex'}}>
+                            <div data-layer="Frame 1" className="Frame1" style={{flex: '1 1 0', padding: 4, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 2, display: 'inline-flex'}}>
+                                <div data-layer="$1299.00" className="129900" style={{alignSelf: 'stretch', height: 15, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '900', lineHeight: 20.37, wordWrap: 'break-word'}}>$1299.00</div>
+                                <div data-layer="per provider/month" className="PerProviderMonth" style={{alignSelf: 'stretch', height: 14.71, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'}}>per provider/month</div>
+                            </div>
+                            <div data-layer="Frame 2" className="Frame2" style={{flex: '1 1 0', padding: 4, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 2, display: 'inline-flex'}}>
+                                <div data-layer="$1299.00" className="129900" style={{alignSelf: 'stretch', height: 15, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '900', lineHeight: 20.37, wordWrap: 'break-word'}}>$1299.00</div>
+                                <div data-layer="per provider/month" className="PerProviderMonth" style={{alignSelf: 'stretch', height: 14.71, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'}}>per provider/month</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div data-layer="_ShoppingCardFooterComponent" data-has-explore-plans-link="true" data-show-license-type="true" data-theme="Teal" className="Shoppingcardfootercomponent" style={{width: 307.09, padding: 12, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 16, outline: '1px var(--Colors-Functional-Border-Border_Focus, #21A49F) solid', outlineOffset: '-0.50px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 12, display: 'flex'}}>
+            <div data-layer="Frame 47296" className="Frame47296" style={{alignSelf: 'stretch', paddingTop: 10, paddingBottom: 10, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'flex'}}>
+                <div data-layer="Frame 91" className="Frame91" style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 11, display: 'flex'}}>
+                    <div data-layer="Frame 90" className="Frame90" style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 2, display: 'flex'}}>
+                        <div data-layer="360 Billing Suite Price" className="BillingSuitePrice" style={{alignSelf: 'stretch', height: 32, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 24, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 34.92, wordWrap: 'break-word'}}>$1169.10</div>
+                        <div data-layer="per provider/month" className="PerProviderMonth" style={{alignSelf: 'stretch', height: 20, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>per provider/month</div>
+                    </div>
+                    <div data-layer="Btn" className="Btn" style={{alignSelf: 'stretch', height: 48, padding: 12, background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Default, #118082)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                        <div data-layer="LABEL" className="Label" style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>Add To Cart</div>
+                    </div>
+                </div>
+                <div data-layer="Frame 47295" className="Frame47295" style={{alignSelf: 'stretch', paddingTop: 4, paddingBottom: 4, justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                    <div data-layer="Frame 47294" className="Frame47294" style={{width: 97, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                        <div data-layer="Link Button/Teal/Default" data-has-icon="false" className="LinkButtonTealDefault" style={{alignSelf: 'stretch', paddingLeft: 10, paddingRight: 10, paddingTop: 4, paddingBottom: 4, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Teal-600, #118082) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 11, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                            <div data-layer="View Licenses & Billing" className="ViewLicensesBilling" style={{flex: '1 1 0', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Explore Plans</div>
+                        </div>
+                    </div>
+                    <div data-layer="Frame 47294" className="Frame47294" style={{width: 74, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                        <div data-layer="Link Button/Teal/Default" data-has-icon="false" className="LinkButtonTealDefault" style={{alignSelf: 'stretch', paddingLeft: 10, paddingRight: 10, paddingTop: 4, paddingBottom: 4, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Teal-600, #118082) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 11, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                            <div data-layer="View Licenses & Billing" className="ViewLicensesBilling" style={{flex: '1 1 0', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Start trial</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-layer="Type=Without Plan Type, Theme=Fusia" className="TypeWithoutPlanTypeThemeFusia" style={{width: 416, left: 1088, top: 24.45, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+        <div data-layer="Frame 47323" className="Frame47323" style={{alignSelf: 'stretch', height: 597, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 16, display: 'flex'}}>
+            <div data-layer="Frame 47317" className="Frame47317" style={{alignSelf: 'stretch', flex: '1 1 0', position: 'relative'}}>
+                <div data-layer="ProductCardContent" className="Productcardcontent" style={{width: 294, height: 403, padding: 8, left: 4, top: 4, position: 'absolute'}} />
+                <div data-layer="Frame 47319" className="Frame47319" style={{width: 402, left: 7, top: 12.45, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16, display: 'inline-flex'}}>
+                    <div data-layer="Frame 47318" className="Frame47318" style={{alignSelf: 'stretch', paddingTop: 4, paddingBottom: 4, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 6, display: 'flex'}}>
+                        <div data-layer="Plan Name" className="PlanName" style={{alignSelf: 'stretch', textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 20, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 29.10, wordWrap: 'break-word'}}>Plan Name</div>
+                        <div data-layer="Paragraph" className="Paragraph" style={{width: 374, padding: 4, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                            <div data-layer="Everything you need to manage billing, end to end. The 360 Billing Suite combines eligibility checks, claims submission, and payment posting into one streamlined workflow." className="EverythingYouNeedToManageBillingEndToEndThe360BillingSuiteCombinesEligibilityChecksClaimsSubmissionAndPaymentPostingIntoOneStreamlinedWorkflow" style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Scan once. Skip the typing. IntelliScan reduces manual data entry and speeds up patient intake across your practice.<br/>Why practices love it:</div>
+                        </div>
+                        <div data-layer="List With label" data-has-heading="true" className="ListWithLabel" style={{width: 366, padding: 4, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'flex'}}>
+                            <div data-layer="Label" className="Label" style={{alignSelf: 'stretch', height: 18, position: 'relative'}}>
+                                <div data-layer="Great for:" className="GreatFor" style={{width: 251, height: 18, left: 0, top: 0, position: 'absolute', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Great for:</div>
+                            </div>
+                            <div data-layer="Frame 47313" className="Frame47313" style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'flex'}}>
+                                <div data-layer="_ListRow/Item1" className="ListrowItem1" style={{alignSelf: 'stretch', padding: 2, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                                    <div data-svg-wrapper data-layer="Size16(Colored)Icon/Check" className="Size16ColoredIconCheck" style={{position: 'relative'}}>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.7071 3.29292C15.0976 3.68349 15.0976 4.31776 14.7071 4.70833L6.70796 12.7071C6.31738 13.0976 5.68307 13.0976 5.29249 12.7071L1.29294 8.7077C0.902355 8.31714 0.902355 7.68286 1.29294 7.2923C1.68352 6.90173 2.31782 6.90173 2.7084 7.2923L6.00179 10.5824L13.2947 3.29292C13.6853 2.90236 14.3196 2.90236 14.7102 3.29292H14.7071Z" fill="var(--Colors-Navigation-Icons-Lime600, #5E981D)"/>
+                                        </svg>
+                                    </div>
+                                    <div data-layer="Show one price per card by default" className="ShowOnePricePerCardByDefault" style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Faster check-in</div>
+                                </div>
+                                <div data-layer="_ListRow/Item1" className="ListrowItem1" style={{alignSelf: 'stretch', padding: 2, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                                    <div data-svg-wrapper data-layer="Size16(Colored)Icon/Check" className="Size16ColoredIconCheck" style={{position: 'relative'}}>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.7071 3.29292C15.0976 3.68349 15.0976 4.31776 14.7071 4.70833L6.70796 12.7071C6.31738 13.0976 5.68307 13.0976 5.29249 12.7071L1.29294 8.7077C0.902355 8.31714 0.902355 7.68286 1.29294 7.2923C1.68352 6.90173 2.31782 6.90173 2.7084 7.2923L6.00179 10.5824L13.2947 3.29292C13.6853 2.90236 14.3196 2.90236 14.7102 3.29292H14.7071Z" fill="var(--Colors-Navigation-Icons-Lime600, #5E981D)"/>
+                                        </svg>
+                                    </div>
+                                    <div data-layer="Show one price per card by default" className="ShowOnePricePerCardByDefault" style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Fewer errors</div>
+                                </div>
+                                <div data-layer="_ListRow/Item1" className="ListrowItem1" style={{alignSelf: 'stretch', padding: 2, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                                    <div data-svg-wrapper data-layer="Size16(Colored)Icon/Check" className="Size16ColoredIconCheck" style={{position: 'relative'}}>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.7071 3.29292C15.0976 3.68349 15.0976 4.31776 14.7071 4.70833L6.70796 12.7071C6.31738 13.0976 5.68307 13.0976 5.29249 12.7071L1.29294 8.7077C0.902355 8.31714 0.902355 7.68286 1.29294 7.2923C1.68352 6.90173 2.31782 6.90173 2.7084 7.2923L6.00179 10.5824L13.2947 3.29292C13.6853 2.90236 14.3196 2.90236 14.7102 3.29292H14.7071Z" fill="var(--Colors-Navigation-Icons-Lime600, #5E981D)"/>
+                                        </svg>
+                                    </div>
+                                    <div data-layer="Show one price per card by default" className="ShowOnePricePerCardByDefault" style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Clean data from day one</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-layer="PriceSlider" data-has-delete-icon="true" data-icon="Without Delete Icon" data-label="With Label -Center" data-size="PriceSliderLarge" className="Priceslider" style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'flex'}}>
+                        <div data-layer="Label" className="Label" style={{alignSelf: 'stretch', textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Add Number of Providers</div>
+                        <div data-layer="PriceSlider/Size3" className="PricesliderSize3" style={{alignSelf: 'stretch', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                            <div data-layer="PriceSlider/PriceSliderLarge" className="PricesliderPricesliderlarge" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+                                <div data-layer="_SliderButtons" data-property-1="_MinusSliderButton" data-size="Large" className="Sliderbuttons" style={{width: 32, height: 32, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                                    <div data-svg-wrapper data-layer="Size16(Gray)Icon/Minus" className="Size16GrayIconMinus" style={{left: 8, top: 8, position: 'absolute'}}>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15 8C15 8.55312 14.5188 9 13.9231 9H2.07692C1.48125 9 1 8.55312 1 8C1 7.44687 1.48125 7 2.07692 7H13.9231C14.5188 7 15 7.44687 15 8Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div data-layer="_NumberSlot" data-size="Large" className="Numberslot" style={{width: 40, height: 32, paddingLeft: 4, paddingRight: 4, paddingTop: 1, paddingBottom: 1, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 4, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                    <div data-layer="0" style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'}}>0</div>
+                                </div>
+                                <div data-layer="_SliderButtons" data-property-1="_PlusSliderButton" data-size="Large" className="Sliderbuttons" style={{width: 32, height: 32, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                                    <div data-svg-wrapper data-layer="Size16(Gray)Icon/Plus" className="Size16GrayIconPlus" style={{left: 8, top: 8, position: 'absolute'}}>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.07692 2.07692C9.07692 1.48125 8.59567 1 8 1C7.40433 1 6.92308 1.48125 6.92308 2.07692V6.92308H2.07692C1.48125 6.92308 1 7.40433 1 8C1 8.59567 1.48125 9.07692 2.07692 9.07692H6.92308V13.9231C6.92308 14.5188 7.40433 15 8 15C8.59567 15 9.07692 14.5188 9.07692 13.9231V9.07692H13.9231C14.5188 9.07692 15 8.59567 15 8C15 7.40433 14.5188 6.92308 13.9231 6.92308H9.07692V2.07692Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-layer="_ShoppingCardFooterComponent" data-has-explore-plans-link="true" data-show-license-type="true" data-theme="Fusia" className="Shoppingcardfootercomponent" style={{alignSelf: 'stretch', padding: 12, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 16, outline: '1px var(--Colors-Functional-Border-Border_Brand-500, #D72D8A) solid', outlineOffset: '-0.50px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 12, display: 'flex'}}>
+                <div data-layer="Frame 47296" className="Frame47296" style={{alignSelf: 'stretch', paddingTop: 10, paddingBottom: 10, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'flex'}}>
+                    <div data-layer="Frame 91" className="Frame91" style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 11, display: 'flex'}}>
+                        <div data-layer="Frame 90" className="Frame90" style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 2, display: 'flex'}}>
+                            <div data-layer="360 Billing Suite Price" className="BillingSuitePrice" style={{alignSelf: 'stretch', height: 32, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 24, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 34.92, wordWrap: 'break-word'}}>$1169.10</div>
+                            <div data-layer="per provider/month" className="PerProviderMonth" style={{alignSelf: 'stretch', height: 20.86, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>per provider/month</div>
+                        </div>
+                        <div data-layer="Btn" className="Btn" style={{alignSelf: 'stretch', height: 48, padding: 12, background: 'var(--Colors-Buttons-BrandBtn-BrandBtn_Bkg_Default, #D72D8A)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                            <div data-layer="LABEL" className="Label" style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>Add To Cart</div>
+                        </div>
+                    </div>
+                    <div data-layer="Frame 47295" className="Frame47295" style={{paddingTop: 4, paddingBottom: 4, justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                        <div data-layer="Frame 47294" className="Frame47294" style={{width: 97, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                            <div data-layer="Link Button/Teal/Default" data-has-icon="false" className="LinkButtonTealDefault" style={{alignSelf: 'stretch', paddingLeft: 10, paddingRight: 10, paddingTop: 4, paddingBottom: 4, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Teal-600, #118082) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 11, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                                <div data-layer="View Licenses & Billing" className="ViewLicensesBilling" style={{flex: '1 1 0', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Explore Plans</div>
+                            </div>
+                        </div>
+                        <div data-layer="Frame 47294" className="Frame47294" style={{width: 74, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                            <div data-layer="Link Button/Teal/Default" data-has-icon="false" className="LinkButtonTealDefault" style={{alignSelf: 'stretch', paddingLeft: 10, paddingRight: 10, paddingTop: 4, paddingBottom: 4, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Teal-600, #118082) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 11, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                                <div data-layer="View Licenses & Billing" className="ViewLicensesBilling" style={{flex: '1 1 0', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Start trial</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-layer="Type=Without Plan Type, Theme=Teal" className="TypeWithoutPlanTypeThemeTeal" style={{width: 416, left: 1100, top: 1012.45, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+        <div data-layer="Frame 47323" className="Frame47323" style={{alignSelf: 'stretch', height: 597, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 16, display: 'flex'}}>
+            <div data-layer="Frame 47317" className="Frame47317" style={{alignSelf: 'stretch', flex: '1 1 0', position: 'relative'}}>
+                <div data-layer="ProductCardContent" className="Productcardcontent" style={{width: 294, height: 403, padding: 8, left: 4, top: 4, position: 'absolute'}} />
+                <div data-layer="Frame 47319" className="Frame47319" style={{width: 402, left: 7, top: 12.45, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 16, display: 'inline-flex'}}>
+                    <div data-layer="Frame 47318" className="Frame47318" style={{alignSelf: 'stretch', paddingTop: 4, paddingBottom: 4, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 6, display: 'flex'}}>
+                        <div data-layer="Plan Name" className="PlanName" style={{alignSelf: 'stretch', textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 20, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 29.10, wordWrap: 'break-word'}}>Plan Name</div>
+                        <div data-layer="Paragraph" className="Paragraph" style={{width: 374, padding: 4, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                            <div data-layer="Everything you need to manage billing, end to end. The 360 Billing Suite combines eligibility checks, claims submission, and payment posting into one streamlined workflow." className="EverythingYouNeedToManageBillingEndToEndThe360BillingSuiteCombinesEligibilityChecksClaimsSubmissionAndPaymentPostingIntoOneStreamlinedWorkflow" style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Scan once. Skip the typing. IntelliScan reduces manual data entry and speeds up patient intake across your practice.<br/>Why practices love it:</div>
+                        </div>
+                        <div data-layer="List With label" data-has-heading="true" className="ListWithLabel" style={{width: 366, padding: 4, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'flex'}}>
+                            <div data-layer="Label" className="Label" style={{alignSelf: 'stretch', height: 18, position: 'relative'}}>
+                                <div data-layer="Great for:" className="GreatFor" style={{width: 251, height: 18, left: 0, top: 0, position: 'absolute', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Great for:</div>
+                            </div>
+                            <div data-layer="Frame 47313" className="Frame47313" style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'flex'}}>
+                                <div data-layer="_ListRow/Item1" className="ListrowItem1" style={{alignSelf: 'stretch', padding: 2, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                                    <div data-svg-wrapper data-layer="Size16(Colored)Icon/Check" className="Size16ColoredIconCheck" style={{position: 'relative'}}>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.7071 3.29292C15.0976 3.68349 15.0976 4.31776 14.7071 4.70833L6.70796 12.7071C6.31738 13.0976 5.68307 13.0976 5.29249 12.7071L1.29294 8.7077C0.902355 8.31714 0.902355 7.68286 1.29294 7.2923C1.68352 6.90173 2.31782 6.90173 2.7084 7.2923L6.00179 10.5824L13.2947 3.29292C13.6853 2.90236 14.3196 2.90236 14.7102 3.29292H14.7071Z" fill="var(--Colors-Navigation-Icons-Lime600, #5E981D)"/>
+                                        </svg>
+                                    </div>
+                                    <div data-layer="Show one price per card by default" className="ShowOnePricePerCardByDefault" style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Faster check-in</div>
+                                </div>
+                                <div data-layer="_ListRow/Item1" className="ListrowItem1" style={{alignSelf: 'stretch', padding: 2, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                                    <div data-svg-wrapper data-layer="Size16(Colored)Icon/Check" className="Size16ColoredIconCheck" style={{position: 'relative'}}>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.7071 3.29292C15.0976 3.68349 15.0976 4.31776 14.7071 4.70833L6.70796 12.7071C6.31738 13.0976 5.68307 13.0976 5.29249 12.7071L1.29294 8.7077C0.902355 8.31714 0.902355 7.68286 1.29294 7.2923C1.68352 6.90173 2.31782 6.90173 2.7084 7.2923L6.00179 10.5824L13.2947 3.29292C13.6853 2.90236 14.3196 2.90236 14.7102 3.29292H14.7071Z" fill="var(--Colors-Navigation-Icons-Lime600, #5E981D)"/>
+                                        </svg>
+                                    </div>
+                                    <div data-layer="Show one price per card by default" className="ShowOnePricePerCardByDefault" style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Fewer errors</div>
+                                </div>
+                                <div data-layer="_ListRow/Item1" className="ListrowItem1" style={{alignSelf: 'stretch', padding: 2, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                                    <div data-svg-wrapper data-layer="Size16(Colored)Icon/Check" className="Size16ColoredIconCheck" style={{position: 'relative'}}>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.7071 3.29292C15.0976 3.68349 15.0976 4.31776 14.7071 4.70833L6.70796 12.7071C6.31738 13.0976 5.68307 13.0976 5.29249 12.7071L1.29294 8.7077C0.902355 8.31714 0.902355 7.68286 1.29294 7.2923C1.68352 6.90173 2.31782 6.90173 2.7084 7.2923L6.00179 10.5824L13.2947 3.29292C13.6853 2.90236 14.3196 2.90236 14.7102 3.29292H14.7071Z" fill="var(--Colors-Navigation-Icons-Lime600, #5E981D)"/>
+                                        </svg>
+                                    </div>
+                                    <div data-layer="Show one price per card by default" className="ShowOnePricePerCardByDefault" style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Clean data from day one</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div data-layer="PriceSlider" data-has-delete-icon="true" data-icon="Without Delete Icon" data-label="With Label -Center" data-size="PriceSliderLarge" className="Priceslider" style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'flex'}}>
+                        <div data-layer="Label" className="Label" style={{alignSelf: 'stretch', textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Add Number of Providers</div>
+                        <div data-layer="PriceSlider/Size3" className="PricesliderSize3" style={{alignSelf: 'stretch', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+                            <div data-layer="PriceSlider/PriceSliderLarge" className="PricesliderPricesliderlarge" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+                                <div data-layer="_SliderButtons" data-property-1="_MinusSliderButton" data-size="Large" className="Sliderbuttons" style={{width: 32, height: 32, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                                    <div data-svg-wrapper data-layer="Size16(Gray)Icon/Minus" className="Size16GrayIconMinus" style={{left: 8, top: 8, position: 'absolute'}}>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15 8C15 8.55312 14.5188 9 13.9231 9H2.07692C1.48125 9 1 8.55312 1 8C1 7.44687 1.48125 7 2.07692 7H13.9231C14.5188 7 15 7.44687 15 8Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div data-layer="_NumberSlot" data-size="Large" className="Numberslot" style={{width: 40, height: 32, paddingLeft: 4, paddingRight: 4, paddingTop: 1, paddingBottom: 1, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 4, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                                    <div data-layer="0" style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'}}>0</div>
+                                </div>
+                                <div data-layer="_SliderButtons" data-property-1="_PlusSliderButton" data-size="Large" className="Sliderbuttons" style={{width: 32, height: 32, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                                    <div data-svg-wrapper data-layer="Size16(Gray)Icon/Plus" className="Size16GrayIconPlus" style={{left: 8, top: 8, position: 'absolute'}}>
+                                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.07692 2.07692C9.07692 1.48125 8.59567 1 8 1C7.40433 1 6.92308 1.48125 6.92308 2.07692V6.92308H2.07692C1.48125 6.92308 1 7.40433 1 8C1 8.59567 1.48125 9.07692 2.07692 9.07692H6.92308V13.9231C6.92308 14.5188 7.40433 15 8 15C8.59567 15 9.07692 14.5188 9.07692 13.9231V9.07692H13.9231C14.5188 9.07692 15 8.59567 15 8C15 7.40433 14.5188 6.92308 13.9231 6.92308H9.07692V2.07692Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div data-layer="_ShoppingCardFooterComponent" data-has-explore-plans-link="true" data-show-license-type="true" data-theme="Teal" className="Shoppingcardfootercomponent" style={{alignSelf: 'stretch', padding: 12, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 16, outline: '1px var(--Colors-Functional-Border-Border_Focus, #21A49F) solid', outlineOffset: '-0.50px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 12, display: 'flex'}}>
+                <div data-layer="Frame 47296" className="Frame47296" style={{alignSelf: 'stretch', paddingTop: 10, paddingBottom: 10, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'flex'}}>
+                    <div data-layer="Frame 91" className="Frame91" style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 11, display: 'flex'}}>
+                        <div data-layer="Frame 90" className="Frame90" style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 2, display: 'flex'}}>
+                            <div data-layer="360 Billing Suite Price" className="BillingSuitePrice" style={{alignSelf: 'stretch', height: 32, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 24, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 34.92, wordWrap: 'break-word'}}>$1169.10</div>
+                            <div data-layer="per provider/month" className="PerProviderMonth" style={{alignSelf: 'stretch', height: 20, textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>per provider/month</div>
+                        </div>
+                        <div data-layer="Btn" className="Btn" style={{alignSelf: 'stretch', height: 48, padding: 12, background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Default, #118082)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                            <div data-layer="LABEL" className="Label" style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>Add To Cart</div>
+                        </div>
+                    </div>
+                    <div data-layer="Frame 47295" className="Frame47295" style={{alignSelf: 'stretch', paddingTop: 4, paddingBottom: 4, justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                        <div data-layer="Frame 47294" className="Frame47294" style={{width: 97, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                            <div data-layer="Link Button/Teal/Default" data-has-icon="false" className="LinkButtonTealDefault" style={{alignSelf: 'stretch', paddingLeft: 10, paddingRight: 10, paddingTop: 4, paddingBottom: 4, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Teal-600, #118082) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 11, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                                <div data-layer="View Licenses & Billing" className="ViewLicensesBilling" style={{flex: '1 1 0', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Explore Plans</div>
+                            </div>
+                        </div>
+                        <div data-layer="Frame 47294" className="Frame47294" style={{width: 74, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                            <div data-layer="Link Button/Teal/Default" data-has-icon="false" className="LinkButtonTealDefault" style={{alignSelf: 'stretch', paddingLeft: 10, paddingRight: 10, paddingTop: 4, paddingBottom: 4, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Teal-600, #118082) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 11, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                                <div data-layer="View Licenses & Billing" className="ViewLicensesBilling" style={{flex: '1 1 0', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Start trial</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

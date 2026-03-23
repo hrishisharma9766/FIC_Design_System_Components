@@ -1,0 +1,26 @@
+// Subtotal:
+color: 'var(--Colors-Functional-Txt-Txt_Selected-White, white)', fontSize: 20, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 29.10, wordWrap: 'break-word'
+---
+// $2,580.00
+color: 'var(--Colors-Functional-Txt-Txt_Selected-White, white)', fontSize: 20, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 29.10, wordWrap: 'break-word'
+---
+// Checkout with
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Subtotal:
+color: 'var(--Colors-Functional-Txt-Txt_Selected-White, white)', fontSize: 20, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 29.10, wordWrap: 'break-word'
+---
+// $2,580.00
+color: 'var(--Colors-Functional-Txt-Txt_Selected-White, white)', fontSize: 20, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 29.10, wordWrap: 'break-word'
+---
+// Checkout with
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Subtotal:
+color: 'var(--Colors-Functional-Txt-Txt_Selected-White, white)', fontSize: 20, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 29.10, wordWrap: 'break-word'
+---
+// $2,580.00
+color: 'var(--Colors-Functional-Txt-Txt_Selected-White, white)', fontSize: 20, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 29.10, wordWrap: 'break-word'
+---
+// Checkout with
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'

@@ -1,0 +1,197 @@
+<div data-layer="FileUploader" className="Fileuploader" style={{width: '100%', height: '100%', position: 'relative', overflow: 'hidden', borderRadius: 5, border: '1px #8A38F5 solid'}}>
+    <div data-layer="State=Default" className="StateDefault" style={{width: 527, height: 302, left: 20, top: 20, position: 'absolute'}}>
+        <div data-layer="Frame 32" className="Frame32" style={{width: 527, left: 0, top: 0, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 20, display: 'inline-flex'}}>
+            <div data-layer="Upload Field/Type3" className="UploadFieldType3" style={{alignSelf: 'stretch', height: 302, padding: 56, borderRadius: 10, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 22, display: 'flex'}}>
+                <div data-layer="Size32(Gray)Icon/Push Data" className="Size32GrayIconPushData" style={{width: 60, height: 60, position: 'relative'}}>
+                    <div data-layer="Size24(Gray)Icon/Push Data" className="Size24GrayIconPushData" style={{width: 56.25, height: 56.25, left: 1.88, top: 1.88, position: 'absolute'}}>
+                        <div data-svg-wrapper data-layer="Size16(Gray)Icon/Push Data" className="Size16GrayIconPushData" style={{left: 2.34, top: 2.34, position: 'absolute'}}>
+                            <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.502 43.3224C8.28028 43.3224 3.22266 38.2647 3.22266 32.0431C3.22266 27.0858 6.43384 22.8711 10.8894 21.3659C10.789 20.7638 10.7489 20.1617 10.7489 19.5194C10.7489 13.2978 15.8065 8.24013 22.0282 8.24013C26.3633 8.24013 30.1364 10.6887 32.023 14.2812C33.1268 13.6389 34.4314 13.2576 35.8162 13.2576C39.9707 13.2576 43.3224 16.6294 43.3224 20.7638C43.3224 21.988 43.0213 23.1521 42.4995 24.1757C45.9515 25.7612 48.3398 29.2333 48.3398 33.2874C48.3398 38.8267 43.8442 43.3023 38.325 43.3023H14.522L14.502 43.3224ZM27.1059 20.7036C26.3633 19.961 25.1792 19.961 24.4566 20.7036L18.817 26.3432C18.0744 27.0858 18.0744 28.2699 18.817 28.9924C19.5596 29.715 20.7437 29.735 21.4662 28.9924L23.8947 26.564V34.5518C23.8947 35.5954 24.7376 36.4384 25.7812 36.4384C26.8249 36.4384 27.6678 35.5954 27.6678 34.5518V26.564L30.0963 28.9924C30.8389 29.735 32.023 29.735 32.7455 28.9924C33.468 28.2499 33.4881 27.0657 32.7455 26.3432L27.1059 20.7036Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div data-layer="Bottom Content" className="BottomContent" style={{flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 24, display: 'flex'}}>
+                    <div data-layer="Description" className="Description" style={{flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 12, display: 'flex'}}>
+                        <div data-layer="Select a file or drag and drop here" className="SelectAFileOrDragAndDropHere" style={{color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Select a file or drag and drop here</div>
+                        <div data-layer="JPG, PNG or PDF, file size no more than 10MB" className="JpgPngOrPdfFileSizeNoMoreThan10mb" style={{color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'}}>JPG, PNG or PDF, file size no more than 10MB</div>
+                    </div>
+                    <div data-layer="Btn" className="Btn" style={{height: 35, padding: 10, background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Default, white)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Border_Default, #118082) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+                        <div data-layer="LABEL" className="Label" style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>SELECT FILE(S)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-layer="State=Image Getting Dragged" className="StateImageGettingDragged" style={{width: 527, height: 302, left: 20, top: 358, position: 'absolute'}}>
+        <div data-layer="Frame 31" className="Frame31" style={{width: 527, left: 0, top: 0, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 20, display: 'inline-flex'}}>
+            <div data-layer="Upload Field/Type3" className="UploadFieldType3" style={{alignSelf: 'stretch', height: 302, padding: 56, background: 'var(--Colors-Functional-Bkg-Bkg_Dark, #EFEEEA)', borderRadius: 10, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 22, display: 'flex'}}>
+                <div data-layer="Size32(Gray)Icon/Push Data" className="Size32GrayIconPushData" style={{width: 60, height: 60, position: 'relative'}}>
+                    <div data-layer="Size24(Gray)Icon/Push Data" className="Size24GrayIconPushData" style={{width: 56.25, height: 56.25, left: 1.88, top: 1.88, position: 'absolute'}}>
+                        <div data-svg-wrapper data-layer="Size16(Gray)Icon/Push Data" className="Size16GrayIconPushData" style={{left: 2.34, top: 2.34, position: 'absolute'}}>
+                            <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.502 43.3224C8.28028 43.3224 3.22266 38.2648 3.22266 32.0431C3.22266 27.0858 6.43384 22.8711 10.8894 21.3659C10.789 20.7638 10.7489 20.1617 10.7489 19.5194C10.7489 13.2978 15.8065 8.24014 22.0282 8.24014C26.3633 8.24014 30.1364 10.6887 32.023 14.2812C33.1268 13.639 34.4314 13.2576 35.8162 13.2576C39.9707 13.2576 43.3224 16.6294 43.3224 20.7638C43.3224 21.9881 43.0213 23.1521 42.4995 24.1757C45.9515 25.7612 48.3398 29.2333 48.3398 33.2874C48.3398 38.8267 43.8442 43.3023 38.325 43.3023H14.522L14.502 43.3224ZM27.1059 20.7036C26.3633 19.961 25.1792 19.961 24.4566 20.7036L18.817 26.3432C18.0744 27.0858 18.0744 28.2699 18.817 28.9925C19.5596 29.715 20.7437 29.735 21.4662 28.9925L23.8947 26.564V34.5518C23.8947 35.5955 24.7376 36.4384 25.7812 36.4384C26.8249 36.4384 27.6678 35.5955 27.6678 34.5518V26.564L30.0963 28.9925C30.8389 29.735 32.023 29.735 32.7455 28.9925C33.468 28.2499 33.4881 27.0657 32.7455 26.3432L27.1059 20.7036Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div data-layer="Bottom Content" className="BottomContent" style={{flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 24, display: 'flex'}}>
+                    <div data-layer="Description" className="Description" style={{flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 12, display: 'flex'}}>
+                        <div data-layer="Select a file or drag and drop here" className="SelectAFileOrDragAndDropHere" style={{color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Select a file or drag and drop here</div>
+                        <div data-layer="JPG, PNG or PDF, file size no more than 10MB" className="JpgPngOrPdfFileSizeNoMoreThan10mb" style={{color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'}}>JPG, PNG or PDF, file size no more than 10MB</div>
+                    </div>
+                    <div data-layer="Btn" className="Btn" style={{height: 35, padding: 10, background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Default, white)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Border_Default, #118082) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+                        <div data-layer="LABEL" className="Label" style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>SELECT FILE</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-layer="State=With-Uploadder" className="StateWithUploadder" style={{width: 527, left: 20, top: 1007, position: 'absolute', background: 'white', borderRadius: 13, flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+        <div data-layer="Upload Field/Type3" className="UploadFieldType3" style={{alignSelf: 'stretch', height: 302, padding: 56, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 10, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 22, display: 'flex'}}>
+            <img data-layer="85646-loading-dots-blue 3" className="LoadingDotsBlue3" style={{width: 300, height: 300}} src="https://placehold.co/300x300" />
+        </div>
+    </div>
+    <div data-layer="State=Upload Successful-WithButton" className="StateUploadSuccessfulWithbutton" style={{width: 527, left: 24, top: 1333, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+        <div data-layer="Frame 24" className="Frame24" style={{width: 318, height: 285, position: 'relative'}}>
+            <div data-layer="Frame 34" className="Frame34" style={{width: 318, left: 0, top: 34, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 19, display: 'inline-flex'}}>
+                <div data-layer="Icon/WithBkg/Success" className="IconWithbkgSuccess" style={{width: 73, height: 73, position: 'relative'}}>
+                    <div data-layer="Ellipse 10" className="Ellipse10" style={{width: 73, height: 73, left: 0, top: 0, position: 'absolute', background: 'var(--Colors-Functional-Input-Icons-Icon_Alert-Light, #FFEAAC)', borderRadius: 9999}} />
+                    <div data-layer="Ellipse 11" className="Ellipse11" style={{width: 73, height: 73, left: 0, top: 0, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Success100, #EEFFD6)', borderRadius: 9999}} />
+                    <div data-svg-wrapper data-layer="Vector" className="Vector" style={{left: 19.75, top: 24.33, position: 'absolute'}}>
+                        <svg width="35" height="25" viewBox="0 0 35 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M33.4157 0.727085C34.3679 1.69653 34.3679 3.27091 33.4157 4.24036L13.9151 24.0946C12.963 25.0641 11.4166 25.0641 10.4644 24.0946L0.714134 14.1675C-0.238045 13.1981 -0.238045 11.6237 0.714134 10.6542C1.66631 9.68478 3.21265 9.68478 4.16483 10.6542L12.1936 18.8208L29.9727 0.727085C30.9248 -0.242362 32.4712 -0.242362 33.4234 0.727085H33.4157Z" fill="var(--Colors-Navigation-Icons-Lime700, #578421)"/>
+                        </svg>
+                    </div>
+                </div>
+                <div data-layer="Frame 12" className="Frame12" style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 16, display: 'flex'}}>
+                    <div data-layer="Success!" className="Success" style={{color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 20, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 29.10, wordWrap: 'break-word'}}>Success!</div>
+                    <div data-layer="Documents have been uploaded successfully, check your registered email for confirmation." className="DocumentsHaveBeenUploadedSuccessfullyCheckYourRegisteredEmailForConfirmation" style={{alignSelf: 'stretch', textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Documents have been uploaded successfully, check your registered email for confirmation.</div>
+                </div>
+                <div data-layer="Button Group" className="ButtonGroup" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                    <div data-layer="Btn" className="Btn" style={{height: 35, padding: 10, background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Default, white)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Border_Default, #118082) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                        <div data-layer="LABEL" className="Label" style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>RETURN HOME</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-layer="State=Upload Successful-WithoutButton" className="StateUploadSuccessfulWithoutbutton" style={{width: 527, left: 24, top: 1638, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+        <div data-layer="Frame 24" className="Frame24" style={{width: 318, height: 285, position: 'relative'}}>
+            <div data-layer="Frame 34" className="Frame34" style={{width: 318, left: 0, top: 34, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 19, display: 'inline-flex'}}>
+                <div data-layer="Icon/WithBkg/Success" className="IconWithbkgSuccess" style={{width: 73, height: 73, position: 'relative'}}>
+                    <div data-layer="Ellipse 10" className="Ellipse10" style={{width: 73, height: 73, left: 0, top: 0, position: 'absolute', background: 'var(--Colors-Functional-Input-Icons-Icon_Alert-Light, #FFEAAC)', borderRadius: 9999}} />
+                    <div data-layer="Ellipse 11" className="Ellipse11" style={{width: 73, height: 73, left: 0, top: 0, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Success100, #EEFFD6)', borderRadius: 9999}} />
+                    <div data-svg-wrapper data-layer="Vector" className="Vector" style={{left: 19.75, top: 24.33, position: 'absolute'}}>
+                        <svg width="35" height="25" viewBox="0 0 35 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M33.4157 0.727085C34.3679 1.69653 34.3679 3.27091 33.4157 4.24036L13.9151 24.0946C12.963 25.0641 11.4166 25.0641 10.4644 24.0946L0.714134 14.1675C-0.238045 13.1981 -0.238045 11.6237 0.714134 10.6542C1.66631 9.68478 3.21265 9.68478 4.16483 10.6542L12.1936 18.8208L29.9727 0.727085C30.9248 -0.242362 32.4712 -0.242362 33.4234 0.727085H33.4157Z" fill="var(--Colors-Navigation-Icons-Lime700, #578421)"/>
+                        </svg>
+                    </div>
+                </div>
+                <div data-layer="Frame 12" className="Frame12" style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 16, display: 'flex'}}>
+                    <div data-layer="Success!" className="Success" style={{color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 20, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 29.10, wordWrap: 'break-word'}}>Success!</div>
+                    <div data-layer="Documents have been uploaded successfully, check your registered email for confirmation." className="DocumentsHaveBeenUploadedSuccessfullyCheckYourRegisteredEmailForConfirmation" style={{alignSelf: 'stretch', textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Documents have been uploaded successfully, check your registered email for confirmation.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-layer="State=Uploading" className="StateUploading" style={{width: 527, left: 20, top: 696, position: 'absolute', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+        <div data-layer="Frame 31" className="Frame31" style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 20, display: 'flex'}}>
+            <div data-layer="Upload Field/Small" className="UploadFieldSmall" style={{width: 527, height: 81, padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'flex-start', alignItems: 'center', gap: 20, display: 'inline-flex'}}>
+                <div data-layer="Size32(Gray)Icon/Push Data" className="Size32GrayIconPushData" style={{width: 60, height: 60, position: 'relative'}}>
+                    <div data-layer="Size24(Gray)Icon/Push Data" className="Size24GrayIconPushData" style={{width: 56.25, height: 56.25, left: 1.88, top: 1.88, position: 'absolute'}}>
+                        <div data-svg-wrapper data-layer="Size16(Gray)Icon/Push Data" className="Size16GrayIconPushData" style={{left: 2.34, top: 2.34, position: 'absolute'}}>
+                            <svg width="52" height="52" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.502 43.3223C8.28028 43.3223 3.22266 38.2647 3.22266 32.043C3.22266 27.0858 6.43384 22.8711 10.8894 21.3658C10.789 20.7637 10.7489 20.1617 10.7489 19.5194C10.7489 13.2977 15.8065 8.24011 22.0282 8.24011C26.3633 8.24011 30.1364 10.6886 32.023 14.2812C33.1268 13.6389 34.4314 13.2576 35.8162 13.2576C39.9707 13.2576 43.3224 16.6294 43.3224 20.7638C43.3224 21.988 43.0213 23.1521 42.4995 24.1756C45.9515 25.7612 48.3398 29.2333 48.3398 33.2874C48.3398 38.8267 43.8442 43.3023 38.325 43.3023H14.522L14.502 43.3223ZM27.1059 20.7035C26.3633 19.9609 25.1792 19.9609 24.4566 20.7035L18.817 26.3432C18.0744 27.0858 18.0744 28.2699 18.817 28.9924C19.5596 29.7149 20.7437 29.735 21.4662 28.9924L23.8947 26.564V34.5518C23.8947 35.5954 24.7376 36.4384 25.7812 36.4384C26.8249 36.4384 27.6678 35.5954 27.6678 34.5518V26.564L30.0963 28.9924C30.8389 29.735 32.023 29.735 32.7455 28.9924C33.468 28.2498 33.4881 27.0657 32.7455 26.3432L27.1059 20.7035Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div data-layer="Bottom Content" className="BottomContent" style={{width: 403, justifyContent: 'center', alignItems: 'center', gap: 56, display: 'flex'}}>
+                    <div data-layer="Description" className="Description" style={{width: 252, flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start', gap: 12, display: 'inline-flex'}}>
+                        <div data-layer="Select a file or drag and drop here" className="SelectAFileOrDragAndDropHere" style={{alignSelf: 'stretch', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Select a file or drag and drop here</div>
+                        <div data-layer="JPG, PNG or PDF, file size no more than 10MB" className="JpgPngOrPdfFileSizeNoMoreThan10mb" style={{alignSelf: 'stretch', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'}}>JPG, PNG or PDF, file size no more than 10MB</div>
+                    </div>
+                    <div data-layer="Btn" className="Btn" style={{height: 35, padding: 10, background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Default, white)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Border_Default, #118082) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                        <div data-layer="LABEL" className="Label" style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>SELECT FILE</div>
+                    </div>
+                </div>
+            </div>
+            <div data-layer="Frame 33" className="Frame33" style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'flex'}}>
+                <div data-layer="File Uploading" data-state="Default" data-type="Complete" className="FileUploading" style={{width: 527, height: 58, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1)', borderRadius: 13}}>
+                    <div data-layer="Frame 28" className="Frame28" style={{width: 498, left: 13, top: 16, position: 'absolute', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 20, display: 'inline-flex'}}>
+                        <div data-layer="Size24(Gray)Icon/Imaging" className="Size24GrayIconImaging" style={{width: 24, height: 24, position: 'relative'}}>
+                            <div data-svg-wrapper data-layer="Size16(Gray)Icon/Imaging" className="Size16GrayIconImaging" style={{left: 1, top: 1, position: 'absolute'}}>
+                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.12341 1.375C2.61012 1.375 1.375 2.61012 1.375 4.12341V17.8766C1.375 19.3899 2.61012 20.625 4.12341 20.625H17.8766C19.3899 20.625 20.625 19.3899 20.625 17.8766V4.12341C20.625 2.61012 19.3899 1.375 17.8766 1.375H4.12341ZM6.87182 4.81329C8.00679 4.81329 8.93035 5.73685 8.93035 6.87182C8.93035 8.00679 8.00679 8.93035 6.87182 8.93035C5.73685 8.93035 4.81329 8.00679 4.81329 6.87182C4.81329 5.73685 5.73685 4.81329 6.87182 4.81329ZM13.0697 9.62023C13.4257 9.62023 13.7595 9.80939 13.9487 10.1098L17.7319 16.2965C17.9211 16.6192 17.9322 17.0198 17.7542 17.3425C17.5762 17.6652 17.2201 17.8655 16.8529 17.8655H5.15824C4.77991 17.8655 4.42385 17.654 4.24581 17.3091C4.06778 16.9642 4.09003 16.5525 4.31257 16.2409L6.71604 12.8026C6.9052 12.5244 7.22789 12.3686 7.56171 12.3686C7.89552 12.3686 8.21821 12.5355 8.40737 12.8026L9.54234 14.4272L12.1795 10.1098C12.3686 9.80939 12.7025 9.62023 13.0585 9.62023H13.0697Z" fill="var(--Colors-Navigation-Icons-Blue500, #35A0E7)"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div data-layer="Frame 17" className="Frame17" style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                            <div data-layer="Frame 22" className="Frame22" style={{alignSelf: 'stretch', justifyContent: 'space-between', alignItems: 'center', display: 'inline-flex'}}>
+                                <div data-layer="Frame 21" className="Frame21" style={{justifyContent: 'center', alignItems: 'center', gap: 8, display: 'flex'}}>
+                                    <div data-layer="Passport.png" className="PassportPng" style={{color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'}}>ProductImage_1.png</div>
+                                    <div data-svg-wrapper data-layer="Ellipse 1" className="Ellipse1">
+                                        <svg width="3" height="3" viewBox="0 0 3 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <circle cx="1.5" cy="1.5" r="1.5" fill="var(--Colors-Functional-Bkg-Bkg_Gray800, #303030)"/>
+                                        </svg>
+                                    </div>
+                                    <div data-layer="Preview" className="Preview" style={{color: 'var(--Colors-Functional-Label-Txt_Label_Focus, #00575C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'}}>Preview</div>
+                                </div>
+                                <div data-layer="5.7MB" className="7mb" style={{color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'}}>5.7MB</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-layer="File Uploading" data-state="Default" data-type="90%" className="FileUploading" style={{width: 527, height: 58, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1)', borderRadius: 13}}>
+                    <div data-layer="Frame 28" className="Frame28" style={{width: 498, left: 13, top: 16, position: 'absolute', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 20, display: 'inline-flex'}}>
+                        <div data-layer="Size24(Gray)Icon/Imaging" className="Size24GrayIconImaging" style={{width: 24, height: 24, position: 'relative'}}>
+                            <div data-svg-wrapper data-layer="Size16(Gray)Icon/Imaging" className="Size16GrayIconImaging" style={{left: 1, top: 1, position: 'absolute'}}>
+                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.12341 1.375C2.61012 1.375 1.375 2.61012 1.375 4.12341V17.8766C1.375 19.3899 2.61012 20.625 4.12341 20.625H17.8766C19.3899 20.625 20.625 19.3899 20.625 17.8766V4.12341C20.625 2.61012 19.3899 1.375 17.8766 1.375H4.12341ZM6.87182 4.81329C8.00679 4.81329 8.93035 5.73685 8.93035 6.87182C8.93035 8.00679 8.00679 8.93035 6.87182 8.93035C5.73685 8.93035 4.81329 8.00679 4.81329 6.87182C4.81329 5.73685 5.73685 4.81329 6.87182 4.81329ZM13.0697 9.62023C13.4257 9.62023 13.7595 9.80939 13.9487 10.1098L17.7319 16.2965C17.9211 16.6192 17.9322 17.0198 17.7542 17.3425C17.5762 17.6652 17.2201 17.8655 16.8529 17.8655H5.15824C4.77991 17.8655 4.42385 17.654 4.24581 17.3091C4.06778 16.9642 4.09003 16.5525 4.31257 16.2409L6.71604 12.8026C6.9052 12.5244 7.22789 12.3686 7.56171 12.3686C7.89552 12.3686 8.21821 12.5355 8.40737 12.8026L9.54234 14.4272L12.1795 10.1098C12.3686 9.80939 12.7025 9.62023 13.0585 9.62023H13.0697Z" fill="var(--Colors-Navigation-Icons-Blue300, #94D4FF)"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div data-layer="Frame 17" className="Frame17" style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                            <div data-layer="Frame 22" className="Frame22" style={{alignSelf: 'stretch', justifyContent: 'space-between', alignItems: 'center', display: 'inline-flex'}}>
+                                <div data-layer="Frame 21" className="Frame21" style={{justifyContent: 'center', alignItems: 'center', gap: 8, display: 'flex'}}>
+                                    <div data-layer="Passport.png" className="PassportPng" style={{color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'}}>ProductImage_2.png</div>
+                                </div>
+                                <div data-layer="5.7MB" className="7mb" style={{color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'}}>5.7MB</div>
+                            </div>
+                            <div data-layer="Progress Bar %" className="ProgressBar" style={{alignSelf: 'stretch', height: 5.88, paddingRight: 20, background: 'var(--Colors-Functional-Bkg-Bkg_Disabled, #D2DCE6)', borderRadius: 20, justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                                <div data-layer="Rectangle 3" className="Rectangle3" style={{flex: '1 1 0', height: 4, background: 'var(--Colors-Functional-Fill-Fill-Default, #118082)', borderRadius: 20}} />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-layer="File Uploading" data-state="Default" data-type="0%" className="FileUploading" style={{alignSelf: 'stretch', height: 58, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1)', borderRadius: 13}}>
+                    <div data-layer="Frame 28" className="Frame28" style={{width: 498, left: 13, top: 16, position: 'absolute', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 20, display: 'inline-flex'}}>
+                        <div data-layer="Size24(Gray)Icon/Imaging" className="Size24GrayIconImaging" style={{width: 24, height: 24, position: 'relative'}}>
+                            <div data-svg-wrapper data-layer="Size16(Gray)Icon/Imaging" className="Size16GrayIconImaging" style={{left: 1, top: 1, position: 'absolute'}}>
+                                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M4.12341 1.375C2.61012 1.375 1.375 2.61012 1.375 4.12341V17.8766C1.375 19.3899 2.61012 20.625 4.12341 20.625H17.8766C19.3899 20.625 20.625 19.3899 20.625 17.8766V4.12341C20.625 2.61012 19.3899 1.375 17.8766 1.375H4.12341ZM6.87182 4.81329C8.00679 4.81329 8.93035 5.73685 8.93035 6.87182C8.93035 8.00679 8.00679 8.93035 6.87182 8.93035C5.73685 8.93035 4.81329 8.00679 4.81329 6.87182C4.81329 5.73685 5.73685 4.81329 6.87182 4.81329ZM13.0697 9.62023C13.4257 9.62023 13.7595 9.80939 13.9487 10.1098L17.7319 16.2965C17.9211 16.6192 17.9322 17.0198 17.7542 17.3425C17.5762 17.6652 17.2201 17.8655 16.8529 17.8655H5.15824C4.77991 17.8655 4.42385 17.654 4.24581 17.3091C4.06778 16.9642 4.09003 16.5525 4.31257 16.2409L6.71604 12.8026C6.9052 12.5244 7.22789 12.3686 7.56171 12.3686C7.89552 12.3686 8.21821 12.5355 8.40737 12.8026L9.54234 14.4272L12.1795 10.1098C12.3686 9.80939 12.7025 9.62023 13.0585 9.62023H13.0697Z" fill="var(--Colors-Navigation-Icons-Blue300, #94D4FF)"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div data-layer="Frame 17" className="Frame17" style={{flex: '1 1 0', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+                            <div data-layer="Frame 22" className="Frame22" style={{alignSelf: 'stretch', justifyContent: 'space-between', alignItems: 'center', display: 'inline-flex'}}>
+                                <div data-layer="Frame 21" className="Frame21" style={{justifyContent: 'center', alignItems: 'center', gap: 8, display: 'flex'}}>
+                                    <div data-layer="Passport.png" className="PassportPng" style={{color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'}}>ProductImage_2.png</div>
+                                </div>
+                                <div data-layer="5.7MB" className="7mb" style={{color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'}}>5.7MB</div>
+                            </div>
+                            <div data-layer="Progress Bar %" className="ProgressBar" style={{alignSelf: 'stretch', height: 6.70, paddingRight: 260, background: 'var(--Colors-Functional-Bkg-Bkg_Disabled, #D2DCE6)', borderRadius: 20, justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                                <div data-svg-wrapper data-layer="Rectangle 3" className="Rectangle3">
+                                    <svg width="10" height="4" viewBox="0 0 10 4" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <rect width="10" height="4" rx="2" fill="var(--Colors-Functional-Fill-Fill-Default, #118082)"/>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,112 @@
+<div style={{width: '100%', height: '100%', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 14, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 23.99, display: 'inline-flex'}}>
+    <div style={{width: 1076.02, height: 65, position: 'relative'}}>
+        <div style={{width: 1028.04, left: 23.99, top: 23.99, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 12, display: 'inline-flex'}}>
+            <div style={{alignSelf: 'stretch', height: 14.01, position: 'relative'}}>
+                <div style={{left: 0, top: -0.73, position: 'absolute', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>Storage Usage</div>
+            </div>
+            <div style={{alignSelf: 'stretch', height: 21.01, position: 'relative'}}>
+                <div style={{left: 0, top: -0.09, position: 'absolute', color: 'var(--Colors-Navigation-Other-Txt_SubMenuLabels, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Monitor your recording storage capacity and usage</div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 1076.02, paddingLeft: 20, paddingRight: 20, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'flex'}}>
+        <div style={{alignSelf: 'stretch', height: 119.96, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 15.99, display: 'flex'}}>
+            <div style={{alignSelf: 'stretch', height: 63.98, justifyContent: 'space-between', alignItems: 'center', display: 'inline-flex'}}>
+                <div style={{width: 192.44, height: 63.98, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 3.99, display: 'inline-flex'}}>
+                    <div style={{alignSelf: 'stretch', height: 39.99, justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                        <div style={{width: 113.42, height: 39.99, position: 'relative'}}>
+                            <div style={{width: 133, left: 0.10, top: 8.10, position: 'absolute', color: 'var(--Colors-Functional-Txt-Txt_Warning-Orange500, #F27E25)', fontSize: 24, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 34.92, wordWrap: 'break-word'}}>256 GB</div>
+                        </div>
+                        <div data-pillbadge_color="Blue" data-single-line="Single Line" data-size="Small" style={{flex: '1 1 0', paddingLeft: 9, paddingRight: 9, background: 'var(--Colors-Buttons-Pill-Badge-Bkg-Blue200, #D2EDFF)', borderRadius: 18, justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'flex'}}>
+                            <div style={{width: 119, height: 24, justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Moderate</div>
+                        </div>
+                    </div>
+                    <div style={{alignSelf: 'stretch', height: 20, position: 'relative'}}>
+                        <div style={{width: 201, left: 0.10, top: -1.88, position: 'absolute', color: 'var(--Colors-Navigation-Other-Txt_SubMenuLabels, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>of 500 GB used (51.2%)</div>
+                    </div>
+                </div>
+                <div style={{width: 75.63, height: 52, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{alignSelf: 'stretch', height: 32, position: 'relative'}}>
+                        <div style={{width: 192, left: -116.32, top: -1.89, position: 'absolute', textAlign: 'right', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 24, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 34.92, wordWrap: 'break-word'}}>244 GB</div>
+                    </div>
+                    <div style={{alignSelf: 'stretch', height: 20, justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', textAlign: 'right', color: 'var(--Colors-Navigation-Other-Txt_SubMenuLabels, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Available</div>
+                    </div>
+                </div>
+            </div>
+            <div data-has-label="false" data-show-usage-%="false" data-show-usage-info="true" data-size="Thick" data-state="Default" data-style="Without Background" style={{alignSelf: 'stretch', overflow: 'hidden', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'flex'}}>
+                    <div style={{alignSelf: 'stretch', height: 16, paddingTop: 1, paddingBottom: 1, paddingLeft: 1, paddingRight: 80, background: 'var(--Colors-Functional-Bkg-Bkg_Disabled, #D2DCE6)', borderRadius: 20, justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                        <div style={{flex: '1 1 0', height: 14, background: 'var(--Colors-Functional-Fill-Fill-Default, #118082)', borderRadius: 20}} />
+                    </div>
+                    <div style={{alignSelf: 'stretch', height: 17, justifyContent: 'space-between', alignItems: 'center', display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                        <div style={{color: 'var(--Colors-Functional-Txt_Helper-Txt_Helper_Default, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>0 GB</div>
+                        <div style={{color: 'var(--Colors-Functional-Txt_Helper-Txt_Helper_Default, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'}}>500 GB</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style={{alignSelf: 'stretch', height: 92.90, position: 'relative', borderTop: '0.91px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid'}}>
+            <div data-has-heading="true" data-has-icon="true" data-has-main-text="true" data-has-subtext="true" style={{left: 0.10, top: 17.15, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'inline-flex'}}>
+                <div style={{width: 332.02, height: 20, justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                    <div style={{width: 16, height: 16, position: 'relative'}}>
+                        <div style={{width: 14, height: 12.73, left: 1, top: 1.64, position: 'absolute'}}>
+                            <div style={{width: 12.73, height: 11.57, left: 0, top: 0, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                        </div>
+                    </div>
+                    <div style={{width: 101.83, height: 20, justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Navigation-Other-Txt_SubMenuLabels, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Total recordings</div>
+                    </div>
+                </div>
+                <div style={{width: 332.02, height: 48, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                    <div style={{alignSelf: 'stretch', height: 32, justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 24, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 34.92, wordWrap: 'break-word'}}>1,847</div>
+                    </div>
+                    <div style={{alignSelf: 'stretch', height: 15.99, position: 'relative'}}>
+                        <div style={{left: 0, top: -1, position: 'absolute', color: 'var(--Colors-Navigation-Other-Txt_SubMenuLabels, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'}}>Avg. 142 MB each</div>
+                    </div>
+                </div>
+            </div>
+            <div data-has-heading="true" data-has-icon="true" data-has-main-text="true" data-has-subtext="true" style={{left: 348.10, top: 17.15, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'inline-flex'}}>
+                <div style={{width: 332.02, height: 20, justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                    <div style={{width: 16, height: 16, position: 'relative'}}>
+                        <div style={{width: 14, height: 12.73, left: 1, top: 1.64, position: 'absolute'}}>
+                            <div style={{width: 12.73, height: 11.57, left: 0, top: 0, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                        </div>
+                    </div>
+                    <div style={{width: 101.83, height: 20, justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Navigation-Other-Txt_SubMenuLabels, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Added Last Month</div>
+                    </div>
+                </div>
+                <div style={{width: 332.02, height: 48, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                    <div style={{alignSelf: 'stretch', height: 32, justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 24, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 34.92, wordWrap: 'break-word'}}>38 GB</div>
+                    </div>
+                    <div style={{alignSelf: 'stretch', height: 15.99, position: 'relative'}}>
+                        <div style={{left: 0, top: -1, position: 'absolute', color: 'var(--Colors-Navigation-Other-Txt_SubMenuLabels, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'}}>In the last 30 days</div>
+                    </div>
+                </div>
+            </div>
+            <div data-has-heading="true" data-has-icon="true" data-has-main-text="true" data-has-subtext="true" style={{left: 696.10, top: 17.15, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'inline-flex'}}>
+                <div style={{width: 332.02, height: 20, justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                    <div style={{width: 16, height: 16, position: 'relative'}}>
+                        <div style={{width: 14, height: 12.73, left: 1, top: 1.64, position: 'absolute'}}>
+                            <div style={{width: 12.73, height: 11.57, left: 0, top: 0, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                        </div>
+                    </div>
+                    <div style={{width: 101.83, height: 20, justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Navigation-Other-Txt_SubMenuLabels, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Projected Full</div>
+                    </div>
+                </div>
+                <div style={{width: 332.02, height: 48, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'flex'}}>
+                    <div style={{alignSelf: 'stretch', height: 32, justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 24, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 34.92, wordWrap: 'break-word'}}>March 2026</div>
+                    </div>
+                    <div style={{alignSelf: 'stretch', height: 15.99, position: 'relative'}}>
+                        <div style={{left: 0, top: -1, position: 'absolute', color: 'var(--Colors-Navigation-Other-Txt_SubMenuLabels, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'}}>At current usage rate</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,82 @@
+<div style={{width: '100%', height: '100%', position: 'relative', overflow: 'hidden', borderRadius: 5, border: '1px #8A38F5 solid'}}>
+    <div style={{padding: 10, left: 20, top: 296, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1)', borderRadius: 13, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', height: 108, paddingTop: 5, paddingBottom: 5, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 5, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+            <div style={{width: 42, height: 42, paddingLeft: 12, paddingRight: 12, paddingTop: 11, paddingBottom: 11, background: 'var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-300, #E5E4DD)', borderRadius: 21, justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'flex'}}>
+                <div style={{width: 17.91, height: 20.47, background: 'var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-500, #959490)'}} />
+            </div>
+            <div style={{width: 288, height: 98, borderTopLeftRadius: 5, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex'}}>
+                <div style={{width: 288, justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_ReadOnly, #4B5867)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Billing Assistant</div>
+                <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>Trial will end in 5 days.</div>
+                <div style={{alignSelf: 'stretch', height: 57, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 2, display: 'flex'}}>
+                    <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'}}>Upgrade to continue using all feature.</div>
+                    <div data-has-icon="true" style={{paddingLeft: 10, paddingRight: 10, paddingTop: 4, paddingBottom: 4, borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_ReadOnly, #B4C6D6) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 11, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                        <div style={{width: 129, justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_ReadOnly, #4B5867)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>View Licenses &amp; Billing</div>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Functional-Input-Icons-Icon_Disabled, #8BA1B9)'}} />
+                        </div>
+                    </div>
+                    <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'}}>10 minutes ago</div>
+                </div>
+            </div>
+            <div style={{justifyContent: 'flex-end', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                <div data-state="New Notification" style={{width: 13, height: 13, position: 'relative'}}>
+                    <div style={{width: 13, height: 13, left: 0, top: 0, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Alert-Count_Inactive-400, #8BA1B9)', borderRadius: 9999}} />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{padding: 10, left: 20, top: 158, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Error-Red50, #FFEAE9)', borderRadius: 13, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', height: 108, paddingTop: 5, paddingBottom: 5, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 5, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+            <div style={{width: 42, height: 42, position: 'relative'}}>
+                <div style={{width: 42, height: 42, left: 0, top: 0, position: 'absolute', background: 'var(--Colors-Functional-Input-Icons-Icon_Error-Light, #FFD3D2)', borderRadius: 9999}} />
+                <div style={{width: 20.48, height: 19.66, left: 11, top: 10.24, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Alert-High-Red500, #E73D36)'}} />
+            </div>
+            <div style={{width: 288, height: 98, paddingLeft: 5, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex'}}>
+                <div style={{width: 288, justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Error, #C9221C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Billing Assistant</div>
+                <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>Trial will end in 5 days.</div>
+                <div style={{alignSelf: 'stretch', height: 57, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 2, display: 'flex'}}>
+                    <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'}}>Upgrade to continue using all feature.</div>
+                    <div data-has-icon="true" style={{paddingLeft: 10, paddingRight: 10, paddingTop: 4, paddingBottom: 4, borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Error, #E73D36) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 11, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                        <div style={{width: 129, justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Error, #C9221C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>View Licenses &amp; Billing</div>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Functional-Input-Icons-Icon_Error, #E73D36)'}} />
+                        </div>
+                    </div>
+                    <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'}}>10 minutes ago</div>
+                </div>
+            </div>
+            <div style={{justifyContent: 'flex-end', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                <div data-state="New Notification" style={{width: 13, height: 13, position: 'relative'}}>
+                    <div style={{width: 13, height: 13, left: 0, top: 0, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Alert-High-Red500, #E73D36)', borderRadius: 9999}} />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{padding: 10, left: 20, top: 20, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Warning-Orange50, #FFF3E6)', borderRadius: 13, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', height: 108, paddingTop: 5, paddingBottom: 5, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 5, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+            <div style={{width: 42, height: 42, position: 'relative'}}>
+                <div style={{width: 42, height: 42, left: 0, top: 0, position: 'absolute', background: 'var(--Colors-Functional-Input-Icons-Icon_Warning-Light, #FFD3B1)', borderRadius: 9999}} />
+                <div style={{width: 20.46, height: 20.46, left: 11, top: 11, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Alert-Warning-Orange500, #F27E25)'}} />
+            </div>
+            <div style={{width: 288, height: 98, paddingLeft: 5, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'inline-flex'}}>
+                <div style={{width: 288, justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Alert, #976E00)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>Billing Assistant</div>
+                <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>Trial will end in 5 days.</div>
+                <div style={{alignSelf: 'stretch', height: 57, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 2, display: 'flex'}}>
+                    <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'}}>Upgrade to continue using all feature.</div>
+                    <div style={{paddingLeft: 10, paddingRight: 10, paddingTop: 4, paddingBottom: 4, borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Warning, #F27E25) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'center', gap: 11, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                        <div style={{width: 129, justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Warning-Orange600, #B4530E)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'}}>View Licenses &amp; Billing</div>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Functional-Input-Icons-Icon_Warning, #F27E25)'}} />
+                        </div>
+                    </div>
+                    <div style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'}}>10 minutes ago</div>
+                </div>
+            </div>
+            <div style={{justifyContent: 'flex-end', alignItems: 'flex-start', gap: 10, display: 'flex'}}>
+                <div data-state="New Notification" style={{width: 13, height: 13, position: 'relative'}}>
+                    <div style={{width: 13, height: 13, left: 0, top: 0, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Alert-High-Red500, #E73D36)', borderRadius: 9999}} />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

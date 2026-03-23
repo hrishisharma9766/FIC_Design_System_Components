@@ -1,0 +1,98 @@
+// Alerts
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 20, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 29.10, wordWrap: 'break-word'
+---
+// Unread (2)
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// All
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Mark all as read
+color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Billing Assistant
+color: 'var(--Colors-Functional-Txt-Txt_Alert, #976E00)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Trial will end in 5 days.
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Upgrade to continue using all feature.
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'
+---
+// View Licenses &amp; Billing
+color: 'var(--Colors-Functional-Txt-Txt_Warning-Orange600, #B4530E)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// 10 minutes ago
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'
+---
+// Billing Assistant
+color: 'var(--Colors-Functional-Txt-Txt_Error, #C9221C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Trial will end in 5 days.
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Upgrade to continue using all feature.
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'
+---
+// View Licenses &amp; Billing
+color: 'var(--Colors-Functional-Txt-Txt_Error, #C9221C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// 10 minutes ago
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'
+---
+// Alerts
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 20, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 29.10, wordWrap: 'break-word'
+---
+// Unread (2)
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// All
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Mark all as read
+color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Billing Assistant
+color: 'var(--Colors-Functional-Txt-Txt_Alert, #976E00)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Trial will end in 5 days.
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Upgrade to continue using all feature.
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'
+---
+// View Licenses &amp; Billing
+color: 'var(--Colors-Functional-Txt-Txt_Warning-Orange600, #B4530E)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// 10 minutes ago
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'
+---
+// Billing Assistant
+color: 'var(--Colors-Functional-Txt-Txt_Error, #C9221C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Trial will end in 5 days.
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Upgrade to continue using all feature.
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'
+---
+// View Licenses &amp; Billing
+color: 'var(--Colors-Functional-Txt-Txt_Error, #C9221C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// 10 minutes ago
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'
+---
+// Billing Assistant
+color: 'var(--Colors-Functional-Txt-Txt_ReadOnly, #4B5867)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Trial will end in 5 days.
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Upgrade to continue using all feature.
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'
+---
+// View Licenses &amp; Billing
+color: 'var(--Colors-Functional-Txt-Txt_ReadOnly, #4B5867)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// 10 minutes ago
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'

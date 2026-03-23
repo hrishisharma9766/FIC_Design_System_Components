@@ -1,0 +1,113 @@
+/* AdminTopNav.css */
+
+:root {
+  /* Functional Color Tokens extracted from JSX */
+  --nav-bg: var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite, white);
+  --nav-border: var(--Colors-Functional-Border-Border_Default, #C3C1B5);
+  --nav-placeholder: var(--Colors-Functional-Placeholder-Txt_Placeholder_Default, #71706C);
+  --nav-caret: var(--Colors-Functional-Caret-Caret_Default, #71706C);
+  --nav-icon-purple: var(--Colors-Navigation-Icons-Purple500, #922D94);
+  --nav-icon-gray: var(--Colors-Navigation-Icons-Gray-Bkg-400, #959490);
+}
+
+/* Main Navigation Bar Container */
+.admin-top-nav {
+  width: 100%;
+  height: 64px;
+  padding: 0 24px;
+  background: var(--nav-bg);
+  border-bottom: 1px var(--nav-border) solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+/* Left Section: Logo and Selects */
+.nav-left-section {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+/* Logo Placeholder (E00090 squares) */
+.nav-logo-container {
+  width: 96.66px;
+  height: 24px;
+  display: flex;
+  gap: 1px;
+}
+
+/* Generic Multiselect / Dropdown Style */
+.nav-multiselect-container {
+  display: inline-flex;
+  padding: 5px;
+  border-radius: 13px;
+  gap: 10px;
+}
+
+.nav-select-box {
+  width: 274px;
+  height: 36px;
+  position: relative;
+  background: var(--nav-bg);
+  border-radius: 13px;
+  outline: 1px var(--nav-border) solid;
+  outline-offset: -1px;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+/* Generic Text Style for Select Options (Enterprise Optical Group / Virtual Assistant) */
+.nav-select-text {
+  color: var(--nav-placeholder);
+  font-size: 14px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 500;
+  line-height: 20.37px;
+  word-wrap: break-word;
+}
+
+/* Caret Icon Style */
+.nav-caret-icon {
+  width: 9px;
+  height: 5px;
+  background: var(--nav-caret);
+  margin-left: auto; /* Pushes caret to the right */
+}
+
+/* Right Section: Icons and Profile */
+.nav-right-section {
+  display: flex;
+  align-items: center;
+  gap: 0;
+}
+
+.nav-icon-wrapper {
+  height: 32px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 13px;
+}
+
+.nav-profile-dropdown {
+  width: 62px;
+  padding: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Specific Icon Colors */
+.icon-purple { background: var(--nav-icon-purple); }
+.icon-gray { background: var(--nav-icon-gray); }
+
+/* Rotated Caret for Dropdowns */
+.caret-rotated {
+  transform: rotate(-180deg);
+}

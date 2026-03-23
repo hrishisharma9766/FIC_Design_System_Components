@@ -1,0 +1,35 @@
+// These settings default to the organization&apos;s Default Preferences but can be customized for your workflow
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Use Separate PMS and EHR Systems
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Enable this if you have separate systems for practice management and electronic health records
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Use Separate PMS and EHR Systems
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Enable this if you have separate systems for practice management and electronic health records
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Use Separate PMS and EHR Systems
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Enable this if you have separate systems for practice management and electronic health records
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Use Separate PMS and EHR Systems
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Enable this if you have separate systems for practice management and electronic health records
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Location
+color: 'var(--Colors-Buttons-ToggleButtons-Filter-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Select
+color: 'var(--Colors-Functional-Placeholder-Txt_Placeholder_Default, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Sub Text
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'

@@ -1,0 +1,122 @@
+<div style={{width: '100%', height: '100%', position: 'relative', overflow: 'hidden', borderRadius: 5, border: '1px #8A38F5 solid'}}>
+    <div style={{width: 389.34, height: 200, left: 20, top: 20, position: 'absolute'}}>
+        <div data-hasicon="true" data-heading3="true" data-property-1="Card With Text" data-sub-heading3="true" style={{width: 389.34, height: 200, left: 0, top: 0, position: 'absolute', borderRadius: 8, outline: '1px var(--Colors-Functional-Border-Border_White, white) solid', outlineOffset: '-1px'}}>
+            <div style={{width: 341.34, height: 28, left: 24, top: 60, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+                <div style={{left: 144.27, top: 3, position: 'absolute', textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Selected-White, white)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'}}>Call Us</div>
+            </div>
+            <div style={{width: 341.34, height: 24, left: 24, top: 96, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+                <div style={{left: 57.11, top: 2, position: 'absolute', textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Selected-100, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Speak with a product specialist</div>
+            </div>
+            <div style={{width: 341.33, height: 24, left: 24, top: 136, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+                <div style={{left: 129.28, top: 2, position: 'absolute', textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Selected-White, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'}}>18-128-568</div>
+            </div>
+            <div style={{width: 32, height: 32, left: 182, top: 26, position: 'absolute'}}>
+                <div style={{width: 30, height: 30, left: 1, top: 1, position: 'absolute'}}>
+                    <div style={{width: 27.50, height: 27.50, left: 1.25, top: 1.25, position: 'absolute'}}>
+                        <div style={{width: 22.97, height: 24.06, left: 2.27, top: 1.72, position: 'absolute', background: 'var(--Colors-Functional-Input-Icons-Icon_White, white)'}} />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 389.34, height: 200, left: 23.33, top: 248, position: 'absolute'}}>
+        <div data-hasicon="true" data-heading3="true" data-property-1="Card With Text" data-sub-heading3="true" style={{width: 389.34, height: 200, left: 0, top: 0, position: 'absolute', borderRadius: 8, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+            <div style={{width: 341.34, height: 28, left: 24, top: 60, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+                <div style={{left: 144.27, top: 3, position: 'absolute', textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'}}>Call Us</div>
+            </div>
+            <div style={{width: 341.34, height: 24, left: 24, top: 96, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+                <div style={{left: 57.11, top: 2, position: 'absolute', textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Speak with a product specialist</div>
+            </div>
+            <div style={{width: 341.33, height: 24, left: 24, top: 136, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+                <div style={{left: 129.28, top: 2, position: 'absolute', textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'}}>18-128-568</div>
+            </div>
+            <div style={{width: 32, height: 32, left: 182, top: 26, position: 'absolute'}}>
+                <div style={{width: 30, height: 30, left: 1, top: 1, position: 'absolute'}}>
+                    <div style={{width: 27.50, height: 27.50, left: 1.25, top: 1.25, position: 'absolute'}}>
+                        <div style={{width: 22.97, height: 24.06, left: 2.27, top: 1.72, position: 'absolute', background: 'var(--Colors-Functional-Input-Icons-Icon_MidGray, #959490)'}} />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 389.34, height: 200, left: 429.34, top: 20, position: 'absolute'}}>
+        <div data-hasicon="true" data-heading3="true" data-property-1="Card With Text" data-sub-heading3="true" style={{width: 389.34, height: 200, left: 0, top: 0, position: 'absolute', borderRadius: 8, outline: '1px var(--Colors-Functional-Border-Border_White, white) solid', outlineOffset: '-1px'}}>
+            <div style={{width: 341.34, height: 28, left: 24, top: 60, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+                <div style={{left: 112.27, top: 3, position: 'absolute', textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Selected-White, white)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'}}>Email Support</div>
+            </div>
+            <div style={{width: 341.34, height: 24, left: 24, top: 96, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+                <div style={{left: 60.11, top: 2, position: 'absolute', textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Selected-White, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Get detailed answers via email</div>
+            </div>
+            <div style={{width: 341.33, height: 24, left: 24, top: 136, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+                <div style={{left: 71.28, top: 2, position: 'absolute', textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Selected-White, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'}}>support@maximeyes.com</div>
+            </div>
+            <div style={{width: 32, height: 32, left: 182, top: 26, position: 'absolute'}}>
+                <div style={{width: 30, height: 30, left: 1, top: 1, position: 'absolute'}}>
+                    <div style={{width: 27.50, height: 27.50, left: 1.25, top: 1.25, position: 'absolute'}}>
+                        <div style={{width: 24.06, height: 18.04, left: 1.72, top: 4.73, position: 'absolute', background: 'var(--Colors-Functional-Input-Icons-Icon_White, white)'}} />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 389.34, height: 200, left: 432.67, top: 248, position: 'absolute'}}>
+        <div data-hasicon="true" data-heading3="true" data-property-1="Card With Text" data-sub-heading3="true" style={{width: 389.34, height: 200, left: 0, top: 0, position: 'absolute', borderRadius: 8, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+            <div style={{width: 341.34, height: 28, left: 24, top: 60, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+                <div style={{left: 112.27, top: 3, position: 'absolute', textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'}}>Email Support</div>
+            </div>
+            <div style={{width: 341.34, height: 24, left: 24, top: 96, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+                <div style={{left: 60.11, top: 2, position: 'absolute', textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Get detailed answers via email</div>
+            </div>
+            <div style={{width: 341.33, height: 24, left: 24, top: 136, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+                <div style={{left: 71.28, top: 2, position: 'absolute', textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'}}>support@maximeyes.com</div>
+            </div>
+            <div style={{width: 32, height: 32, left: 182, top: 26, position: 'absolute'}}>
+                <div style={{width: 30, height: 30, left: 1, top: 1, position: 'absolute'}}>
+                    <div style={{width: 27.50, height: 27.50, left: 1.25, top: 1.25, position: 'absolute'}}>
+                        <div style={{width: 24.06, height: 18.04, left: 1.72, top: 4.73, position: 'absolute', background: 'var(--Colors-Functional-Input-Icons-Icon_MidGray, #959490)'}} />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 389.34, height: 200, left: 838.69, top: 20, position: 'absolute'}}>
+        <div data-hasicon="true" data-heading3="true" data-property-1="Card with Button" data-sub-heading3="true" style={{width: 389.34, height: 200, left: 0, top: 0, position: 'absolute', borderRadius: 8, outline: '1px var(--Colors-Functional-Border-Border_White, white) solid', outlineOffset: '-1px'}}>
+            <div style={{width: 341.34, height: 28, left: 24, top: 60, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+                <div style={{left: 105.27, top: 3, position: 'absolute', textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Selected-White, white)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'}}>Schedule Demo</div>
+            </div>
+            <div style={{width: 341.34, height: 24, left: 24, top: 96, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+                <div style={{left: 89.11, top: 2, position: 'absolute', textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Selected-White, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>See products in action</div>
+            </div>
+            <div style={{width: 129, height: 35, padding: 10, left: 133.11, top: 136.55, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Default, white)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Border_Default, #118082) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+                <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>Book Now</div>
+            </div>
+            <div style={{width: 32, height: 32, left: 182, top: 26, position: 'absolute'}}>
+                <div style={{width: 30, height: 30, left: 1, top: 1, position: 'absolute'}}>
+                    <div style={{width: 27.50, height: 27.50, left: 1.25, top: 1.25, position: 'absolute'}}>
+                        <div style={{width: 24.06, height: 18.04, left: 1.72, top: 4.73, position: 'absolute', background: 'var(--Colors-Functional-Input-Icons-Icon_White, white)'}} />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 389.34, height: 200, left: 842.02, top: 248, position: 'absolute'}}>
+        <div data-hasicon="true" data-heading3="true" data-property-1="Card with Button" data-sub-heading3="true" style={{width: 389.34, height: 200, left: 0, top: 0, position: 'absolute', borderRadius: 8, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+            <div style={{width: 341.34, height: 28, left: 24, top: 60, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+                <div style={{left: 105.27, top: 3, position: 'absolute', textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'}}>Schedule Demo</div>
+            </div>
+            <div style={{width: 341.34, height: 24, left: 24, top: 96, position: 'absolute', background: 'rgba(0, 0, 0, 0)'}}>
+                <div style={{left: 89.11, top: 2, position: 'absolute', textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>See products in action</div>
+            </div>
+            <div style={{width: 129, height: 35, padding: 10, left: 133.11, top: 136.55, position: 'absolute', background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Default, white)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Border_Default, #118082) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+                <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>Book Now</div>
+            </div>
+            <div style={{width: 32, height: 32, left: 182, top: 26, position: 'absolute'}}>
+                <div style={{width: 30, height: 30, left: 1, top: 1, position: 'absolute'}}>
+                    <div style={{width: 27.50, height: 27.50, left: 1.25, top: 1.25, position: 'absolute'}}>
+                        <div style={{width: 24.06, height: 18.04, left: 1.72, top: 4.73, position: 'absolute', background: 'var(--Colors-Functional-Input-Icons-Icon_MidGray, #959490)'}} />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

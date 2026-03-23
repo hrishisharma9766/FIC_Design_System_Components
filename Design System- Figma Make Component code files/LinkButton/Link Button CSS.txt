@@ -1,0 +1,32 @@
+// View Licenses &amp; Billing
+color: 'var(--Colors-Functional-Txt-Txt_Warning-Orange600, #B4530E)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// View Licenses &amp; Billing
+color: 'var(--Colors-Functional-Txt-Txt_Warning-Orange600, #B4530E)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// View Licenses &amp; Billing
+color: 'var(--Colors-Functional-Txt-Txt_Disabled600, #4B5867)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// View Licenses &amp; Billing
+color: 'var(--Colors-Functional-Txt-Txt_Error, #C9221C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// View Licenses &amp; Billing
+color: 'var(--Colors-Functional-Txt-Txt_Error, #C9221C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// View Licenses &amp; Billing
+color: 'var(--Colors-Functional-Txt-Txt_ReadOnly, #4B5867)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// View Licenses &amp; Billing
+color: 'var(--Colors-Functional-Txt-Txt_ReadOnly, #4B5867)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// View Licenses &amp; Billing
+color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// View Licenses &amp; Billing
+color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// View Licenses &amp; Billing
+color: 'var(--Colors-Functional-Txt-Txt_Brand, #AC246E)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// View Licenses &amp; Billing
+color: 'var(--Colors-Functional-Txt-Txt_Brand, #AC246E)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'

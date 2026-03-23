@@ -1,0 +1,434 @@
+<div style={{width: '100%', height: '100%', position: 'relative', overflow: 'hidden', borderRadius: 5, border: '1px #8A38F5 solid'}}>
+    <div style={{width: 359, padding: 10, left: 20, top: 20, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1)', boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.08)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'flex'}}>
+            <div style={{width: 327, height: 66, justifyContent: 'space-between', alignItems: 'flex-start', display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                <div style={{width: 327, justifyContent: 'space-between', alignItems: 'center', display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                    <div style={{flex: '1 1 0', justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                        </div>
+                        <div style={{color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Action Required</div>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                        </div>
+                    </div>
+                    <div style={{width: 16, height: 16, position: 'relative'}}>
+                        <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                    </div>
+                </div>
+                <div style={{width: 327, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 30, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 30, wordWrap: 'break-word'}}>23</div>
+            </div>
+            <div style={{alignSelf: 'stretch', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'}}>Click to view chats</div>
+        </div>
+    </div>
+    <div style={{width: 359, padding: 10, left: 401, top: 20, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1)', boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.08)', borderRadius: 13, outline: '2px var(--Colors-Functional-Border-Border_Hover, #959490) solid', outlineOffset: '-2px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'flex'}}>
+            <div style={{width: 327, height: 66, justifyContent: 'space-between', alignItems: 'flex-start', display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                <div style={{width: 327, justifyContent: 'space-between', alignItems: 'center', display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                    <div style={{flex: '1 1 0', justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                        </div>
+                        <div style={{color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Action Required</div>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                        </div>
+                    </div>
+                    <div style={{width: 16, height: 16, position: 'relative'}}>
+                        <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                    </div>
+                </div>
+                <div style={{width: 327, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 30, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 30, wordWrap: 'break-word'}}>23</div>
+            </div>
+            <div style={{alignSelf: 'stretch', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'}}>Click to view chats</div>
+        </div>
+    </div>
+    <div style={{width: 359, padding: 10, left: 20, top: 490, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1)', boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.08)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'flex'}}>
+            <div style={{width: 327, height: 66, justifyContent: 'space-between', alignItems: 'flex-start', display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                <div style={{width: 327, justifyContent: 'space-between', alignItems: 'center', display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                    <div style={{flex: '1 1 0', justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                        </div>
+                        <div style={{color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Action Required</div>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                        </div>
+                    </div>
+                    <div style={{width: 16, height: 16, position: 'relative'}}>
+                        <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                    </div>
+                </div>
+                <div style={{width: 327, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 30, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 30, wordWrap: 'break-word'}}>23</div>
+            </div>
+            <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                <div style={{color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Action Required</div>
+                <div style={{width: 16, height: 16, position: 'relative'}}>
+                    <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                </div>
+            </div>
+            <div style={{width: 210, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 30, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 30, wordWrap: 'break-word'}}>23</div>
+            <div style={{alignSelf: 'stretch', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'}}>Click to view chats</div>
+        </div>
+    </div>
+    <div style={{width: 359, padding: 10, left: 20, top: 162, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Brand-100, #FEECF6)', boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.08)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Brand-300, #F387C2) solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'flex'}}>
+            <div style={{width: 327, height: 66, justifyContent: 'space-between', alignItems: 'flex-start', display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                <div style={{width: 327, justifyContent: 'space-between', alignItems: 'center', display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                    <div style={{flex: '1 1 0', justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                        </div>
+                        <div style={{color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Action Required</div>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                        </div>
+                    </div>
+                    <div style={{width: 16, height: 16, position: 'relative'}}>
+                        <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                    </div>
+                </div>
+                <div style={{width: 327, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 30, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 30, wordWrap: 'break-word'}}>23</div>
+            </div>
+            <div style={{alignSelf: 'stretch', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'}}>Click to view chats</div>
+        </div>
+    </div>
+    <div style={{width: 359, padding: 10, left: 401, top: 162, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Brand-100, #FEECF6)', boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.08)', borderRadius: 13, outline: '2px var(--Colors-Functional-Border-Border_Brand-500, #D72D8A) solid', outlineOffset: '-2px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'flex'}}>
+            <div style={{width: 327, height: 66, justifyContent: 'space-between', alignItems: 'flex-start', display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                <div style={{width: 327, justifyContent: 'space-between', alignItems: 'center', display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                    <div style={{flex: '1 1 0', justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                        </div>
+                        <div style={{color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Action Required</div>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                        </div>
+                    </div>
+                    <div style={{width: 16, height: 16, position: 'relative'}}>
+                        <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                    </div>
+                </div>
+                <div style={{width: 327, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 30, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 30, wordWrap: 'break-word'}}>23</div>
+            </div>
+            <div style={{alignSelf: 'stretch', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'}}>Click to view chats</div>
+        </div>
+    </div>
+    <div style={{width: 359, padding: 10, left: 20, top: 693, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Brand-100, #FEECF6)', boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.08)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Brand-300, #F387C2) solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'flex'}}>
+            <div style={{width: 327, height: 66, justifyContent: 'space-between', alignItems: 'flex-start', display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                <div style={{width: 327, justifyContent: 'space-between', alignItems: 'center', display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                    <div style={{flex: '1 1 0', justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                        </div>
+                        <div style={{color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Action Required</div>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                        </div>
+                    </div>
+                    <div style={{width: 16, height: 16, position: 'relative'}}>
+                        <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                    </div>
+                </div>
+                <div style={{width: 327, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 30, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 30, wordWrap: 'break-word'}}>23</div>
+            </div>
+            <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                <div style={{color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Action Required</div>
+                <div style={{width: 16, height: 16, position: 'relative'}}>
+                    <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                </div>
+            </div>
+            <div style={{width: 210, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 30, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 30, wordWrap: 'break-word'}}>23</div>
+            <div style={{alignSelf: 'stretch', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'}}>Click to view chats</div>
+        </div>
+    </div>
+    <div style={{width: 359, padding: 10, left: 20, top: 300, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Focus, #D6FFFB)', boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.08)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Focus, #21A49F) solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'flex'}}>
+            <div style={{width: 327, height: 66, justifyContent: 'space-between', alignItems: 'flex-start', display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                <div style={{width: 327, justifyContent: 'space-between', alignItems: 'center', display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                    <div style={{flex: '1 1 0', justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                        </div>
+                        <div style={{color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Action Required</div>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                        </div>
+                    </div>
+                    <div style={{width: 16, height: 16, position: 'relative'}}>
+                        <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                    </div>
+                </div>
+                <div style={{width: 327, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 30, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 30, wordWrap: 'break-word'}}>23</div>
+            </div>
+            <div style={{alignSelf: 'stretch', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'}}>Click to view chats</div>
+        </div>
+    </div>
+    <div style={{width: 359, padding: 10, left: 401, top: 300, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Focus, #D6FFFB)', boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.08)', borderRadius: 13, outline: '2px var(--Colors-Functional-Border-Border_Teal-600, #118082) solid', outlineOffset: '-2px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'flex'}}>
+            <div style={{width: 327, height: 66, justifyContent: 'space-between', alignItems: 'flex-start', display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                <div style={{width: 327, justifyContent: 'space-between', alignItems: 'center', display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                    <div style={{flex: '1 1 0', justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                        </div>
+                        <div style={{color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Action Required</div>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                        </div>
+                    </div>
+                    <div style={{width: 16, height: 16, position: 'relative'}}>
+                        <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                    </div>
+                </div>
+                <div style={{width: 327, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 30, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 30, wordWrap: 'break-word'}}>23</div>
+            </div>
+            <div style={{alignSelf: 'stretch', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'}}>Click to view chats</div>
+        </div>
+    </div>
+    <div style={{width: 359, padding: 10, left: 20, top: 896, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Focus, #D6FFFB)', boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.08)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Focus, #21A49F) solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'flex'}}>
+            <div style={{width: 327, height: 66, justifyContent: 'space-between', alignItems: 'flex-start', display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                <div style={{width: 327, justifyContent: 'space-between', alignItems: 'center', display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                    <div style={{flex: '1 1 0', justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                        </div>
+                        <div style={{color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Action Required</div>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                        </div>
+                    </div>
+                    <div style={{width: 16, height: 16, position: 'relative'}}>
+                        <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                    </div>
+                </div>
+                <div style={{width: 327, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 30, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 30, wordWrap: 'break-word'}}>23</div>
+            </div>
+            <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                <div style={{color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Action Required</div>
+                <div style={{width: 16, height: 16, position: 'relative'}}>
+                    <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                </div>
+            </div>
+            <div style={{width: 210, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 30, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 30, wordWrap: 'break-word'}}>23</div>
+            <div style={{alignSelf: 'stretch', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'}}>Click to view chats</div>
+        </div>
+    </div>
+    <div style={{width: 359, padding: 10, left: 401, top: 500, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1)', boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.08)', borderRadius: 13, outline: '2px var(--Colors-Functional-Border-Border_Hover, #959490) solid', outlineOffset: '-2px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'flex'}}>
+            <div style={{width: 327, height: 66, justifyContent: 'space-between', alignItems: 'flex-start', display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                <div style={{width: 327, justifyContent: 'space-between', alignItems: 'center', display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                    <div style={{flex: '1 1 0', justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                        </div>
+                        <div style={{color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Action Required</div>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                        </div>
+                    </div>
+                    <div style={{width: 16, height: 16, position: 'relative'}}>
+                        <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                    </div>
+                </div>
+                <div style={{width: 327, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 30, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 30, wordWrap: 'break-word'}}>23</div>
+            </div>
+            <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                <div style={{color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Action Required</div>
+                <div style={{width: 16, height: 16, position: 'relative'}}>
+                    <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                </div>
+            </div>
+            <div style={{width: 210, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 30, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 30, wordWrap: 'break-word'}}>23</div>
+            <div style={{alignSelf: 'stretch', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'}}>Click to view chats</div>
+        </div>
+    </div>
+    <div style={{width: 359, padding: 10, left: 401, top: 703, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Brand-100, #FEECF6)', boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.08)', borderRadius: 13, outline: '2px var(--Colors-Functional-Border-Border_Brand-500, #D72D8A) solid', outlineOffset: '-2px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'flex'}}>
+            <div style={{width: 327, height: 66, justifyContent: 'space-between', alignItems: 'flex-start', display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                <div style={{width: 327, justifyContent: 'space-between', alignItems: 'center', display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                    <div style={{flex: '1 1 0', justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                        </div>
+                        <div style={{color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Action Required</div>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                        </div>
+                    </div>
+                    <div style={{width: 16, height: 16, position: 'relative'}}>
+                        <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                    </div>
+                </div>
+                <div style={{width: 327, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 30, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 30, wordWrap: 'break-word'}}>23</div>
+            </div>
+            <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                <div style={{color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Action Required</div>
+                <div style={{width: 16, height: 16, position: 'relative'}}>
+                    <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                </div>
+            </div>
+            <div style={{width: 210, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 30, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 30, wordWrap: 'break-word'}}>23</div>
+            <div style={{alignSelf: 'stretch', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'}}>Click to view chats</div>
+        </div>
+    </div>
+    <div style={{width: 359, padding: 10, left: 401, top: 906, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Focus, #D6FFFB)', boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.08)', borderRadius: 13, outline: '2px var(--Colors-Functional-Border-Border_Teal-600, #118082) solid', outlineOffset: '-2px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'flex'}}>
+            <div style={{width: 327, height: 66, justifyContent: 'space-between', alignItems: 'flex-start', display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                <div style={{width: 327, justifyContent: 'space-between', alignItems: 'center', display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                    <div style={{flex: '1 1 0', justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                        </div>
+                        <div style={{color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Action Required</div>
+                        <div style={{width: 16, height: 16, position: 'relative'}}>
+                            <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                        </div>
+                    </div>
+                    <div style={{width: 16, height: 16, position: 'relative'}}>
+                        <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                    </div>
+                </div>
+                <div style={{width: 327, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 30, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 30, wordWrap: 'break-word'}}>23</div>
+            </div>
+            <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                <div style={{color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Action Required</div>
+                <div style={{width: 16, height: 16, position: 'relative'}}>
+                    <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                </div>
+            </div>
+            <div style={{width: 210, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 30, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 30, wordWrap: 'break-word'}}>23</div>
+            <div style={{alignSelf: 'stretch', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'}}>Click to view chats</div>
+        </div>
+    </div>
+    <div style={{width: 622, padding: 10, left: 10.50, top: 1177, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1)', boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.08)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 9, display: 'flex'}}>
+            <div style={{alignSelf: 'stretch', height: 66, justifyContent: 'space-between', alignItems: 'flex-start', display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                <div style={{width: 376, justifyContent: 'space-between', alignItems: 'center', display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                    <div style={{flex: '1 1 0', justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}} />
+                        <div style={{color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Current Subscription Amount</div>
+                        <div style={{width: 16, height: 16, position: 'relative'}} />
+                    </div>
+                </div>
+                <div style={{width: 376, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 30, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 30, wordWrap: 'break-word'}}>$7,193/month</div>
+                <div style={{height: 35, padding: 10, background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Default, white)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Border_Default, #118082) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>Purchase/Edit Licenses</div>
+                    <div style={{width: 16, height: 16, position: 'relative'}}>
+                        <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                    </div>
+                </div>
+            </div>
+            <div style={{alignSelf: 'stretch', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'}}>Click to view chats</div>
+        </div>
+    </div>
+    <div style={{width: 622, padding: 10, left: 10.50, top: 1301, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Brand-100, #FEECF6)', boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.08)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Brand-300, #F387C2) solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 9, display: 'flex'}}>
+            <div style={{alignSelf: 'stretch', height: 66, justifyContent: 'space-between', alignItems: 'flex-start', display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                <div style={{width: 376, justifyContent: 'space-between', alignItems: 'center', display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                    <div style={{flex: '1 1 0', justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}} />
+                        <div style={{color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Current Subscription Amount</div>
+                        <div style={{width: 16, height: 16, position: 'relative'}} />
+                    </div>
+                </div>
+                <div style={{width: 376, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 30, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 30, wordWrap: 'break-word'}}>$7,193/month</div>
+                <div style={{height: 35, padding: 10, background: 'var(--Colors-Buttons-BrandBtn-BrandBtn_Bkg_Default, #D72D8A)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>Purchase/Edit Licenses</div>
+                    <div style={{width: 16, height: 16, position: 'relative'}}>
+                        <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Functional-Input-Icons-Icon_White, white)'}} />
+                    </div>
+                </div>
+            </div>
+            <div style={{alignSelf: 'stretch', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'}}>Click to view chats</div>
+        </div>
+    </div>
+    <div style={{width: 622, padding: 10, left: 10.50, top: 1426, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Focus, #D6FFFB)', boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.08)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Focus, #21A49F) solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 9, display: 'flex'}}>
+            <div style={{alignSelf: 'stretch', height: 66, justifyContent: 'space-between', alignItems: 'flex-start', display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                <div style={{width: 376, justifyContent: 'space-between', alignItems: 'center', display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                    <div style={{flex: '1 1 0', justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}} />
+                        <div style={{color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Current Subscription Amount</div>
+                        <div style={{width: 16, height: 16, position: 'relative'}} />
+                    </div>
+                </div>
+                <div style={{width: 376, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 30, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 30, wordWrap: 'break-word'}}>$7,193/month</div>
+                <div style={{height: 35, padding: 10, background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Default, #118082)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>Purchase/Edit Licenses</div>
+                    <div style={{width: 16, height: 16, position: 'relative'}}>
+                        <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Functional-Input-Icons-Icon_White, white)'}} />
+                    </div>
+                </div>
+            </div>
+            <div style={{alignSelf: 'stretch', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'}}>Click to view chats</div>
+        </div>
+    </div>
+    <div style={{width: 622, padding: 10, left: 643, top: 1177.50, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1)', boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.08)', borderRadius: 13, outline: '2px var(--Colors-Functional-Border-Border_Focus, #21A49F) solid', outlineOffset: '-2px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 9, display: 'flex'}}>
+            <div style={{alignSelf: 'stretch', height: 66, justifyContent: 'space-between', alignItems: 'flex-start', display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                <div style={{width: 376, justifyContent: 'space-between', alignItems: 'center', display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                    <div style={{flex: '1 1 0', justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}} />
+                        <div style={{color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Current Subscription Amount</div>
+                        <div style={{width: 16, height: 16, position: 'relative'}} />
+                    </div>
+                </div>
+                <div style={{width: 376, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 30, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 30, wordWrap: 'break-word'}}>$7,193/month</div>
+                <div style={{height: 35, padding: 10, background: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Default, white)', borderRadius: 999, outline: '1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Border_Default, #118082) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>Purchase/Edit Licenses</div>
+                    <div style={{width: 16, height: 16, position: 'relative'}}>
+                        <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-700, #4B4B4A)'}} />
+                    </div>
+                </div>
+            </div>
+            <div style={{alignSelf: 'stretch', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'}}>Click to view chats</div>
+        </div>
+    </div>
+    <div style={{width: 622, padding: 10, left: 643, top: 1301.50, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Brand-100, #FEECF6)', boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.08)', borderRadius: 13, outline: '2px var(--Colors-Functional-Border-Border_Brand-500, #D72D8A) solid', outlineOffset: '-2px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 9, display: 'flex'}}>
+            <div style={{alignSelf: 'stretch', height: 66, justifyContent: 'space-between', alignItems: 'flex-start', display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                <div style={{width: 376, justifyContent: 'space-between', alignItems: 'center', display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                    <div style={{flex: '1 1 0', justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}} />
+                        <div style={{color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Current Subscription Amount</div>
+                        <div style={{width: 16, height: 16, position: 'relative'}} />
+                    </div>
+                </div>
+                <div style={{width: 376, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 30, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 30, wordWrap: 'break-word'}}>$7,193/month</div>
+                <div style={{height: 35, padding: 10, background: 'var(--Colors-Buttons-BrandBtn-BrandBtn_Bkg_Default, #D72D8A)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>Purchase/Edit Licenses</div>
+                    <div style={{width: 16, height: 16, position: 'relative'}}>
+                        <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Functional-Input-Icons-Icon_White, white)'}} />
+                    </div>
+                </div>
+            </div>
+            <div style={{alignSelf: 'stretch', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'}}>Click to view chats</div>
+        </div>
+    </div>
+    <div style={{width: 622, padding: 10, left: 643, top: 1426.50, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Focus, #D6FFFB)', boxShadow: '0px 2px 4px rgba(0, 0, 0, 0.08)', borderRadius: 13, outline: '2px var(--Colors-Functional-Border-Border_Teal-600, #118082) solid', outlineOffset: '-2px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 9, display: 'flex'}}>
+            <div style={{alignSelf: 'stretch', height: 66, justifyContent: 'space-between', alignItems: 'flex-start', display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                <div style={{width: 376, justifyContent: 'space-between', alignItems: 'center', display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                    <div style={{flex: '1 1 0', justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                        <div style={{width: 16, height: 16, position: 'relative'}} />
+                        <div style={{color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Current Subscription Amount</div>
+                        <div style={{width: 16, height: 16, position: 'relative'}} />
+                    </div>
+                </div>
+                <div style={{width: 376, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 30, fontFamily: 'Roboto', fontWeight: '400', lineHeight: 30, wordWrap: 'break-word'}}>$7,193/month</div>
+                <div style={{height: 35, padding: 10, background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Default, #118082)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>Purchase/Edit Licenses</div>
+                    <div style={{width: 16, height: 16, position: 'relative'}}>
+                        <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Functional-Input-Icons-Icon_White, white)'}} />
+                    </div>
+                </div>
+            </div>
+            <div style={{alignSelf: 'stretch', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'}}>Click to view chats</div>
+        </div>
+    </div>
+</div>

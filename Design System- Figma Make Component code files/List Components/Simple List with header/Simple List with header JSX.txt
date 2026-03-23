@@ -1,0 +1,112 @@
+<div style={{width: '100%', height: '100%', position: 'relative', overflow: 'hidden', borderRadius: 5, border: '1px #8A38F5 solid'}}>
+    <div style={{width: 462.19, paddingTop: 14, paddingBottom: 10, paddingLeft: 14, paddingRight: 10, left: 20, top: 20, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Dark, #EFEEEA)', borderRadius: 13, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', height: 20, justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+            <div style={{flex: '1 1 0', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Additional Support Options</div>
+        </div>
+        <div style={{alignSelf: 'stretch', height: 67.98, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 3.99, display: 'flex'}}>
+            <div style={{alignSelf: 'stretch', height: 20, justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                <div style={{flex: '1 1 0', height: 65, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Email: support@evaa.com<br/>Phone: 1-800-EVAA-HELP (1-800-382-2435)<br/>Hours: Monday - Friday, 8:00 AM - 6:00 PM EST</div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 462.19, paddingTop: 14, paddingBottom: 10, paddingLeft: 14, paddingRight: 10, left: 21, top: 159, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Dark, #EFEEEA)', borderRadius: 13, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', height: 20, justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+            <div style={{flex: '1 1 0', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Additional Support Options</div>
+        </div>
+        <div style={{alignSelf: 'stretch', height: 67.98, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 3.99, display: 'flex'}}>
+            <div style={{alignSelf: 'stretch', height: 20, justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                <div style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Email: support@evaa.com<br/>Phone: 1-800-EVAA-HELP (1-800-382-2435)<br/>Hours: Monday - Friday, 8:00 AM - 6:00 PM EST</div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 462.19, paddingTop: 14, paddingBottom: 10, paddingLeft: 14, paddingRight: 10, left: 19.91, top: 298, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Dark, #EFEEEA)', borderRadius: 13, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Items Attempted:</div>
+        <div style={{alignSelf: 'stretch', height: 67.98, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 3.99, display: 'flex'}}>
+            <div style={{alignSelf: 'stretch', height: 20, justifyContent: 'flex-start', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+                <div style={{width: 16, height: 16, position: 'relative'}}>
+                    <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Red700, #9A1712)'}} />
+                </div>
+                <div style={{flex: '1 1 0', height: 20, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Scribe Lite (Monthly)</div>
+            </div>
+            <div style={{alignSelf: 'stretch', height: 20, justifyContent: 'flex-start', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+                <div style={{width: 16, height: 16, position: 'relative'}}>
+                    <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Red700, #9A1712)'}} />
+                </div>
+                <div style={{flex: '1 1 0', height: 20, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Virtual Assistant - Bundled with Basic Engage (Yearly)</div>
+            </div>
+            <div style={{alignSelf: 'stretch', height: 20, justifyContent: 'flex-start', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+                <div style={{width: 16, height: 16, position: 'relative'}}>
+                    <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Red700, #9A1712)'}} />
+                </div>
+                <div style={{flex: '1 1 0', height: 20, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>100 Patient Encounters (Monthly)</div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 462.19, paddingTop: 14, paddingBottom: 10, paddingLeft: 14, paddingRight: 10, left: 23.91, top: 431, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Dark, #EFEEEA)', borderRadius: 13, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Items Attempted:</div>
+        <div style={{alignSelf: 'stretch', height: 67.98, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 3.99, display: 'flex'}}>
+            <div style={{alignSelf: 'stretch', height: 20, justifyContent: 'flex-start', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+                <div style={{width: 16, height: 16, position: 'relative'}}>
+                    <div style={{width: 14, height: 14, left: 1, top: 1, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Lime600, #5E981D)'}} />
+                </div>
+                <div style={{flex: '1 1 0', height: 20, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Scribe Lite (Monthly)</div>
+            </div>
+            <div style={{alignSelf: 'stretch', height: 20, justifyContent: 'flex-start', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+                <div style={{width: 14, height: 14, background: 'var(--Colors-Navigation-Icons-Lime600, #5E981D)'}} />
+                <div style={{flex: '1 1 0', height: 20, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Virtual Assistant - Bundled with Basic Engage (Yearly)</div>
+            </div>
+            <div style={{alignSelf: 'stretch', height: 20, justifyContent: 'flex-start', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+                <div style={{width: 14, height: 14, background: 'var(--Colors-Navigation-Icons-Lime600, #5E981D)'}} />
+                <div style={{flex: '1 1 0', height: 20, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>100 Patient Encounters (Monthly)</div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 462.19, paddingTop: 14, paddingBottom: 10, paddingLeft: 14, paddingRight: 10, left: 22.91, top: 564, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Dark, #EFEEEA)', borderRadius: 13, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Items Attempted:</div>
+        <div style={{alignSelf: 'stretch', height: 67.98, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 3.99, display: 'flex'}}>
+            <div style={{alignSelf: 'stretch', height: 20, justifyContent: 'flex-start', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+                <div style={{width: 16, height: 16, position: 'relative'}}>
+                    <div style={{width: 14, height: 10, left: 1, top: 3, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Lime600, #5E981D)'}} />
+                </div>
+                <div style={{flex: '1 1 0', height: 20, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Scribe Lite (Monthly)</div>
+            </div>
+            <div style={{alignSelf: 'stretch', height: 20, justifyContent: 'flex-start', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+                <div style={{width: 16, height: 16, position: 'relative'}}>
+                    <div style={{width: 14, height: 10, left: 1, top: 3, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Lime600, #5E981D)'}} />
+                </div>
+                <div style={{flex: '1 1 0', height: 20, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Virtual Assistant - Bundled with Basic Engage (Yearly)</div>
+            </div>
+            <div style={{alignSelf: 'stretch', height: 20, justifyContent: 'flex-start', alignItems: 'center', gap: 4, display: 'inline-flex'}}>
+                <div style={{width: 16, height: 16, position: 'relative'}}>
+                    <div style={{width: 14, height: 10, left: 1, top: 3, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Lime600, #5E981D)'}} />
+                </div>
+                <div style={{flex: '1 1 0', height: 20, color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>100 Patient Encounters (Monthly)</div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 504, paddingTop: 14, paddingBottom: 10, paddingLeft: 14, paddingRight: 10, left: 19.91, top: 707, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Dark, #EFEEEA)', borderRadius: 13, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'inline-flex'}}>
+        <div style={{flex: '1 1 0', padding: 4, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'inline-flex'}}>
+            <div style={{alignSelf: 'stretch', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Items Attempted:</div>
+            <div style={{alignSelf: 'stretch', height: 96, padding: 6, position: 'relative', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start', gap: 12, display: 'flex'}}>
+                <div style={{width: 454, padding: 2, left: 10, top: 10, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 6, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                    <div style={{width: 16, height: 16, position: 'relative'}}>
+                        <div style={{width: 14, height: 10, left: 1, top: 3, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Lime600, #5E981D)'}} />
+                    </div>
+                    <div style={{flex: '1 1 0', height: 20, justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Scribe Lite (Monthly)</div>
+                </div>
+                <div style={{width: 450.01, padding: 2, left: 10, top: 38, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 6, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                    <div style={{width: 16, height: 16, position: 'relative'}}>
+                        <div style={{width: 14, height: 10, left: 1, top: 3, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Lime600, #5E981D)'}} />
+                    </div>
+                    <div style={{flex: '1 1 0', height: 20, justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Virtual Assistant - Bundled with Basic Engage (Yearly)</div>
+                </div>
+                <div style={{width: 450.01, padding: 2, left: 10, top: 66, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 6, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+                    <div style={{width: 16, height: 16, position: 'relative'}}>
+                        <div style={{width: 14, height: 10, left: 1, top: 3, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Lime600, #5E981D)'}} />
+                    </div>
+                    <div style={{flex: '1 1 0', height: 20, justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>100 Patient Encounters (Monthly)</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

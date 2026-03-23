@@ -1,0 +1,302 @@
+<div data-layer="Modals" class="Modals" style="width: 100%; height: 100%; position: relative; overflow: hidden; border-radius: 5px; border: 1px #8A38F5 solid">
+    <div data-layer="Property 1=Modal-20%" class="Property1Modal20" style="width: 384px; height: 509px; left: 69px; top: 71.22px; position: absolute">
+        <div data-layer="_Modal-Headers-Wrapper" data-property-1="_Modal-Header-20%" class="ModalHeadersWrapper" style="width: 384px; height: 80px; padding-left: 20px; padding-right: 20px; padding-top: 10px; padding-bottom: 10px; left: 0px; top: 1px; position: absolute; background: var(--Colors-Functional-Bkg-Bkg_Default, white); border-top-left-radius: 13px; border-top-right-radius: 13px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+            <div data-layer="Frame 427322357" class="Frame427322357" style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 4px; display: flex">
+                <div data-layer="Frame 427322351" class="Frame427322351" style="align-self: stretch; justify-content: space-between; align-items: flex-start; display: inline-flex">
+                    <div data-layer="Frame 427322339" class="Frame427322339" style="justify-content: center; align-items: center; gap: 10px; display: flex">
+                        <div data-layer="Header" class="Header" style="color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A); font-size: 24px; font-family: DM Sans; font-weight: 600; line-height: 34.92px; word-wrap: break-word">Header</div>
+                    </div>
+                    <div data-svg-wrapper data-layer="Size32(Gray)Icon/Cross" class="Size32GrayIconCross" style="position: relative">
+                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.1907 6.71992C9.23082 5.76003 7.67981 5.76003 6.71992 6.71992C5.76003 7.67981 5.76003 9.23082 6.71992 10.1907L14.5292 18L6.71992 25.8093C5.76003 26.7692 5.76003 28.3202 6.71992 29.2801C7.67981 30.24 9.23082 30.24 10.1907 29.2801L18 21.4708L25.8093 29.2801C26.7692 30.24 28.3202 30.24 29.2801 29.2801C30.24 28.3202 30.24 26.7692 29.2801 25.8093L21.4708 18L29.2801 10.1907C30.24 9.23082 30.24 7.67981 29.2801 6.71992C28.3202 5.76003 26.7692 5.76003 25.8093 6.71992L18 14.5292L10.1907 6.71992Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--400, #959490)"/>
+                        </svg>
+                    </div>
+                </div>
+                <div data-layer="Frame 427322339" class="Frame427322339" style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
+                    <div data-layer="Sub Header" class="SubHeader" style="width: 301.20px; color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A); font-size: 14px; font-family: DM Sans; font-weight: 500; line-height: 20.37px; word-wrap: break-word">Sub Header </div>
+                </div>
+            </div>
+        </div>
+        <div data-layer="_Modal-Body-Wrapper" data-has-background-box="true" data-width="-BodywithFooter-Wrapper-20%" class="ModalBodyWrapper" style="width: 384px; height: 282px; padding: 20px; left: 0px; top: 81px; position: absolute; background: var(--Colors-Functional-Bkg-Bkg_Default, white); justify-content: flex-start; align-items: center; gap: 4px; display: inline-flex">
+            <div data-layer="_modal-content-slot" class="ModalContentSlot" style="flex: 1 1 0; height: 245px; background: var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1); border-radius: 4px; border: 1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid"></div>
+        </div>
+        <div data-layer="_Modal-Footer-Wrapper" data-property-1="_Modal-Footer-20%" class="ModalFooterWrapper" style="width: 384px; height: 146px; padding: 20px; left: 0px; top: 363px; position: absolute; background: var(--Colors-Functional-Bkg-Bkg_Default, white); border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+            <div data-layer="Btn" class="Btn" style="align-self: stretch; height: 48px; padding: 12px; background: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Default, #118082); border-radius: 999px; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
+                <div data-layer="LABEL" class="Label" style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white); font-size: 16px; font-family: DM Sans; font-weight: 800; line-height: 23.28px; word-wrap: break-word">OK</div>
+            </div>
+            <div data-layer="Btn" class="Btn" style="align-self: stretch; height: 48px; padding: 12px; background: var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Default, white); border-radius: 999px; outline: 1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Border_Default, #118082) solid; outline-offset: -1px; justify-content: center; align-items: center; gap: 8px; display: inline-flex">
+                <div data-layer="LABEL" class="Label" style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A); font-size: 16px; font-family: DM Sans; font-weight: 800; line-height: 23.28px; word-wrap: break-word">CANCEL</div>
+            </div>
+        </div>
+    </div>
+    <div data-layer="Property 1=Modal-30%" class="Property1Modal30" style="width: 576px; height: 452px; left: 538.56px; top: 74.11px; position: absolute">
+        <div data-layer="_Modal-Headers-Wrapper" data-property-1="_Modal-Header-30%" class="ModalHeadersWrapper" style="width: 576px; height: 80px; padding-left: 20px; padding-right: 20px; padding-top: 10px; padding-bottom: 10px; left: 0px; top: 1.50px; position: absolute; background: var(--Colors-Functional-Bkg-Bkg_Default, white); border-top-left-radius: 13px; border-top-right-radius: 13px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+            <div data-layer="Frame 427322357" class="Frame427322357" style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 4px; display: flex">
+                <div data-layer="Frame 427322351" class="Frame427322351" style="align-self: stretch; justify-content: space-between; align-items: flex-start; display: inline-flex">
+                    <div data-layer="Frame 427322339" class="Frame427322339" style="justify-content: center; align-items: center; gap: 10px; display: flex">
+                        <div data-layer="Header" class="Header" style="color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A); font-size: 24px; font-family: DM Sans; font-weight: 600; line-height: 34.92px; word-wrap: break-word">Header</div>
+                    </div>
+                    <div data-svg-wrapper data-layer="Size32(Gray)Icon/Cross" class="Size32GrayIconCross" style="position: relative">
+                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.1907 6.71992C9.23082 5.76003 7.67981 5.76003 6.71992 6.71992C5.76003 7.67981 5.76003 9.23082 6.71992 10.1907L14.5292 18L6.71992 25.8093C5.76003 26.7692 5.76003 28.3202 6.71992 29.2801C7.67981 30.24 9.23082 30.24 10.1907 29.2801L18 21.4708L25.8093 29.2801C26.7692 30.24 28.3202 30.24 29.2801 29.2801C30.24 28.3202 30.24 26.7692 29.2801 25.8093L21.4708 18L29.2801 10.1907C30.24 9.23082 30.24 7.67981 29.2801 6.71992C28.3202 5.76003 26.7692 5.76003 25.8093 6.71992L18 14.5292L10.1907 6.71992Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--400, #959490)"/>
+                        </svg>
+                    </div>
+                </div>
+                <div data-layer="Frame 427322339" class="Frame427322339" style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
+                    <div data-layer="Sub Header" class="SubHeader" style="width: 301.20px; color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A); font-size: 14px; font-family: DM Sans; font-weight: 500; line-height: 20.37px; word-wrap: break-word">Sub Header </div>
+                </div>
+            </div>
+        </div>
+        <div data-layer="_Modal-Body-Wrapper" data-has-background-box="true" data-width="-BodywithFooter-Wrapper-30%" class="ModalBodyWrapper" style="width: 576px; height: 281px; padding: 20px; left: 0px; top: 81.50px; position: absolute; background: var(--Colors-Functional-Bkg-Bkg_Default, white); justify-content: flex-start; align-items: center; gap: 4px; display: inline-flex">
+            <div data-layer="_modal-content-slot" class="ModalContentSlot" style="flex: 1 1 0; height: 245px; background: var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1); border-radius: 4px; border: 1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid"></div>
+        </div>
+        <div data-layer="_Modal-Footer-Wrapper" data-property-1="_Modal-Footer-30%" class="ModalFooterWrapper" style="width: 576px; height: 90px; padding: 20px; left: 0px; top: 362px; position: absolute; background: var(--Colors-Functional-Bkg-Bkg_Default, white); border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; justify-content: flex-end; align-items: center; gap: 10px; display: inline-flex">
+            <div data-layer="Btn" class="Btn" style="width: 100px; height: 48px; padding: 12px; background: var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Default, white); border-radius: 999px; outline: 1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Border_Default, #118082) solid; outline-offset: -1px; justify-content: center; align-items: center; gap: 8px; display: flex">
+                <div data-layer="LABEL" class="Label" style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A); font-size: 16px; font-family: DM Sans; font-weight: 800; line-height: 23.28px; word-wrap: break-word">CANCEL</div>
+            </div>
+            <div data-layer="Btn" class="Btn" style="width: 100px; height: 48px; padding: 12px; background: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Default, #118082); border-radius: 999px; justify-content: center; align-items: center; gap: 8px; display: flex">
+                <div data-layer="LABEL" class="Label" style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white); font-size: 16px; font-family: DM Sans; font-weight: 800; line-height: 23.28px; word-wrap: break-word">OK</div>
+            </div>
+        </div>
+    </div>
+    <div data-layer="Property 1=Modal-40%" class="Property1Modal40" style="width: 768px; height: 452px; left: 1249.11px; top: 71.22px; position: absolute">
+        <div data-layer="_Modal-Headers-Wrapper" data-property-1="_Modal-Header-40%" class="ModalHeadersWrapper" style="width: 768px; height: 80px; padding-left: 20px; padding-right: 20px; padding-top: 10px; padding-bottom: 10px; left: 0px; top: 0px; position: absolute; background: var(--Colors-Functional-Bkg-Bkg_Default, white); border-top-left-radius: 13px; border-top-right-radius: 13px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+            <div data-layer="Frame 427322357" class="Frame427322357" style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 4px; display: flex">
+                <div data-layer="Frame 427322351" class="Frame427322351" style="align-self: stretch; justify-content: space-between; align-items: flex-start; display: inline-flex">
+                    <div data-layer="Frame 427322339" class="Frame427322339" style="justify-content: center; align-items: center; gap: 10px; display: flex">
+                        <div data-layer="Header" class="Header" style="color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A); font-size: 24px; font-family: DM Sans; font-weight: 600; line-height: 34.92px; word-wrap: break-word">Header</div>
+                    </div>
+                    <div data-svg-wrapper data-layer="Size32(Gray)Icon/Cross" class="Size32GrayIconCross" style="position: relative">
+                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.1907 6.71992C9.23082 5.76003 7.67981 5.76003 6.71992 6.71992C5.76003 7.67981 5.76003 9.23082 6.71992 10.1907L14.5292 18L6.71992 25.8093C5.76003 26.7692 5.76003 28.3202 6.71992 29.2801C7.67981 30.24 9.23082 30.24 10.1907 29.2801L18 21.4708L25.8093 29.2801C26.7692 30.24 28.3202 30.24 29.2801 29.2801C30.24 28.3202 30.24 26.7692 29.2801 25.8093L21.4708 18L29.2801 10.1907C30.24 9.23082 30.24 7.67981 29.2801 6.71992C28.3202 5.76003 26.7692 5.76003 25.8093 6.71992L18 14.5292L10.1907 6.71992Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--400, #959490)"/>
+                        </svg>
+                    </div>
+                </div>
+                <div data-layer="Frame 427322339" class="Frame427322339" style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
+                    <div data-layer="Sub Header" class="SubHeader" style="width: 301.20px; color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A); font-size: 14px; font-family: DM Sans; font-weight: 500; line-height: 20.37px; word-wrap: break-word">Sub Header </div>
+                </div>
+            </div>
+        </div>
+        <div data-layer="_Modal-Body-Wrapper" data-has-background-box="true" data-width="-BodywithFooter-Wrapper-40%" class="ModalBodyWrapper" style="width: 768px; height: 282px; padding: 20px; left: 0px; top: 80px; position: absolute; background: var(--Colors-Functional-Bkg-Bkg_Default, white); justify-content: flex-start; align-items: center; gap: 4px; display: inline-flex">
+            <div data-layer="_modal-content-slot" class="ModalContentSlot" style="flex: 1 1 0; height: 245px; background: var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1); border-radius: 4px; border: 1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid"></div>
+        </div>
+        <div data-layer="_Modal-Footer-Wrapper" data-property-1="_Modal-Footer-40%" class="ModalFooterWrapper" style="width: 768px; height: 90px; padding: 20px; left: 0px; top: 362px; position: absolute; background: var(--Colors-Functional-Bkg-Bkg_Default, white); border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; justify-content: flex-end; align-items: center; gap: 10px; display: inline-flex">
+            <div data-layer="Btn" class="Btn" style="width: 100px; height: 48px; padding: 12px; background: var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Default, white); border-radius: 999px; outline: 1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Border_Default, #118082) solid; outline-offset: -1px; justify-content: center; align-items: center; gap: 8px; display: flex">
+                <div data-layer="LABEL" class="Label" style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A); font-size: 16px; font-family: DM Sans; font-weight: 800; line-height: 23.28px; word-wrap: break-word">CANCEL</div>
+            </div>
+            <div data-layer="Btn" class="Btn" style="width: 100px; height: 48px; padding: 12px; background: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Default, #118082); border-radius: 999px; justify-content: center; align-items: center; gap: 8px; display: flex">
+                <div data-layer="LABEL" class="Label" style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white); font-size: 16px; font-family: DM Sans; font-weight: 800; line-height: 23.28px; word-wrap: break-word">OK</div>
+            </div>
+        </div>
+    </div>
+    <div data-layer="Property 1=Modal-50%" class="Property1Modal50" style="width: 960px; height: 451px; left: 2151.67px; top: 68.33px; position: absolute">
+        <div data-layer="_Modal-Headers-Wrapper" data-property-1="_Modal-Header-50%" class="ModalHeadersWrapper" style="width: 960px; height: 80px; padding-left: 20px; padding-right: 20px; padding-top: 10px; padding-bottom: 10px; left: 0px; top: 0px; position: absolute; background: var(--Colors-Functional-Bkg-Bkg_Default, white); border-top-left-radius: 13px; border-top-right-radius: 13px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+            <div data-layer="Frame 427322357" class="Frame427322357" style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 4px; display: flex">
+                <div data-layer="Frame 427322351" class="Frame427322351" style="align-self: stretch; justify-content: space-between; align-items: flex-start; display: inline-flex">
+                    <div data-layer="Frame 427322339" class="Frame427322339" style="justify-content: center; align-items: center; gap: 10px; display: flex">
+                        <div data-layer="Header" class="Header" style="color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A); font-size: 24px; font-family: DM Sans; font-weight: 600; line-height: 34.92px; word-wrap: break-word">Header</div>
+                    </div>
+                    <div data-svg-wrapper data-layer="Size32(Gray)Icon/Cross" class="Size32GrayIconCross" style="position: relative">
+                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.1907 6.71992C9.23082 5.76003 7.67981 5.76003 6.71992 6.71992C5.76003 7.67981 5.76003 9.23082 6.71992 10.1907L14.5292 18L6.71992 25.8093C5.76003 26.7692 5.76003 28.3202 6.71992 29.2801C7.67981 30.24 9.23082 30.24 10.1907 29.2801L18 21.4708L25.8093 29.2801C26.7692 30.24 28.3202 30.24 29.2801 29.2801C30.24 28.3202 30.24 26.7692 29.2801 25.8093L21.4708 18L29.2801 10.1907C30.24 9.23082 30.24 7.67981 29.2801 6.71992C28.3202 5.76003 26.7692 5.76003 25.8093 6.71992L18 14.5292L10.1907 6.71992Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--400, #959490)"/>
+                        </svg>
+                    </div>
+                </div>
+                <div data-layer="Frame 427322339" class="Frame427322339" style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
+                    <div data-layer="Sub Header" class="SubHeader" style="width: 301.20px; color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A); font-size: 14px; font-family: DM Sans; font-weight: 500; line-height: 20.37px; word-wrap: break-word">Sub Header </div>
+                </div>
+            </div>
+        </div>
+        <div data-layer="_Modal-Body-Wrapper" data-has-background-box="true" data-width="-BodywithFooter-Wrapper-50%" class="ModalBodyWrapper" style="width: 960px; height: 281px; padding: 20px; left: 0px; top: 80px; position: absolute; background: var(--Colors-Functional-Bkg-Bkg_Default, white); justify-content: flex-start; align-items: center; gap: 4px; display: inline-flex">
+            <div data-layer="_modal-content-slot" class="ModalContentSlot" style="flex: 1 1 0; height: 245px; background: var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1); border-radius: 4px; border: 1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid"></div>
+        </div>
+        <div data-layer="_Modal-Footer-Wrapper" data-property-1="_Modal-Footer-50%" class="ModalFooterWrapper" style="width: 960px; height: 90px; padding: 20px; left: 0px; top: 361px; position: absolute; background: var(--Colors-Functional-Bkg-Bkg_Default, white); border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; justify-content: flex-end; align-items: center; gap: 10px; display: inline-flex">
+            <div data-layer="Btn" class="Btn" style="width: 100px; height: 48px; padding: 12px; background: var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Default, white); border-radius: 999px; outline: 1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Border_Default, #118082) solid; outline-offset: -1px; justify-content: center; align-items: center; gap: 8px; display: flex">
+                <div data-layer="LABEL" class="Label" style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A); font-size: 16px; font-family: DM Sans; font-weight: 800; line-height: 23.28px; word-wrap: break-word">CANCEL</div>
+            </div>
+            <div data-layer="Btn" class="Btn" style="width: 100px; height: 48px; padding: 12px; background: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Default, #118082); border-radius: 999px; justify-content: center; align-items: center; gap: 8px; display: flex">
+                <div data-layer="LABEL" class="Label" style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white); font-size: 16px; font-family: DM Sans; font-weight: 800; line-height: 23.28px; word-wrap: break-word">OK</div>
+            </div>
+        </div>
+    </div>
+    <div data-layer="Property 1=Modal-60%" class="Property1Modal60" style="width: 1152px; height: 451px; left: 3246.22px; top: 64.45px; position: absolute">
+        <div data-layer="_Modal-Headers-Wrapper" data-property-1="_Modal-Header-60%" class="ModalHeadersWrapper" style="width: 1152px; height: 80px; padding-left: 20px; padding-right: 20px; padding-top: 10px; padding-bottom: 10px; left: 0px; top: 0px; position: absolute; background: var(--Colors-Functional-Bkg-Bkg_Default, white); border-top-left-radius: 13px; border-top-right-radius: 13px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+            <div data-layer="Frame 427322357" class="Frame427322357" style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 4px; display: flex">
+                <div data-layer="Frame 427322351" class="Frame427322351" style="align-self: stretch; justify-content: space-between; align-items: flex-start; display: inline-flex">
+                    <div data-layer="Frame 427322339" class="Frame427322339" style="justify-content: center; align-items: center; gap: 10px; display: flex">
+                        <div data-layer="Header" class="Header" style="color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A); font-size: 24px; font-family: DM Sans; font-weight: 600; line-height: 34.92px; word-wrap: break-word">Header</div>
+                    </div>
+                    <div data-svg-wrapper data-layer="Size32(Gray)Icon/Cross" class="Size32GrayIconCross" style="position: relative">
+                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.1907 6.71992C9.23082 5.76003 7.67981 5.76003 6.71992 6.71992C5.76003 7.67981 5.76003 9.23082 6.71992 10.1907L14.5292 18L6.71992 25.8093C5.76003 26.7692 5.76003 28.3202 6.71992 29.2801C7.67981 30.24 9.23082 30.24 10.1907 29.2801L18 21.4708L25.8093 29.2801C26.7692 30.24 28.3202 30.24 29.2801 29.2801C30.24 28.3202 30.24 26.7692 29.2801 25.8093L21.4708 18L29.2801 10.1907C30.24 9.23082 30.24 7.67981 29.2801 6.71992C28.3202 5.76003 26.7692 5.76003 25.8093 6.71992L18 14.5292L10.1907 6.71992Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--400, #959490)"/>
+                        </svg>
+                    </div>
+                </div>
+                <div data-layer="Frame 427322339" class="Frame427322339" style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
+                    <div data-layer="Sub Header" class="SubHeader" style="width: 301.20px; color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A); font-size: 14px; font-family: DM Sans; font-weight: 500; line-height: 20.37px; word-wrap: break-word">Sub Header </div>
+                </div>
+            </div>
+        </div>
+        <div data-layer="_Modal-Body-Wrapper" data-has-background-box="true" data-width="-BodywithFooter-Wrapper-60%" class="ModalBodyWrapper" style="width: 1152px; height: 282px; padding: 20px; left: 0px; top: 80px; position: absolute; background: var(--Colors-Functional-Bkg-Bkg_Default, white); justify-content: flex-start; align-items: center; gap: 4px; display: inline-flex">
+            <div data-layer="_modal-content-slot" class="ModalContentSlot" style="flex: 1 1 0; height: 245px; background: var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1); border-radius: 4px; border: 1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid"></div>
+        </div>
+        <div data-layer="_Modal-Footer-Wrapper" data-property-1="_Modal-Footer-60%" class="ModalFooterWrapper" style="width: 1152px; height: 90px; padding: 20px; left: 0px; top: 361px; position: absolute; background: var(--Colors-Functional-Bkg-Bkg_Default, white); border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; justify-content: flex-end; align-items: center; gap: 10px; display: inline-flex">
+            <div data-layer="Btn" class="Btn" style="width: 100px; height: 48px; padding: 12px; background: var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Default, white); border-radius: 999px; outline: 1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Border_Default, #118082) solid; outline-offset: -1px; justify-content: center; align-items: center; gap: 8px; display: flex">
+                <div data-layer="LABEL" class="Label" style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A); font-size: 16px; font-family: DM Sans; font-weight: 800; line-height: 23.28px; word-wrap: break-word">CANCEL</div>
+            </div>
+            <div data-layer="Btn" class="Btn" style="width: 100px; height: 48px; padding: 12px; background: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Default, #118082); border-radius: 999px; justify-content: center; align-items: center; gap: 8px; display: flex">
+                <div data-layer="LABEL" class="Label" style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white); font-size: 16px; font-family: DM Sans; font-weight: 800; line-height: 23.28px; word-wrap: break-word">OK</div>
+            </div>
+        </div>
+    </div>
+    <div data-layer="Property 1=Modal-80%" class="Property1Modal80" style="width: 1536px; height: 452px; left: 6011.33px; top: 60.56px; position: absolute">
+        <div data-layer="_Modal-Headers-Wrapper" data-property-1="_Modal-Header-80%" class="ModalHeadersWrapper" style="width: 1536px; height: 80px; padding-left: 20px; padding-right: 20px; padding-top: 10px; padding-bottom: 10px; left: 0px; top: 0px; position: absolute; background: var(--Colors-Functional-Bkg-Bkg_Default, white); border-top-left-radius: 13px; border-top-right-radius: 13px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+            <div data-layer="Frame 427322357" class="Frame427322357" style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 4px; display: flex">
+                <div data-layer="Frame 427322351" class="Frame427322351" style="align-self: stretch; justify-content: space-between; align-items: flex-start; display: inline-flex">
+                    <div data-layer="Frame 427322339" class="Frame427322339" style="justify-content: center; align-items: center; gap: 10px; display: flex">
+                        <div data-layer="Header" class="Header" style="color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A); font-size: 24px; font-family: DM Sans; font-weight: 600; line-height: 34.92px; word-wrap: break-word">Header</div>
+                    </div>
+                    <div data-svg-wrapper data-layer="Size32(Gray)Icon/Cross" class="Size32GrayIconCross" style="position: relative">
+                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.1907 6.71992C9.23082 5.76003 7.67981 5.76003 6.71992 6.71992C5.76003 7.67981 5.76003 9.23082 6.71992 10.1907L14.5292 18L6.71992 25.8093C5.76003 26.7692 5.76003 28.3202 6.71992 29.2801C7.67981 30.24 9.23082 30.24 10.1907 29.2801L18 21.4708L25.8093 29.2801C26.7692 30.24 28.3202 30.24 29.2801 29.2801C30.24 28.3202 30.24 26.7692 29.2801 25.8093L21.4708 18L29.2801 10.1907C30.24 9.23082 30.24 7.67981 29.2801 6.71992C28.3202 5.76003 26.7692 5.76003 25.8093 6.71992L18 14.5292L10.1907 6.71992Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--400, #959490)"/>
+                        </svg>
+                    </div>
+                </div>
+                <div data-layer="Frame 427322339" class="Frame427322339" style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
+                    <div data-layer="Sub Header" class="SubHeader" style="width: 301.20px; color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A); font-size: 14px; font-family: DM Sans; font-weight: 500; line-height: 20.37px; word-wrap: break-word">Sub Header </div>
+                </div>
+            </div>
+        </div>
+        <div data-layer="_Modal-Body-Wrapper" data-has-background-box="true" data-width="-BodywithFooter-Wrapper-80%" class="ModalBodyWrapper" style="width: 1536px; height: 282px; padding: 20px; left: 0px; top: 80px; position: absolute; background: var(--Colors-Functional-Bkg-Bkg_Default, white); justify-content: flex-start; align-items: center; gap: 4px; display: inline-flex">
+            <div data-layer="_modal-content-slot" class="ModalContentSlot" style="flex: 1 1 0; height: 245px; background: var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1); border-radius: 4px; border: 1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid"></div>
+        </div>
+        <div data-layer="_Modal-Footer-Wrapper" data-property-1="_Modal-Footer-80%" class="ModalFooterWrapper" style="width: 1536px; height: 90px; padding: 20px; left: 0px; top: 362px; position: absolute; background: var(--Colors-Functional-Bkg-Bkg_Default, white); border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; justify-content: flex-end; align-items: center; gap: 10px; display: inline-flex">
+            <div data-layer="Btn" class="Btn" style="width: 100px; height: 48px; padding: 12px; background: var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Default, white); border-radius: 999px; outline: 1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Border_Default, #118082) solid; outline-offset: -1px; justify-content: center; align-items: center; gap: 8px; display: flex">
+                <div data-layer="LABEL" class="Label" style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A); font-size: 16px; font-family: DM Sans; font-weight: 800; line-height: 23.28px; word-wrap: break-word">CANCEL</div>
+            </div>
+            <div data-layer="Btn" class="Btn" style="width: 100px; height: 48px; padding: 12px; background: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Default, #118082); border-radius: 999px; justify-content: center; align-items: center; gap: 8px; display: flex">
+                <div data-layer="LABEL" class="Label" style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white); font-size: 16px; font-family: DM Sans; font-weight: 800; line-height: 23.28px; word-wrap: break-word">OK</div>
+            </div>
+        </div>
+    </div>
+    <div data-layer="Property 1=Modal-90%" class="Property1Modal90" style="width: 1728px; height: 452px; left: 7681.89px; top: 57.67px; position: absolute">
+        <div data-layer="_Modal-Headers-Wrapper" data-property-1="_Modal-Header-90%" class="ModalHeadersWrapper" style="width: 1728px; height: 80px; padding-left: 20px; padding-right: 20px; padding-top: 10px; padding-bottom: 10px; left: 0px; top: 0px; position: absolute; background: var(--Colors-Functional-Bkg-Bkg_Default, white); border-top-left-radius: 13px; border-top-right-radius: 13px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+            <div data-layer="Frame 427322357" class="Frame427322357" style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 4px; display: flex">
+                <div data-layer="Frame 427322351" class="Frame427322351" style="align-self: stretch; justify-content: space-between; align-items: flex-start; display: inline-flex">
+                    <div data-layer="Frame 427322339" class="Frame427322339" style="justify-content: center; align-items: center; gap: 10px; display: flex">
+                        <div data-layer="Header" class="Header" style="color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A); font-size: 24px; font-family: DM Sans; font-weight: 600; line-height: 34.92px; word-wrap: break-word">Header</div>
+                    </div>
+                    <div data-svg-wrapper data-layer="Size32(Gray)Icon/Cross" class="Size32GrayIconCross" style="position: relative">
+                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.1907 6.71992C9.23082 5.76003 7.67981 5.76003 6.71992 6.71992C5.76003 7.67981 5.76003 9.23082 6.71992 10.1907L14.5292 18L6.71992 25.8093C5.76003 26.7692 5.76003 28.3202 6.71992 29.2801C7.67981 30.24 9.23082 30.24 10.1907 29.2801L18 21.4708L25.8093 29.2801C26.7692 30.24 28.3202 30.24 29.2801 29.2801C30.24 28.3202 30.24 26.7692 29.2801 25.8093L21.4708 18L29.2801 10.1907C30.24 9.23082 30.24 7.67981 29.2801 6.71992C28.3202 5.76003 26.7692 5.76003 25.8093 6.71992L18 14.5292L10.1907 6.71992Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--400, #959490)"/>
+                        </svg>
+                    </div>
+                </div>
+                <div data-layer="Frame 427322339" class="Frame427322339" style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
+                    <div data-layer="Sub Header" class="SubHeader" style="width: 301.20px; color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A); font-size: 14px; font-family: DM Sans; font-weight: 500; line-height: 20.37px; word-wrap: break-word">Sub Header </div>
+                </div>
+            </div>
+        </div>
+        <div data-layer="_Modal-Body-Wrapper" data-has-background-box="true" data-width="-BodywithFooter-Wrapper-90%" class="ModalBodyWrapper" style="width: 1728px; height: 281px; padding: 20px; left: 0px; top: 80px; position: absolute; background: var(--Colors-Functional-Bkg-Bkg_Default, white); justify-content: flex-start; align-items: center; gap: 4px; display: inline-flex">
+            <div data-layer="_modal-content-slot" class="ModalContentSlot" style="flex: 1 1 0; height: 245px; background: var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1); border-radius: 4px; border: 1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid"></div>
+        </div>
+        <div data-layer="_Modal-Footer-Wrapper" data-property-1="_Modal-Footer-90%" class="ModalFooterWrapper" style="width: 1728px; height: 90px; padding: 20px; left: 0px; top: 361px; position: absolute; background: var(--Colors-Functional-Bkg-Bkg_Default, white); border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; justify-content: flex-end; align-items: center; gap: 10px; display: inline-flex">
+            <div data-layer="Btn" class="Btn" style="width: 100px; height: 48px; padding: 12px; background: var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Default, white); border-radius: 999px; outline: 1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Border_Default, #118082) solid; outline-offset: -1px; justify-content: center; align-items: center; gap: 8px; display: flex">
+                <div data-layer="LABEL" class="Label" style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A); font-size: 16px; font-family: DM Sans; font-weight: 800; line-height: 23.28px; word-wrap: break-word">CANCEL</div>
+            </div>
+            <div data-layer="Btn" class="Btn" style="width: 100px; height: 48px; padding: 12px; background: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Default, #118082); border-radius: 999px; justify-content: center; align-items: center; gap: 8px; display: flex">
+                <div data-layer="LABEL" class="Label" style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white); font-size: 16px; font-family: DM Sans; font-weight: 800; line-height: 23.28px; word-wrap: break-word">OK</div>
+            </div>
+        </div>
+    </div>
+    <div data-layer="Property 1=Modal-95%" class="Property1Modal95" style="width: 1824px; height: 452px; left: 9544.45px; top: 54.78px; position: absolute">
+        <div data-layer="_Modal-Headers-Wrapper" data-property-1="_Modal-Header-95%" class="ModalHeadersWrapper" style="width: 1824px; height: 80px; padding-left: 20px; padding-right: 20px; padding-top: 10px; padding-bottom: 10px; left: 0px; top: 0px; position: absolute; background: var(--Colors-Functional-Bkg-Bkg_Default, white); border-top-left-radius: 13px; border-top-right-radius: 13px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+            <div data-layer="Frame 427322357" class="Frame427322357" style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 4px; display: flex">
+                <div data-layer="Frame 427322351" class="Frame427322351" style="align-self: stretch; justify-content: space-between; align-items: flex-start; display: inline-flex">
+                    <div data-layer="Frame 427322339" class="Frame427322339" style="justify-content: center; align-items: center; gap: 10px; display: flex">
+                        <div data-layer="Header" class="Header" style="color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A); font-size: 24px; font-family: DM Sans; font-weight: 600; line-height: 34.92px; word-wrap: break-word">Header</div>
+                    </div>
+                    <div data-svg-wrapper data-layer="Size32(Gray)Icon/Cross" class="Size32GrayIconCross" style="position: relative">
+                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.1907 6.71992C9.23082 5.76003 7.67981 5.76003 6.71992 6.71992C5.76003 7.67981 5.76003 9.23082 6.71992 10.1907L14.5292 18L6.71992 25.8093C5.76003 26.7692 5.76003 28.3202 6.71992 29.2801C7.67981 30.24 9.23082 30.24 10.1907 29.2801L18 21.4708L25.8093 29.2801C26.7692 30.24 28.3202 30.24 29.2801 29.2801C30.24 28.3202 30.24 26.7692 29.2801 25.8093L21.4708 18L29.2801 10.1907C30.24 9.23082 30.24 7.67981 29.2801 6.71992C28.3202 5.76003 26.7692 5.76003 25.8093 6.71992L18 14.5292L10.1907 6.71992Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--400, #959490)"/>
+                        </svg>
+                    </div>
+                </div>
+                <div data-layer="Frame 427322339" class="Frame427322339" style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
+                    <div data-layer="Sub Header" class="SubHeader" style="width: 301.20px; color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A); font-size: 14px; font-family: DM Sans; font-weight: 500; line-height: 20.37px; word-wrap: break-word">Sub Header </div>
+                </div>
+            </div>
+        </div>
+        <div data-layer="_Modal-Body-Wrapper" data-has-background-box="true" data-width="-BodywithFooter-Wrapper-95%" class="ModalBodyWrapper" style="width: 1824px; height: 281px; padding: 20px; left: 0px; top: 80px; position: absolute; background: var(--Colors-Functional-Bkg-Bkg_Default, white); justify-content: flex-start; align-items: center; gap: 4px; display: inline-flex">
+            <div data-layer="_modal-content-slot" class="ModalContentSlot" style="flex: 1 1 0; height: 245px; background: var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1); border-radius: 4px; border: 1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid"></div>
+        </div>
+        <div data-layer="_Modal-Footer-Wrapper" data-property-1="_Modal-Footer-95%" class="ModalFooterWrapper" style="width: 1824px; height: 90px; padding: 20px; left: 0px; top: 361px; position: absolute; background: var(--Colors-Functional-Bkg-Bkg_Default, white); border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; justify-content: flex-end; align-items: center; gap: 10px; display: inline-flex">
+            <div data-layer="Btn" class="Btn" style="width: 100px; height: 48px; padding: 12px; background: var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Default, white); border-radius: 999px; outline: 1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Border_Default, #118082) solid; outline-offset: -1px; justify-content: center; align-items: center; gap: 8px; display: flex">
+                <div data-layer="LABEL" class="Label" style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A); font-size: 16px; font-family: DM Sans; font-weight: 800; line-height: 23.28px; word-wrap: break-word">CANCEL</div>
+            </div>
+            <div data-layer="Btn" class="Btn" style="width: 100px; height: 48px; padding: 12px; background: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Default, #118082); border-radius: 999px; justify-content: center; align-items: center; gap: 8px; display: flex">
+                <div data-layer="LABEL" class="Label" style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white); font-size: 16px; font-family: DM Sans; font-weight: 800; line-height: 23.28px; word-wrap: break-word">OK</div>
+            </div>
+        </div>
+    </div>
+    <div data-layer="Property 1=Modal-100%" class="Property1Modal100" style="width: 1920px; height: 452px; left: 11503px; top: 51.89px; position: absolute">
+        <div data-layer="_Modal-Body-Wrapper" data-has-background-box="true" data-width="-BodywithFooter-Wrapper-100%" class="ModalBodyWrapper" style="width: 1920px; height: 281px; padding: 20px; left: 0px; top: 80px; position: absolute; background: var(--Colors-Functional-Bkg-Bkg_Default, white); justify-content: flex-start; align-items: center; gap: 4px; display: inline-flex">
+            <div data-layer="_modal-content-slot" class="ModalContentSlot" style="flex: 1 1 0; height: 245px; background: var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1); border-radius: 4px; border: 1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid"></div>
+        </div>
+        <div data-layer="_Modal-Headers-Wrapper" data-property-1="_Modal-Header-100%" class="ModalHeadersWrapper" style="width: 1920px; height: 80px; padding-left: 20px; padding-right: 20px; padding-top: 10px; padding-bottom: 10px; left: 0px; top: 0px; position: absolute; background: var(--Colors-Functional-Bkg-Bkg_Default, white); border-top-left-radius: 13px; border-top-right-radius: 13px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+            <div data-layer="Frame 427322357" class="Frame427322357" style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 4px; display: flex">
+                <div data-layer="Frame 427322351" class="Frame427322351" style="align-self: stretch; justify-content: space-between; align-items: flex-start; display: inline-flex">
+                    <div data-layer="Frame 427322339" class="Frame427322339" style="justify-content: center; align-items: center; gap: 10px; display: flex">
+                        <div data-layer="Header" class="Header" style="color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A); font-size: 24px; font-family: DM Sans; font-weight: 600; line-height: 34.92px; word-wrap: break-word">Header</div>
+                    </div>
+                    <div data-svg-wrapper data-layer="Size32(Gray)Icon/Cross" class="Size32GrayIconCross" style="position: relative">
+                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.1907 6.71992C9.23082 5.76003 7.67981 5.76003 6.71992 6.71992C5.76003 7.67981 5.76003 9.23082 6.71992 10.1907L14.5292 18L6.71992 25.8093C5.76003 26.7692 5.76003 28.3202 6.71992 29.2801C7.67981 30.24 9.23082 30.24 10.1907 29.2801L18 21.4708L25.8093 29.2801C26.7692 30.24 28.3202 30.24 29.2801 29.2801C30.24 28.3202 30.24 26.7692 29.2801 25.8093L21.4708 18L29.2801 10.1907C30.24 9.23082 30.24 7.67981 29.2801 6.71992C28.3202 5.76003 26.7692 5.76003 25.8093 6.71992L18 14.5292L10.1907 6.71992Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--400, #959490)"/>
+                        </svg>
+                    </div>
+                </div>
+                <div data-layer="Frame 427322339" class="Frame427322339" style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
+                    <div data-layer="Sub Header" class="SubHeader" style="width: 301.20px; color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A); font-size: 14px; font-family: DM Sans; font-weight: 500; line-height: 20.37px; word-wrap: break-word">Sub Header </div>
+                </div>
+            </div>
+        </div>
+        <div data-layer="_Modal-Footer-Wrapper" data-property-1="_Modal-Footer-100%" class="ModalFooterWrapper" style="width: 1920px; height: 90px; padding: 20px; left: 0px; top: 362px; position: absolute; background: var(--Colors-Functional-Bkg-Bkg_Default, white); border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; justify-content: flex-end; align-items: center; gap: 10px; display: inline-flex">
+            <div data-layer="Btn" class="Btn" style="width: 100px; height: 48px; padding: 12px; background: var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Default, white); border-radius: 999px; outline: 1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Border_Default, #118082) solid; outline-offset: -1px; justify-content: center; align-items: center; gap: 8px; display: flex">
+                <div data-layer="LABEL" class="Label" style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A); font-size: 16px; font-family: DM Sans; font-weight: 800; line-height: 23.28px; word-wrap: break-word">CANCEL</div>
+            </div>
+            <div data-layer="Btn" class="Btn" style="width: 100px; height: 48px; padding: 12px; background: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Default, #118082); border-radius: 999px; justify-content: center; align-items: center; gap: 8px; display: flex">
+                <div data-layer="LABEL" class="Label" style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white); font-size: 16px; font-family: DM Sans; font-weight: 800; line-height: 23.28px; word-wrap: break-word">OK</div>
+            </div>
+        </div>
+    </div>
+    <div data-layer="Property 1=Modal-70%" class="Property1Modal70" style="width: 1344px; height: 451px; left: 4532.78px; top: 49px; position: absolute">
+        <div data-layer="_Modal-Headers-Wrapper" data-property-1="_Modal-Header-70%" class="ModalHeadersWrapper" style="width: 1344px; height: 80px; padding-left: 20px; padding-right: 20px; padding-top: 10px; padding-bottom: 10px; left: 0px; top: 1px; position: absolute; background: var(--Colors-Functional-Bkg-Bkg_Default, white); border-top-left-radius: 13px; border-top-right-radius: 13px; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 10px; display: inline-flex">
+            <div data-layer="Frame 427322357" class="Frame427322357" style="align-self: stretch; flex-direction: column; justify-content: flex-start; align-items: flex-start; gap: 4px; display: flex">
+                <div data-layer="Frame 427322351" class="Frame427322351" style="align-self: stretch; justify-content: space-between; align-items: flex-start; display: inline-flex">
+                    <div data-layer="Frame 427322339" class="Frame427322339" style="justify-content: center; align-items: center; gap: 10px; display: flex">
+                        <div data-layer="Header" class="Header" style="color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A); font-size: 24px; font-family: DM Sans; font-weight: 600; line-height: 34.92px; word-wrap: break-word">Header</div>
+                    </div>
+                    <div data-svg-wrapper data-layer="Size32(Gray)Icon/Cross" class="Size32GrayIconCross" style="position: relative">
+                        <svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.1907 6.71992C9.23082 5.76003 7.67981 5.76003 6.71992 6.71992C5.76003 7.67981 5.76003 9.23082 6.71992 10.1907L14.5292 18L6.71992 25.8093C5.76003 26.7692 5.76003 28.3202 6.71992 29.2801C7.67981 30.24 9.23082 30.24 10.1907 29.2801L18 21.4708L25.8093 29.2801C26.7692 30.24 28.3202 30.24 29.2801 29.2801C30.24 28.3202 30.24 26.7692 29.2801 25.8093L21.4708 18L29.2801 10.1907C30.24 9.23082 30.24 7.67981 29.2801 6.71992C28.3202 5.76003 26.7692 5.76003 25.8093 6.71992L18 14.5292L10.1907 6.71992Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--400, #959490)"/>
+                        </svg>
+                    </div>
+                </div>
+                <div data-layer="Frame 427322339" class="Frame427322339" style="align-self: stretch; justify-content: flex-start; align-items: center; gap: 10px; display: inline-flex">
+                    <div data-layer="Sub Header" class="SubHeader" style="width: 301.20px; color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A); font-size: 14px; font-family: DM Sans; font-weight: 500; line-height: 20.37px; word-wrap: break-word">Sub Header </div>
+                </div>
+            </div>
+        </div>
+        <div data-layer="_Modal-Body-Wrapper" data-has-background-box="true" data-width="-BodywithFooter-Wrapper-70%" class="ModalBodyWrapper" style="width: 1344px; height: 281px; padding: 20px; left: 0px; top: 81px; position: absolute; background: var(--Colors-Functional-Bkg-Bkg_Default, white); justify-content: flex-start; align-items: center; gap: 4px; display: inline-flex">
+            <div data-layer="_modal-content-slot" class="ModalContentSlot" style="flex: 1 1 0; height: 245px; background: var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1); border-radius: 4px; border: 1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid"></div>
+        </div>
+        <div data-layer="_Modal-Footer-Wrapper" data-property-1="_Modal-Footer-70%" class="ModalFooterWrapper" style="width: 1344px; height: 90px; padding: 20px; left: 0px; top: 361px; position: absolute; background: var(--Colors-Functional-Bkg-Bkg_Default, white); border-bottom-right-radius: 13px; border-bottom-left-radius: 13px; justify-content: flex-end; align-items: center; gap: 10px; display: inline-flex">
+            <div data-layer="Btn" class="Btn" style="width: 100px; height: 48px; padding: 12px; background: var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Bkg_Default, white); border-radius: 999px; outline: 1px var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Border_Default, #118082) solid; outline-offset: -1px; justify-content: center; align-items: center; gap: 8px; display: flex">
+                <div data-layer="LABEL" class="Label" style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Colors-Buttons-SecondaryBtn-SecondaryBtn_Label_Default, #4B4B4A); font-size: 16px; font-family: DM Sans; font-weight: 800; line-height: 23.28px; word-wrap: break-word">CANCEL</div>
+            </div>
+            <div data-layer="Btn" class="Btn" style="width: 100px; height: 48px; padding: 12px; background: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Default, #118082); border-radius: 999px; justify-content: center; align-items: center; gap: 8px; display: flex">
+                <div data-layer="LABEL" class="Label" style="text-align: center; justify-content: center; display: flex; flex-direction: column; color: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white); font-size: 16px; font-family: DM Sans; font-weight: 800; line-height: 23.28px; word-wrap: break-word">OK</div>
+            </div>
+        </div>
+    </div>
+</div>

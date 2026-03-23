@@ -1,0 +1,86 @@
+<div style={{width: '100%', height: '100%', position: 'relative', overflow: 'hidden', borderRadius: 5, border: '1px #8A38F5 solid'}}>
+    <div style={{width: 769, left: 20, top: 20, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', height: 20, color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>These settings default to the organization&apos;s Default Preferences but can be customized for your workflow</div>
+        <div style={{alignSelf: 'stretch', paddingLeft: 20, borderLeft: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 6, display: 'flex'}}>
+            <div style={{width: 749, paddingTop: 4, paddingBottom: 4, borderRadius: 10, justifyContent: 'flex-start', alignItems: 'center', gap: 20, display: 'inline-flex'}}>
+                <div style={{flex: '1 1 0', height: 36, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 1.99, display: 'inline-flex'}}>
+                    <div style={{alignSelf: 'stretch', height: 14.01, justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Use Separate PMS and EHR Systems</div>
+                    </div>
+                    <div style={{alignSelf: 'stretch', height: 20, justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Enable this if you have separate systems for practice management and electronic health records</div>
+                    </div>
+                </div>
+                <div data-color="Teal" data-size="Big" data-states="Default" data-type="Inactive" style={{width: 48, height: 24, position: 'relative'}}>
+                    <div style={{width: 48, height: 24, left: 0, top: 0, position: 'absolute', background: 'var(--Colors-Functional-Fill-Fill-Gray300, #B4C6D6)', borderRadius: 16}} />
+                    <div style={{width: 20, height: 20, left: 2, top: 2, position: 'absolute', background: 'var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite, white)', borderRadius: 9999}} />
+                </div>
+            </div>
+            <div style={{width: 749, paddingTop: 4, paddingBottom: 4, borderRadius: 10, justifyContent: 'flex-start', alignItems: 'center', gap: 20, display: 'inline-flex'}}>
+                <div style={{flex: '1 1 0', height: 36, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 1.99, display: 'inline-flex'}}>
+                    <div style={{alignSelf: 'stretch', height: 14.01, justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Use Separate PMS and EHR Systems</div>
+                    </div>
+                    <div style={{alignSelf: 'stretch', height: 20, justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Enable this if you have separate systems for practice management and electronic health records</div>
+                    </div>
+                </div>
+                <div data-color="Teal" data-size="Big" data-states="Default" data-type="Inactive" style={{width: 48, height: 24, position: 'relative'}}>
+                    <div style={{width: 48, height: 24, left: 0, top: 0, position: 'absolute', background: 'var(--Colors-Functional-Fill-Fill-Gray300, #B4C6D6)', borderRadius: 16}} />
+                    <div style={{width: 20, height: 20, left: 2, top: 2, position: 'absolute', background: 'var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite, white)', borderRadius: 9999}} />
+                </div>
+            </div>
+            <div style={{width: 749, paddingTop: 4, paddingBottom: 4, borderRadius: 10, justifyContent: 'flex-start', alignItems: 'center', gap: 20, display: 'inline-flex'}}>
+                <div style={{flex: '1 1 0', height: 36, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 1.99, display: 'inline-flex'}}>
+                    <div style={{alignSelf: 'stretch', height: 14.01, justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Use Separate PMS and EHR Systems</div>
+                    </div>
+                    <div style={{alignSelf: 'stretch', height: 20, justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Enable this if you have separate systems for practice management and electronic health records</div>
+                    </div>
+                </div>
+                <div data-color="Teal" data-size="Big" data-states="Default" data-type="Inactive" style={{width: 48, height: 24, position: 'relative'}}>
+                    <div style={{width: 48, height: 24, left: 0, top: 0, position: 'absolute', background: 'var(--Colors-Functional-Fill-Fill-Gray300, #B4C6D6)', borderRadius: 16}} />
+                    <div style={{width: 20, height: 20, left: 2, top: 2, position: 'absolute', background: 'var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite, white)', borderRadius: 9999}} />
+                </div>
+            </div>
+            <div style={{width: 749, paddingTop: 4, paddingBottom: 4, borderRadius: 10, justifyContent: 'flex-start', alignItems: 'center', gap: 20, display: 'inline-flex'}}>
+                <div style={{flex: '1 1 0', height: 36, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 1.99, display: 'inline-flex'}}>
+                    <div style={{alignSelf: 'stretch', height: 14.01, justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Use Separate PMS and EHR Systems</div>
+                    </div>
+                    <div style={{alignSelf: 'stretch', height: 20, justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Enable this if you have separate systems for practice management and electronic health records</div>
+                    </div>
+                </div>
+                <div data-color="Teal" data-size="Big" data-states="Default" data-type="Inactive" style={{width: 48, height: 24, position: 'relative'}}>
+                    <div style={{width: 48, height: 24, left: 0, top: 0, position: 'absolute', background: 'var(--Colors-Functional-Fill-Fill-Gray300, #B4C6D6)', borderRadius: 16}} />
+                    <div style={{width: 20, height: 20, left: 2, top: 2, position: 'absolute', background: 'var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite, white)', borderRadius: 9999}} />
+                </div>
+            </div>
+            <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 2, display: 'flex'}}>
+                <div style={{flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'flex'}}>
+                    <div data-expandedstates="NotNested" data-has-checkbox="true" data-hasplaceholdertext="true" data-icon="LeftMultiSelect" data-label="true" data-multiselection="true" data-size="Medium" data-state="Default" data-type="Multiselect" style={{width: 274.04, height: 68, paddingTop: 4, paddingBottom: 4, borderRadius: 13, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 2, display: 'flex'}}>
+                        <div style={{color: 'var(--Colors-Buttons-ToggleButtons-Filter-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Location</div>
+                        <div style={{width: 274, justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                            <div style={{justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                                <div style={{width: 274, height: 36, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                                    <div data-property-1="Unchecked" style={{width: 16, height: 16, left: 10, top: 9.50, position: 'absolute'}}>
+                                        <div style={{width: 12, height: 9, left: 2, top: 4, position: 'absolute'}} />
+                                    </div>
+                                    <div style={{padding: 10, left: 5, top: -2, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                        <div style={{color: 'var(--Colors-Functional-Placeholder-Txt_Placeholder_Default, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Select</div>
+                                    </div>
+                                    <div style={{width: 24, paddingLeft: 7, paddingRight: 7, paddingTop: 10, paddingBottom: 10, left: 235, top: 5.50, position: 'absolute', overflow: 'hidden', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                                        <div style={{width: 9, height: 5, background: 'var(--Colors-Functional-Caret-Caret_Default, #71706C)'}} />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style={{width: 274.04, color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'}}>Sub Text</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

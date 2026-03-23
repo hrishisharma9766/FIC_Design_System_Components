@@ -1,0 +1,41 @@
+// Back to Main
+color: 'var(--Colors-Navigation-Other-Txt_MenuLabels, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '900', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Enterprise Optical Group
+color: 'var(--Colors-Navigation-Other-Txt_SubMenuLabels, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// BillingAsstistant
+color: 'var(--Colors-Navigation-Other-Txt_MenuLabels, #4B4B4A)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'
+---
+// Enterprise Optical Group
+color: 'var(--Colors-Navigation-Other-Txt_SubMenuLabels, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Organization Management
+color: 'var(--Colors-Navigation-Other-Txt_SubMenuLabels, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Dashboard
+color: 'var(--Colors-Navigation-Other-Txt_MenuLabels, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '900', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Insurance Iligibiliy
+color: 'var(--Colors-Navigation-Other-Txt_MenuLabels, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '900', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Claim Submission
+color: 'var(--Colors-Navigation-Other-Txt_MenuLabels, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '900', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Setup
+color: 'var(--Colors-Navigation-Other-Txt_MenuLabels, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '900', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Selection State
+color: 'var(--Colors-Navigation-Other-Txt_MenuLabels, #4B4B4A)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 27, wordWrap: 'break-word'
+---
+// General Setup
+color: 'var(--Colors-Navigation-Other-Txt_SubMenuLabels, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Setup
+color: 'var(--Colors-Navigation-Other-Txt_MenuLabels, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '900', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Status &amp; Inquiry
+color: 'var(--Colors-Navigation-Other-Txt_SubMenuLabels, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 27, wordWrap: 'break-word'
+---
+// Eligibility Overview
+color: 'var(--Colors-Navigation-Other-Txt_SubMenuLabels, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'

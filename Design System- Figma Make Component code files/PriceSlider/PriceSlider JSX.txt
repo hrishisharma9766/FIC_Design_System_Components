@@ -1,0 +1,326 @@
+<div data-layer="PriceSlider" className="Priceslider" style={{width: '100%', height: '100%', position: 'relative', overflow: 'hidden', borderRadius: 5, border: '1px #8A38F5 solid'}}>
+    <div data-layer="Size=PriceSliderLarge, Label=Without Label, Icon=With Delete Icon" className="SizePricesliderlargeLabelWithoutLabelIconWithDeleteIcon" style={{left: 20, top: 40.50, position: 'absolute', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+        <div data-layer="PriceSlider/PriceSliderLarge" className="PricesliderPricesliderlarge" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+            <div data-layer="_SliderButtons" data-property-1="_MinusSliderButton" data-size="Large" className="Sliderbuttons" style={{width: 32, height: 32, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                <div data-svg-wrapper data-layer="Size16(Gray)Icon/Minus" className="Size16GrayIconMinus" style={{left: 8, top: 8, position: 'absolute'}}>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15 8C15 8.55312 14.5188 9 13.9231 9H2.07692C1.48125 9 1 8.55312 1 8C1 7.44687 1.48125 7 2.07692 7H13.9231C14.5188 7 15 7.44687 15 8Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                    </svg>
+                </div>
+            </div>
+            <div data-layer="_NumberSlot" data-size="Large" className="Numberslot" style={{width: 40, height: 32, paddingLeft: 4, paddingRight: 4, paddingTop: 1, paddingBottom: 1, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 4, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                <div data-layer="0" style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'}}>0</div>
+            </div>
+            <div data-layer="_SliderButtons" data-property-1="_PlusSliderButton" data-size="Large" className="Sliderbuttons" style={{width: 32, height: 32, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                <div data-svg-wrapper data-layer="Size16(Gray)Icon/Plus" className="Size16GrayIconPlus" style={{left: 8, top: 8, position: 'absolute'}}>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.07692 2.07692C9.07692 1.48125 8.59567 1 8 1C7.40433 1 6.92308 1.48125 6.92308 2.07692V6.92308H2.07692C1.48125 6.92308 1 7.40433 1 8C1 8.59567 1.48125 9.07692 2.07692 9.07692H6.92308V13.9231C6.92308 14.5188 7.40433 15 8 15C8.59567 15 9.07692 14.5188 9.07692 13.9231V9.07692H13.9231C14.5188 9.07692 15 8.59567 15 8C15 7.40433 14.5188 6.92308 13.9231 6.92308H9.07692V2.07692Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div data-layer="button" className="Button" style={{width: 32, height: 32, position: 'relative', background: 'rgba(0, 0, 0, 0)', borderRadius: 9999}}>
+            <div data-layer="Size24(Colored)Icon/Colored/Delete-Trash" className="Size24ColoredIconColoredDeleteTrash" style={{width: 24, height: 24, left: 4, top: 4, position: 'absolute'}}>
+                <div data-svg-wrapper data-layer="Size16(Colored)Icon/Colored/Delete-Trash" className="Size16ColoredIconColoredDeleteTrash" style={{left: 1, top: 1, position: 'absolute'}}>
+                    <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M7.81634 2.17091C7.97368 1.68966 8.41791 1.375 8.92692 1.375H13.0823C13.5821 1.375 14.0263 1.69892 14.1929 2.17091L14.5076 3.12416H18.0059C18.6537 3.12416 19.172 3.64243 19.172 4.29026C19.172 4.9381 18.6537 5.45637 18.0059 5.45637H3.99411C3.34627 5.45637 2.828 4.9381 2.828 4.29026C2.828 3.64243 3.34627 3.12416 3.99411 3.12416H7.49243L7.80709 2.17091H7.81634ZM3.99411 7.20553H17.9966V18.2928C17.9966 19.5792 16.9508 20.625 15.6644 20.625H6.32632C5.0399 20.625 3.99411 19.5792 3.99411 18.2928V7.20553ZM7.20553 9.53774C6.72428 9.53774 6.32632 9.92644 6.32632 10.4169V17.4136C6.32632 17.8948 6.71502 18.2928 7.20553 18.2928C7.69603 18.2928 8.08473 17.9041 8.08473 17.4136V10.4169C8.08473 9.9357 7.69603 9.53774 7.20553 9.53774ZM10.9907 9.53774C10.5095 9.53774 10.1115 9.92644 10.1115 10.4169V17.4136C10.1115 17.8948 10.5002 18.2928 10.9907 18.2928C11.4812 18.2928 11.87 17.9041 11.87 17.4136V10.4169C11.87 9.9357 11.4812 9.53774 10.9907 9.53774ZM14.7852 9.53774C14.304 9.53774 13.906 9.92644 13.906 10.4169V17.4136C13.906 17.8948 14.2947 18.2928 14.7852 18.2928C15.2757 18.2928 15.6644 17.9041 15.6644 17.4136V10.4169C15.6644 9.9357 15.2757 9.53774 14.7852 9.53774Z" fill="var(--Colors-Functional-Input-Icons-Icon_DarkGray, #4B4B4A)"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-layer="Size=PriceSliderLarge, Label=Without Label, Icon=Without Delete Icon" className="SizePricesliderlargeLabelWithoutLabelIconWithoutDeleteIcon" style={{left: 20, top: 212, position: 'absolute', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+        <div data-layer="PriceSlider/PriceSliderLarge" className="PricesliderPricesliderlarge" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+            <div data-layer="_SliderButtons" data-property-1="_MinusSliderButton" data-size="Large" className="Sliderbuttons" style={{width: 32, height: 32, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                <div data-svg-wrapper data-layer="Size16(Gray)Icon/Minus" className="Size16GrayIconMinus" style={{left: 8, top: 8, position: 'absolute'}}>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15 8C15 8.55312 14.5188 9 13.9231 9H2.07692C1.48125 9 1 8.55312 1 8C1 7.44687 1.48125 7 2.07692 7H13.9231C14.5188 7 15 7.44687 15 8Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                    </svg>
+                </div>
+            </div>
+            <div data-layer="_NumberSlot" data-size="Large" className="Numberslot" style={{width: 40, height: 32, paddingLeft: 4, paddingRight: 4, paddingTop: 1, paddingBottom: 1, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 4, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                <div data-layer="0" style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'}}>0</div>
+            </div>
+            <div data-layer="_SliderButtons" data-property-1="_PlusSliderButton" data-size="Large" className="Sliderbuttons" style={{width: 32, height: 32, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                <div data-svg-wrapper data-layer="Size16(Gray)Icon/Plus" className="Size16GrayIconPlus" style={{left: 8, top: 8, position: 'absolute'}}>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.07692 2.07692C9.07692 1.48125 8.59567 1 8 1C7.40433 1 6.92308 1.48125 6.92308 2.07692V6.92308H2.07692C1.48125 6.92308 1 7.40433 1 8C1 8.59567 1.48125 9.07692 2.07692 9.07692H6.92308V13.9231C6.92308 14.5188 7.40433 15 8 15C8.59567 15 9.07692 14.5188 9.07692 13.9231V9.07692H13.9231C14.5188 9.07692 15 8.59567 15 8C15 7.40433 14.5188 6.92308 13.9231 6.92308H9.07692V2.07692Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-layer="Size=PriceSliderSmall, Label=Without Label, Icon=With Delete Icon" className="SizePriceslidersmallLabelWithoutLabelIconWithDeleteIcon" style={{left: 20, top: 111.41, position: 'absolute', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+        <div data-layer="PriceSlider/PriceSliderSmall" className="PricesliderPriceslidersmall" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+            <div data-layer="_SliderButtons" data-property-1="_MinusSliderButton" data-size="Small" className="Sliderbuttons" style={{width: 26, height: 26, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                <div data-svg-wrapper data-layer="Size16(Gray)Icon/Minus" className="Size16GrayIconMinus" style={{left: 5, top: 4.91, position: 'absolute'}}>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15 8C15 8.55312 14.5188 9 13.9231 9H2.07692C1.48125 9 1 8.55312 1 8C1 7.44687 1.48125 7 2.07692 7H13.9231C14.5188 7 15 7.44687 15 8Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                    </svg>
+                </div>
+            </div>
+            <div data-layer="_NumberSlot" data-size="Small" className="Numberslot" style={{width: 40, height: 26, paddingLeft: 4, paddingRight: 4, paddingTop: 1, paddingBottom: 1, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 4, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                <div data-layer="0" style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'}}>0</div>
+            </div>
+            <div data-layer="_SliderButtons" data-property-1="_PlusSliderButton" data-size="Small" className="Sliderbuttons" style={{width: 26, height: 26, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                <div data-svg-wrapper data-layer="Size16(Gray)Icon/Plus" className="Size16GrayIconPlus" style={{left: 5, top: 4.91, position: 'absolute'}}>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.07692 2.07692C9.07692 1.48125 8.59567 1 8 1C7.40433 1 6.92308 1.48125 6.92308 2.07692V6.92308H2.07692C1.48125 6.92308 1 7.40433 1 8C1 8.59567 1.48125 9.07692 2.07692 9.07692H6.92308V13.9231C6.92308 14.5188 7.40433 15 8 15C8.59567 15 9.07692 14.5188 9.07692 13.9231V9.07692H13.9231C14.5188 9.07692 15 8.59567 15 8C15 7.40433 14.5188 6.92308 13.9231 6.92308H9.07692V2.07692Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div data-layer="DeleteIcon" className="Deleteicon" style={{width: 32, height: 26, position: 'relative', background: 'rgba(0, 0, 0, 0)', borderRadius: 9999}}>
+            <div data-svg-wrapper data-layer="Size16(Colored)Icon/Colored/Delete-Trash" className="Size16ColoredIconColoredDeleteTrash" style={{left: 8, top: 5, position: 'absolute'}}>
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.68462 1.57885C5.79904 1.22885 6.12212 1 6.49231 1H9.51442C9.87789 1 10.201 1.23558 10.3221 1.57885L10.551 2.27212H13.0952C13.5663 2.27212 13.9433 2.64904 13.9433 3.12019C13.9433 3.59135 13.5663 3.96827 13.0952 3.96827H2.90481C2.43366 3.96827 2.05673 3.59135 2.05673 3.12019C2.05673 2.64904 2.43366 2.27212 2.90481 2.27212H5.44904L5.67789 1.57885H5.68462ZM2.90481 5.24038H13.0885V13.3038C13.0885 14.2394 12.3279 15 11.3923 15H4.60096C3.66539 15 2.90481 14.2394 2.90481 13.3038V5.24038ZM5.24039 6.93654C4.89039 6.93654 4.60096 7.21923 4.60096 7.57596V12.6644C4.60096 13.0144 4.88366 13.3038 5.24039 13.3038C5.59712 13.3038 5.87981 13.0212 5.87981 12.6644V7.57596C5.87981 7.22596 5.59712 6.93654 5.24039 6.93654ZM7.99327 6.93654C7.64327 6.93654 7.35385 7.21923 7.35385 7.57596V12.6644C7.35385 13.0144 7.63654 13.3038 7.99327 13.3038C8.35 13.3038 8.63269 13.0212 8.63269 12.6644V7.57596C8.63269 7.22596 8.35 6.93654 7.99327 6.93654ZM10.7529 6.93654C10.4029 6.93654 10.1135 7.21923 10.1135 7.57596V12.6644C10.1135 13.0144 10.3962 13.3038 10.7529 13.3038C11.1096 13.3038 11.3923 13.0212 11.3923 12.6644V7.57596C11.3923 7.22596 11.1096 6.93654 10.7529 6.93654Z" fill="var(--Colors-Functional-Input-Icons-Icon_DarkGray, #4B4B4A)"/>
+                </svg>
+            </div>
+        </div>
+    </div>
+    <div data-layer="Size=PriceSliderSmall, Label=Without Label, Icon=Without Delete Icon" className="SizePriceslidersmallLabelWithoutLabelIconWithoutDeleteIcon" style={{left: 20, top: 282.91, position: 'absolute', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+        <div data-layer="PriceSlider/PriceSliderSmall" className="PricesliderPriceslidersmall" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+            <div data-layer="_SliderButtons" data-property-1="_MinusSliderButton" data-size="Small" className="Sliderbuttons" style={{width: 26, height: 26, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                <div data-svg-wrapper data-layer="Size16(Gray)Icon/Minus" className="Size16GrayIconMinus" style={{left: 5, top: 4.91, position: 'absolute'}}>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M15 8C15 8.55312 14.5188 9 13.9231 9H2.07692C1.48125 9 1 8.55312 1 8C1 7.44687 1.48125 7 2.07692 7H13.9231C14.5188 7 15 7.44687 15 8Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                    </svg>
+                </div>
+            </div>
+            <div data-layer="_NumberSlot" data-size="Small" className="Numberslot" style={{width: 40, height: 26, paddingLeft: 4, paddingRight: 4, paddingTop: 1, paddingBottom: 1, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 4, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                <div data-layer="0" style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'}}>0</div>
+            </div>
+            <div data-layer="_SliderButtons" data-property-1="_PlusSliderButton" data-size="Small" className="Sliderbuttons" style={{width: 26, height: 26, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                <div data-svg-wrapper data-layer="Size16(Gray)Icon/Plus" className="Size16GrayIconPlus" style={{left: 5, top: 4.91, position: 'absolute'}}>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.07692 2.07692C9.07692 1.48125 8.59567 1 8 1C7.40433 1 6.92308 1.48125 6.92308 2.07692V6.92308H2.07692C1.48125 6.92308 1 7.40433 1 8C1 8.59567 1.48125 9.07692 2.07692 9.07692H6.92308V13.9231C6.92308 14.5188 7.40433 15 8 15C8.59567 15 9.07692 14.5188 9.07692 13.9231V9.07692H13.9231C14.5188 9.07692 15 8.59567 15 8C15 7.40433 14.5188 6.92308 13.9231 6.92308H9.07692V2.07692Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-layer="Size=PriceSliderLarge, Label=With Label -Left, Icon=With Delete Icon" className="SizePricesliderlargeLabelWithLabelLeftIconWithDeleteIcon" style={{width: 146.08, left: 208.97, top: 12.50, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'inline-flex'}}>
+        <div data-layer="Label" className="Label" style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+        <div data-layer="PriceSlider/Size3" className="PricesliderSize3" style={{alignSelf: 'stretch', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+            <div data-layer="PriceSlider/PriceSliderLarge" className="PricesliderPricesliderlarge" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+                <div data-layer="_SliderButtons" data-property-1="_MinusSliderButton" data-size="Large" className="Sliderbuttons" style={{width: 32, height: 32, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                    <div data-svg-wrapper data-layer="Size16(Gray)Icon/Minus" className="Size16GrayIconMinus" style={{left: 8, top: 8, position: 'absolute'}}>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 8C15 8.55312 14.5188 9 13.9231 9H2.07692C1.48125 9 1 8.55312 1 8C1 7.44687 1.48125 7 2.07692 7H13.9231C14.5188 7 15 7.44687 15 8Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                        </svg>
+                    </div>
+                </div>
+                <div data-layer="_NumberSlot" data-size="Large" className="Numberslot" style={{width: 40, height: 32, paddingLeft: 4, paddingRight: 4, paddingTop: 1, paddingBottom: 1, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 4, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                    <div data-layer="0" style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'}}>0</div>
+                </div>
+                <div data-layer="_SliderButtons" data-property-1="_PlusSliderButton" data-size="Large" className="Sliderbuttons" style={{width: 32, height: 32, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                    <div data-svg-wrapper data-layer="Size16(Gray)Icon/Plus" className="Size16GrayIconPlus" style={{left: 8, top: 8, position: 'absolute'}}>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.07692 2.07692C9.07692 1.48125 8.59567 1 8 1C7.40433 1 6.92308 1.48125 6.92308 2.07692V6.92308H2.07692C1.48125 6.92308 1 7.40433 1 8C1 8.59567 1.48125 9.07692 2.07692 9.07692H6.92308V13.9231C6.92308 14.5188 7.40433 15 8 15C8.59567 15 9.07692 14.5188 9.07692 13.9231V9.07692H13.9231C14.5188 9.07692 15 8.59567 15 8C15 7.40433 14.5188 6.92308 13.9231 6.92308H9.07692V2.07692Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div data-layer="button" className="Button" style={{width: 32, height: 32, position: 'relative', background: 'rgba(0, 0, 0, 0)', borderRadius: 9999}}>
+                <div data-layer="Size24(Colored)Icon/Colored/Delete-Trash" className="Size24ColoredIconColoredDeleteTrash" style={{width: 24, height: 24, left: 4, top: 4, position: 'absolute'}}>
+                    <div data-svg-wrapper data-layer="Size16(Colored)Icon/Colored/Delete-Trash" className="Size16ColoredIconColoredDeleteTrash" style={{left: 1, top: 1, position: 'absolute'}}>
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.81634 2.17091C7.97368 1.68966 8.41791 1.375 8.92692 1.375H13.0823C13.5821 1.375 14.0263 1.69892 14.1929 2.17091L14.5076 3.12416H18.0059C18.6537 3.12416 19.172 3.64243 19.172 4.29026C19.172 4.9381 18.6537 5.45637 18.0059 5.45637H3.99411C3.34627 5.45637 2.828 4.9381 2.828 4.29026C2.828 3.64243 3.34627 3.12416 3.99411 3.12416H7.49243L7.80709 2.17091H7.81634ZM3.99411 7.20553H17.9966V18.2928C17.9966 19.5792 16.9508 20.625 15.6644 20.625H6.32632C5.0399 20.625 3.99411 19.5792 3.99411 18.2928V7.20553ZM7.20553 9.53774C6.72428 9.53774 6.32632 9.92644 6.32632 10.4169V17.4136C6.32632 17.8948 6.71502 18.2928 7.20553 18.2928C7.69603 18.2928 8.08473 17.9041 8.08473 17.4136V10.4169C8.08473 9.9357 7.69603 9.53774 7.20553 9.53774ZM10.9907 9.53774C10.5095 9.53774 10.1115 9.92644 10.1115 10.4169V17.4136C10.1115 17.8948 10.5002 18.2928 10.9907 18.2928C11.4812 18.2928 11.87 17.9041 11.87 17.4136V10.4169C11.87 9.9357 11.4812 9.53774 10.9907 9.53774ZM14.7852 9.53774C14.304 9.53774 13.906 9.92644 13.906 10.4169V17.4136C13.906 17.8948 14.2947 18.2928 14.7852 18.2928C15.2757 18.2928 15.6644 17.9041 15.6644 17.4136V10.4169C15.6644 9.9357 15.2757 9.53774 14.7852 9.53774Z" fill="var(--Colors-Functional-Input-Icons-Icon_DarkGray, #4B4B4A)"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-layer="Size=PriceSliderLarge, Label=With Label -Left, Icon=Without Delete Icon" className="SizePricesliderlargeLabelWithLabelLeftIconWithoutDeleteIcon" style={{left: 208.97, top: 184, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'inline-flex'}}>
+        <div data-layer="Label" className="Label" style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+        <div data-layer="PriceSlider/Size3" className="PricesliderSize3" style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
+            <div data-layer="PriceSlider/PriceSliderLarge" className="PricesliderPricesliderlarge" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+                <div data-layer="_SliderButtons" data-property-1="_MinusSliderButton" data-size="Large" className="Sliderbuttons" style={{width: 32, height: 32, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                    <div data-svg-wrapper data-layer="Size16(Gray)Icon/Minus" className="Size16GrayIconMinus" style={{left: 8, top: 8, position: 'absolute'}}>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 8C15 8.55312 14.5188 9 13.9231 9H2.07692C1.48125 9 1 8.55312 1 8C1 7.44687 1.48125 7 2.07692 7H13.9231C14.5188 7 15 7.44687 15 8Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                        </svg>
+                    </div>
+                </div>
+                <div data-layer="_NumberSlot" data-size="Large" className="Numberslot" style={{width: 40, height: 32, paddingLeft: 4, paddingRight: 4, paddingTop: 1, paddingBottom: 1, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 4, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                    <div data-layer="0" style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'}}>0</div>
+                </div>
+                <div data-layer="_SliderButtons" data-property-1="_PlusSliderButton" data-size="Large" className="Sliderbuttons" style={{width: 32, height: 32, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                    <div data-svg-wrapper data-layer="Size16(Gray)Icon/Plus" className="Size16GrayIconPlus" style={{left: 8, top: 8, position: 'absolute'}}>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.07692 2.07692C9.07692 1.48125 8.59567 1 8 1C7.40433 1 6.92308 1.48125 6.92308 2.07692V6.92308H2.07692C1.48125 6.92308 1 7.40433 1 8C1 8.59567 1.48125 9.07692 2.07692 9.07692H6.92308V13.9231C6.92308 14.5188 7.40433 15 8 15C8.59567 15 9.07692 14.5188 9.07692 13.9231V9.07692H13.9231C14.5188 9.07692 15 8.59567 15 8C15 7.40433 14.5188 6.92308 13.9231 6.92308H9.07692V2.07692Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-layer="Size=PriceSliderLarge, Label=With Label -Center, Icon=With Delete Icon" className="SizePricesliderlargeLabelWithLabelCenterIconWithDeleteIcon" style={{width: 146, left: 371.56, top: 12.50, position: 'absolute', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div data-layer="Label" className="Label" style={{alignSelf: 'stretch', textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+        <div data-layer="PriceSlider/Size3" className="PricesliderSize3" style={{alignSelf: 'stretch', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+            <div data-layer="PriceSlider/PriceSliderLarge" className="PricesliderPricesliderlarge" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+                <div data-layer="_SliderButtons" data-property-1="_MinusSliderButton" data-size="Large" className="Sliderbuttons" style={{width: 32, height: 32, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                    <div data-svg-wrapper data-layer="Size16(Gray)Icon/Minus" className="Size16GrayIconMinus" style={{left: 8, top: 8, position: 'absolute'}}>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 8C15 8.55312 14.5188 9 13.9231 9H2.07692C1.48125 9 1 8.55312 1 8C1 7.44687 1.48125 7 2.07692 7H13.9231C14.5188 7 15 7.44687 15 8Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                        </svg>
+                    </div>
+                </div>
+                <div data-layer="_NumberSlot" data-size="Large" className="Numberslot" style={{width: 40, height: 32, paddingLeft: 4, paddingRight: 4, paddingTop: 1, paddingBottom: 1, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 4, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                    <div data-layer="0" style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'}}>0</div>
+                </div>
+                <div data-layer="_SliderButtons" data-property-1="_PlusSliderButton" data-size="Large" className="Sliderbuttons" style={{width: 32, height: 32, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                    <div data-svg-wrapper data-layer="Size16(Gray)Icon/Plus" className="Size16GrayIconPlus" style={{left: 8, top: 8, position: 'absolute'}}>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.07692 2.07692C9.07692 1.48125 8.59567 1 8 1C7.40433 1 6.92308 1.48125 6.92308 2.07692V6.92308H2.07692C1.48125 6.92308 1 7.40433 1 8C1 8.59567 1.48125 9.07692 2.07692 9.07692H6.92308V13.9231C6.92308 14.5188 7.40433 15 8 15C8.59567 15 9.07692 14.5188 9.07692 13.9231V9.07692H13.9231C14.5188 9.07692 15 8.59567 15 8C15 7.40433 14.5188 6.92308 13.9231 6.92308H9.07692V2.07692Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div data-layer="button" className="Button" style={{width: 32, height: 32, position: 'relative', background: 'rgba(0, 0, 0, 0)', borderRadius: 9999}}>
+                <div data-layer="Size24(Colored)Icon/Colored/Delete-Trash" className="Size24ColoredIconColoredDeleteTrash" style={{width: 24, height: 24, left: 4, top: 4, position: 'absolute'}}>
+                    <div data-svg-wrapper data-layer="Size16(Colored)Icon/Colored/Delete-Trash" className="Size16ColoredIconColoredDeleteTrash" style={{left: 1, top: 1, position: 'absolute'}}>
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M7.81634 2.17091C7.97368 1.68966 8.41791 1.375 8.92692 1.375H13.0823C13.5821 1.375 14.0263 1.69892 14.1929 2.17091L14.5076 3.12416H18.0059C18.6537 3.12416 19.172 3.64243 19.172 4.29026C19.172 4.9381 18.6537 5.45637 18.0059 5.45637H3.99411C3.34627 5.45637 2.828 4.9381 2.828 4.29026C2.828 3.64243 3.34627 3.12416 3.99411 3.12416H7.49243L7.80709 2.17091H7.81634ZM3.99411 7.20553H17.9966V18.2928C17.9966 19.5792 16.9508 20.625 15.6644 20.625H6.32632C5.0399 20.625 3.99411 19.5792 3.99411 18.2928V7.20553ZM7.20553 9.53774C6.72428 9.53774 6.32632 9.92644 6.32632 10.4169V17.4136C6.32632 17.8948 6.71502 18.2928 7.20553 18.2928C7.69603 18.2928 8.08473 17.9041 8.08473 17.4136V10.4169C8.08473 9.9357 7.69603 9.53774 7.20553 9.53774ZM10.9907 9.53774C10.5095 9.53774 10.1115 9.92644 10.1115 10.4169V17.4136C10.1115 17.8948 10.5002 18.2928 10.9907 18.2928C11.4812 18.2928 11.87 17.9041 11.87 17.4136V10.4169C11.87 9.9357 11.4812 9.53774 10.9907 9.53774ZM14.7852 9.53774C14.304 9.53774 13.906 9.92644 13.906 10.4169V17.4136C13.906 17.8948 14.2947 18.2928 14.7852 18.2928C15.2757 18.2928 15.6644 17.9041 15.6644 17.4136V10.4169C15.6644 9.9357 15.2757 9.53774 14.7852 9.53774Z" fill="var(--Colors-Functional-Input-Icons-Icon_DarkGray, #4B4B4A)"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-layer="Size=PriceSliderLarge, Label=With Label -Center, Icon=Without Delete Icon" className="SizePricesliderlargeLabelWithLabelCenterIconWithoutDeleteIcon" style={{left: 371.56, top: 184, position: 'absolute', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div data-layer="Label" className="Label" style={{alignSelf: 'stretch', textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+        <div data-layer="PriceSlider/Size3" className="PricesliderSize3" style={{alignSelf: 'stretch', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+            <div data-layer="PriceSlider/PriceSliderLarge" className="PricesliderPricesliderlarge" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+                <div data-layer="_SliderButtons" data-property-1="_MinusSliderButton" data-size="Large" className="Sliderbuttons" style={{width: 32, height: 32, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                    <div data-svg-wrapper data-layer="Size16(Gray)Icon/Minus" className="Size16GrayIconMinus" style={{left: 8, top: 8, position: 'absolute'}}>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 8C15 8.55312 14.5188 9 13.9231 9H2.07692C1.48125 9 1 8.55312 1 8C1 7.44687 1.48125 7 2.07692 7H13.9231C14.5188 7 15 7.44687 15 8Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                        </svg>
+                    </div>
+                </div>
+                <div data-layer="_NumberSlot" data-size="Large" className="Numberslot" style={{width: 40, height: 32, paddingLeft: 4, paddingRight: 4, paddingTop: 1, paddingBottom: 1, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 4, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                    <div data-layer="0" style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'}}>0</div>
+                </div>
+                <div data-layer="_SliderButtons" data-property-1="_PlusSliderButton" data-size="Large" className="Sliderbuttons" style={{width: 32, height: 32, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                    <div data-svg-wrapper data-layer="Size16(Gray)Icon/Plus" className="Size16GrayIconPlus" style={{left: 8, top: 8, position: 'absolute'}}>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.07692 2.07692C9.07692 1.48125 8.59567 1 8 1C7.40433 1 6.92308 1.48125 6.92308 2.07692V6.92308H2.07692C1.48125 6.92308 1 7.40433 1 8C1 8.59567 1.48125 9.07692 2.07692 9.07692H6.92308V13.9231C6.92308 14.5188 7.40433 15 8 15C8.59567 15 9.07692 14.5188 9.07692 13.9231V9.07692H13.9231C14.5188 9.07692 15 8.59567 15 8C15 7.40433 14.5188 6.92308 13.9231 6.92308H9.07692V2.07692Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-layer="Size=PriceSliderSmall, Label=With Label -Left, Icon=With Delete Icon" className="SizePriceslidersmallLabelWithLabelLeftIconWithDeleteIcon" style={{width: 134.08, left: 210.97, top: 83.41, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'inline-flex'}}>
+        <div data-layer="Label" className="Label" style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+        <div data-layer="PriceSlider/Size3" className="PricesliderSize3" style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
+            <div data-layer="PriceSlider/PriceSliderSmall" className="PricesliderPriceslidersmall" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+                <div data-layer="_SliderButtons" data-property-1="_MinusSliderButton" data-size="Small" className="Sliderbuttons" style={{width: 26, height: 26, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                    <div data-svg-wrapper data-layer="Size16(Gray)Icon/Minus" className="Size16GrayIconMinus" style={{left: 5, top: 4.91, position: 'absolute'}}>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 8C15 8.55312 14.5188 9 13.9231 9H2.07692C1.48125 9 1 8.55312 1 8C1 7.44687 1.48125 7 2.07692 7H13.9231C14.5188 7 15 7.44687 15 8Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                        </svg>
+                    </div>
+                </div>
+                <div data-layer="_NumberSlot" data-size="Small" className="Numberslot" style={{width: 40, height: 26, paddingLeft: 4, paddingRight: 4, paddingTop: 1, paddingBottom: 1, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 4, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                    <div data-layer="0" style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'}}>0</div>
+                </div>
+                <div data-layer="_SliderButtons" data-property-1="_PlusSliderButton" data-size="Small" className="Sliderbuttons" style={{width: 26, height: 26, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                    <div data-svg-wrapper data-layer="Size16(Gray)Icon/Plus" className="Size16GrayIconPlus" style={{left: 5, top: 4.91, position: 'absolute'}}>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.07692 2.07692C9.07692 1.48125 8.59567 1 8 1C7.40433 1 6.92308 1.48125 6.92308 2.07692V6.92308H2.07692C1.48125 6.92308 1 7.40433 1 8C1 8.59567 1.48125 9.07692 2.07692 9.07692H6.92308V13.9231C6.92308 14.5188 7.40433 15 8 15C8.59567 15 9.07692 14.5188 9.07692 13.9231V9.07692H13.9231C14.5188 9.07692 15 8.59567 15 8C15 7.40433 14.5188 6.92308 13.9231 6.92308H9.07692V2.07692Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div data-layer="DeleteIcon" className="Deleteicon" style={{width: 32, height: 26, position: 'relative', background: 'rgba(0, 0, 0, 0)', borderRadius: 9999}}>
+                <div data-svg-wrapper data-layer="Size16(Colored)Icon/Colored/Delete-Trash" className="Size16ColoredIconColoredDeleteTrash" style={{left: 8, top: 5, position: 'absolute'}}>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.68459 1.57885C5.79901 1.22885 6.12209 1 6.49228 1H9.51439C9.87786 1 10.2009 1.23558 10.3221 1.57885L10.5509 2.27212H13.0952C13.5663 2.27212 13.9432 2.64904 13.9432 3.12019C13.9432 3.59135 13.5663 3.96827 13.0952 3.96827H2.90478C2.43362 3.96827 2.0567 3.59135 2.0567 3.12019C2.0567 2.64904 2.43362 2.27212 2.90478 2.27212H5.44901L5.67786 1.57885H5.68459ZM2.90478 5.24038H13.0884V13.3038C13.0884 14.2394 12.3279 15 11.3923 15H4.60093C3.66536 15 2.90478 14.2394 2.90478 13.3038V5.24038ZM5.24036 6.93654C4.89036 6.93654 4.60093 7.21923 4.60093 7.57596V12.6644C4.60093 13.0144 4.88362 13.3038 5.24036 13.3038C5.59709 13.3038 5.87978 13.0212 5.87978 12.6644V7.57596C5.87978 7.22596 5.59709 6.93654 5.24036 6.93654ZM7.99324 6.93654C7.64324 6.93654 7.35382 7.21923 7.35382 7.57596V12.6644C7.35382 13.0144 7.63651 13.3038 7.99324 13.3038C8.34997 13.3038 8.63266 13.0212 8.63266 12.6644V7.57596C8.63266 7.22596 8.34997 6.93654 7.99324 6.93654ZM10.7529 6.93654C10.4029 6.93654 10.1134 7.21923 10.1134 7.57596V12.6644C10.1134 13.0144 10.3961 13.3038 10.7529 13.3038C11.1096 13.3038 11.3923 13.0212 11.3923 12.6644V7.57596C11.3923 7.22596 11.1096 6.93654 10.7529 6.93654Z" fill="var(--Colors-Functional-Input-Icons-Icon_DarkGray, #4B4B4A)"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-layer="Size=PriceSliderSmall, Label=With Label -Left, Icon=Without Delete Icon" className="SizePriceslidersmallLabelWithLabelLeftIconWithoutDeleteIcon" style={{left: 210.97, top: 254.91, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 8, display: 'inline-flex'}}>
+        <div data-layer="Label" className="Label" style={{alignSelf: 'stretch', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+        <div data-layer="PriceSlider/Size3" className="PricesliderSize3" style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', display: 'inline-flex'}}>
+            <div data-layer="PriceSlider/PriceSliderSmall" className="PricesliderPriceslidersmall" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+                <div data-layer="_SliderButtons" data-property-1="_MinusSliderButton" data-size="Small" className="Sliderbuttons" style={{width: 26, height: 26, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                    <div data-svg-wrapper data-layer="Size16(Gray)Icon/Minus" className="Size16GrayIconMinus" style={{left: 5, top: 4.91, position: 'absolute'}}>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 8C15 8.55312 14.5188 9 13.9231 9H2.07692C1.48125 9 1 8.55312 1 8C1 7.44687 1.48125 7 2.07692 7H13.9231C14.5188 7 15 7.44687 15 8Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                        </svg>
+                    </div>
+                </div>
+                <div data-layer="_NumberSlot" data-size="Small" className="Numberslot" style={{width: 40, height: 26, paddingLeft: 4, paddingRight: 4, paddingTop: 1, paddingBottom: 1, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 4, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                    <div data-layer="0" style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'}}>0</div>
+                </div>
+                <div data-layer="_SliderButtons" data-property-1="_PlusSliderButton" data-size="Small" className="Sliderbuttons" style={{width: 26, height: 26, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                    <div data-svg-wrapper data-layer="Size16(Gray)Icon/Plus" className="Size16GrayIconPlus" style={{left: 5, top: 4.91, position: 'absolute'}}>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.07692 2.07692C9.07692 1.48125 8.59567 1 8 1C7.40433 1 6.92308 1.48125 6.92308 2.07692V6.92308H2.07692C1.48125 6.92308 1 7.40433 1 8C1 8.59567 1.48125 9.07692 2.07692 9.07692H6.92308V13.9231C6.92308 14.5188 7.40433 15 8 15C8.59567 15 9.07692 14.5188 9.07692 13.9231V9.07692H13.9231C14.5188 9.07692 15 8.59567 15 8C15 7.40433 14.5188 6.92308 13.9231 6.92308H9.07692V2.07692Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-layer="Size=PriceSliderSmall, Label=With Label -Center, Icon=With Delete Icon" className="SizePriceslidersmallLabelWithLabelCenterIconWithDeleteIcon" style={{width: 134, left: 371.56, top: 83.41, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div data-layer="Label" className="Label" style={{alignSelf: 'stretch', textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+        <div data-layer="PriceSlider/Size3" className="PricesliderSize3" style={{alignSelf: 'stretch', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+            <div data-layer="PriceSlider/PriceSliderSmall" className="PricesliderPriceslidersmall" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+                <div data-layer="_SliderButtons" data-property-1="_MinusSliderButton" data-size="Small" className="Sliderbuttons" style={{width: 26, height: 26, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                    <div data-svg-wrapper data-layer="Size16(Gray)Icon/Minus" className="Size16GrayIconMinus" style={{left: 5, top: 4.91, position: 'absolute'}}>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 8C15 8.55312 14.5188 9 13.9231 9H2.07692C1.48125 9 1 8.55312 1 8C1 7.44687 1.48125 7 2.07692 7H13.9231C14.5188 7 15 7.44687 15 8Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                        </svg>
+                    </div>
+                </div>
+                <div data-layer="_NumberSlot" data-size="Small" className="Numberslot" style={{width: 40, height: 26, paddingLeft: 4, paddingRight: 4, paddingTop: 1, paddingBottom: 1, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 4, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                    <div data-layer="0" style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'}}>0</div>
+                </div>
+                <div data-layer="_SliderButtons" data-property-1="_PlusSliderButton" data-size="Small" className="Sliderbuttons" style={{width: 26, height: 26, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                    <div data-svg-wrapper data-layer="Size16(Gray)Icon/Plus" className="Size16GrayIconPlus" style={{left: 5, top: 4.91, position: 'absolute'}}>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.07692 2.07692C9.07692 1.48125 8.59567 1 8 1C7.40433 1 6.92308 1.48125 6.92308 2.07692V6.92308H2.07692C1.48125 6.92308 1 7.40433 1 8C1 8.59567 1.48125 9.07692 2.07692 9.07692H6.92308V13.9231C6.92308 14.5188 7.40433 15 8 15C8.59567 15 9.07692 14.5188 9.07692 13.9231V9.07692H13.9231C14.5188 9.07692 15 8.59567 15 8C15 7.40433 14.5188 6.92308 13.9231 6.92308H9.07692V2.07692Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div data-layer="DeleteIcon" className="Deleteicon" style={{width: 32, height: 26, position: 'relative', background: 'rgba(0, 0, 0, 0)', borderRadius: 9999}}>
+                <div data-svg-wrapper data-layer="Size16(Colored)Icon/Colored/Delete-Trash" className="Size16ColoredIconColoredDeleteTrash" style={{left: 8, top: 5, position: 'absolute'}}>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M5.68459 1.57885C5.79901 1.22885 6.12209 1 6.49228 1H9.51439C9.87786 1 10.2009 1.23558 10.3221 1.57885L10.5509 2.27212H13.0952C13.5663 2.27212 13.9432 2.64904 13.9432 3.12019C13.9432 3.59135 13.5663 3.96827 13.0952 3.96827H2.90478C2.43362 3.96827 2.0567 3.59135 2.0567 3.12019C2.0567 2.64904 2.43362 2.27212 2.90478 2.27212H5.44901L5.67786 1.57885H5.68459ZM2.90478 5.24038H13.0884V13.3038C13.0884 14.2394 12.3279 15 11.3923 15H4.60093C3.66536 15 2.90478 14.2394 2.90478 13.3038V5.24038ZM5.24036 6.93654C4.89036 6.93654 4.60093 7.21923 4.60093 7.57596V12.6644C4.60093 13.0144 4.88362 13.3038 5.24036 13.3038C5.59709 13.3038 5.87978 13.0212 5.87978 12.6644V7.57596C5.87978 7.22596 5.59709 6.93654 5.24036 6.93654ZM7.99324 6.93654C7.64324 6.93654 7.35382 7.21923 7.35382 7.57596V12.6644C7.35382 13.0144 7.63651 13.3038 7.99324 13.3038C8.34997 13.3038 8.63266 13.0212 8.63266 12.6644V7.57596C8.63266 7.22596 8.34997 6.93654 7.99324 6.93654ZM10.7529 6.93654C10.4029 6.93654 10.1134 7.21923 10.1134 7.57596V12.6644C10.1134 13.0144 10.3961 13.3038 10.7529 13.3038C11.1096 13.3038 11.3923 13.0212 11.3923 12.6644V7.57596C11.3923 7.22596 11.1096 6.93654 10.7529 6.93654Z" fill="var(--Colors-Functional-Input-Icons-Icon_DarkGray, #4B4B4A)"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div data-layer="Size=PriceSliderSmall, Label=With Label -Center, Icon=Without Delete Icon" className="SizePriceslidersmallLabelWithLabelCenterIconWithoutDeleteIcon" style={{left: 371.56, top: 254.91, position: 'absolute', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+        <div data-layer="Label" className="Label" style={{alignSelf: 'stretch', textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'black', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Label</div>
+        <div data-layer="PriceSlider/Size3" className="PricesliderSize3" style={{alignSelf: 'stretch', justifyContent: 'center', alignItems: 'center', display: 'inline-flex'}}>
+            <div data-layer="PriceSlider/PriceSliderSmall" className="PricesliderPriceslidersmall" style={{justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+                <div data-layer="_SliderButtons" data-property-1="_MinusSliderButton" data-size="Small" className="Sliderbuttons" style={{width: 26, height: 26, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                    <div data-svg-wrapper data-layer="Size16(Gray)Icon/Minus" className="Size16GrayIconMinus" style={{left: 5, top: 4.91, position: 'absolute'}}>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15 8C15 8.55312 14.5188 9 13.9231 9H2.07692C1.48125 9 1 8.55312 1 8C1 7.44687 1.48125 7 2.07692 7H13.9231C14.5188 7 15 7.44687 15 8Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                        </svg>
+                    </div>
+                </div>
+                <div data-layer="_NumberSlot" data-size="Small" className="Numberslot" style={{width: 40, height: 26, paddingLeft: 4, paddingRight: 4, paddingTop: 1, paddingBottom: 1, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 4, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                    <div data-layer="0" style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'}}>0</div>
+                </div>
+                <div data-layer="_SliderButtons" data-property-1="_PlusSliderButton" data-size="Small" className="Sliderbuttons" style={{width: 26, height: 26, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                    <div data-svg-wrapper data-layer="Size16(Gray)Icon/Plus" className="Size16GrayIconPlus" style={{left: 5, top: 4.91, position: 'absolute'}}>
+                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M9.07692 2.07692C9.07692 1.48125 8.59567 1 8 1C7.40433 1 6.92308 1.48125 6.92308 2.07692V6.92308H2.07692C1.48125 6.92308 1 7.40433 1 8C1 8.59567 1.48125 9.07692 2.07692 9.07692H6.92308V13.9231C6.92308 14.5188 7.40433 15 8 15C8.59567 15 9.07692 14.5188 9.07692 13.9231V9.07692H13.9231C14.5188 9.07692 15 8.59567 15 8C15 7.40433 14.5188 6.92308 13.9231 6.92308H9.07692V2.07692Z" fill="var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A)"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

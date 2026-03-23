@@ -1,0 +1,201 @@
+<div style={{width: '100%', height: '100%', position: 'relative', overflow: 'hidden', borderRadius: 5, border: '1px #8A38F5 solid'}}>
+    <div style={{width: 618, paddingLeft: 20, paddingRight: 20, paddingTop: 10, paddingBottom: 10, left: 20, top: 20, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', boxShadow: '0px 2px 4px #E7EDEC, 0px 2px 4px rgba(231, 237, 236, 0.25)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Focus-Light, #B1F4ED) solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', justifyContent: 'space-between', alignItems: 'center', display: 'inline-flex'}}>
+            <div style={{width: 108.28, height: 27.07, position: 'relative'}}>
+                <div style={{width: 108.28, height: 27.07, left: 0, top: 0, position: 'absolute', overflow: 'hidden'}}>
+                    <div style={{width: 12.09, height: 12.56, left: 0.12, top: 6.09, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 7.77, height: 10.07, left: 13.98, top: 8.80, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 8.48, height: 9.63, left: 23.14, top: 9.02, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 1.30, height: 9.63, left: 33.53, top: 9.02, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 13.12, height: 9.85, left: 37.78, top: 8.80, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 9.10, height: 12.56, left: 53.37, top: 6.09, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 8.33, height: 12.97, left: 63.07, top: 9.02, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 8.37, height: 10.07, left: 72.31, top: 8.80, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 7.65, height: 10.07, left: 82.35, top: 8.80, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 7.50, height: 7.70, left: 30.61, top: 0, position: 'absolute', background: 'var(--Fusia, #D72D8A)'}} />
+                    <div style={{width: 2.62, height: 2.64, left: 88.84, top: 5.87, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 5.99, height: 6.37, left: 36.35, top: 20.70, position: 'absolute', background: 'var(--Fusia, #D72D8A)'}} />
+                    <div style={{width: 6.11, height: 6.40, left: 42.62, top: 20.63, position: 'absolute', background: 'var(--Fusia, #D72D8A)'}} />
+                    <div style={{width: 6.18, height: 6.28, left: 48.85, top: 20.72, position: 'absolute', background: 'var(--Fusia, #D72D8A)'}} />
+                    <div style={{width: 6.18, height: 6.28, left: 55.86, top: 20.72, position: 'absolute', background: 'var(--Fusia, #D72D8A)'}} />
+                    <div style={{width: 3.19, height: 4.57, left: 0, top: 21.11, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 3.36, height: 3.66, left: 3.51, top: 22.10, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 4.69, height: 3.50, left: 7.16, top: 22.18, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 3.32, height: 3.66, left: 12.15, top: 22.10, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 1.57, height: 3.58, left: 16.22, top: 22.10, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 3.32, height: 3.66, left: 18.09, top: 22.10, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 3.14, height: 4.89, left: 22, top: 20.87, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 3.12, height: 4.89, left: 27.95, top: 20.87, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 3.23, height: 4.72, left: 31.33, top: 22.18, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 10.90, height: 14.60, left: 91.37, top: 4.06, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 4.83, height: 14.58, left: 103.45, top: 4.08, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                </div>
+            </div>
+            <div style={{width: 143, height: 35, padding: 10, background: '#00575C', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>GO TO CART</div>
+                <div style={{width: 16, height: 16, position: 'relative'}}>
+                    <div style={{width: 12.23, height: 10.87, left: 1.50, top: 2.39, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Hover, white)'}} />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 618, paddingLeft: 20, paddingRight: 20, paddingTop: 10, paddingBottom: 10, left: 20, top: 95, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', boxShadow: '0px 2px 4px #E7EDEC, 0px 2px 4px rgba(231, 237, 236, 0.25)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Focus-Light, #B1F4ED) solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', justifyContent: 'space-between', alignItems: 'center', display: 'inline-flex'}}>
+            <div style={{width: 65, height: 16.27, position: 'relative'}}>
+                <div style={{width: 65, height: 16.27, left: 0, top: 0, position: 'absolute'}}>
+                    <div style={{width: 15.15, height: 16.08, left: 0, top: 0.18, position: 'absolute', background: 'var(--Fusia, #D72D8A)'}} />
+                    <div style={{width: 15.45, height: 16.16, left: 15.86, top: 0, position: 'absolute', background: 'var(--Fusia, #D72D8A)'}} />
+                    <div style={{width: 15.63, height: 15.86, left: 31.62, top: 0.23, position: 'absolute', background: 'var(--Fusia, #D72D8A)'}} />
+                    <div style={{width: 15.63, height: 15.86, left: 49.37, top: 0.23, position: 'absolute', background: 'var(--Fusia, #D72D8A)'}} />
+                </div>
+            </div>
+            <div style={{width: 143, height: 35, padding: 10, background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Hover, #00575C)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>GO TO CART</div>
+                <div style={{width: 16, height: 16, position: 'relative'}}>
+                    <div style={{width: 12.23, height: 10.87, left: 1.50, top: 2.39, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Hover, white)'}} />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 618, paddingLeft: 20, paddingRight: 20, paddingTop: 10, paddingBottom: 10, left: 20, top: 170, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', boxShadow: '0px 2px 4px #E7EDEC, 0px 2px 4px rgba(231, 237, 236, 0.25)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Focus-Light, #B1F4ED) solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', justifyContent: 'space-between', alignItems: 'center', display: 'inline-flex'}}>
+            <div style={{width: 111, height: 27, position: 'relative'}}>
+                <div style={{width: 14.93, height: 15.43, left: 0, top: 7.48, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                <div style={{width: 9.60, height: 12.37, left: 17.12, top: 10.81, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                <div style={{width: 10.47, height: 11.82, left: 28.44, top: 11.08, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                <div style={{width: 1.61, height: 11.82, left: 41.27, top: 11.08, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                <div style={{width: 16.20, height: 12.09, left: 46.52, top: 10.81, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                <div style={{width: 11.24, height: 15.42, left: 65.77, top: 7.48, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                <div style={{width: 10.29, height: 15.92, left: 77.75, top: 11.08, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                <div style={{width: 10.34, height: 12.37, left: 89.16, top: 10.81, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                <div style={{width: 9.44, height: 12.37, left: 101.56, top: 10.82, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                <div style={{width: 9.26, height: 9.45, left: 37.66, top: 0, position: 'absolute', background: 'var(--Colors-PrimitiveColorTokens-Brand-MaximEyes-EVAA-Springtime, #008A1E)'}} />
+            </div>
+            <div style={{width: 143, height: 35, padding: 10, background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Hover, #00575C)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>GO TO CART</div>
+                <div style={{width: 16, height: 16, position: 'relative'}}>
+                    <div style={{width: 12.23, height: 10.87, left: 1.50, top: 2.39, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Hover, white)'}} />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{height: 55, paddingLeft: 17, paddingRight: 17, paddingTop: 10, paddingBottom: 10, left: 20, top: 366.50, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', boxShadow: '0px 2px 4px #E7EDEC, 0px 2px 4px rgba(231, 237, 236, 0.25)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Focus-Light, #B1F4ED) solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', gap: 72, display: 'inline-flex'}}>
+            <div style={{width: 108.28, height: 27.07, position: 'relative'}}>
+                <div style={{width: 108.28, height: 27.07, left: 0, top: 0, position: 'absolute', overflow: 'hidden'}}>
+                    <div style={{width: 12.09, height: 12.56, left: 0.12, top: 6.09, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 7.77, height: 10.07, left: 13.98, top: 8.80, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 8.48, height: 9.63, left: 23.14, top: 9.02, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 1.30, height: 9.63, left: 33.53, top: 9.02, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 13.12, height: 9.85, left: 37.78, top: 8.80, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 9.10, height: 12.56, left: 53.37, top: 6.09, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 8.33, height: 12.97, left: 63.07, top: 9.02, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 8.37, height: 10.07, left: 72.31, top: 8.80, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 7.65, height: 10.07, left: 82.35, top: 8.80, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 7.50, height: 7.70, left: 30.61, top: 0, position: 'absolute', background: 'var(--Fusia, #D72D8A)'}} />
+                    <div style={{width: 2.62, height: 2.64, left: 88.84, top: 5.87, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 5.99, height: 6.37, left: 36.35, top: 20.70, position: 'absolute', background: 'var(--Fusia, #D72D8A)'}} />
+                    <div style={{width: 6.11, height: 6.40, left: 42.62, top: 20.63, position: 'absolute', background: 'var(--Fusia, #D72D8A)'}} />
+                    <div style={{width: 6.18, height: 6.28, left: 48.85, top: 20.72, position: 'absolute', background: 'var(--Fusia, #D72D8A)'}} />
+                    <div style={{width: 6.18, height: 6.28, left: 55.86, top: 20.72, position: 'absolute', background: 'var(--Fusia, #D72D8A)'}} />
+                    <div style={{width: 3.19, height: 4.57, left: 0, top: 21.11, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 3.36, height: 3.66, left: 3.51, top: 22.10, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 4.69, height: 3.50, left: 7.16, top: 22.18, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 3.32, height: 3.66, left: 12.15, top: 22.10, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 1.57, height: 3.58, left: 16.22, top: 22.10, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 3.32, height: 3.66, left: 18.09, top: 22.10, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 3.14, height: 4.89, left: 22, top: 20.87, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 3.12, height: 4.89, left: 27.95, top: 20.87, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 3.23, height: 4.72, left: 31.33, top: 22.18, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 10.90, height: 14.60, left: 91.37, top: 4.06, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                    <div style={{width: 4.83, height: 14.58, left: 103.45, top: 4.08, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                </div>
+            </div>
+            <div style={{justifyContent: 'flex-end', alignItems: 'center', gap: 20, display: 'flex'}}>
+                <div data-tabs="2 Tabs" data-theme="Neutral" style={{width: 291, padding: 10, justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'flex'}}>
+                    <div style={{width: 85, height: 23, position: 'relative'}}>
+                        <div style={{width: 85, left: 0, top: 0, position: 'absolute', textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'}}>Products</div>
+                    </div>
+                    <div style={{width: 20, height: 23, position: 'relative'}}>
+                        <div style={{left: 0, top: 0, position: 'absolute', color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>Billing &amp; Subscriptions</div>
+                    </div>
+                </div>
+                <div style={{color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'}}>Support</div>
+                <div style={{color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'}}>Admin Console
+        </div>
+                <div style={{width: 143, height: 35, padding: 10, background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Hover, #00575C)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>GO TO CART</div>
+                    <div style={{width: 16, height: 16, position: 'relative'}}>
+                        <div style={{width: 12.23, height: 10.87, left: 1.50, top: 2.39, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Hover, white)'}} />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{height: 55, paddingLeft: 17, paddingRight: 17, paddingTop: 10, paddingBottom: 10, left: 20, top: 485.50, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', boxShadow: '0px 2px 4px #E7EDEC, 0px 2px 4px rgba(231, 237, 236, 0.25)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Focus-Light, #B1F4ED) solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', gap: 72, display: 'inline-flex'}}>
+            <div style={{width: 65, height: 16.27, position: 'relative'}}>
+                <div style={{width: 65, height: 16.27, left: 0, top: 0, position: 'absolute'}}>
+                    <div style={{width: 15.15, height: 16.08, left: 0, top: 0.18, position: 'absolute', background: 'var(--Fusia, #D72D8A)'}} />
+                    <div style={{width: 15.45, height: 16.16, left: 15.86, top: 0, position: 'absolute', background: 'var(--Fusia, #D72D8A)'}} />
+                    <div style={{width: 15.63, height: 15.86, left: 31.62, top: 0.23, position: 'absolute', background: 'var(--Fusia, #D72D8A)'}} />
+                    <div style={{width: 15.63, height: 15.86, left: 49.37, top: 0.23, position: 'absolute', background: 'var(--Fusia, #D72D8A)'}} />
+                </div>
+            </div>
+            <div style={{justifyContent: 'flex-end', alignItems: 'center', gap: 20, display: 'flex'}}>
+                <div data-tabs="2 Tabs" data-theme="Neutral" style={{width: 291, padding: 10, justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'flex'}}>
+                    <div style={{width: 85, height: 23, position: 'relative'}}>
+                        <div style={{width: 85, left: 0, top: 0, position: 'absolute', textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'}}>Products</div>
+                    </div>
+                    <div style={{width: 20, height: 23, position: 'relative'}}>
+                        <div style={{left: 0, top: 0, position: 'absolute', color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>Billing &amp; Subscriptions</div>
+                    </div>
+                </div>
+                <div style={{color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'}}>Support</div>
+                <div style={{color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'}}>Admin Console
+        </div>
+                <div style={{width: 143, height: 35, padding: 10, background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Hover, #00575C)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>GO TO CART</div>
+                    <div style={{width: 16, height: 16, position: 'relative'}}>
+                        <div style={{width: 12.23, height: 10.87, left: 1.50, top: 2.39, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Hover, white)'}} />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{height: 55, paddingLeft: 17, paddingRight: 17, paddingTop: 10, paddingBottom: 10, left: 20, top: 604.50, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', boxShadow: '0px 2px 4px #E7EDEC, 0px 2px 4px rgba(231, 237, 236, 0.25)', borderRadius: 9999, outline: '1px var(--Colors-Functional-Border-Border_Focus-Light, #B1F4ED) solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start', gap: 10, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'center', gap: 72, display: 'inline-flex'}}>
+            <div style={{width: 111, height: 27, position: 'relative'}}>
+                <div style={{width: 14.93, height: 15.43, left: 0, top: 7.48, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                <div style={{width: 9.60, height: 12.37, left: 17.12, top: 10.81, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                <div style={{width: 10.47, height: 11.82, left: 28.44, top: 11.08, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                <div style={{width: 1.61, height: 11.82, left: 41.27, top: 11.08, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                <div style={{width: 16.20, height: 12.09, left: 46.52, top: 10.81, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                <div style={{width: 11.24, height: 15.42, left: 65.77, top: 7.48, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                <div style={{width: 10.29, height: 15.92, left: 77.75, top: 11.08, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                <div style={{width: 10.34, height: 12.37, left: 89.16, top: 10.81, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                <div style={{width: 9.44, height: 12.37, left: 101.56, top: 10.82, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Default, #303030)'}} />
+                <div style={{width: 9.26, height: 9.45, left: 37.66, top: 0, position: 'absolute', background: 'var(--Colors-PrimitiveColorTokens-Brand-MaximEyes-EVAA-Springtime, #008A1E)'}} />
+            </div>
+            <div style={{justifyContent: 'flex-end', alignItems: 'center', gap: 20, display: 'flex'}}>
+                <div data-tabs="2 Tabs" data-theme="Neutral" style={{width: 291, padding: 10, justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'flex'}}>
+                    <div style={{width: 85, height: 23, position: 'relative'}}>
+                        <div style={{width: 85, left: 0, top: 0, position: 'absolute', textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'}}>Products</div>
+                    </div>
+                    <div style={{width: 20, height: 23, position: 'relative'}}>
+                        <div style={{left: 0, top: 0, position: 'absolute', color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'}}>Billing &amp; Subscriptions</div>
+                    </div>
+                </div>
+                <div style={{color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'}}>Support</div>
+                <div style={{color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'}}>Admin Console
+        </div>
+                <div style={{width: 143, height: 35, padding: 10, background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bkg_Hover, #00575C)', borderRadius: 999, justifyContent: 'center', alignItems: 'center', gap: 4, display: 'flex'}}>
+                    <div style={{textAlign: 'center', justifyContent: 'center', display: 'flex', flexDirection: 'column', color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'}}>GO TO CART</div>
+                    <div style={{width: 16, height: 16, position: 'relative'}}>
+                        <div style={{width: 12.23, height: 10.87, left: 1.50, top: 2.39, position: 'absolute', background: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Icon_Hover, white)'}} />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

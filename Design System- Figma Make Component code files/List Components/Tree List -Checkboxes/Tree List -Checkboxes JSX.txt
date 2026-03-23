@@ -1,0 +1,98 @@
+<div style={{width: '100%', height: '100%', position: 'relative', overflow: 'hidden', borderRadius: 5, border: '1px #8A38F5 solid'}}>
+    <div style={{width: 448, paddingLeft: 20, left: 20, top: 20, position: 'absolute', borderLeft: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 19, display: 'flex'}}>
+            <div style={{alignSelf: 'stretch', padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                <div style={{flex: '1 1 0', justifyContent: 'space-between', alignItems: 'center', display: 'flex'}}>
+                    <div style={{width: 346, height: 47, position: 'relative'}}>
+                        <div style={{width: 346, left: 0, top: 0, position: 'absolute', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'}}>Enterprise Optical Group (Organization)</div>
+                        <div style={{width: 346, height: 20, left: 0, top: 27, position: 'absolute'}}>
+                            <div style={{left: 0, top: 0, position: 'absolute', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Grant access to all businesses and locations</div>
+                        </div>
+                    </div>
+                    <div data-haslabel="false" data-shape="Square" data-state="Default" data-status="Unchecked" style={{padding: 10, justifyContent: 'center', alignItems: 'center', gap: 5, display: 'flex'}}>
+                        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style={{width: 429, paddingLeft: 20, borderLeft: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-end', gap: 20, display: 'flex'}}>
+            <div style={{alignSelf: 'stretch', padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                <div style={{flex: '1 1 0', justifyContent: 'space-between', alignItems: 'center', display: 'flex'}}>
+                    <div style={{width: 346, height: 47, position: 'relative'}}>
+                        <div style={{width: 346, left: 0, top: 0, position: 'absolute', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'}}>VisionCare Optical Centers</div>
+                        <div style={{width: 346, height: 20, left: 0, top: 27, position: 'absolute'}}>
+                            <div style={{left: 0, top: 0, position: 'absolute', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>All locations within this business</div>
+                        </div>
+                    </div>
+                    <div data-haslabel="false" data-shape="Square" data-state="Default" data-status="Unchecked" style={{padding: 10, justifyContent: 'center', alignItems: 'center', gap: 5, display: 'flex'}}>
+                        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+                    </div>
+                </div>
+            </div>
+            <div style={{paddingLeft: 20, borderLeft: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start', gap: 16, display: 'flex'}}>
+                <div style={{width: 372, height: 48, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                    <div style={{width: 186.42, left: 19.79, top: 14, position: 'absolute', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Westside Eye Clinic</div>
+                    </div>
+                    <div style={{width: 36, height: 40, left: 324, top: 4, position: 'absolute'}}>
+                        <div data-haslabel="false" data-shape="Square" data-state="Default" data-status="Unchecked" style={{width: 36, height: 40, padding: 10, left: 0, top: 0, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+                            <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+                        </div>
+                    </div>
+                </div>
+                <div style={{width: 372, height: 48, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                    <div style={{width: 186.42, left: 19.79, top: 14, position: 'absolute', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Downtown Vision Center</div>
+                    </div>
+                    <div style={{width: 36, height: 40, left: 324, top: 4, position: 'absolute'}}>
+                        <div data-haslabel="false" data-shape="Square" data-state="Default" data-status="Unchecked" style={{width: 36, height: 40, padding: 10, left: 0, top: 0, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+                            <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+                        </div>
+                    </div>
+                </div>
+                <div style={{width: 372, height: 48, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                    <div style={{width: 186.42, left: 19.79, top: 14, position: 'absolute', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 4, display: 'inline-flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Eastgate Optical</div>
+                    </div>
+                    <div style={{width: 36, height: 40, left: 324, top: 4, position: 'absolute'}}>
+                        <div data-haslabel="false" data-shape="Square" data-state="Default" data-status="Unchecked" style={{width: 36, height: 40, padding: 10, left: 0, top: 0, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'inline-flex'}}>
+                            <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 448, paddingLeft: 20, left: 20, top: 450, position: 'absolute', borderLeft: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 24, display: 'inline-flex'}}>
+        <div style={{alignSelf: 'stretch', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 19, display: 'flex'}}>
+            <div style={{alignSelf: 'stretch', padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                <div style={{flex: '1 1 0', justifyContent: 'space-between', alignItems: 'center', display: 'flex'}}>
+                    <div style={{width: 346, height: 47, position: 'relative'}}>
+                        <div style={{width: 346, left: 0, top: 0, position: 'absolute', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'}}>Enterprise Optical Group (Organization)</div>
+                        <div style={{width: 346, height: 20, left: 0, top: 27, position: 'absolute'}}>
+                            <div style={{left: 0, top: 0, position: 'absolute', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>Grant access to all businesses and locations</div>
+                        </div>
+                    </div>
+                    <div data-haslabel="false" data-shape="Square" data-state="Default" data-status="Unchecked" style={{padding: 10, justifyContent: 'center', alignItems: 'center', gap: 5, display: 'flex'}}>
+                        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style={{width: 429, paddingLeft: 20, borderLeft: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-end', gap: 20, display: 'flex'}}>
+            <div style={{alignSelf: 'stretch', padding: 10, background: 'var(--Colors-Functional-Bkg-Bkg_Light, #F6F6F1)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                <div style={{flex: '1 1 0', justifyContent: 'space-between', alignItems: 'center', display: 'flex'}}>
+                    <div style={{width: 346, height: 47, position: 'relative'}}>
+                        <div style={{width: 346, left: 0, top: 0, position: 'absolute', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'}}>VisionCare Optical Centers</div>
+                        <div style={{width: 346, height: 20, left: 0, top: 27, position: 'absolute'}}>
+                            <div style={{left: 0, top: 0, position: 'absolute', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'}}>All locations within this business</div>
+                        </div>
+                    </div>
+                    <div data-haslabel="false" data-shape="Square" data-state="Default" data-status="Unchecked" style={{padding: 10, justifyContent: 'center', alignItems: 'center', gap: 5, display: 'flex'}}>
+                        <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 2, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-0.50px'}} />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

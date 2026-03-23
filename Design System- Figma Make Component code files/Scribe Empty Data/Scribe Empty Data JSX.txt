@@ -1,0 +1,148 @@
+<div data-layer="Scribe Empty Data" className="ScribeEmptyData" style={{width: '100%', height: '100%', position: 'relative', overflow: 'hidden', borderRadius: 5, border: '1px #9747FF solid'}}>
+    <div data-layer="Property 1=Note" className="Property1Note" style={{width: 491, left: 20, top: 20, position: 'absolute', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 20, display: 'inline-flex'}}>
+        <div data-layer="IlustratorBlock" className="Ilustratorblock" style={{width: 268.29, height: 268.29, position: 'relative'}}>
+            <div data-layer="BG" className="Bg" style={{width: 268.29, height: 268.29, left: 0, top: 0, position: 'absolute', background: 'radial-gradient(ellipse 50.00% 50.00% at 50.00% 50.00%, #FF45B3 9%, rgba(255, 182.67, 225.48, 0.96) 69%, rgba(255, 183, 225, 0) 100%)', borderRadius: 9999}} />
+            <img data-layer="Scribe 1 Icon" className="Scribe1Icon" style={{width: 190.58, height: 190.58, left: 38.86, top: 38.86, position: 'absolute'}} src="https://placehold.co/191x191" />
+        </div>
+        <div data-layer="HeadlineBlock" className="Headlineblock" style={{width: 405.98, textAlign: 'center', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 24, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 34.92, wordWrap: 'break-word'}}>Ready to create your first note?</div>
+        <div data-layer="EmptyDataContent" className="Emptydatacontent" style={{alignSelf: 'stretch', textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'}}>Start Recording or  Upload a Conversation to generate SOAP notes.</div>
+    </div>
+    <div data-layer="Property 1=Mike" className="Property1Mike" style={{width: 491, left: 20, top: 495.29, position: 'absolute', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 20, display: 'inline-flex'}}>
+        <div data-svg-wrapper data-layer="Vector" className="Vector">
+            <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.23486 4.46971C3.46914 4.46971 4.46971 3.46913 4.46971 2.23485C4.46971 1.00058 3.46914 0 2.23486 0C1.00059 0 0 1.00058 0 2.23485C0 3.46913 1.00059 4.46971 2.23486 4.46971Z" fill="#CFCFCF"/>
+            </svg>
+        </div>
+        <div data-svg-wrapper data-layer="Vector" className="Vector">
+            <svg width="5" height="5" viewBox="0 0 5 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M2.23484 4.46971C3.46912 4.46971 4.46971 3.46912 4.46971 2.23484C4.46971 1.00057 3.46912 0 2.23484 0C1.00057 0 0 1.00057 0 2.23484C0 3.46912 1.00057 4.46971 2.23484 4.46971Z" fill="#CFCFCF"/>
+            </svg>
+        </div>
+        <div data-svg-wrapper data-layer="Vector" className="Vector">
+            <svg width="1" height="11" viewBox="0 0 1 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.5 0.5V10.306" stroke="#999999" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        <div data-svg-wrapper data-layer="Vector" className="Vector">
+            <svg width="11" height="1" viewBox="0 0 11 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.5 0.5H10.3288" stroke="#999999" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        <div data-svg-wrapper data-layer="Vector" className="Vector">
+            <svg width="1" height="11" viewBox="0 0 1 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.5 0.5V10.306" stroke="#999999" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        <div data-svg-wrapper data-layer="Vector" className="Vector">
+            <svg width="11" height="1" viewBox="0 0 11 1" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.5 0.5H10.306" stroke="#999999" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        <div data-svg-wrapper data-layer="Vector" className="Vector">
+            <svg width="14" height="30" viewBox="0 0 14 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.5 28.2761L4.65044 0.500069L12.6321 1.68592L8.52722 29.1883L0.5 28.2761Z" fill="#DBDBDB" stroke="#999999" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        <div data-svg-wrapper data-layer="Vector" className="Vector">
+            <svg width="92" height="75" viewBox="0 0 92 75" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M91.4052 13.4987L87.9845 36.4402C87.132 42.1715 85.1568 47.6781 82.1721 52.6446C79.1874 57.6111 75.2519 61.9397 70.5911 65.3823C65.9303 68.8249 60.636 71.3139 55.0115 72.7065C49.387 74.0991 43.5429 74.3679 37.8143 73.4977C26.3064 71.7151 15.9722 65.4489 9.07087 56.0691C2.16951 46.6892 -0.737674 34.9586 0.984816 23.4415L4.42832 0.500061" stroke="#999999" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        <div data-svg-wrapper data-layer="Vector" className="Vector">
+            <svg width="79" height="142" viewBox="0 0 79 142" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M77.2488 38.3877L66.2342 112.047C65.6388 116.375 64.1905 120.541 61.9733 124.306C59.756 128.07 56.8138 131.357 53.3172 133.976C49.8206 136.595 45.839 138.494 41.6031 139.563C37.3673 140.633 32.9613 140.851 28.6406 140.205C24.3198 139.559 20.1702 138.063 16.432 135.802C12.6938 133.541 9.44137 130.561 6.8632 127.034C4.28502 123.507 2.43233 119.503 1.41244 115.255C0.392544 111.007 0.225732 106.599 0.921674 102.286L11.9135 28.6501C13.2078 19.9861 17.8909 12.1911 24.9325 6.97996C31.974 1.7688 40.7973 -0.431657 49.4613 0.86265C58.1253 2.15696 65.9203 6.84001 71.1315 13.8816C76.3427 20.9232 78.5431 29.7465 77.2488 38.4105V38.3877Z" fill="#DBDBDB" stroke="#999999" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        <div data-svg-wrapper data-layer="Vector" className="Vector">
+            <svg width="26" height="11" viewBox="0 0 26 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M25.3544 3.20791L24.3053 10.2545L3.02861 7.06189C2.56651 6.99503 2.12223 6.83729 1.72144 6.59777C1.32064 6.35825 0.971277 6.0417 0.693511 5.6664C0.415746 5.2911 0.215089 4.86449 0.103126 4.4112C-0.00883685 3.95791 -0.0298775 3.48694 0.0412044 3.02547C0.181973 2.09485 0.685785 1.25793 1.44233 0.698007C2.19887 0.13808 3.14648 -0.0992247 4.07762 0.0380628L25.3544 3.20791Z" fill="#8E8E8E"/>
+            </svg>
+        </div>
+        <div data-svg-wrapper data-layer="Vector" className="Vector">
+            <svg width="26" height="11" viewBox="0 0 26 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M25.3131 7.22906C25.2436 7.69211 25.0833 8.13687 24.8414 8.53782C24.5996 8.93877 24.2809 9.28803 23.9038 9.56558C23.5267 9.84312 23.0985 10.0435 22.6438 10.1552C22.189 10.2669 21.7167 10.2877 21.2539 10.2165L0 7.04663L1.04901 0L22.3029 3.19264C22.7658 3.25966 23.2109 3.41728 23.6128 3.65648C24.0146 3.89569 24.3654 4.21178 24.645 4.58669C24.9246 4.96159 25.1275 5.38795 25.2422 5.84136C25.3568 6.29476 25.3809 6.76632 25.3131 7.22906Z" fill="#8E8E8E"/>
+            </svg>
+        </div>
+        <div data-svg-wrapper data-layer="Vector" className="Vector">
+            <svg width="26" height="11" viewBox="0 0 26 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M25.3546 3.25004L24.3055 10.2967L3.02881 7.10402C2.56576 7.03443 2.12102 6.87412 1.72007 6.63227C1.31912 6.39042 0.969849 6.0718 0.692304 5.69468C0.414758 5.31756 0.214397 4.88935 0.102702 4.43462C-0.00899433 3.9799 -0.029828 3.50759 0.0414064 3.0448C0.182415 2.1127 0.685352 1.27383 1.44105 0.710253C2.19675 0.146681 3.14424 -0.0961065 4.07784 0.034589L25.3546 3.25004Z" fill="#8E8E8E"/>
+            </svg>
+        </div>
+        <div data-svg-wrapper data-layer="Vector" className="Vector">
+            <svg width="26" height="11" viewBox="0 0 26 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M25.2904 7.27468C25.1496 8.2053 24.6458 9.04222 23.8892 9.60214C23.1327 10.1621 22.1851 10.3994 21.2539 10.2621L0 7.04663L1.07182 0L22.3257 3.16984C22.7912 3.24185 23.2378 3.40558 23.6396 3.65154C24.0413 3.8975 24.3902 4.22079 24.666 4.60266C24.9417 4.98452 25.139 5.41735 25.2461 5.87604C25.3533 6.33473 25.3684 6.81014 25.2904 7.27468Z" fill="#8E8E8E"/>
+            </svg>
+        </div>
+        <div data-svg-wrapper data-layer="Vector" className="Vector">
+            <svg width="26" height="11" viewBox="0 0 26 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M25.3774 3.21126L24.3284 10.2579L3.02883 7.08804C2.56578 7.01845 2.12102 6.85814 1.72007 6.61629C1.31912 6.37445 0.969849 6.05583 0.692304 5.6787C0.414758 5.30158 0.214397 4.87338 0.102702 4.41865C-0.00899433 3.96392 -0.029828 3.49161 0.0414064 3.02882C0.110995 2.56577 0.271321 2.12102 0.513168 1.72007C0.755016 1.31912 1.07364 0.969849 1.45076 0.692304C1.82788 0.414758 2.25609 0.214397 2.71082 0.102702C3.16554 -0.00899433 3.63785 -0.029828 4.10065 0.0414064L25.3774 3.21126Z" fill="#8E8E8E"/>
+            </svg>
+        </div>
+        <div data-svg-wrapper data-layer="Vector" className="Vector">
+            <svg width="26" height="11" viewBox="0 0 26 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M25.2904 7.20626C25.1493 8.13836 24.6464 8.97723 23.8907 9.5408C23.135 10.1044 22.1875 10.3472 21.2539 10.2165L0 7.02382L1.04903 0L22.303 3.16984C23.2336 3.31061 24.0705 3.81443 24.6304 4.57097C25.1903 5.32752 25.4276 6.27512 25.2904 7.20626Z" fill="#8E8E8E"/>
+            </svg>
+        </div>
+        <div data-svg-wrapper data-layer="Vector" className="Vector">
+            <svg width="26" height="11" viewBox="0 0 26 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M25.387 3.21126L24.3379 10.1895L3.06121 7.01963C2.13393 6.88374 1.2969 6.38967 0.729824 5.64352C0.162748 4.89737 -0.0891599 3.95862 0.028192 3.02881C0.097781 2.56577 0.258089 2.12101 0.499937 1.72006C0.741784 1.31911 1.06042 0.969855 1.43754 0.69231C1.81467 0.414764 2.24286 0.214386 2.69758 0.10269C3.15231 -0.00900591 3.62462 -0.0298222 4.08741 0.0414122L25.387 3.21126Z" fill="#8E8E8E"/>
+            </svg>
+        </div>
+        <div data-svg-wrapper data-layer="Vector" className="Vector">
+            <svg width="26" height="11" viewBox="0 0 26 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M25.3131 7.22906C25.2463 7.69116 25.0886 8.13543 24.849 8.53622C24.6095 8.93701 24.293 9.2864 23.9177 9.56416C23.5424 9.84193 23.1157 10.0426 22.6625 10.1545C22.2092 10.2665 21.7382 10.2875 21.2767 10.2165L0 7.04662L1.04901 0L22.3029 3.19263C22.7671 3.25676 23.2138 3.41252 23.6172 3.65086C24.0206 3.8892 24.3726 4.20536 24.6527 4.58095C24.9328 4.95655 25.1354 5.38408 25.2488 5.83869C25.3622 6.29331 25.3841 6.76592 25.3131 7.22906Z" fill="#8E8E8E"/>
+            </svg>
+        </div>
+        <div data-svg-wrapper data-layer="Vector" className="Vector">
+            <svg width="63" height="11" viewBox="0 0 63 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.500061 0.500069L61.8445 9.66752" stroke="#999999" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        <div data-svg-wrapper data-layer="Vector" className="Vector">
+            <svg width="56" height="56" viewBox="0 0 56 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M27.7972 55.0943C42.873 55.0943 55.0943 42.8729 55.0943 27.7971C55.0943 12.7213 42.873 0.5 27.7972 0.5C12.7214 0.5 0.5 12.7213 0.5 27.7971C0.5 42.8729 12.7214 55.0943 27.7972 55.0943Z" fill="#DBDBDB" stroke="#999999" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        <div data-svg-wrapper data-layer="Vector" className="Vector">
+            <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M0.500122 0.500114C1.07024 1.68596 29.5532 29.576 29.5532 29.576L0.500122 0.500114Z" fill="#DBDBDB"/>
+            <path d="M0.500122 0.500114C1.07024 1.68596 29.5532 29.576 29.5532 29.576" stroke="#999999" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        <div data-svg-wrapper data-layer="Vector" className="Vector">
+            <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M29.5531 0.500107C28.9602 1.68595 0.5 29.576 0.5 29.576L29.5531 0.500107Z" fill="#DBDBDB"/>
+            <path d="M29.5531 0.500107C28.9602 1.68595 0.5 29.576 0.5 29.576" stroke="#999999" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+        </div>
+        <div data-layer="HeadlineBlock" className="Headlineblock" style={{width: 405.98, textAlign: 'center', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 24, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 34.92, wordWrap: 'break-word'}}>Ready to create your first note?</div>
+        <div data-layer="EmptyDataContent" className="Emptydatacontent" style={{alignSelf: 'stretch', textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'}}>Start Recording or  Upload a Conversation to generate SOAP notes.</div>
+    </div>
+    <div data-layer="Property 1=Folder" className="Property1Folder" style={{width: 491, left: 20, top: 885.08, position: 'absolute', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 20, display: 'inline-flex'}}>
+        <div data-layer="IlustratorBlock" className="Ilustratorblock" style={{width: 97, height: 97, position: 'relative', overflow: 'hidden'}}>
+            <div data-svg-wrapper data-layer="Vector" className="Vector" style={{left: 42.44, top: 48.50, position: 'absolute'}}>
+                <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5 17.125L17.125 5M17.125 17.125L5 5" stroke="#1C274C" stroke-width="10" stroke-linecap="round"/>
+                </svg>
+            </div>
+            <div data-svg-wrapper data-layer="Vector" className="Vector" style={{left: 8.08, top: 8.08, position: 'absolute'}}>
+                <svg width="91" height="91" viewBox="0 0 91 91" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M85.8335 44.6001C85.8335 33.961 85.8335 28.6414 82.7235 25.1836C82.4377 24.8656 82.135 24.5629 81.8169 24.2768C78.3589 21.1669 73.0397 21.1669 62.4004 21.1669H60.89C56.2271 21.1669 53.8959 21.1669 51.7235 20.5476C50.53 20.2074 49.3793 19.7309 48.2949 19.1276C46.321 18.0292 44.6724 16.3807 41.3752 13.0836L39.1511 10.8596C38.0461 9.75456 37.4936 9.20199 36.913 8.72062C34.4095 6.64535 31.3383 5.37323 28.1006 5.07047C27.3497 5.00023 26.5682 5.00023 25.0055 5.00023C21.4386 5.00023 19.6551 5.00023 18.1695 5.28052C11.6298 6.5144 6.51438 11.6298 5.2805 18.1696C5.00021 19.6551 5.00021 21.4386 5.00021 25.0055M85.7984 61.5836C85.6533 71.6053 84.91 77.2866 81.0983 81.0983C76.3635 85.8336 68.7421 85.8336 53.5002 85.8336H37.3335C22.0915 85.8336 14.4704 85.8336 9.73531 81.0983C5.00021 76.3635 5.00021 68.7422 5.00021 53.5002V41.3752" stroke="#1C274C" stroke-width="10" stroke-linecap="round"/>
+                </svg>
+            </div>
+        </div>
+        <div data-layer="HeadlineBlock" className="Headlineblock" style={{width: 405.98, textAlign: 'center', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 24, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 34.92, wordWrap: 'break-word'}}>Ready to create your first note?</div>
+        <div data-layer="Start Recording or Upload a Conversation to generate SOAP notes." className="StartRecordingOrUploadAConversationToGenerateSoapNotes" style={{alignSelf: 'stretch', textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'}}>Start Recording or  Upload a Conversation to generate SOAP notes.</div>
+    </div>
+    <div data-layer="Property 1=Person" className="Property1Person" style={{width: 491, left: 20, top: 1179.08, position: 'absolute', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', gap: 20, display: 'inline-flex'}}>
+        <div data-svg-wrapper data-layer="IlustratorBlock" className="Ilustratorblock" style={{position: 'relative'}}>
+            <svg width="49" height="54" viewBox="0 0 49 54" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M46.8755 50.625L45.2517 36.8237C44.752 32.576 41.1522 29.375 36.8755 29.375H16.8755C9.37546 29.375 4.54338 22.5468 2.83038 15.6947L1.87546 11.875" stroke="#EC407A" stroke-width="3.75" stroke-linecap="round" stroke-linejoin="round"/>
+            <path opacity="0.5" d="M16.8755 29.375V41.875C16.8755 46.589 16.8755 48.946 18.3399 50.4105C19.8044 51.875 22.1615 51.875 26.8755 51.875C31.5895 51.875 33.9465 51.875 35.411 50.4105C36.8755 48.946 36.8755 46.589 36.8755 41.875V29.375" stroke="#EC407A" stroke-width="3.75" stroke-linecap="round"/>
+            <path opacity="0.9" d="M26.8755 21.875C32.3983 21.875 36.8755 17.3978 36.8755 11.875C36.8755 6.35215 32.3983 1.875 26.8755 1.875C21.3526 1.875 16.8755 6.35215 16.8755 11.875C16.8755 17.3978 21.3526 21.875 26.8755 21.875Z" stroke="#EC407A" stroke-width="3.75"/>
+            </svg>
+        </div>
+        <div data-layer="HeadlineBlock" className="Headlineblock" style={{width: 405.98, textAlign: 'center', color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 24, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 34.92, wordWrap: 'break-word'}}>Ready to create your first note?</div>
+        <div data-layer="Start Recording or Upload a Conversation to generate SOAP notes." className="StartRecordingOrUploadAConversationToGenerateSoapNotes" style={{alignSelf: 'stretch', textAlign: 'center', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'}}>Start Recording or  Upload a Conversation to generate SOAP notes.</div>
+    </div>
+</div>

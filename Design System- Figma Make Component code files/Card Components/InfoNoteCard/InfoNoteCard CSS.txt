@@ -1,0 +1,77 @@
+// HIPAA Compliance
+color: 'var(--Colors-Functional-Txt-Txt_Info, #195F8E)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Configure WorldPay credentials for each location and set up hosted e-commerce payments.
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// HIPAA Compliance
+color: 'var(--Colors-Functional-Txt-Txt_Error, #C9221C)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Configure WorldPay credentials for each location and set up hosted e-commerce payments.
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// HIPAA Compliance
+color: 'var(--Colors-Functional-Txt-Txt_Info, #195F8E)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Configure WorldPay credentials for each location and set up hosted e-commerce payments.
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// HIPAA Compliance
+color: 'var(--Colors-Functional-Txt-Txt_Success, #5E981D)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Configure WorldPay credentials for each location and set up hosted e-commerce payments.
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Discount Preview
+color: '#111827', fontSize: 16, fontFamily: 'Inter', fontWeight: '500', lineHeight: 24, wordWrap: 'break-word'
+---
+// Original Price
+color: '#6B7280', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// $0.00
+color: '#6B7280', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Discount:
+color: '#6B7280', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// -$0.00 (0%)
+color: '#10B981', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Final Price
+color: '#6B7280', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// $0.00
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Configure WorldPay credentials for each location and set up hosted e-commerce payments.
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// WorldPay Sales: 1-855-529-3515
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// View Licenses &amp; Billing
+color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Configure WorldPay credentials for each location and set up hosted e-commerce payments.
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// WorldPay Sales: 1-855-529-3515
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// View Licenses &amp; Billing
+color: 'var(--Colors-Functional-Txt-Txt_Brand, #AC246E)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Configure WorldPay credentials for each location and set up hosted e-commerce payments.
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// WorldPay Sales: 1-855-529-3515
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// View Licenses &amp; Billing
+color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Add One more provider for subsequent provider discount
+color: 'var(--Colors-Functional-Txt_Helper-Txt_Helper_Success, #5E981D)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Get 5% Discount
+color: 'var(--Colors-Functional-Txt-Txt_Success, #5E981D)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 20.37, wordWrap: 'break-word'

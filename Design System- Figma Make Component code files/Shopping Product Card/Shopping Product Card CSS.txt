@@ -1,0 +1,439 @@
+// Recommended
+color: 'var(--Colors-Buttons-Pill-Badge-Txt_Pill-Badge_Label, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Most practices start here
+color: 'var(--Colors-Buttons-Pill-Badge-Txt_Pill-Badge_Label, #4B4B4A)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'
+---
+// Plan Name
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 20, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 29.10, wordWrap: 'break-word'
+---
+// Everything you need to manage billing, end to end. The 360 Billing Suite combines eligibility checks, claims submission, and payment posting into one streamlined workflow.
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Great for:
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Show one price per card by default
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Use the toggle to animate the change
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// De-emphasize “per provider/month” repetition — show once per section
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Add Number of Providers
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// 0
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'
+---
+// Monthly
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Yearly
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// (Save 10%)
+color: 'var(--Colors-Functional-Label-Txt_Label_Success, #5E981D)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// $1299.00
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '900', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// per provider/month
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'
+---
+// $1299.00
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '900', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// per provider/month
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'
+---
+// $1169.10
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 24, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 34.92, wordWrap: 'break-word'
+---
+// per provider/month
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Add To Cart
+color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Explore Plans
+color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Start trial
+color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Recommended
+color: 'var(--Colors-Buttons-Pill-Badge-Txt_Pill-Badge_Label, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Most practices start here
+color: 'var(--Colors-Buttons-Pill-Badge-Txt_Pill-Badge_Label, #4B4B4A)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'
+---
+// Plan Name
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 20, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 29.10, wordWrap: 'break-word'
+---
+// Everything you need to manage billing, end to end. The 360 Billing Suite combines eligibility checks, claims submission, and payment posting into one streamlined workflow.
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Great for:
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Show one price per card by default
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Use the toggle to animate the change
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// De-emphasize “per provider/month” repetition — show once per section
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Add Number of Providers
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// 0
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'
+---
+// Monthly
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Yearly
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// (Save 10%)
+color: 'var(--Colors-Functional-Label-Txt_Label_Success, #5E981D)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// $1299.00
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '900', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// per provider/month
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'
+---
+// $1299.00
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '900', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// per provider/month
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'
+---
+// $1169.10
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 24, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 34.92, wordWrap: 'break-word'
+---
+// per provider/month
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Add To Cart
+color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Explore Plans
+color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Start trial
+color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Plan Name
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 20, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 29.10, wordWrap: 'break-word'
+---
+// Everything you need to manage billing, end to end. The 360 Billing Suite combines eligibility checks, claims submission, and payment posting into one streamlined workflow.
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Great for:
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Show one price per card by default
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Use the toggle to animate the change
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// De-emphasize “per provider/month” repetition — show once per section
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Add Number of Providers
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// 0
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'
+---
+// Monthly
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Yearly
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// (Save 10%)
+color: 'var(--Colors-Functional-Label-Txt_Label_Success, #5E981D)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// $1299.00
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '900', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// per provider/month
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'
+---
+// $1299.00
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '900', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// per provider/month
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'
+---
+// $1169.10
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 24, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 34.92, wordWrap: 'break-word'
+---
+// per provider/month
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Add To Cart
+color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Explore Plans
+color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Start trial
+color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Plan Name
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 20, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 29.10, wordWrap: 'break-word'
+---
+// Everything you need to manage billing, end to end. The 360 Billing Suite combines eligibility checks, claims submission, and payment posting into one streamlined workflow.
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Great for:
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Show one price per card by default
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Use the toggle to animate the change
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// De-emphasize “per provider/month” repetition — show once per section
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Add Number of Providers
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// 0
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'
+---
+// Monthly
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Yearly
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// (Save 10%)
+color: 'var(--Colors-Functional-Label-Txt_Label_Success, #5E981D)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// $1299.00
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '900', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// per provider/month
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'
+---
+// $1299.00
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '900', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// per provider/month
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'
+---
+// $1169.10
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 24, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 34.92, wordWrap: 'break-word'
+---
+// per provider/month
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Add To Cart
+color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Explore Plans
+color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Start trial
+color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Plan Name
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 20, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 29.10, wordWrap: 'break-word'
+---
+// Submit clean claims with built-in scrubbing and real-time status updates from the clearinghouse.
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Why practices love it:
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'Inter', fontWeight: '500', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// 
+Less rework, fewer denials, faster reimbursement.
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Add Number of Providers
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// 0
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'
+---
+// Monthly
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Yearly
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// (Save 10%)
+color: 'var(--Colors-Functional-Label-Txt_Label_Success, #5E981D)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// $1299.00
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '900', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// per provider/month
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'
+---
+// $1299.00
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '900', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// per provider/month
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'
+---
+// $1169.10
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 24, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 34.92, wordWrap: 'break-word'
+---
+// per provider/month
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Add To Cart
+color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Explore Plans
+color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Start trial
+color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Plan Name
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 20, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 29.10, wordWrap: 'break-word'
+---
+// Submit clean claims with built-in scrubbing and real-time status updates from the clearinghouse.
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Why practices love it:
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'Inter', fontWeight: '500', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// 
+Less rework, fewer denials, faster reimbursement.
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Add Number of Providers
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// 0
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'
+---
+// Monthly
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Yearly
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// (Save 10%)
+color: 'var(--Colors-Functional-Label-Txt_Label_Success, #5E981D)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// $1299.00
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '900', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// per provider/month
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'
+---
+// $1299.00
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '900', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// per provider/month
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 10, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 14.55, wordWrap: 'break-word'
+---
+// $1169.10
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 24, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 34.92, wordWrap: 'break-word'
+---
+// per provider/month
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Add To Cart
+color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Explore Plans
+color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Start trial
+color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Plan Name
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 20, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 29.10, wordWrap: 'break-word'
+---
+// Scan once. Skip the typing. IntelliScan reduces manual data entry and speeds up patient intake across your practice.<br/>Why practices love it:
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Great for:
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Faster check-in
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Fewer errors
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Clean data from day one
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Add Number of Providers
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// 0
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'
+---
+// $1169.10
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 24, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 34.92, wordWrap: 'break-word'
+---
+// per provider/month
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Add To Cart
+color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Explore Plans
+color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Start trial
+color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Plan Name
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 20, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 29.10, wordWrap: 'break-word'
+---
+// Scan once. Skip the typing. IntelliScan reduces manual data entry and speeds up patient intake across your practice.<br/>Why practices love it:
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Great for:
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Faster check-in
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Fewer errors
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Clean data from day one
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Add Number of Providers
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// 0
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'
+---
+// $1169.10
+color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 24, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 34.92, wordWrap: 'break-word'
+---
+// per provider/month
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// Add To Cart
+color: 'var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default, white)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Explore Plans
+color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Start trial
+color: 'var(--Colors-Functional-Txt-Txt_Teal, #118082)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'

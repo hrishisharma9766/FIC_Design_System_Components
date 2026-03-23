@@ -1,0 +1,290 @@
+<div style={{width: '100%', height: '100%', position: 'relative', overflow: 'hidden', borderRadius: 5, border: '1px #9747FF solid'}}>
+    <div style={{width: 1590, height: 84, left: 20, top: 160, position: 'absolute'}}>
+        <div style={{width: 1570, height: 64, paddingLeft: 24, paddingRight: 24, left: 10, top: 10, position: 'absolute', background: 'var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite, white)', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'space-between', alignItems: 'center', display: 'inline-flex'}}>
+            <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+                <div style={{width: 96.66, height: 24, position: 'relative'}}>
+                    <div style={{width: 22.53, height: 23.73, left: 0, top: 0.27, position: 'absolute', background: '#E00090'}} />
+                    <div style={{width: 22.97, height: 23.85, left: 23.58, top: 0, position: 'absolute', background: '#E00090'}} />
+                    <div style={{width: 23.25, height: 23.40, left: 47.02, top: 0.34, position: 'absolute', background: '#E00090'}} />
+                    <div style={{width: 23.25, height: 23.40, left: 73.41, top: 0.34, position: 'absolute', background: '#E00090'}} />
+                </div>
+                <div data-expandedstates="NotNested" data-has-checkbox="true" data-hasplaceholdertext="true" data-icon="LeftMultiSelect" data-label="false" data-multiselection="true" data-size="Medium" data-state="Default" data-type="Multiselect" style={{padding: 5, borderRadius: 13, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 2, display: 'inline-flex'}}>
+                    <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                        <div style={{justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                            <div style={{width: 274, height: 36, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                                <div data-property-1="Unchecked" style={{width: 16, height: 16, left: 10, top: 9.50, position: 'absolute'}}>
+                                    <div style={{width: 12, height: 9, left: 2, top: 4, position: 'absolute'}} />
+                                </div>
+                                <div style={{padding: 10, left: 5, top: -2, position: 'absolute', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{color: 'var(--Colors-Functional-Placeholder-Txt_Placeholder_Default, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Enterprise Optical Group</div>
+                                </div>
+                                <div style={{width: 24, paddingLeft: 7, paddingRight: 7, paddingTop: 10, paddingBottom: 10, left: 235, top: 5.50, position: 'absolute', overflow: 'hidden', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                                    <div style={{width: 9, height: 5, background: 'var(--Colors-Functional-Caret-Caret_Default, #71706C)'}} />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-expandedstates="NotNested" data-has-checkbox="true" data-hasplaceholdertext="true" data-icon="LeftMultiSelect" data-label="false" data-multiselection="true" data-size="Medium" data-state="Default" data-type="Multiselect" style={{width: 294, padding: 5, borderRadius: 13, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                        <div style={{justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                            <div style={{width: 274, height: 36, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                                <div data-property-1="Unchecked" style={{width: 16, height: 16, left: 10, top: 9.50, position: 'absolute'}}>
+                                    <div style={{width: 12, height: 9, left: 2, top: 4, position: 'absolute'}} />
+                                </div>
+                                <div style={{padding: 10, left: 5, top: -2, position: 'absolute', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{color: 'var(--Colors-Functional-Placeholder-Txt_Placeholder_Default, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Virtual Assistant</div>
+                                </div>
+                                <div style={{width: 24, paddingLeft: 7, paddingRight: 7, paddingTop: 10, paddingBottom: 10, left: 235, top: 5.50, position: 'absolute', overflow: 'hidden', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                                    <div style={{width: 9, height: 5, background: 'var(--Colors-Functional-Caret-Caret_Default, #71706C)'}} />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style={{width: 38, height: 32, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 8, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                    <div style={{width: 16, height: 16, position: 'relative', overflow: 'hidden'}} />
+                </div>
+            </div>
+            <div style={{justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
+                <div data-has-label="false" data-hasicon="true" data-icon-position="Right Side" style={{height: 32, padding: 10, justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                    <div style={{width: 32, height: 32, position: 'relative'}}>
+                        <div style={{width: 28, height: 20.25, left: 2, top: 5.87, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Selected-White, white)'}} />
+                    </div>
+                </div>
+                <div data-has-label="false" data-hasdropdwonboxicon="None" data-property-1="DefaultNavigation" style={{height: 32, padding: 10, borderRadius: 13, justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+                    <div style={{width: 62, padding: 10, overflow: 'hidden', borderRadius: 5, justifyContent: 'space-between', alignItems: 'center', display: 'flex'}}>
+                        <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'flex'}}>
+                            <div style={{width: 22, height: 22, position: 'relative'}}>
+                                <div style={{width: 20.17, height: 20.17, left: 0.92, top: 0.92, position: 'absolute'}}>
+                                    <div style={{width: 17.65, height: 17.65, left: 1.26, top: 1.26, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Purple500, #922D94)'}} />
+                                </div>
+                            </div>
+                        </div>
+                        <div style={{width: 9, height: 5, transform: 'rotate(-180deg)', transformOrigin: 'top left', background: 'var(--Colors-Functional-Caret-Caret_Default, #71706C)'}} />
+                    </div>
+                </div>
+                <div data-has-label="false" data-hasdropdwonboxicon="None" data-property-1="DefaultNavigation" style={{height: 32, padding: 10, borderRadius: 13, justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+                    <div style={{width: 62, padding: 10, overflow: 'hidden', borderRadius: 5, justifyContent: 'space-between', alignItems: 'center', display: 'flex'}}>
+                        <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'flex'}}>
+                            <div style={{width: 22, height: 22, position: 'relative'}}>
+                                <div style={{width: 30, height: 30, left: 1, top: 1, position: 'absolute'}}>
+                                    <div style={{width: 27.50, height: 27.50, left: 1.25, top: 1.25, position: 'absolute'}}>
+                                        <div style={{width: 22.86, height: 24.06, left: 2.32, top: 1.72, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-400, #959490)'}} />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style={{width: 9, height: 5, transform: 'rotate(-180deg)', transformOrigin: 'top left', background: 'var(--Colors-Functional-Caret-Caret_Default, #71706C)'}} />
+                    </div>
+                </div>
+                <div data-has-label="false" data-hasdropdwonboxicon="None" data-property-1="DefaultNavigation" style={{height: 32, padding: 10, borderRadius: 13, justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+                    <div style={{width: 62, padding: 10, overflow: 'hidden', borderRadius: 5, justifyContent: 'space-between', alignItems: 'center', display: 'flex'}}>
+                        <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'flex'}}>
+                            <div style={{width: 22, height: 22, position: 'relative'}}>
+                                <div style={{width: 20.63, height: 20.63, left: 0.69, top: 0.69, position: 'absolute'}}>
+                                    <div style={{width: 18.91, height: 18.91, left: 0.86, top: 0.86, position: 'absolute'}}>
+                                        <div style={{width: 16.54, height: 16.54, left: 1.18, top: 1.18, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-400, #959490)'}} />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style={{width: 9, height: 5, transform: 'rotate(-180deg)', transformOrigin: 'top left', background: 'var(--Colors-Functional-Caret-Caret_Default, #71706C)'}} />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 1474, height: 84, left: 20, top: 28, position: 'absolute'}}>
+        <div style={{width: 1440, height: 64, paddingLeft: 24, paddingRight: 24, left: 10, top: 9.50, position: 'absolute', background: 'var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite, white)', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'space-between', alignItems: 'center', display: 'inline-flex'}}>
+            <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+                <div style={{width: 96.66, height: 24, position: 'relative'}}>
+                    <div style={{width: 22.53, height: 23.73, left: 0, top: 0.27, position: 'absolute', background: '#E00090'}} />
+                    <div style={{width: 22.97, height: 23.85, left: 23.58, top: 0, position: 'absolute', background: '#E00090'}} />
+                    <div style={{width: 23.25, height: 23.40, left: 47.02, top: 0.34, position: 'absolute', background: '#E00090'}} />
+                    <div style={{width: 23.25, height: 23.40, left: 73.41, top: 0.34, position: 'absolute', background: '#E00090'}} />
+                </div>
+                <div data-expandedstates="NotNested" data-has-checkbox="true" data-hasplaceholdertext="true" data-icon="LeftMultiSelect" data-label="false" data-multiselection="true" data-size="Medium" data-state="Default" data-type="Multiselect" style={{padding: 5, borderRadius: 13, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 2, display: 'inline-flex'}}>
+                    <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                        <div style={{justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                            <div style={{width: 274, height: 36, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                                <div data-property-1="Unchecked" style={{width: 16, height: 16, left: 10, top: 9.50, position: 'absolute'}}>
+                                    <div style={{width: 12, height: 9, left: 2, top: 4, position: 'absolute'}} />
+                                </div>
+                                <div style={{padding: 10, left: 5, top: -2, position: 'absolute', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{color: 'var(--Colors-Functional-Placeholder-Txt_Placeholder_Default, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Enterprise Optical Group</div>
+                                </div>
+                                <div style={{width: 24, paddingLeft: 7, paddingRight: 7, paddingTop: 10, paddingBottom: 10, left: 235, top: 5.50, position: 'absolute', overflow: 'hidden', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                                    <div style={{width: 9, height: 5, background: 'var(--Colors-Functional-Caret-Caret_Default, #71706C)'}} />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-expandedstates="NotNested" data-has-checkbox="true" data-hasplaceholdertext="true" data-icon="LeftMultiSelect" data-label="false" data-multiselection="true" data-size="Medium" data-state="Default" data-type="Multiselect" style={{width: 294, padding: 5, borderRadius: 13, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                        <div style={{justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                            <div style={{width: 274, height: 36, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                                <div data-property-1="Unchecked" style={{width: 16, height: 16, left: 10, top: 9.50, position: 'absolute'}}>
+                                    <div style={{width: 12, height: 9, left: 2, top: 4, position: 'absolute'}} />
+                                </div>
+                                <div style={{padding: 10, left: 5, top: -2, position: 'absolute', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{color: 'var(--Colors-Functional-Placeholder-Txt_Placeholder_Default, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Virtual Assistant</div>
+                                </div>
+                                <div style={{width: 24, paddingLeft: 7, paddingRight: 7, paddingTop: 10, paddingBottom: 10, left: 235, top: 5.50, position: 'absolute', overflow: 'hidden', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                                    <div style={{width: 9, height: 5, background: 'var(--Colors-Functional-Caret-Caret_Default, #71706C)'}} />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style={{width: 38, height: 32, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 8, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                    <div style={{width: 16, height: 16, position: 'relative', overflow: 'hidden'}} />
+                </div>
+            </div>
+            <div style={{justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
+                <div data-has-label="false" data-hasicon="true" data-icon-position="Right Side" style={{height: 32, padding: 10, justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                    <div style={{width: 32, height: 32, position: 'relative'}}>
+                        <div style={{width: 28, height: 20.25, left: 2, top: 5.87, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Selected-White, white)'}} />
+                    </div>
+                </div>
+                <div data-has-label="false" data-hasdropdwonboxicon="None" data-property-1="DefaultNavigation" style={{height: 32, padding: 10, borderRadius: 13, justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+                    <div style={{width: 62, padding: 10, overflow: 'hidden', borderRadius: 5, justifyContent: 'space-between', alignItems: 'center', display: 'flex'}}>
+                        <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'flex'}}>
+                            <div style={{width: 22, height: 22, position: 'relative'}}>
+                                <div style={{width: 20.17, height: 20.17, left: 0.92, top: 0.92, position: 'absolute'}}>
+                                    <div style={{width: 17.65, height: 17.65, left: 1.26, top: 1.26, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Purple500, #922D94)'}} />
+                                </div>
+                            </div>
+                        </div>
+                        <div style={{width: 9, height: 5, transform: 'rotate(-180deg)', transformOrigin: 'top left', background: 'var(--Colors-Functional-Caret-Caret_Default, #71706C)'}} />
+                    </div>
+                </div>
+                <div data-has-label="false" data-hasdropdwonboxicon="None" data-property-1="DefaultNavigation" style={{height: 32, padding: 10, borderRadius: 13, justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+                    <div style={{width: 62, padding: 10, overflow: 'hidden', borderRadius: 5, justifyContent: 'space-between', alignItems: 'center', display: 'flex'}}>
+                        <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'flex'}}>
+                            <div style={{width: 22, height: 22, position: 'relative'}}>
+                                <div style={{width: 30, height: 30, left: 1, top: 1, position: 'absolute'}}>
+                                    <div style={{width: 27.50, height: 27.50, left: 1.25, top: 1.25, position: 'absolute'}}>
+                                        <div style={{width: 22.86, height: 24.06, left: 2.32, top: 1.72, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-400, #959490)'}} />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style={{width: 9, height: 5, transform: 'rotate(-180deg)', transformOrigin: 'top left', background: 'var(--Colors-Functional-Caret-Caret_Default, #71706C)'}} />
+                    </div>
+                </div>
+                <div data-has-label="false" data-hasdropdwonboxicon="None" data-property-1="DefaultNavigation" style={{height: 32, padding: 10, borderRadius: 13, justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+                    <div style={{width: 62, padding: 10, overflow: 'hidden', borderRadius: 5, justifyContent: 'space-between', alignItems: 'center', display: 'flex'}}>
+                        <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'flex'}}>
+                            <div style={{width: 22, height: 22, position: 'relative'}}>
+                                <div style={{width: 20.63, height: 20.63, left: 0.69, top: 0.69, position: 'absolute'}}>
+                                    <div style={{width: 18.91, height: 18.91, left: 0.86, top: 0.86, position: 'absolute'}}>
+                                        <div style={{width: 16.54, height: 16.54, left: 1.18, top: 1.18, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-400, #959490)'}} />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style={{width: 9, height: 5, transform: 'rotate(-180deg)', transformOrigin: 'top left', background: 'var(--Colors-Functional-Caret-Caret_Default, #71706C)'}} />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{width: 1920, height: 84, left: 20, top: 264, position: 'absolute'}}>
+        <div style={{width: 1920, height: 64, paddingLeft: 24, paddingRight: 24, left: 10, top: 10, position: 'absolute', background: 'var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite, white)', borderBottom: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', justifyContent: 'space-between', alignItems: 'center', display: 'inline-flex'}}>
+            <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+                <div style={{width: 96.66, height: 24, position: 'relative'}}>
+                    <div style={{width: 22.53, height: 23.73, left: 0, top: 0.27, position: 'absolute', background: '#E00090'}} />
+                    <div style={{width: 22.97, height: 23.85, left: 23.58, top: 0, position: 'absolute', background: '#E00090'}} />
+                    <div style={{width: 23.25, height: 23.40, left: 47.02, top: 0.34, position: 'absolute', background: '#E00090'}} />
+                    <div style={{width: 23.25, height: 23.40, left: 73.41, top: 0.34, position: 'absolute', background: '#E00090'}} />
+                </div>
+                <div data-expandedstates="NotNested" data-has-checkbox="true" data-hasplaceholdertext="true" data-icon="LeftMultiSelect" data-label="false" data-multiselection="true" data-size="Medium" data-state="Default" data-type="Multiselect" style={{padding: 5, borderRadius: 13, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 2, display: 'inline-flex'}}>
+                    <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                        <div style={{justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                            <div style={{width: 274, height: 36, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                                <div data-property-1="Unchecked" style={{width: 16, height: 16, left: 10, top: 9.50, position: 'absolute'}}>
+                                    <div style={{width: 12, height: 9, left: 2, top: 4, position: 'absolute'}} />
+                                </div>
+                                <div style={{padding: 10, left: 5, top: -2, position: 'absolute', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{color: 'var(--Colors-Functional-Placeholder-Txt_Placeholder_Default, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Enterprise Optical Group</div>
+                                </div>
+                                <div style={{width: 24, paddingLeft: 7, paddingRight: 7, paddingTop: 10, paddingBottom: 10, left: 235, top: 5.50, position: 'absolute', overflow: 'hidden', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                                    <div style={{width: 9, height: 5, background: 'var(--Colors-Functional-Caret-Caret_Default, #71706C)'}} />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div data-expandedstates="NotNested" data-has-checkbox="true" data-hasplaceholdertext="true" data-icon="LeftMultiSelect" data-label="false" data-multiselection="true" data-size="Medium" data-state="Default" data-type="Multiselect" style={{width: 294, padding: 5, borderRadius: 13, flexDirection: 'column', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                    <div style={{alignSelf: 'stretch', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                        <div style={{justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                            <div style={{width: 274, height: 36, position: 'relative', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px'}}>
+                                <div data-property-1="Unchecked" style={{width: 16, height: 16, left: 10, top: 9.50, position: 'absolute'}}>
+                                    <div style={{width: 12, height: 9, left: 2, top: 4, position: 'absolute'}} />
+                                </div>
+                                <div style={{padding: 10, left: 5, top: -2, position: 'absolute', justifyContent: 'center', alignItems: 'center', gap: 10, display: 'inline-flex'}}>
+                                    <div style={{color: 'var(--Colors-Functional-Placeholder-Txt_Placeholder_Default, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Virtual Assistant</div>
+                                </div>
+                                <div style={{width: 24, paddingLeft: 7, paddingRight: 7, paddingTop: 10, paddingBottom: 10, left: 235, top: 5.50, position: 'absolute', overflow: 'hidden', justifyContent: 'flex-start', alignItems: 'flex-start', gap: 10, display: 'inline-flex', flexWrap: 'wrap', alignContent: 'flex-start'}}>
+                                    <div style={{width: 9, height: 5, background: 'var(--Colors-Functional-Caret-Caret_Default, #71706C)'}} />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style={{width: 38, height: 32, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 8, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', justifyContent: 'center', alignItems: 'center', display: 'flex'}}>
+                    <div style={{width: 16, height: 16, position: 'relative', overflow: 'hidden'}} />
+                </div>
+            </div>
+            <div style={{justifyContent: 'flex-start', alignItems: 'center', display: 'flex'}}>
+                <div data-has-label="false" data-hasicon="true" data-icon-position="Right Side" style={{height: 32, padding: 10, justifyContent: 'center', alignItems: 'center', gap: 10, display: 'flex'}}>
+                    <div style={{width: 32, height: 32, position: 'relative'}}>
+                        <div style={{width: 28, height: 20.25, left: 2, top: 5.87, position: 'absolute', background: 'var(--Colors-Functional-Txt-Txt_Selected-White, white)'}} />
+                    </div>
+                </div>
+                <div data-has-label="false" data-hasdropdwonboxicon="None" data-property-1="DefaultNavigation" style={{height: 32, padding: 10, borderRadius: 13, justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+                    <div style={{width: 62, padding: 10, overflow: 'hidden', borderRadius: 5, justifyContent: 'space-between', alignItems: 'center', display: 'flex'}}>
+                        <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'flex'}}>
+                            <div style={{width: 22, height: 22, position: 'relative'}}>
+                                <div style={{width: 20.17, height: 20.17, left: 0.92, top: 0.92, position: 'absolute'}}>
+                                    <div style={{width: 17.65, height: 17.65, left: 1.26, top: 1.26, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Purple500, #922D94)'}} />
+                                </div>
+                            </div>
+                        </div>
+                        <div style={{width: 9, height: 5, transform: 'rotate(-180deg)', transformOrigin: 'top left', background: 'var(--Colors-Functional-Caret-Caret_Default, #71706C)'}} />
+                    </div>
+                </div>
+                <div data-has-label="false" data-hasdropdwonboxicon="None" data-property-1="DefaultNavigation" style={{height: 32, padding: 10, borderRadius: 13, justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+                    <div style={{width: 62, padding: 10, overflow: 'hidden', borderRadius: 5, justifyContent: 'space-between', alignItems: 'center', display: 'flex'}}>
+                        <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'flex'}}>
+                            <div style={{width: 22, height: 22, position: 'relative'}}>
+                                <div style={{width: 30, height: 30, left: 1, top: 1, position: 'absolute'}}>
+                                    <div style={{width: 27.50, height: 27.50, left: 1.25, top: 1.25, position: 'absolute'}}>
+                                        <div style={{width: 22.86, height: 24.06, left: 2.32, top: 1.72, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-400, #959490)'}} />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style={{width: 9, height: 5, transform: 'rotate(-180deg)', transformOrigin: 'top left', background: 'var(--Colors-Functional-Caret-Caret_Default, #71706C)'}} />
+                    </div>
+                </div>
+                <div data-has-label="false" data-hasdropdwonboxicon="None" data-property-1="DefaultNavigation" style={{height: 32, padding: 10, borderRadius: 13, justifyContent: 'flex-start', alignItems: 'center', gap: 5, display: 'flex'}}>
+                    <div style={{width: 62, padding: 10, overflow: 'hidden', borderRadius: 5, justifyContent: 'space-between', alignItems: 'center', display: 'flex'}}>
+                        <div style={{justifyContent: 'flex-start', alignItems: 'center', gap: 10, display: 'flex'}}>
+                            <div style={{width: 22, height: 22, position: 'relative'}}>
+                                <div style={{width: 20.63, height: 20.63, left: 0.69, top: 0.69, position: 'absolute'}}>
+                                    <div style={{width: 18.91, height: 18.91, left: 0.86, top: 0.86, position: 'absolute'}}>
+                                        <div style={{width: 16.54, height: 16.54, left: 1.18, top: 1.18, position: 'absolute', background: 'var(--Colors-Navigation-Icons-Gray(Bkg)-400, #959490)'}} />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style={{width: 9, height: 5, transform: 'rotate(-180deg)', transformOrigin: 'top left', background: 'var(--Colors-Functional-Caret-Caret_Default, #71706C)'}} />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

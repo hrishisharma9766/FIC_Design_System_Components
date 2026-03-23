@@ -1,0 +1,23 @@
+// Ready to create your first note?
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 24, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 34.92, wordWrap: 'break-word'
+---
+// Start Recording or  Upload a Conversation to generate SOAP notes.
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'
+---
+// Ready to create your first note?
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 24, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 34.92, wordWrap: 'break-word'
+---
+// Start Recording or  Upload a Conversation to generate SOAP notes.
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'
+---
+// Ready to create your first note?
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 24, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 34.92, wordWrap: 'break-word'
+---
+// Start Recording or  Upload a Conversation to generate SOAP notes.
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'
+---
+// Ready to create your first note?
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 24, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 34.92, wordWrap: 'break-word'
+---
+// Start Recording or  Upload a Conversation to generate SOAP notes.
+color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 18, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 26.19, wordWrap: 'break-word'

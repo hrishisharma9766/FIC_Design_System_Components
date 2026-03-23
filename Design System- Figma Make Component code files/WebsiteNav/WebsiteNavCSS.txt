@@ -1,0 +1,66 @@
+/* Root Design Tokens */
+:root {
+
+  /* Typography */
+  --font-primary: "DM Sans", sans-serif;
+
+  /* Functional Text Colors */
+  --Colors-Functional-Txt-Txt_Light: #71706C;
+  --Colors-Functional-Txt-Txt_Teal: #118082;
+
+  /* Button Colors */
+  --Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default: #ffffff;
+  --Colors-Buttons-PrimaryBtn-PrimaryBtn_Bg: #118082;
+
+}
+
+/* Navigation Container */
+
+.website-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 32px;
+  background: white;
+  font-family: var(--font-primary);
+}
+
+/* Nav Menu */
+
+.nav-menu {
+  display: flex;
+  gap: 32px;
+}
+
+/* Nav Items */
+
+.nav-item {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 23.28px;
+  color: var(--Colors-Functional-Txt-Txt_Light);
+  cursor: pointer;
+}
+
+.nav-item.active {
+  color: var(--Colors-Functional-Txt-Txt_Teal);
+  font-weight: 800;
+}
+
+/* Cart Button */
+
+.cart-button {
+  background: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Bg);
+  color: var(--Colors-Buttons-PrimaryBtn-PrimaryBtn_Label_Default);
+  border: none;
+  padding: 10px 18px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 20.37px;
+  cursor: pointer;
+}
+
+.cart-button:hover {
+  opacity: 0.9;
+}

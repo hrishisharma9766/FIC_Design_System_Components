@@ -1,0 +1,88 @@
+<div style={{width: '100%', height: '100%', position: 'relative', overflow: 'hidden', borderRadius: 5, border: '1px #8A38F5 solid'}}>
+    <div style={{paddingLeft: 12, paddingRight: 12, paddingTop: 10, paddingBottom: 10, left: 20, top: 20, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start', gap: 12, display: 'inline-flex'}}>
+        <div style={{color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Agent Deployment Model</div>
+        <div style={{width: 519, justifyContent: 'space-between', alignItems: 'center', display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+            <div data-haslabel="false" data-state="Default" data-status="Checked" style={{padding: 10, justifyContent: 'center', alignItems: 'center', gap: 5, display: 'flex'}}>
+                <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, border: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid'}} />
+                <div style={{width: 10, height: 10, background: 'var(--Colors-Functional-Fill-Fill-Default, #118082)', borderRadius: 9999}} />
+            </div>
+            <div style={{flex: '1 1 0', justifyContent: 'flex-start', alignItems: 'center', gap: 12, display: 'flex'}}>
+                <div style={{flex: '1 1 0', height: 34.01, position: 'relative'}}>
+                    <div style={{width: 483, height: 14, left: 0.01, top: 0.01, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Organization Level</div>
+                    </div>
+                    <div style={{width: 468, height: 20, left: 0.01, top: 14, position: 'absolute', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Same configuration for all businesses and locations in the organization</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style={{width: 519, justifyContent: 'space-between', alignItems: 'center', display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+            <div data-haslabel="false" data-state="Default" data-status="Unchecked" style={{padding: 10, justifyContent: 'center', alignItems: 'center', gap: 5, display: 'flex'}}>
+                <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, border: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid'}} />
+            </div>
+            <div style={{flex: '1 1 0', justifyContent: 'flex-start', alignItems: 'center', gap: 12, display: 'flex'}}>
+                <div style={{flex: '1 1 0', height: 34.01, position: 'relative'}}>
+                    <div style={{width: 483, height: 14, left: 0.01, top: 0.03, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Organization Level</div>
+                    </div>
+                    <div style={{width: 983.89, height: 20, left: 0, top: 14.01, position: 'absolute', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                        <div style={{width: 472, color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Same configuration for all businesses and locations in the organization</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{paddingLeft: 12, paddingRight: 12, paddingTop: 10, paddingBottom: 10, left: 20, top: 295.98, position: 'absolute', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start', gap: 12, display: 'inline-flex'}}>
+        <div style={{color: 'var(--Colors-Functional-Txt-Txt_Default, #303030)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 20.37, wordWrap: 'break-word'}}>Agent Deployment Model</div>
+        <div style={{width: 519, justifyContent: 'space-between', alignItems: 'center', display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+            <div data-haslabel="false" data-state="Default" data-status="Checked" style={{padding: 10, justifyContent: 'center', alignItems: 'center', gap: 5, display: 'flex'}}>
+                <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, border: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid'}} />
+                <div style={{width: 10, height: 10, background: 'var(--Colors-Functional-Fill-Fill-Default, #118082)', borderRadius: 9999}} />
+            </div>
+            <div style={{flex: '1 1 0', justifyContent: 'flex-start', alignItems: 'center', gap: 12, display: 'flex'}}>
+                <div style={{flex: '1 1 0', height: 34.01, position: 'relative'}}>
+                    <div style={{width: 483, height: 14, left: 0.01, top: 0.01, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Organization Level</div>
+                    </div>
+                    <div style={{width: 468, height: 20, left: 0.01, top: 14, position: 'absolute', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Same configuration for all businesses and locations in the organization</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style={{width: 519, justifyContent: 'space-between', alignItems: 'center', display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+            <div data-haslabel="false" data-state="Default" data-status="Unchecked" style={{padding: 10, justifyContent: 'center', alignItems: 'center', gap: 5, display: 'flex'}}>
+                <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, border: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid'}} />
+            </div>
+            <div style={{flex: '1 1 0', justifyContent: 'flex-start', alignItems: 'center', gap: 12, display: 'flex'}}>
+                <div style={{flex: '1 1 0', height: 34.01, position: 'relative'}}>
+                    <div style={{width: 483, height: 14, left: 0.01, top: 0.03, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Organization Level</div>
+                    </div>
+                    <div style={{width: 983.89, height: 20, left: 0, top: 14.01, position: 'absolute', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                        <div style={{width: 472, color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Same configuration for all businesses and locations in the organization</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style={{paddingLeft: 12, paddingRight: 12, paddingTop: 10, paddingBottom: 10, left: 20, top: 196.98, position: 'absolute', background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 13, outline: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid', outlineOffset: '-1px', flexDirection: 'column', justifyContent: 'center', alignItems: 'flex-start', gap: 12, display: 'inline-flex'}}>
+        <div style={{width: 519, justifyContent: 'space-between', alignItems: 'center', display: 'inline-flex', flexWrap: 'wrap', alignContent: 'center'}}>
+            <div data-haslabel="false" data-state="Default" data-status="Checked" style={{padding: 10, justifyContent: 'center', alignItems: 'center', gap: 5, display: 'flex'}}>
+                <div style={{width: 16, height: 16, background: 'var(--Colors-Functional-Bkg-Bkg_Default, white)', borderRadius: 9999, border: '1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid'}} />
+                <div style={{width: 10, height: 10, background: 'var(--Colors-Functional-Fill-Fill-Default, #118082)', borderRadius: 9999}} />
+            </div>
+            <div style={{flex: '1 1 0', justifyContent: 'flex-start', alignItems: 'center', gap: 12, display: 'flex'}}>
+                <div style={{flex: '1 1 0', height: 34.01, position: 'relative'}}>
+                    <div style={{width: 483, height: 14, left: 0.01, top: 0, position: 'absolute', justifyContent: 'flex-start', alignItems: 'center', gap: 8, display: 'inline-flex'}}>
+                        <div style={{color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'}}>Organization Level</div>
+                    </div>
+                    <div style={{width: 468, height: 20, left: 0.01, top: 14, position: 'absolute', justifyContent: 'flex-start', alignItems: 'flex-start', display: 'inline-flex'}}>
+                        <div style={{flex: '1 1 0', color: 'var(--Colors-Functional-Txt-Txt_Light, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'}}>Same configuration for all businesses and locations in the organization</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

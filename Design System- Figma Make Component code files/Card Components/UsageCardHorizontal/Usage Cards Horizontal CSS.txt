@@ -1,0 +1,53 @@
+// Storage Usage
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 16, fontFamily: 'DM Sans', fontWeight: '800', lineHeight: 23.28, wordWrap: 'break-word'
+---
+// Monitor your recording storage capacity and usage
+color: 'var(--Colors-Navigation-Other-Txt_SubMenuLabels, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// 256 GB
+color: 'var(--Colors-Functional-Txt-Txt_Warning-Orange500, #F27E25)', fontSize: 24, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 34.92, wordWrap: 'break-word'
+---
+// Moderate
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// of 500 GB used (51.2%)
+color: 'var(--Colors-Navigation-Other-Txt_SubMenuLabels, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// 244 GB
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 24, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 34.92, wordWrap: 'break-word'
+---
+// Available
+color: 'var(--Colors-Navigation-Other-Txt_SubMenuLabels, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// 0 GB
+color: 'var(--Colors-Functional-Txt_Helper-Txt_Helper_Default, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// 500 GB
+color: 'var(--Colors-Functional-Txt_Helper-Txt_Helper_Default, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Total recordings
+color: 'var(--Colors-Navigation-Other-Txt_SubMenuLabels, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// 1,847
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 24, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 34.92, wordWrap: 'break-word'
+---
+// Avg. 142 MB each
+color: 'var(--Colors-Navigation-Other-Txt_SubMenuLabels, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Added Last Month
+color: 'var(--Colors-Navigation-Other-Txt_SubMenuLabels, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// 38 GB
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 24, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 34.92, wordWrap: 'break-word'
+---
+// In the last 30 days
+color: 'var(--Colors-Navigation-Other-Txt_SubMenuLabels, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'
+---
+// Projected Full
+color: 'var(--Colors-Navigation-Other-Txt_SubMenuLabels, #71706C)', fontSize: 14, fontFamily: 'DM Sans', fontWeight: '500', lineHeight: 20.37, wordWrap: 'break-word'
+---
+// March 2026
+color: 'var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A)', fontSize: 24, fontFamily: 'DM Sans', fontWeight: '600', lineHeight: 34.92, wordWrap: 'break-word'
+---
+// At current usage rate
+color: 'var(--Colors-Navigation-Other-Txt_SubMenuLabels, #71706C)', fontSize: 12, fontFamily: 'DM Sans', fontWeight: '400', lineHeight: 17.46, wordWrap: 'break-word'
