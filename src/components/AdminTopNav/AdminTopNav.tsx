@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavigationDropDown, type NavigationDropDownItem } from './NavigationDropDown';
+import { NavigationDropDown, type NavigationDropDownItem } from '../NavigationDropDown/NavigationDropDown';
 import './AdminTopNav.css';
 
 export interface NavSelectOption {

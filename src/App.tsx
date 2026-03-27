@@ -1,20 +1,24 @@
 import { useState } from 'react';
-import { 
-  Button, 
-  Checkbox, 
-  DatePicker, 
-  PillBadge, 
-  ProgressBar, 
-  RadioButton, 
-  SearchBox, 
-  SimpleTable, 
-  StateBadge, 
-  Switch, 
-  SwitchWithLabel, 
-  Table, 
+import {
+  Button,
+  Checkbox,
+  DatePicker,
+  InputField,
+  InputFieldIcon,
+  InputFieldPhone,
+  PillBadge,
+  ProgressBar,
+  RadioButton,
+  SearchBox,
+  SimpleTable,
+  StateBadge,
+  Switch,
+  SwitchWithLabel,
+  Table,
   TextArea,
   AdminTopNav,
-  NavigationDropDown
+  NavigationDropDown,
+  AudioPlayer
 } from './index';
 
 function App() {
@@ -284,6 +288,162 @@ function App() {
                   width={350}
                   percentage={60} 
                   label="Fixed Width (350px)" 
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* InputField Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">InputField</h2>
+          <div className="space-y-8">
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Default State</h3>
+              <div className="flex flex-wrap gap-4 items-start">
+                <InputField label="Default Input" placeholder="Enter your text here" />
+                <InputField label="With Helper Text" placeholder="Enter your text here" helperText="This is helper text" />
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Sizes</h3>
+              <div className="flex flex-wrap gap-4 items-start">
+                <InputField size="sm" label="Small Input" placeholder="Small size" />
+                <InputField size="md" label="Medium Input" placeholder="Medium size" />
+                <InputField size="lg" label="Large Input" placeholder="Large size" />
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">States</h3>
+              <div className="flex flex-wrap gap-4 items-start">
+                <InputField state="default" label="Default" placeholder="Default state" />
+                <InputField state="hover" label="Hover" placeholder="Hover state" />
+                <InputField state="focus" label="Focus" placeholder="Focus state" />
+                <InputField state="error" label="Error" placeholder="Error state" errorText="This field is required" />
+                <InputField state="disabled" label="Disabled" placeholder="Disabled" disabled />
+                <InputField state="readonly" label="Read Only" placeholder="Read only" readOnly value="Read only value" />
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">With Required & Character Count</h3>
+              <div className="flex flex-wrap gap-4 items-start">
+                <InputField label="Required Field" placeholder="This field is required" required />
+                <InputField label="With Character Count" placeholder="Max 50 characters" maxLength={50} currentLength={20} showCharacterCount />
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">With Icons</h3>
+              <div className="flex flex-wrap gap-4 items-start">
+                <InputField 
+                  label="With Left Icon" 
+                  placeholder="Search..." 
+                  leftIcon={<span>🔍</span>} 
+                />
+                <InputField 
+                  label="With Right Icon" 
+                  placeholder="Enter amount" 
+                  rightIcon={<span>💵</span>} 
+                />
+                <InputField 
+                  label="With Both Icons" 
+                  placeholder="Search and clear" 
+                  leftIcon={<span>🔍</span>}
+                  rightIcon={<span>✕</span>} 
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* InputFieldIcon Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">InputFieldIcon</h2>
+          <div className="space-y-8">
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Default State</h3>
+              <div className="flex flex-wrap gap-4 items-start">
+                <InputFieldIcon label="Percentage Off" placeholder="Select Percentage" prefixIcon={<span>📅</span>} />
+                <InputFieldIcon label="With Helper Text" placeholder="Select Percentage" helperText="This is helper text" prefixIcon={<span>📅</span>} />
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">States</h3>
+              <div className="flex flex-wrap gap-4 items-start">
+                <InputFieldIcon state="default" label="Default" placeholder="Select" prefixIcon={<span>📅</span>} />
+                <InputFieldIcon state="hover" label="Hover" placeholder="Select" prefixIcon={<span>📅</span>} />
+                <InputFieldIcon state="selected" label="Selected" placeholder="Select" prefixIcon={<span>📅</span>} />
+                <InputFieldIcon state="error" label="Error" placeholder="Select" errorText="This field is required" prefixIcon={<span>📅</span>} />
+                <InputFieldIcon state="disabled" label="Disabled" placeholder="Select" disabled prefixIcon={<span>📅</span>} />
+                <InputFieldIcon state="readonly" label="Read Only" placeholder="Select" readOnly prefixIcon={<span>📅</span>} />
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">With Required & Character Count</h3>
+              <div className="flex flex-wrap gap-4 items-start">
+                <InputFieldIcon label="Required Field" placeholder="Select Percentage" required prefixIcon={<span>📅</span>} />
+                <InputFieldIcon label="With Character Count" placeholder="Select Percentage" maxLength={140} currentLength={1} showCharacterCount prefixIcon={<span>📅</span>} />
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">With Prefix Icon</h3>
+              <div className="flex flex-wrap gap-4 items-start">
+                <InputFieldIcon
+                  label="With Prefix Icon"
+                  placeholder="Select..."
+                  prefixIcon={<span>📅</span>}
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* InputFieldPhone Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">InputFieldPhone</h2>
+          <div className="space-y-8">
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Sizes</h3>
+              <div className="flex flex-wrap gap-4 items-start">
+                <InputFieldPhone size="sm" label="Small Input" placeholder="Small size" />
+                <InputFieldPhone size="md" label="Medium Input" placeholder="Medium size" />
+                <InputFieldPhone size="lg" label="Large Input" placeholder="Large size" />
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">States</h3>
+              <div className="flex flex-wrap gap-4 items-start">
+                <InputFieldPhone state="default" label="Default" placeholder="Default state" />
+                <InputFieldPhone state="hover" label="Hover" placeholder="Hover state" />
+                <InputFieldPhone state="selected" label="Selected" placeholder="Selected state" />
+                <InputFieldPhone state="error" label="Error" placeholder="Error state" errorText="This field is required" />
+                <InputFieldPhone state="disabled" label="Disabled" placeholder="Disabled" disabled />
+                <InputFieldPhone state="readonly" label="Read Only" placeholder="Read only" readOnly value="Read only value" />
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">With Required & Character Count</h3>
+              <div className="flex flex-wrap gap-4 items-start">
+                <InputFieldPhone label="Required Field" placeholder="This field is required" required />
+                <InputFieldPhone label="With Character Count" placeholder="Max 140 characters" maxLength={140} currentLength={1} showCharacterCount />
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">With Prefix Value</h3>
+              <div className="flex flex-wrap gap-4 items-start">
+                <InputFieldPhone
+                  label="Phone Number"
+                  placeholder="Select..."
+                  prefixValue="+126"
                 />
               </div>
             </div>
@@ -703,6 +863,64 @@ function App() {
               data={[]}
               noDataMessage="No location credentials found. Please add a new one."
             />
+          </div>
+        </section>
+
+        {/* AudioPlayer Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">AudioPlayer</h2>
+          <div className="space-y-8">
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Long Variant</h3>
+              <div className="w-[824px]">
+                <AudioPlayer
+                  variant="long"
+                  currentTime={30}
+                  duration={83}
+                  isPlaying={false}
+                  isMuted={false}
+                />
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Short Variant</h3>
+              <div>
+                <AudioPlayer
+                  variant="short"
+                  currentTime={15}
+                  duration={83}
+                  isPlaying={true}
+                  isMuted={false}
+                />
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Disabled State</h3>
+              <div className="w-full max-w-md">
+                <AudioPlayer
+                  variant="long"
+                  currentTime={45}
+                  duration={83}
+                  isPlaying={false}
+                  disabled
+                />
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Muted State</h3>
+              <div className="w-full max-w-md">
+                <AudioPlayer
+                  variant="long"
+                  currentTime={60}
+                  duration={83}
+                  isPlaying={true}
+                  isMuted={true}
+                />
+              </div>
+            </div>
           </div>
         </section>
 

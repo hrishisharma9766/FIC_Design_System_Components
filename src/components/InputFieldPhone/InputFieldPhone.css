@@ -1,0 +1,218 @@
+.inputfield-phone-container {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.inputfield-phone-label-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 4px;
+  padding-left: 13px;
+}
+
+.inputfield-phone-label {
+  color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20.37px;
+  word-wrap: break-word;
+}
+
+.inputfield-phone-required {
+  color: var(--Colors-Functional-Input-Icons-Icon_Error, #E73D36);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20.37px;
+  word-wrap: break-word;
+}
+
+.inputfield-phone-character-count {
+  color: var(--Colors-Functional-Txt_Helper-Txt_Helper_Default, #71706C);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.55px;
+  word-wrap: break-word;
+  margin-left: auto;
+}
+
+.inputfield-phone-wrapper {
+  display: flex;
+  align-items: center;
+  flex: 1 1 0;
+  height: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  background: var(--Colors-Functional-Bkg-Bkg_Default, white);
+  border-radius: 13px;
+  outline: 1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid;
+  outline-offset: -1px;
+  gap: 15px;
+  transition: all 0.2s ease-in-out;
+}
+
+.inputfield-phone-wrapper--default {
+  background: var(--Colors-Functional-Bkg-Bkg_Default, white);
+  outline: 1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid;
+}
+
+.inputfield-phone-wrapper--hover {
+  background: var(--Colors-Functional-Bkg-Bkg_Hover, #D6FFFB);
+  outline: 1px var(--Colors-Functional-Border-Border_Focus, #21A49F) solid;
+}
+
+.inputfield-phone-wrapper--selected {
+  background: var(--Colors-Functional-Bkg-Bkg_Default, white);
+  outline: 1px var(--Colors-Functional-Border-Border_Focus, #21A49F) solid;
+}
+
+.inputfield-phone-wrapper--disabled {
+  background: var(--Colors-Functional-Bkg-Bkg_Disabled, #D2DCE6);
+  outline: 1px var(--Colors-Functional-Border-Border_Disabled, #B4C6D6) solid;
+  cursor: not-allowed;
+}
+
+.inputfield-phone-wrapper--error {
+  background: var(--Colors-Functional-Bkg-Bkg_Error-Red100, #FFD3D2);
+  outline: 1px var(--Colors-Functional-Border-Border_Error, #E73D36) solid;
+}
+
+.inputfield-phone-wrapper--readonly {
+  background: var(--Colors-Functional-Bkg-Bkg_ReadOnly, #D2DCE6);
+  outline: 1px var(--Colors-Functional-Border-Border_ReadOnly, #B4C6D6) solid;
+}
+
+.inputfield-phone-prefix {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 50px;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  background: var(--Colors-Functional-Bkg-Bkg_Dark, #EFEEEA);
+  border-top-left-radius: 13px;
+  border-bottom-left-radius: 13px;
+  outline: 1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid;
+  outline-offset: -1px;
+}
+
+.inputfield-phone-prefix-value {
+  color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 23.28px;
+  word-wrap: break-word;
+}
+
+.inputfield-phone-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: var(--Colors-Functional-Placeholder-Txt_Placeholder_Default, #71706C);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20.37px;
+  word-wrap: break-word;
+  padding: 0;
+  width: 100%;
+}
+
+.inputfield-phone-input::placeholder {
+  color: var(--Colors-Functional-Placeholder-Txt_Placeholder_Default, #71706C);
+}
+
+.inputfield-phone-wrapper--disabled .inputfield-phone-input {
+  color: var(--Colors-Functional-Placeholder-Txt_Placeholder_Disabled, #8BA1B9);
+  cursor: not-allowed;
+}
+
+.inputfield-phone-wrapper--disabled .inputfield-phone-input::placeholder {
+  color: var(--Colors-Functional-Placeholder-Txt_Placeholder_Disabled, #8BA1B9);
+}
+
+.inputfield-phone-wrapper--error .inputfield-phone-input {
+  color: var(--Colors-Functional-Placeholder-Txt_Placeholder_Error, #E73D36);
+}
+
+.inputfield-phone-wrapper--error .inputfield-phone-input::placeholder {
+  color: var(--Colors-Functional-Placeholder-Txt_Placeholder_Error, #E73D36);
+}
+
+.inputfield-phone-wrapper--readonly .inputfield-phone-input {
+  color: var(--Colors-Functional-Placeholder-Txt_Placeholder_ReadOnly, #6A809A);
+}
+
+.inputfield-phone-wrapper--readonly .inputfield-phone-input::placeholder {
+  color: var(--Colors-Functional-Placeholder-Txt_Placeholder_ReadOnly, #6A809A);
+}
+
+.inputfield-phone-helper-text-wrapper {
+  padding-left: 13px;
+}
+
+.inputfield-phone-helper-text {
+  color: var(--Colors-Functional-Txt-Txt_ReadOnly, #4B5867);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 14.55px;
+  word-wrap: break-word;
+}
+
+.inputfield-phone-helper-text--error {
+  color: var(--Colors-Functional-Txt-Txt_Error, #C9221C);
+}
+
+.inputfield-phone-container--sm .inputfield-phone-wrapper {
+  height: 40px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.inputfield-phone-container--sm .inputfield-phone-input {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.inputfield-phone-container--sm .inputfield-phone-label {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.inputfield-phone-container--sm .inputfield-phone-prefix {
+  height: 40px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+
+.inputfield-phone-container--sm .inputfield-phone-prefix-value {
+  font-size: 14px;
+  line-height: 20.37px;
+}
+
+.inputfield-phone-container--lg .inputfield-phone-input {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.inputfield-phone-container--lg .inputfield-phone-label {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.inputfield-phone-container--lg .inputfield-phone-prefix {
+  height: 50px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+}
+
+.inputfield-phone-container--lg .inputfield-phone-prefix-value {
+  font-size: 16px;
+  line-height: 23.28px;
+}
