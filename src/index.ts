@@ -12,4 +12,6 @@ export { SwitchWithLabel, type SwitchWithLabelProps } from './components/SwitchW
 export { Table, type TableProps, type TableColumn } from './components/Table';
 export { SimpleTable, type SimpleTableProps, type SimpleTableColumn } from './components/SimpleTable';
 export { SearchBox, type SearchBoxProps } from './components/SearchBox';
+export * from './components/AdminTopNav';
 export * from './components/TextArea';
+export * from './components/NavigationDropDown';

@@ -1,5 +1,21 @@
 import { useState } from 'react';
-import { Button, Checkbox, DatePicker, PillBadge, ProgressBar, RadioButton, SearchBox, SimpleTable, StateBadge, Switch, SwitchWithLabel, Table, TextArea } from './index';
+import { 
+  Button, 
+  Checkbox, 
+  DatePicker, 
+  PillBadge, 
+  ProgressBar, 
+  RadioButton, 
+  SearchBox, 
+  SimpleTable, 
+  StateBadge, 
+  Switch, 
+  SwitchWithLabel, 
+  Table, 
+  TextArea,
+  AdminTopNav,
+  NavigationDropDown
+} from './index';
 
 function App() {
   const [checkedItems, setCheckedItems] = useState({
@@ -39,11 +55,42 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-muted/30 p-8 font-sans">
-      <header className="mb-12">
-        <h1 className="text-4xl font-extrabold text-foreground mb-2">Evaa Design System</h1>
-        <p className="text-secondary">Showcase of all components on a single page</p>
-      </header>
+    <div className="min-h-screen bg-muted/30 font-sans">
+      <AdminTopNav 
+        leftSelects={[
+          { 
+            placeholder: "Enterprise Optical Group", 
+            options: [
+              { label: "Practice 1", value: "Practice 1" },
+              { label: "Practice 2", value: "Practice 2" }
+            ] 
+          },
+          { 
+            placeholder: "Virtual Assistant", 
+            options: [
+              { label: "Assistant A", value: "Assistant A" },
+              { label: "Assistant B", value: "Assistant B" }
+            ] 
+          }
+        ]}
+        actions={[
+          { icon: <div className="w-4 h-4 bg-gray-400 rounded-full" />, badge: 3 },
+          { icon: <div className="w-4 h-4 bg-gray-400 rounded-full" /> }
+        ]}
+        profileAction={{
+          label: "John Doe",
+          items: [
+            { label: "Profile", onClick: () => console.log("Profile clicked") },
+            { label: "Settings", onClick: () => console.log("Settings clicked") },
+            { label: "Logout", onClick: () => console.log("Logout clicked") }
+          ]
+        }}
+      />
+      <div className="p-8">
+        <header className="mb-12">
+          <h1 className="text-4xl font-extrabold text-foreground mb-2">Evaa Design System</h1>
+          <p className="text-secondary">Showcase of all components on a single page</p>
+        </header>
 
       <div className="space-y-12">
         {/* Buttons Section (Now using Button) */}
@@ -716,8 +763,79 @@ function App() {
             </div>
           </div>
         </section>
+
+        {/* NavigationDropDown Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Navigation Drop Down</h2>
+          <div className="flex flex-wrap gap-12">
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Default State</h3>
+              <NavigationDropDown 
+                label="Setup" 
+                items={[
+                  { label: "Option 1", onClick: () => alert('Option 1 clicked') },
+                  { label: "Option 2", onClick: () => alert('Option 2 clicked') },
+                  { label: "Option 3", onClick: () => alert('Option 3 clicked') },
+                ]}
+              />
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Hover Variant</h3>
+              <NavigationDropDown 
+                label="Setup" 
+                variant="hover"
+                items={[
+                  { label: "Hover Item 1" },
+                  { label: "Hover Item 2" },
+                ]}
+              />
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">With Icons</h3>
+              <NavigationDropDown 
+                label="Settings" 
+                items={[
+                  { label: "Profile", icon: <span style={{fontSize: '12px'}}>👤</span> },
+                  { label: "Account", icon: <span style={{fontSize: '12px'}}>💳</span> },
+                  { label: "Security", icon: <span style={{fontSize: '12px'}}>🔒</span> },
+                ]}
+              />
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Disabled State</h3>
+              <NavigationDropDown 
+                label="Disabled" 
+                variant="disabled"
+                items={[]}
+              />
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Icon Only</h3>
+              <NavigationDropDown 
+                hasLabel={false}
+                icon={<span style={{fontSize: '14px'}}>⚙️</span>}
+                items={[
+                  { label: "Preference 1" },
+                  { label: "Preference 2" },
+                ]}
+              />
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">No Caret</h3>
+              <NavigationDropDown 
+                label="No Caret" 
+                hasDropdownIcon={false}
+                items={[
+                  { label: "Action 1" },
+                  { label: "Action 2" },
+                ]}
+              />
+            </div>
+          </div>
+        </section>
       </div>
     </div>
+  </div>
   );
 }
 
