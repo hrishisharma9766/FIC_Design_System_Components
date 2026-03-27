@@ -18,7 +18,8 @@ import {
   TextArea,
   AdminTopNav,
   NavigationDropDown,
-  AudioPlayer
+  AudioPlayer,
+  LinkButton
 } from './index';
 
 function App() {
@@ -919,6 +920,59 @@ function App() {
                   isPlaying={true}
                   isMuted={true}
                 />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* LinkButton Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">LinkButton</h2>
+          <div className="space-y-8">
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Warning Variant</h3>
+              <div className="flex flex-wrap gap-4 items-center">
+                <LinkButton variant="warning">View Licenses & Billing</LinkButton>
+                <LinkButton variant="warning" filled>View Licenses & Billing</LinkButton>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Error Variant</h3>
+              <div className="flex flex-wrap gap-4 items-center">
+                <LinkButton variant="error">View Licenses & Billing</LinkButton>
+                <LinkButton  variant="error" filled>View Licenses & Billing</LinkButton>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Disabled Variant</h3>
+              <div className="flex flex-wrap gap-4 items-center">
+                <LinkButton variant="disabled">View Licenses & Billing</LinkButton>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">ReadOnly Variant</h3>
+              <div className="flex flex-wrap gap-4 items-center">
+                <LinkButton variant="readonly">View Licenses & Billing</LinkButton>
+                <LinkButton variant="readonly" filled>View Licenses & Billing</LinkButton>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Teal Variant</h3>
+              <div className="flex flex-wrap gap-4 items-center">
+                <LinkButton variant="teal">View Licenses & Billing</LinkButton>
+                <LinkButton variant="teal" filled>View Licenses & Billing</LinkButton>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Brand Variant</h3>
+              <div className="flex flex-wrap gap-4 items-center">
+                <LinkButton variant="brand">View Licenses & Billing</LinkButton>
+                <LinkButton variant="brand" filled>View Licenses & Billing</LinkButton>
               </div>
             </div>
           </div>

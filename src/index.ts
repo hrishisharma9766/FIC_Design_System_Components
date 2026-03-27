@@ -17,5 +17,6 @@ export { SimpleTable, type SimpleTableProps, type SimpleTableColumn } from './co
 export { SearchBox, type SearchBoxProps } from './components/SearchBox/SearchBox';
 export * from './components/AdminTopNav/AdminTopNav';
 export * from './components/AudioPlayer/AudioPlayer';
+export * from './components/LinkButton/LinkButton';
 export * from './components/TextArea/TextArea';
 export * from './components/NavigationDropDown/NavigationDropDown';
