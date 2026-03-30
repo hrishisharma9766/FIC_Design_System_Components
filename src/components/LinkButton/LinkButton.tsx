@@ -7,6 +7,7 @@ export interface LinkButtonProps extends React.ButtonHTMLAttributes<HTMLButtonEl
   label?: string;
   leftIcon?: React.ReactNode;
   rightIcon?: React.ReactNode;
+  hasIcon?: boolean;
 }
 
 const ExternalLinkIcon = () => (
@@ -35,6 +36,7 @@ export const LinkButton = React.forwardRef<HTMLButtonElement, LinkButtonProps>(
       style,
       leftIcon,
       rightIcon,
+      hasIcon = true,
       ...props
     },
     ref
@@ -60,7 +62,11 @@ export const LinkButton = React.forwardRef<HTMLButtonElement, LinkButtonProps>(
       >
         {leftIcon && <span className="link-button__icon link-button__icon--left">{leftIcon}</span>}
         <span className="link-button__label">{label}</span>
-        {rightIcon ? <span className="link-button__icon link-button__icon--right">{rightIcon}</span> : (IconComponent && <IconComponent />)}
+        {rightIcon ? (
+          <span className="link-button__icon link-button__icon--right">{rightIcon}</span>
+        ) : (
+          hasIcon && IconComponent && <IconComponent />
+        )}
       </button>
     );
   }

@@ -19,7 +19,9 @@ import {
   AdminTopNav,
   NavigationDropDown,
   AudioPlayer,
-  LinkButton
+  LinkButton,
+  NotificationDropDownMenu,
+  SimpleTab
 } from './index';
 
 function App() {
@@ -974,6 +976,99 @@ function App() {
                 <LinkButton variant="brand">View Licenses & Billing</LinkButton>
                 <LinkButton variant="brand" filled>View Licenses & Billing</LinkButton>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* NotificationDropDownMenu Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Notification Center</h2>
+          <div className="flex flex-wrap gap-4 items-start relative min-h-[500px]">
+            <NotificationDropDownMenu notifications={[
+              {
+                id: '1',
+                type: 'warning',
+                subject: 'Billing Assistant',
+                heading: 'Trial will end in 5 days.',
+                body: 'Upgrade to continue using all feature.',
+                time: '10 minutes ago',
+                isNew: true,
+              },
+              {
+                id: '2',
+                type: 'error',
+                subject: 'Billing Assistant',
+                heading: 'Trial will end in 5 days.',
+                body: 'Upgrade to continue using all feature.',
+                time: '10 minutes ago',
+                isNew: true,
+              },
+              {
+                id: '3',
+                type: 'warning',
+                subject: 'Billing Assistant',
+                heading: 'Trial will end in 5 days.',
+                body: 'Upgrade to continue using all feature.',
+                time: '10 minutes ago',
+                isNew: false,
+                read: true,
+              }
+            ]} />
+          </div>
+        </section>
+
+        {/* SimpleTab Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">SimpleTab</h2>
+          <div className="space-y-8">
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Theme Variants (Click to Interact)</h3>
+              <div className="flex flex-wrap gap-12">
+                <div>
+                  <h4 className="text-xs text-muted-foreground mb-2">Fusia</h4>
+                  <SimpleTab tabs="two-tabs" theme="fusia" />
+                </div>
+                <div>
+                  <h4 className="text-xs text-muted-foreground mb-2">Neutral</h4>
+                  <SimpleTab tabs="two-tabs" theme="neutral" />
+                </div>
+                <div>
+                  <h4 className="text-xs text-muted-foreground mb-2">Teal</h4>
+                  <SimpleTab tabs="two-tabs" theme="teal" />
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Tab Count Variants (Click to Interact)</h3>
+              <div className="flex flex-wrap gap-12">
+                <div>
+                  <h4 className="text-xs text-muted-foreground mb-2">Two Tabs</h4>
+                  <SimpleTab tabs="two-tabs" theme="neutral" />
+                </div>
+                <div>
+                  <h4 className="text-xs text-muted-foreground mb-2">More Than 2 Tabs</h4>
+                  <SimpleTab tabs="more-than-2-tabs" theme="neutral" />
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Controlled with State Display</h3>
+              <SimpleTab
+                tabs="two-tabs"
+                theme="teal"
+                onTabChange={(tab) => console.log('Selected tab:', tab)}
+              />
+              <p className="text-sm text-muted-foreground mt-2">Check console for tab changes</p>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">More Than 2 Tabs with Fusia Theme</h3>
+              <SimpleTab
+                tabs="more-than-2-tabs"
+                theme="fusia"
+              />
             </div>
           </div>
         </section>

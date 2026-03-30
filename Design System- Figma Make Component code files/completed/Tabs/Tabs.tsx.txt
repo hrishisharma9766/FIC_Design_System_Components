@@ -1,0 +1,42 @@
+import "./style.css";
+
+export interface SimpleTabSetProps {
+  tabs: "more-than-2-tabs" | "two-tabs";
+
+  theme: "fusia" | "neutral" | "teal";
+
+  className: string;
+}
+
+export const SimpleTabSet = ({
+  tabs = "two-tabs",
+  theme = "neutral",
+  className,
+}: SimpleTabSetProps): JSX.Element => {
+  return (
+    <div className={`simple-tab-set ${tabs} ${theme} ${className}`}>
+      <div className="slected-tab">
+        <div className="inbox">
+          {tabs === "more-than-2-tabs" &&
+            ["fusia", "neutral"].includes(theme) && <>Inbox (12)</>}
+
+          {(tabs === "two-tabs" || theme === "teal") && <>Unread (2)</>}
+        </div>
+      </div>
+
+      <div className="non-slected-tab">
+        <div className="all">
+          {tabs === "two-tabs" && <>All</>}
+
+          {tabs === "more-than-2-tabs" && <>Unread (2)</>}
+        </div>
+      </div>
+
+      {tabs === "more-than-2-tabs" && (
+        <div className="non-slected-tab">
+          <div className="text-wrapper">All</div>
+        </div>
+      )}
+    </div>
+  );
+};

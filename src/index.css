@@ -2,11 +2,11 @@
 @import "./styles/theme.css";
 @import "./styles/typography-tokens.css";
 @import "tailwindcss";
-@import "./components/Button.css";
-@import "./components/PillBadge.css";
-@import "./components/StateBadge.css";
-@import "./components/Checkbox.css";
-@import "./components/DatePicker.css";
+@import "./components/Button/Button.css";
+@import "./components/PillBadge/PillBadge.css";
+@import "./components/StateBadge/StateBadge.css";
+@import "./components/Checkbox/Checkbox.css";
+@import "./components/DatePicker/DatePicker.css";
 
 @theme {
   --color-primary: var(--colors-primitive-color-tokens-teal-700);
