@@ -39,7 +39,8 @@
   border-radius: 9999px;
 }
 
-.checkbox-box--checked {
+.checkbox-box--checked,
+.checkbox-box--indeterminate {
   background: var(--colors-primitive-color-tokens-teal-700, #118082);
   outline: 1px var(--colors-primitive-color-tokens-teal-700, #118082) solid;
 }

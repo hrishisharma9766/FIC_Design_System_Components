@@ -21,7 +21,10 @@ import {
   AudioPlayer,
   LinkButton,
   NotificationDropDownMenu,
-  SimpleTab
+  SimpleTab,
+  AddOnsCard,
+  SingleSelectDropDown,
+  MultiSelectDropDown
 } from './index';
 
 function App() {
@@ -1069,6 +1072,196 @@ function App() {
                 tabs="more-than-2-tabs"
                 theme="fusia"
               />
+            </div>
+          </div>
+        </section>
+
+        {/* AddOnsCard Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">AddOnsCard</h2>
+          <div className="space-y-8">
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Card with More Than 1 Option</h3>
+              <AddOnsCard
+                title="Eligibility Verification"
+                variant="more-than-1-option"
+                options={[
+                  { id: '1', verifications: '250 Verifications', price: '$125', provider: 'provider/month' },
+                  { id: '2', verifications: '500 Verifications', price: '$250', provider: 'provider/month' },
+                ]}
+                onAdd={(id) => console.log('Added option:', id)}
+              />
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Card with 1 Option</h3>
+              <AddOnsCard
+                title="Eligibility Verification"
+                variant="1-option"
+                options={[
+                  { id: '1', verifications: '250 Verifications', price: '$125', provider: 'provider/month' },
+                ]}
+                onAdd={(id) => console.log('Added option:', id)}
+              />
+            </div>
+          </div>
+        </section>
+
+        {/* SingleSelectDropDown Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Single Select Drop Down</h2>
+          <div className="space-y-8">
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Sizes</h3>
+              <div className="flex flex-wrap gap-8 items-start">
+                <SingleSelectDropDown
+                  size="sm"
+                  label="Small Input"
+                  placeholder="Select"
+                  options={[
+                    { value: 'option1', label: 'Option 1' },
+                    { value: 'option2', label: 'Option 2' },
+                    { value: 'option3', label: 'Option 3' },
+                  ]}
+                />
+                <SingleSelectDropDown
+                  size="md"
+                  label="Medium Input"
+                  placeholder="Select"
+                  options={[
+                    { value: 'option1', label: 'Option 1' },
+                    { value: 'option2', label: 'Option 2' },
+                    { value: 'option3', label: 'Option 3' },
+                  ]}
+                />
+                <SingleSelectDropDown
+                  size="lg"
+                  label="Large Input"
+                  placeholder="Select"
+                  options={[
+                    { value: 'option1', label: 'Option 1' },
+                    { value: 'option2', label: 'Option 2' },
+                    { value: 'option3', label: 'Option 3' },
+                  ]}
+                />
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">States</h3>
+              <div className="flex flex-wrap gap-8 items-start">
+                <SingleSelectDropDown
+                  state="default"
+                  label="Default"
+                  placeholder="Select"
+                  options={[
+                    { value: 'option1', label: 'Option 1' },
+                    { value: 'option2', label: 'Option 2' },
+                  ]}
+                />
+                <SingleSelectDropDown
+                  state="focus"
+                  label="Focus"
+                  placeholder="Select"
+                  options={[
+                    { value: 'option1', label: 'Option 1' },
+                    { value: 'option2', label: 'Option 2' },
+                  ]}
+                />
+                <SingleSelectDropDown
+                  state="selected"
+                  label="Selected"
+                  value="option1"
+                  options={[
+                    { value: 'option1', label: 'Option 1' },
+                    { value: 'option2', label: 'Option 2' },
+                  ]}
+                />
+                <SingleSelectDropDown
+                  state="disabled"
+                  label="Disabled"
+                  placeholder="Select"
+                  options={[
+                    { value: 'option1', label: 'Option 1' },
+                    { value: 'option2', label: 'Option 2' },
+                  ]}
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* MultiSelectDropDown Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Multi Select Drop Down</h2>
+          <div className="space-y-8">
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Sizes</h3>
+              <div className="flex flex-wrap gap-8 items-start">
+                <MultiSelectDropDown
+                  size="sm"
+                  label="Small Input"
+                  placeholder="Select"
+                  options={[
+                    { value: 'option1', label: 'Option 1' },
+                    { value: 'option2', label: 'Option 2' },
+                    { value: 'option3', label: 'Option 3' },
+                  ]}
+                />
+                <MultiSelectDropDown
+                  size="md"
+                  label="Medium Input"
+                  placeholder="Select"
+                  options={[
+                    { value: 'option1', label: 'Option 1' },
+                    { value: 'option2', label: 'Option 2' },
+                    { value: 'option3', label: 'Option 3' },
+                  ]}
+                />
+                <MultiSelectDropDown
+                  size="lg"
+                  label="Large Input"
+                  placeholder="Select"
+                  options={[
+                    { value: 'option1', label: 'Option 1' },
+                    { value: 'option2', label: 'Option 2' },
+                    { value: 'option3', label: 'Option 3' },
+                  ]}
+                />
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">States</h3>
+              <div className="flex flex-wrap gap-8 items-start">
+                <MultiSelectDropDown
+                  state="default"
+                  label="Default"
+                  placeholder="Select"
+                  options={[
+                    { value: 'option1', label: 'Option 1' },
+                    { value: 'option2', label: 'Option 2' },
+                  ]}
+                />
+                <MultiSelectDropDown
+                  state="readonly"
+                  label="Read Only"
+                  value={['option1']}
+                  options={[
+                    { value: 'option1', label: 'Option 1' },
+                    { value: 'option2', label: 'Option 2' },
+                  ]}
+                />
+                <MultiSelectDropDown
+                  state="disabled"
+                  label="Disabled"
+                  placeholder="Select"
+                  options={[
+                    { value: 'option1', label: 'Option 1' },
+                    { value: 'option2', label: 'Option 2' },
+                  ]}
+                />
+              </div>
             </div>
           </div>
         </section>

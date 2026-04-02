@@ -12,6 +12,7 @@ export interface CheckboxProps extends React.InputHTMLAttributes<HTMLInputElemen
   variant?: 'square' | 'round';
   state?: 'default' | 'hover' | 'focus' | 'disabled' | 'readonly';
   checked?: boolean;
+  indeterminate?: boolean;
 }
 
 /**
@@ -27,6 +28,7 @@ export const Checkbox = React.forwardRef<HTMLInputElement, CheckboxProps>(
       variant = 'square',
       state = 'default',
       checked = false,
+      indeterminate = false,
       className = '',
       onChange,
       disabled,
@@ -35,6 +37,15 @@ export const Checkbox = React.forwardRef<HTMLInputElement, CheckboxProps>(
     },
     ref
   ) => {
+    const internalRef = React.useRef<HTMLInputElement>(null);
+    const combinedRef = (ref as React.RefObject<HTMLInputElement>) || internalRef;
+
+    React.useEffect(() => {
+      if (combinedRef.current) {
+        combinedRef.current.indeterminate = indeterminate;
+      }
+    }, [indeterminate, combinedRef]);
+
     // Determine effective states
     const isDisabled = state === 'disabled' || disabled;
     const isReadOnly = state === 'readonly' || readOnly;
@@ -55,6 +66,7 @@ export const Checkbox = React.forwardRef<HTMLInputElement, CheckboxProps>(
       'checkbox-box',
       `checkbox-box--${variant}`,
       checked ? 'checkbox-box--checked' : '',
+      indeterminate ? 'checkbox-box--indeterminate' : '',
       isDisabled ? 'checkbox-box--disabled' : '',
       isReadOnly ? 'checkbox-box--readonly' : '',
     ]
@@ -79,7 +91,7 @@ export const Checkbox = React.forwardRef<HTMLInputElement, CheckboxProps>(
       <label className={containerClasses} style={dmSansStyle}>
         <div className="checkbox-row">
           <input
-            ref={ref}
+            ref={combinedRef}
             type="checkbox"
             checked={checked}
             onChange={handleCheckboxChange}
@@ -90,10 +102,17 @@ export const Checkbox = React.forwardRef<HTMLInputElement, CheckboxProps>(
           />
           
           <div className={boxClasses}>
-            {checked && (
+            {checked && !indeterminate && (
               <div className="checkbox-icon">
                 <svg width="12" height="9" viewBox="0 0 12 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M1 4.5L4.5 8L11 1" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+                </svg>
+              </div>
+            )}
+            {indeterminate && (
+              <div className="checkbox-icon">
+                <svg width="12" height="2" viewBox="0 0 12 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1 1H11" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                 </svg>
               </div>
             )}
