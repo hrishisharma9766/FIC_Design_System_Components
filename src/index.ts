@@ -1,4 +1,4 @@
-import './styles/theme.css';
+import './index.css';
 
 export * from './components/Button/Button';
 export * from './components/Checkbox/Checkbox';
@@ -23,5 +23,6 @@ export * from './components/NotificationDropDownMenu/NotificationDropDownMenu';
 export * from './components/SimpleTab/SimpleTab';
 export * from './components/SingleSelectDropDown/SingleSelectDropDown';
 export * from './components/MultiSelectDropDown/MultiSelectDropDown';
+export * from './components/DashboardWidget/DashboardWidget';
 export * from './components/TextArea/TextArea';
 export * from './components/NavigationDropDown/NavigationDropDown';

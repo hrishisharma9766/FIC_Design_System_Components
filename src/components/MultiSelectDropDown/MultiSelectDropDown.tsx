@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import './MultiSelectDropDown.css';
 import { Checkbox } from '../Checkbox/Checkbox';
 
-export interface MultiSelectDropDownOption {
+export interface MultiSelectOption {
   value: string;
   label: string;
 }
@@ -11,11 +11,11 @@ export interface MultiSelectDropDownProps {
   className?: string;
   label?: string;
   placeholder?: string;
-  options: MultiSelectDropDownOption[];
+  options: MultiSelectOption[];
   value?: string[];
   onChange?: (value: string[]) => void;
   state?: 'default' | 'disabled' | 'readonly';
-  size?: 'sm' | 'md' | 'lg';
+  size?: 'sm' | 'md' | 'lg' | string;
 }
 
 const CaretIcon = ({ isOpen }: { isOpen: boolean }) => (

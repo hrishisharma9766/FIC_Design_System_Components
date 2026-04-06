@@ -24,7 +24,8 @@ import {
   SimpleTab,
   AddOnsCard,
   SingleSelectDropDown,
-  MultiSelectDropDown
+  MultiSelectDropDown,
+  DashboardWidget
 } from './index';
 
 function App() {
@@ -1394,8 +1395,38 @@ function App() {
           </div>
         </section>
       </div>
+    {/* DashboardWidget Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Dashboard Widgets</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <DashboardWidget 
+              type="info"
+              title="Total Products"
+              value="24"
+              statusText="+3 This month"
+            />
+            <DashboardWidget 
+              type="success"
+              title="Total Products"
+              value="24"
+              statusText="+3 This month"
+            />
+            <DashboardWidget 
+              type="warning"
+              title="Total Products"
+              value="24"
+              statusText="+3 This month"
+            />
+            <DashboardWidget 
+              type="error"
+              title="Total Products"
+              value="24"
+              statusText="+3 This month"
+            />
+          </div>
+        </section>
+      </div>
     </div>
-  </div>
   );
 }
 
