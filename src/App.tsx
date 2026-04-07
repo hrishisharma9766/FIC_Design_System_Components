@@ -25,7 +25,10 @@ import {
   AddOnsCard,
   SingleSelectDropDown,
   MultiSelectDropDown,
-  DashboardWidget
+  DashboardWidget,
+  Timepicker,
+  SubTotalBar,
+  PriceSlider
 } from './index';
 
 function App() {
@@ -1395,7 +1398,89 @@ function App() {
           </div>
         </section>
       </div>
-    {/* DashboardWidget Section */}
+    {/* PriceSlider Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Price Slider</h2>
+          <div className="flex flex-wrap gap-12">
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Large with Delete</h3>
+              <PriceSlider size="large" showDeleteIcon value={10} />
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Small without Label</h3>
+              <PriceSlider size="small" value={5} />
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">With Label (Left)</h3>
+              <PriceSlider labelPosition="left" label="Price" value={20} />
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">With Label (Center)</h3>
+              <PriceSlider labelPosition="center" label="Quantity" value={1} />
+            </div>
+          </div>
+        </section>
+
+        {/* SubTotalBar Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Subtotal Bar</h2>
+          <div className="flex flex-col gap-8">
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Teal Theme</h3>
+              <SubTotalBar subtotal="$2,580.00" theme="teal" />
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Fusia Theme</h3>
+              <SubTotalBar subtotal="$1,240.50" theme="fusia" />
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Neutral Theme</h3>
+              <SubTotalBar subtotal="$3,750.00" theme="neutral" />
+            </div>
+          </div>
+        </section>
+
+        {/* Timepicker Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Time Picker</h2>
+          <div className="flex flex-wrap gap-12">
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">12-Hour Format</h3>
+              <Timepicker 
+                label="Start Time" 
+                placeholder="Select Start Time" 
+                required
+              />
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">24-Hour Format</h3>
+              <Timepicker 
+                label="End Time" 
+                placeholder="Select End Time" 
+                is24Hour
+              />
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">With Value</h3>
+              <Timepicker 
+                label="Meeting Time" 
+                value="10:30 AM"
+              />
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Time Range</h3>
+              <Timepicker 
+                label="Duration" 
+                mode="range"
+                startTime="09:00 AM"
+                endTime="05:00 PM"
+                onRangeChange={(start, end) => console.log('Range changed:', start, end)}
+              />
+            </div>
+          </div>
+        </section>
+
+        {/* DashboardWidget Section */}
         <section className="bg-background p-6 rounded-[13px] border border-border">
           <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Dashboard Widgets</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

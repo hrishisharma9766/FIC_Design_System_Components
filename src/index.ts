@@ -26,3 +26,6 @@ export * from './components/MultiSelectDropDown/MultiSelectDropDown';
 export * from './components/DashboardWidget/DashboardWidget';
 export * from './components/TextArea/TextArea';
 export * from './components/NavigationDropDown/NavigationDropDown';
+export * from './components/Timepicker/Timepicker';
+export * from './components/SubTotalBar/SubTotalBar';
+export * from './components/PriceSlider/PriceSlider';

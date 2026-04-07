@@ -1,0 +1,116 @@
+.price-slider {
+  display: inline-flex;
+  gap: 8px;
+  box-sizing: border-box;
+  font-family: var(--FontFamily-Family, 'DM Sans', sans-serif);
+}
+
+.price-slider--label-left {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.price-slider--label-center {
+  flex-direction: column;
+  align-items: center;
+}
+
+.price-slider__label {
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.37px;
+  align-self: stretch;
+}
+
+.price-slider--label-center .price-slider__label {
+  text-align: center;
+}
+
+.price-slider__controls {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.price-slider__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--Colors-Functional-Bkg-Bkg_Default, white);
+  border-radius: 9999px;
+  outline: 1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid;
+  outline-offset: -1px;
+  border: none;
+  cursor: pointer;
+  color: var(--Colors-Navigation-Icons-Gray-Bkg--700, #4B4B4A);
+  padding: 0;
+  transition: all 0.2s;
+}
+
+.price-slider__btn:hover:not(:disabled) {
+  background: var(--Colors-Navigation-Other-Bkg_Menu_Hover, #EFEEEA);
+}
+
+.price-slider__btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.price-slider__controls--large .price-slider__btn {
+  width: 32px;
+  height: 32px;
+}
+
+.price-slider__controls--small .price-slider__btn {
+  width: 26px;
+  height: 26px;
+}
+
+.price-slider__number-slot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--Colors-Functional-Bkg-Bkg_Default, white);
+  border-radius: 4px;
+  outline: 1px var(--Colors-Functional-Border-Border_Default, #C3C1B5) solid;
+  outline-offset: -1px;
+  min-width: 40px;
+  padding: 0 4px;
+  box-sizing: border-box;
+}
+
+.price-slider__controls--large .price-slider__number-slot {
+  height: 32px;
+}
+
+.price-slider__controls--small .price-slider__number-slot {
+  height: 26px;
+}
+
+.price-slider__value {
+  color: var(--Colors-Functional-Txt-Txt_Default, #303030);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26.19px;
+  text-align: center;
+}
+
+.price-slider__delete-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--Colors-Functional-Input-Icons-Icon_DarkGray, #4B4B4A);
+  border-radius: 9999px;
+  transition: background-color 0.2s;
+}
+
+.price-slider__delete-btn:hover {
+  background-color: var(--Colors-Functional-Bkg-Bkg_Error-Red100, #FFD3D2);
+  color: var(--Colors-Navigation-Icons-Alert-High-Red500, #E73D36);
+}
