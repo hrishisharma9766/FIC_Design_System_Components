@@ -1,0 +1,111 @@
+.patient-details-banner {
+  width: 100%;
+  max-width: 343px;
+  box-sizing: border-box;
+  font-family: var(--FontFamily-Family, 'DM Sans', sans-serif);
+}
+
+.patient-details-banner__content {
+  padding: 12px;
+  background: var(--Colors-Functional-Bkg-Bkg_Focus, #D6FFFB);
+  border-radius: 13px;
+  outline: 1px var(--Colors-Functional-Border-Border_Teal-600, #118082) solid;
+  outline-offset: -1px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.patient-details-banner__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.patient-details-banner__name {
+  color: var(--Colors-Functional-Txt-Txt_Default, #303030);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 29.10px;
+  word-wrap: break-word;
+}
+
+.patient-details-banner__header-right {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.patient-details-banner__time-badge {
+  width: 81.28px;
+  height: 28px;
+  position: relative;
+  background: var(--Colors-Functional-Bkg-Bkg_Default, white);
+  border-radius: 999px;
+}
+
+.patient-details-banner__time {
+  width: 82px;
+  height: 20px;
+  left: 0;
+  top: 5px;
+  position: absolute;
+  text-align: center;
+  color: var(--Colors-Functional-Txt-Txt_Light, #71706C);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.37px;
+  word-wrap: break-word;
+}
+
+.patient-details-banner__options-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2s;
+}
+
+.patient-details-banner__options-btn:hover {
+  opacity: 0.8;
+}
+
+.patient-details-banner__dob-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.patient-details-banner__id-provider-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.patient-details-banner__id-group,
+.patient-details-banner__provider-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.patient-details-banner__label {
+  color: var(--Colors-Functional-Label-Txt_Label_Default, #4B4B4A);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.37px;
+  word-wrap: break-word;
+}
+
+.patient-details-banner__value {
+  color: var(--Colors-Functional-Txt-Txt_Default, #303030);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20.37px;
+  word-wrap: break-word;
+}

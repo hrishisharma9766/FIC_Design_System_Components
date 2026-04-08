@@ -29,3 +29,12 @@ export * from './components/NavigationDropDown/NavigationDropDown';
 export * from './components/Timepicker/Timepicker';
 export * from './components/SubTotalBar/SubTotalBar';
 export * from './components/PriceSlider/PriceSlider';
+export * from './components/PatientDetailsBanner/PatientDetailsBanner';
+export * from './components/EnterprEyesNavigation/EnterprEyesNavigation';
+export { Logos, type LogosProps, type LogosTheme, type LogosVariant } from './components/Logos/Logos';
+export {
+  ScribeEmptyData,
+  type ScribeEmptyDataProps,
+  type ScribeEmptyDataVariant,
+} from './components/ScribeEmptyData/ScribeEmptyData';
+export { Modal, type ModalProps, type ModalSize, type ModalAction } from './components/Modal/Modal';

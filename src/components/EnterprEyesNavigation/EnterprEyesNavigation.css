@@ -1,0 +1,172 @@
+.ehr-navigation {
+  width: 100%;
+  background: var(--Colors-Navigation-EHR_TopNavigation-Bkg_PrimaryTopNav, #002515);
+  color: white;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.ehr-navigation__primary {
+  height: 48px;
+  padding: 0 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ehr-navigation__left {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.ehr-navigation__logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.ehr-navigation__logo-main {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: -0.5px;
+}
+
+.ehr-navigation__logo-dot {
+  color: #D72D8A;
+}
+
+.ehr-navigation__logo-sub {
+  font-size: 8px;
+  opacity: 0.8;
+  margin-top: -4px;
+}
+
+.ehr-navigation__nav {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.ehr-navigation__item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.ehr-navigation__item--active {
+  padding: 8px 16px;
+  background: #325B04;
+  border-radius: 13px;
+}
+
+.ehr-navigation__item-icon {
+  font-size: 16px;
+}
+
+.ehr-navigation__item-label {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.37px;
+  color: var(--Colors-Navigation-EHR_TopNavigation-Txt_Label_Default, white);
+}
+
+.ehr-navigation__item--active .ehr-navigation__item-label {
+  font-weight: 800;
+}
+
+.ehr-navigation__badge {
+  background-color: #E73D36;
+  border-radius: 13px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24px;
+  height: 18px;
+  font-size: 10px;
+  font-weight: 800;
+}
+
+.ehr-navigation__right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.ehr-navigation__utils {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  position: relative;
+}
+
+.ehr-navigation__util-item {
+  font-size: 18px;
+  cursor: pointer;
+  position: relative;
+}
+
+.ehr-navigation__util-badge {
+  background-color: #E73D36;
+  border-radius: 13px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  width: 16px;
+  height: 16px;
+  font-size: 10px;
+}
+
+.ehr-navigation__user {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-left: 12px;
+  border-left: 1px solid #71706C;
+}
+
+.ehr-navigation__avatar {
+  width: 32px;
+  height: 32px;
+  background: #325B04;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.ehr-navigation__user-arrow {
+  font-size: 12px;
+}
+
+.ehr-navigation__secondary {
+  height: 38px;
+  background: #325B04;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 24px;
+}
+
+.ehr-navigation__secondary-item {
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  color: var(--Colors-Navigation-EHR_TopNavigation-Txt_Label_Default, white);
+}
+
+.ehr-navigation__secondary-item--active {
+  background: #325B04;
+  border-bottom: 3px solid white;
+  border-top-left-radius: 13px;
+  border-top-right-radius: 13px;
+  font-weight: 800;
+}

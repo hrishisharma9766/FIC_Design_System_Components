@@ -28,8 +28,33 @@ import {
   DashboardWidget,
   Timepicker,
   SubTotalBar,
-  PriceSlider
+  PriceSlider,
+  PatientDetailsBanner,
+  EnterprEyesNavigation,
+  Logos,
+  type LogosVariant,
+  ScribeEmptyData,
+  type ScribeEmptyDataVariant,
+  Modal,
+  type ModalSize,
 } from './index';
+
+const SCRIBE_EMPTY_VARIANTS: { variant: ScribeEmptyDataVariant; label: string }[] = [
+  { variant: 'note', label: 'Note' },
+  { variant: 'microphone', label: 'Microphone' },
+  { variant: 'folder', label: 'Folder' },
+  { variant: 'person', label: 'Person' },
+];
+
+const LOGO_VARIANTS: LogosVariant[] = [
+  'EVAA',
+  'BillingAssistant',
+  'VirtualAssistant',
+  'Scribe',
+  'MaximEyes Evaa',
+  'MaximEyes',
+  'PatientPortal',
+];
 
 function App() {
   const [checkedItems, setCheckedItems] = useState({
@@ -47,6 +72,8 @@ function App() {
   const [selectedTableItems, setSelectedTableItems] = useState<any[]>([]);
   const [selectedSimpleTableItems, setSelectedSimpleTableItems] = useState<any[]>([]);
   const [simpleVariant, setSimpleVariant] = useState<'default' | 'striped'>('striped');
+  const [modalOpen, setModalOpen] = useState(false);
+  const [modalSize, setModalSize] = useState<ModalSize>('40');
 
   const toggleChecked = (id: string) => {
     setCheckedItems(prev => ({ ...prev, [id]: !prev[id as keyof typeof prev] }));
@@ -107,6 +134,106 @@ function App() {
         </header>
 
       <div className="space-y-12">
+        {/* Logos Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Logos</h2>
+          <div className="space-y-10">
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">
+                Light theme (for light backgrounds)
+              </h3>
+              <div className="flex flex-wrap gap-8 items-start justify-start rounded-lg bg-muted/20 p-6">
+                {LOGO_VARIANTS.map((variant) => (
+                  <div
+                    key={`logo-light-${variant}`}
+                    className="flex min-h-[88px] flex-col items-center justify-end gap-2"
+                  >
+                    <Logos theme="light" variant={variant} />
+                    <span className="max-w-[220px] text-center text-xs text-muted-foreground">
+                      {variant}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">
+                Dark theme (for dark backgrounds)
+              </h3>
+              <div className="flex flex-wrap gap-8 items-start justify-start rounded-lg bg-[#1a1a1a] p-6">
+                {LOGO_VARIANTS.map((variant) => (
+                  <div
+                    key={`logo-dark-${variant}`}
+                    className="flex min-h-[88px] flex-col items-center justify-end gap-2"
+                  >
+                    <Logos theme="dark" variant={variant} />
+                    <span className="max-w-[220px] text-center text-xs text-neutral-400">
+                      {variant}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Scribe Empty Data Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Scribe Empty Data</h2>
+          <div className="grid grid-cols-1 gap-10 md:grid-cols-2 xl:grid-cols-4">
+            {SCRIBE_EMPTY_VARIANTS.map(({ variant, label }) => (
+              <div
+                key={variant}
+                className="flex flex-col items-center rounded-lg border border-border bg-muted/10 p-6"
+              >
+                <span className="mb-4 text-center text-xs font-semibold text-muted-foreground">
+                  {label}
+                </span>
+                <ScribeEmptyData variant={variant} className="max-w-[320px]" />
+              </div>
+            ))}
+          </div>
+        </section>
+
+        <Modal
+          open={modalOpen}
+          onClose={() => setModalOpen(false)}
+          size={modalSize}
+          title="Modal title"
+          subTitle="Optional sub header copy for context."
+          primaryAction={{ label: 'OK', onClick: () => setModalOpen(false) }}
+          secondaryAction={{ label: 'CANCEL', onClick: () => setModalOpen(false) }}
+        />
+
+        {/* Modal Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Modal</h2>
+          <p className="mb-4 text-sm text-muted-foreground">
+            Sample widths from the design system (more sizes exist on the component). 20% uses stacked
+            full-width actions; other presets use right-aligned footer buttons.
+          </p>
+          <div className="flex flex-wrap gap-3">
+            {([
+              { sz: '20' as const, label: '20% (stacked actions)' },
+              { sz: '50' as const, label: '50% (medium)' },
+              { sz: '100' as const, label: '100% (full width)' },
+            ]).map(({ sz, label }) => (
+              <Button
+                key={sz}
+                variant="secondary"
+                size="md"
+                type="button"
+                onClick={() => {
+                  setModalSize(sz);
+                  setModalOpen(true);
+                }}
+              >
+                {label}
+              </Button>
+            ))}
+          </div>
+        </section>
+
         {/* Buttons Section (Now using Button) */}
         <section className="bg-background p-6 rounded-[13px] border border-border">
           <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Buttons</h2>
@@ -1398,7 +1525,41 @@ function App() {
           </div>
         </section>
       </div>
-    {/* PriceSlider Section */}
+    {/* EnterprEyesNavigation Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">EnterprEyes Navigation</h2>
+          <div className="w-full">
+            <EnterprEyesNavigation 
+              activePrimaryId="practice-hub"
+              activeSecondaryId="Practice Locations"
+              onPrimaryClick={(id) => console.log('Primary nav clicked:', id)}
+              onSecondaryClick={(id) => console.log('Secondary nav clicked:', id)}
+            />
+          </div>
+        </section>
+
+        {/* PatientDetailsBanner Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Patient Details Banner</h2>
+          <div className="flex flex-wrap gap-8">
+            <PatientDetailsBanner 
+              name="Jane Doe"
+              time="09:30 AM"
+              dob="05/15/1985 (38)"
+              id="100000"
+              provider="Dr. Sarah Jones"
+            />
+            <PatientDetailsBanner 
+              name="John Smith"
+              dob="01/20/1970 (54)"
+              id="100001"
+              provider="Dr. Michael Lee"
+              showOptions={false}
+            />
+          </div>
+        </section>
+
+        {/* PriceSlider Section */}
         <section className="bg-background p-6 rounded-[13px] border border-border">
           <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Price Slider</h2>
           <div className="flex flex-wrap gap-12">

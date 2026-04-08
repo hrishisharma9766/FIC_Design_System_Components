@@ -1,0 +1,159 @@
+import React from 'react';
+
+const EHRNavigation = () => {
+  // Styles based on [cite: 1, 2, 3]
+  const navLabelStyle = {
+    fontSize: 14,
+    fontFamily: 'DM Sans',
+    fontWeight: '400',
+    lineHeight: '20.37px',
+    color: 'var(--Colors-Navigation-EHR_TopNavigation-Txt_Label_Default, white)'
+  };
+
+  const selectedLabelStyle = {
+    ...navLabelStyle,
+    fontWeight: '800' // [cite: 8, 9]
+  };
+
+  const badgeStyle = {
+    backgroundColor: '#E73D36',
+    borderRadius: 13,
+    color: 'white',
+    fontFamily: 'DM Sans',
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center'
+  };
+
+  return (
+    <div style={{ width: '100%', background: '#002515', color: 'white' }}>
+      {/* Top Primary Navigation Bar */}
+      <div style={{ 
+        height: 48, 
+        padding: '0 16px', 
+        display: 'flex', 
+        justifyContent: 'space-between', 
+        alignItems: 'center',
+        background: 'var(--Colors-Navigation-EHR_TopNavigation-Bkg_PrimaryTopNav, #002515)' 
+      }}>
+        
+        {/* Left Section: Logo and Main Nav */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: 24 }}>
+          {/* Brand Logo (from bottom part of screenshot) */}
+          <div style={{ display: 'flex', flexDirection: 'column' }}>
+            <span style={{ fontSize: 18, fontWeight: 'bold', letterSpacing: -0.5 }}>MaximEyes<span style={{ color: '#D72D8A' }}>.AI</span></span>
+            <span style={{ fontSize: 8, opacity: 0.8, marginTop: -4 }}>Powered by evaa</span>
+          </div>
+
+          <nav style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+            {/* Dashboard */}
+            <div style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '8px 12px' }}>
+              <i className="fa-solid fa-table-columns" style={{ fontSize: 16 }}></i>
+              <span style={navLabelStyle}>Dashboard</span>
+              <div style={{ ...badgeStyle, width: 24, height: 18, fontSize: 10, fontWeight: '800' }}>99+</div>
+            </div>
+
+            {/* Practice Hub - Selected State */}
+            <div style={{ 
+              display: 'flex', 
+              alignItems: 'center', 
+              gap: 8, 
+              padding: '8px 16px', 
+              background: '#325B04', 
+              borderRadius: 13 
+            }}>
+              <i className="fa-solid fa-building-user" style={{ fontSize: 16 }}></i>
+              <span style={selectedLabelStyle}>Practice Hub</span>
+            </div>
+
+            {/* Inventory Hub */}
+            <div style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '8px 12px' }}>
+              <i className="fa-solid fa-box-archive" style={{ fontSize: 16 }}></i>
+              <span style={navLabelStyle}>Inventory Hub</span>
+            </div>
+
+            {/* Access Gateway */}
+            <div style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '8px 12px' }}>
+              <i className="fa-solid fa-shield-halved" style={{ fontSize: 16 }}></i>
+              <span style={navLabelStyle}>Access Gateway</span>
+            </div>
+
+            {/* Insight Engine */}
+            <div style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '8px 12px' }}>
+              <i className="fa-solid fa-chart-area" style={{ fontSize: 16 }}></i>
+              <span style={navLabelStyle}>Insight Engine</span>
+            </div>
+
+            {/* Tasks */}
+            <div style={{ display: 'flex', alignItems: 'center', gap: 8, padding: '8px 12px' }}>
+              <i className="fa-solid fa-square-check" style={{ fontSize: 16 }}></i>
+              <span style={navLabelStyle}>Tasks</span>
+            </div>
+          </nav>
+        </div>
+
+        {/* Right Section: Utilities & User */}
+        <div style={{ display: 'flex', alignItems: 'center', gap: 16 }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: 12, position: 'relative' }}>
+            <i className="fa-solid fa-comment-dots" style={{ fontSize: 18 }}></i>
+            <div style={{ 
+              ...badgeStyle, 
+              position: 'absolute', 
+              top: -5, 
+              right: 65, 
+              width: 16, 
+              height: 16, 
+              fontSize: 10 
+            }}>3</div>
+            <i className="fa-solid fa-circle-question" style={{ fontSize: 18 }}></i>
+            <i className="fa-solid fa-gear" style={{ fontSize: 18 }}></i>
+          </div>
+
+          <div style={{ 
+            display: 'flex', 
+            alignItems: 'center', 
+            gap: 8, 
+            paddingLeft: 12, 
+            borderLeft: '1px solid #71706C' 
+          }}>
+            <div style={{ 
+              width: 32, 
+              height: 32, 
+              background: '#325B04', 
+              borderRadius: '50%', 
+              display: 'flex', 
+              justifyContent: 'center', 
+              alignItems: 'center',
+              fontSize: 14,
+              fontWeight: '600'
+            }}>AD</div>
+            <i className="fa-solid fa-caret-down" style={{ fontSize: 12 }}></i>
+          </div>
+        </div>
+      </div>
+
+      {/* Secondary Navigation (Practice Locations) */}
+      <div style={{ 
+        height: 38, 
+        background: '#325B04', 
+        display: 'flex', 
+        alignItems: 'flex-end', 
+        paddingLeft: 24 
+      }}>
+        <div style={{ 
+          padding: '8px 16px', 
+          background: '#325B04', 
+          borderBottom: '3px solid white',
+          borderTopLeftRadius: 13,
+          borderTopRightRadius: 13,
+          fontSize: 14,
+          [cite_start]fontWeight: '800' // [cite: 27]
+        }}>
+          Practice Locations
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default EHRNavigation;
