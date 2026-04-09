@@ -37,6 +37,9 @@ import {
   type ScribeEmptyDataVariant,
   Modal,
   type ModalSize,
+  WebsiteNav,
+  FileUploader,
+  type FileUploaderItem,
 } from './index';
 
 const SCRIBE_EMPTY_VARIANTS: { variant: ScribeEmptyDataVariant; label: string }[] = [
@@ -74,6 +77,15 @@ function App() {
   const [simpleVariant, setSimpleVariant] = useState<'default' | 'striped'>('striped');
   const [modalOpen, setModalOpen] = useState(false);
   const [modalSize, setModalSize] = useState<ModalSize>('40');
+  const [websiteNavTab, setWebsiteNavTab] = useState('billing');
+  const [fileUploaderSuccessDemo, setFileUploaderSuccessDemo] = useState(false);
+  const [fileUploaderProgressItems, setFileUploaderProgressItems] = useState<FileUploaderItem[]>(() => [
+    {
+      id: 'demo-progress',
+      file: new File([''], 'ProductImage.png', { type: 'image/png' }),
+      progress: 72,
+    },
+  ]);
 
   const toggleChecked = (id: string) => {
     setCheckedItems(prev => ({ ...prev, [id]: !prev[id as keyof typeof prev] }));
@@ -492,6 +504,76 @@ function App() {
                   rightIcon={<span>✕</span>} 
                 />
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* FileUploader Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">File Uploader</h2>
+          <div className="space-y-10 max-w-3xl">
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Large (default)</h3>
+              <FileUploader
+                accept="image/jpeg,image/png,image/webp,application/pdf,.jpg,.jpeg,.png,.pdf"
+                acceptDescription="JPG, PNG, WebP or PDF"
+                multiple
+                maxFiles={5}
+                maxSizeBytes={10 * 1024 * 1024}
+                onPreview={(item) => console.log('Preview', item.file.name)}
+              />
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Image slots (multi-slot)</h3>
+              <FileUploader
+                layout="imageSlots"
+                imageSlotCount={6}
+                imageSlotColumns={5}
+                minSlotWidth="96px"
+                accept="image/jpeg,image/png,image/webp,.jpg,.jpeg,.png,.webp"
+                acceptDescription="JPG, PNG or WebP"
+                title="Add product images"
+                maxFiles={5}
+                maxSizeBytes={10 * 1024 * 1024}
+                onPreview={(item) => console.log('Slot preview', item.file.name)}
+              />
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Compact</h3>
+              <FileUploader
+                variant="compact"
+                accept=".csv,.xlsx,application/vnd.ms-excel,text/csv"
+                acceptDescription="CSV or Excel"
+                title="Import a spreadsheet"
+                hint="CSV or XLSX, up to 25MB"
+                maxSizeBytes={25 * 1024 * 1024}
+              />
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Controlled list + progress</h3>
+              <FileUploader
+                variant="compact"
+                value={fileUploaderProgressItems}
+                onChange={setFileUploaderProgressItems}
+                accept="image/*"
+                multiple
+                showPreviewLink={false}
+              />
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Success state</h3>
+              <div className="flex flex-wrap gap-4 items-center mb-4">
+                <Button type="button" variant="secondary" size="sm" onClick={() => setFileUploaderSuccessDemo((v) => !v)}>
+                  {fileUploaderSuccessDemo ? 'Show dropzone' : 'Show success'}
+                </Button>
+              </div>
+              <FileUploader
+                showSuccess={fileUploaderSuccessDemo}
+                successTitle="Success!"
+                successDescription="Documents have been uploaded successfully, check your registered email for confirmation."
+                successActionLabel="RETURN HOME"
+                onSuccessAction={() => setFileUploaderSuccessDemo(false)}
+              />
             </div>
           </div>
         </section>
@@ -1525,6 +1607,39 @@ function App() {
           </div>
         </section>
       </div>
+        {/* WebsiteNav Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Website Nav</h2>
+          <div className="flex flex-col gap-8 w-full">
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Compact (logo + cart)</h3>
+              <WebsiteNav
+                variant="compact"
+                onCartClick={() => console.log('WebsiteNav cart')}
+              />
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Compact — Billing Assistant lockup</h3>
+              <WebsiteNav
+                variant="compact"
+                logoVariant="BillingAssistant"
+                onCartClick={() => console.log('WebsiteNav cart')}
+              />
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">Full (tabs + links + cart)</h3>
+              <WebsiteNav
+                variant="full"
+                activeTabId={websiteNavTab}
+                logoVariant="MaximEyes Evaa"
+                onTabClick={setWebsiteNavTab}
+                onLinkClick={(id) => console.log('WebsiteNav link:', id)}
+                onCartClick={() => console.log('WebsiteNav cart')}
+              />
+            </div>
+          </div>
+        </section>
+
     {/* EnterprEyesNavigation Section */}
         <section className="bg-background p-6 rounded-[13px] border border-border">
           <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">EnterprEyes Navigation</h2>

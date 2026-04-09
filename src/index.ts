@@ -38,3 +38,16 @@ export {
   type ScribeEmptyDataVariant,
 } from './components/ScribeEmptyData/ScribeEmptyData';
 export { Modal, type ModalProps, type ModalSize, type ModalAction } from './components/Modal/Modal';
+export {
+  WebsiteNav,
+  type WebsiteNavProps,
+  type WebsiteNavVariant,
+  type WebsiteNavItem,
+} from './components/WebsiteNav/WebsiteNav';
+export {
+  FileUploader,
+  type FileUploaderProps,
+  type FileUploaderItem,
+  type FileUploaderVariant,
+  type FileUploaderLayout,
+} from './components/FileUploader/FileUploader';

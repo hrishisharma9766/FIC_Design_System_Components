@@ -94,7 +94,7 @@ export const Logos = React.forwardRef<HTMLDivElement, LogosProps>(function Logos
               isLightAndMaximEyesEvaa ||
               property2 === 'PatientPortal'
             ? 'h-[50px] w-[194px]'
-            : 'h-[50px] px-[36px] py-[30px] w-[194px]';
+            : 'h-[50px] px-[36px] w-[194px]';
 
   return (
     <div

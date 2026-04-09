@@ -15,6 +15,8 @@ export interface ProgressBarProps extends React.HTMLAttributes<HTMLDivElement> {
   size?: 'sm' | 'md' | 'lg';
   withCard?: boolean;
   width?: string | number;
+  /** When true, only the track + fill render (e.g. embedded in lists). */
+  hideHeader?: boolean;
 }
 
 /**
@@ -33,6 +35,7 @@ export interface ProgressBarProps extends React.HTMLAttributes<HTMLDivElement> {
  * Options:
  * - withCard: Wraps in a card with background and outline (Mode 1 light)
  * - width: Custom width for the progress bar (defaults to 211px from CSS)
+ * - hideHeader: Track + fill only (no label / percentage row)
  */
 export const ProgressBar = React.forwardRef<HTMLDivElement, ProgressBarProps>(
   (
@@ -45,6 +48,7 @@ export const ProgressBar = React.forwardRef<HTMLDivElement, ProgressBarProps>(
       size = 'sm',
       withCard = false,
       width,
+      hideHeader = false,
       className = '',
       style,
       ...props
@@ -84,7 +88,7 @@ export const ProgressBar = React.forwardRef<HTMLDivElement, ProgressBarProps>(
         {...props}
       >
         {/* Header section with Label and Percentage */}
-        {(label || percentage !== undefined) && (
+        {!hideHeader && (label || percentage !== undefined) && (
           <div className="progressbar__header">
             {label && <span className="progressbar__label">{label}</span>}
             {percentage !== undefined && (
