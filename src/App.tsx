@@ -23,6 +23,16 @@ import {
   NotificationDropDownMenu,
   SimpleTab,
   AddOnsCard,
+  ContactCard,
+  CouponCard,
+  ErrorCard,
+  FeedbackCard,
+  HelpLinkCard,
+  NotificationAlertCard,
+  UsageCardVertical,
+  UsageCardHorizontal,
+  InfoNoteCard,
+  DashboardCard,
   SingleSelectDropDown,
   MultiSelectDropDown,
   DashboardWidget,
@@ -1285,6 +1295,300 @@ function App() {
                 tabs="more-than-2-tabs"
                 theme="fusia"
               />
+            </div>
+          </div>
+        </section>
+
+        {/* ContactCard Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Contact Card</h2>
+          <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-3 max-w-6xl">
+            <ContactCard
+              visualVariant="inverse"
+              icon="phone"
+              title="Call Us"
+              subtitle="Speak with a product specialist"
+              actionText="18-128-568"
+              actionHref="tel:18128568"
+            />
+            <ContactCard
+              visualVariant="default"
+              icon="phone"
+              title="Call Us"
+              subtitle="Speak with a product specialist"
+              actionText="18-128-568"
+              actionHref="tel:18128568"
+            />
+            <ContactCard
+              visualVariant="inverse"
+              icon="email"
+              title="Email Support"
+              subtitle="Get detailed answers via email"
+              actionText="support@maximeyes.com"
+              actionHref="mailto:support@maximeyes.com"
+            />
+            <ContactCard
+              visualVariant="default"
+              icon="email"
+              title="Email Support"
+              subtitle="Get detailed answers via email"
+              actionText="support@maximeyes.com"
+              actionHref="mailto:support@maximeyes.com"
+            />
+            <ContactCard
+              visualVariant="inverse"
+              icon="calendar"
+              mode="button"
+              title="Schedule Demo"
+              subtitle="See products in action"
+              buttonLabel="Book Now"
+              onButtonClick={() => console.log('Book demo')}
+            />
+            <ContactCard
+              visualVariant="default"
+              icon="calendar"
+              mode="button"
+              title="Schedule Demo"
+              subtitle="See products in action"
+              buttonLabel="Book Now"
+              onButtonClick={() => console.log('Book demo')}
+            />
+          </div>
+        </section>
+
+        {/* CouponCard Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Coupon Card</h2>
+          <div className="grid gap-6 sm:grid-cols-2 max-w-3xl">
+            <CouponCard
+              variant="success"
+              code="Xmas25"
+              description="This is a special Christmas Discount of 5% for the products bough from 10 December to 31st December 2025.."
+            />
+            <CouponCard
+              variant="neutral"
+              code="SUMMER10"
+              description="10% off seasonal items. One use per customer."
+            />
+          </div>
+        </section>
+
+        {/* ErrorCard Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Error Card</h2>
+          <div className="grid gap-4 items-start">
+            <ErrorCard variant="error" />
+            <ErrorCard variant="warning" />
+            <ErrorCard variant="alert" />
+            <ErrorCard variant="info" />
+            <ErrorCard
+              variant="error"
+              title="Payment failed"
+              description="Check your card details and try again."
+            />
+          </div>
+        </section>
+
+        {/* FeedbackCard Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Feedback Card</h2>
+          <div className="grid gap-4 items-start">
+            <FeedbackCard sentiment="negative" />
+            <FeedbackCard sentiment="positive" />
+            <FeedbackCard
+              sentiment="positive"
+              authorName="Alex K"
+              organization="Northview Clinic"
+              date="01/15/26"
+              comment="Short positive note only."
+            />
+          </div>
+        </section>
+
+        {/* NotificationAlertCard Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Notification alert card</h2>
+          <div className="grid gap-4 items-start">
+            <NotificationAlertCard variant="warning" />
+            <NotificationAlertCard variant="error" />
+            <NotificationAlertCard variant="read" />
+          </div>
+        </section>
+
+        {/* UsageCardVertical Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Usage card (vertical)</h2>
+          <div className="flex flex-wrap gap-6 items-start">
+            <UsageCardVertical variant="default" />
+            <UsageCardVertical variant="high-usage" stateBadgeProps={{variant:'inactive'}} />
+          </div>
+        </section>
+
+        {/* UsageCardHorizontal Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Usage card (horizontal)</h2>
+          <div className="max-w-[1100px]">
+            <UsageCardHorizontal progressPercent={90}/>
+          </div>
+        </section>
+
+        {/* InfoNoteCard Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Info note card</h2>
+          <div className="flex flex-col gap-4 max-w-[800px]">
+            <div className="grid gap-3 sm:grid-cols-2">
+              <InfoNoteCard tone="focus" />
+              <InfoNoteCard tone="error" />
+              <InfoNoteCard tone="info" />
+              <InfoNoteCard tone="success" />
+            </div>
+            <InfoNoteCard mode="inline" message="Add One more provider for subsequent provider discount" />
+            <div className="max-w-xs">
+              <InfoNoteCard mode="pricing" />
+            </div>
+            <InfoNoteCard mode="detail" detailTone="neutral" />
+            <InfoNoteCard mode="detail" detailTone="brand" />
+            <InfoNoteCard mode="detail" detailTone="focus" />
+          </div>
+        </section>
+
+        {/* HelpLinkCard Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Help link card</h2>
+          <div className="grid gap-4 items-start">
+            <HelpLinkCard />
+            <HelpLinkCard
+              title="Getting started with templates"
+              time="4:12"
+              href="https://example.com/help"
+              target="_blank"
+              aria-label="Open help: Getting started with templates"
+            />
+            <HelpLinkCard showTime={false} title="No duration badge" />
+          </div>
+        </section>
+
+        {/* DashboardCard Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Dashboard Card</h2>
+          <div className="space-y-10 max-w-5xl">
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">
+                Standard — Figma SVG icons (Information ×2, Open menu), three tones, state default
+              </h3>
+              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 items-start">
+                <DashboardCard
+                  variant="standard"
+                  tone="neutral"
+                  state="default"
+                  title="Action Required"
+                  value={23}
+                  footer="Click to view chats"
+                />
+                <DashboardCard
+                  variant="standard"
+                  tone="brand"
+                  state="default"
+                  title="Action Required"
+                  value={23}
+                  footer="Click to view chats"
+                />
+                <DashboardCard
+                  variant="standard"
+                  tone="teal"
+                  state="default"
+                  title="Action Required"
+                  value={23}
+                  footer="Click to view chats"
+                />
+              </div>
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">
+                Standard — hover-focus border; `row` = Figma Rows 2 (second metric, value max 210px)
+              </h3>
+              <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 items-start">
+                <DashboardCard
+                  variant="standard"
+                  tone="neutral"
+                  state="hover-focus"
+                  title="Action Required"
+                  value={23}
+                  footer="Hover/Focus — 2px border"
+                />
+                <DashboardCard
+                  variant="standard"
+                  tone="brand"
+                  state="hover-focus"
+                  title="Action Required"
+                  value={23}
+                  footer="Brand tone, hover-focus border"
+                />
+                <DashboardCard
+                  variant="standard"
+                  tone="teal"
+                  row
+                  state="hover-focus"
+                  title="Action Required"
+                  value={23}
+                  footer="Only this card uses row (Rows 2); others stay single block."
+                />
+              </div>
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">
+                Subscription — Figma SVG dollar + label; CTA uses Open (inherits button color)
+              </h3>
+              <div className="grid gap-6 items-start">
+                <DashboardCard
+                  variant="subscription"
+                  tone="neutral"
+                  state="default"
+                  amount="$7,193/month"
+                  buttonVariant="secondary"
+                  onActionClick={() => console.log('Secondary CTA')}
+                />
+                <DashboardCard
+                  variant="subscription"
+                  tone="neutral"
+                  state="default"
+                  amount="$7,193/month"
+                  buttonVariant="primary"
+                  onActionClick={() => console.log('Primary CTA')}
+                />
+                <DashboardCard
+                  variant="subscription"
+                  tone="neutral"
+                  state="hover-focus"
+                  amount="$7,193/month"
+                  buttonVariant="brand"
+                  onActionClick={() => console.log('Brand CTA')}
+                  footer="Hover/Focus border state."
+                />
+              </div>
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-4">
+                Subscription — brand & teal surfaces (with CTA)
+              </h3>
+              <div className="grid gap-6 sm:grid-cols-2 items-start">
+                <DashboardCard
+                  variant="subscription"
+                  tone="brand"
+                  state="default"
+                  amount="$7,193/month"
+                  buttonVariant="brand"
+                  footer="Brand surface + brand button."
+                />
+                <DashboardCard
+                  variant="subscription"
+                  tone="teal"
+                  state="hover-focus"
+                  amount="$7,193/month"
+                  buttonVariant="primary"
+                  footer="Teal surface + hover-focus border."
+                />
+              </div>
             </div>
           </div>
         </section>

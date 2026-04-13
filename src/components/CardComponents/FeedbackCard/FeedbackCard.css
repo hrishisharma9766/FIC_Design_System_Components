@@ -1,0 +1,114 @@
+.feedback-card {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  border-radius: 11px;
+  font-family: var(--FontFamily-Family, 'DM Sans', sans-serif);
+  text-align: left;
+}
+
+.feedback-card--negative {
+  background: var(--Colors-PrimitiveColorTokens-Orange-100, #ffe9d3);
+}
+
+.feedback-card--positive {
+  background: var(--Colors-PrimitiveColorTokens-Teal-100, #d6fffb);
+}
+
+.feedback-card__main {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 11px;
+  min-width: 0;
+  width: 100%;
+}
+
+.feedback-card__icon-wrap {
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.feedback-card--negative .feedback-card__icon-wrap {
+  background: var(--Colors-PrimitiveColorTokens-Orange-200, #ffd3b1);
+  color: var(--Colors-PrimitiveColorTokens-Orange-500, #f27e25);
+}
+
+.feedback-card--positive .feedback-card__icon-wrap {
+  background: var(--Colors-PrimitiveColorTokens-Teal-300, #70e5dd);
+  color: var(--Colors-PrimitiveColorTokens-Teal-700, #118082);
+}
+
+.feedback-card__icon {
+  display: block;
+  flex-shrink: 0;
+}
+
+.feedback-card__icon--negative {
+  width: 20px;
+  height: 19px;
+}
+
+.feedback-card__icon--positive {
+  width: 20px;
+  height: 18px;
+}
+
+.feedback-card__content {
+  flex: 1 1 0;
+  min-width: 0;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.feedback-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  gap: 6px;
+}
+
+.feedback-card__author {
+  margin: 0;
+  color: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-800, #303030);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.37px;
+  word-wrap: break-word;
+}
+
+.feedback-card__meta-strong {
+  margin: 0;
+  color: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-800, #303030);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1;
+  word-wrap: break-word;
+}
+
+.feedback-card__meta-detail {
+  margin: 0;
+  color: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-800, #303030);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 17.46px;
+  word-wrap: break-word;
+}
+
+.feedback-card__comment {
+  margin: 0;
+  max-width: 100%;
+  color: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-600, #71706c);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17.46px;
+  word-wrap: break-word;
+}

@@ -1,0 +1,101 @@
+.contact-card {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  min-height: 200px;
+  padding: 24px;
+  border-radius: 8px;
+  outline: 1px solid var(--Colors-Functional-Border-Border_Default, #c3c1b5);
+  outline-offset: -1px;
+  background: var(--Colors-Functional-Bkg-Bkg_Default, #ffffff);
+  font-family: var(--FontFamily-Family, 'DM Sans', sans-serif);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 8px;
+}
+
+.contact-card--inverse {
+  outline-color: var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite, #ffffff);
+  background: #37ada9;
+}
+
+.contact-card__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  color: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-500, #959490);
+}
+
+.contact-card--inverse .contact-card__icon {
+  color: var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite, #ffffff);
+}
+
+.contact-card__title {
+  margin: 0;
+  width: 100%;
+  max-width: 22rem;
+  color: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-600, #71706c);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26.19px;
+}
+
+.contact-card--inverse .contact-card__title {
+  color: var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite, #ffffff);
+}
+
+.contact-card__subtitle {
+  margin: 0;
+  width: 100%;
+  max-width: 22rem;
+  color: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-600, #71706c);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.28px;
+}
+
+.contact-card--inverse .contact-card__subtitle {
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.contact-card__action {
+  margin: 8px 0 0;
+  width: 100%;
+  max-width: 22rem;
+}
+
+.contact-card__action-text {
+  display: inline-block;
+  margin: 0;
+  color: var(--Colors-Functional-Txt-Txt_Default, #303030);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 23.28px;
+  text-decoration: none;
+}
+
+.contact-card__action-text:hover {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.contact-card--inverse .contact-card__action-text {
+  color: var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite, #ffffff);
+}
+
+.contact-card__action-btn {
+  margin: 0;
+}
+
+.contact-card:focus-within {
+  outline-color: var(--Colors-Functional-Border-Border_Focus, #118082);
+}
+
+.contact-card--inverse:focus-within {
+  outline-color: var(--Colors-PrimitiveColorTokens-Neutrals-StaticWhite, #ffffff);
+}

@@ -1,0 +1,292 @@
+.usage-card-vertical {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 373px;
+  padding: 13px 21px 10px;
+  border-radius: 13px;
+  background: var(--colors-primitive-color-tokens-neutrals-static-white, #fff);
+  border: 1px solid var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-400, #c3c1b5);
+  font-family: var(--FontFamily-Family, 'DM Sans', sans-serif);
+  text-align: left;
+}
+
+.usage-card-vertical--high-usage {
+  border-color: var(--Colors-PrimitiveColorTokens-Orange-500, #f27e25);
+}
+
+.usage-card-vertical__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 8px;
+  width: 100%;
+}
+
+.usage-card-vertical__header {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  gap: 10px;
+  width: 100%;
+  padding: 4px 0;
+  min-width: 0;
+}
+
+.usage-card-vertical__header-icon {
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.usage-card-vertical__header-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  pointer-events: none;
+}
+
+.usage-card-vertical__header-text {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2px;
+}
+
+.usage-card-vertical__title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.455;
+  font-variation-settings: 'opsz' 14;
+  color: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-800, #303030);
+}
+
+.usage-card-vertical__subtitle {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.455;
+  font-variation-settings: 'opsz' 14;
+  color: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-600, #71706c);
+}
+
+.usage-card-vertical__header-metric {
+  flex-shrink: 0;
+  text-align: right;
+  min-width: 56px;
+}
+
+.usage-card-vertical__metric-value {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  color: var(--Colors-PrimitiveColorTokens-Teal-700, #118082);
+}
+
+.usage-card-vertical--high-usage .usage-card-vertical__metric-value {
+  color: var(--Colors-PrimitiveColorTokens-Orange-500, #f27e25);
+}
+
+.usage-card-vertical__metric-label {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  color: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-700, #4b4b4a);
+}
+
+.usage-card-vertical__alert {
+  width: 100%;
+}
+
+.usage-card-vertical__alert .error-card {
+  width: 100%;
+}
+
+.usage-card-vertical__stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  gap: 8px;
+  width: 100%;
+}
+
+.usage-card-vertical__stat {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  text-align: center;
+}
+
+.usage-card-vertical__stat-value {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.455;
+  font-variation-settings: 'opsz' 14;
+  color: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-800, #303030);
+}
+
+.usage-card-vertical__stat-value--teal {
+  color: var(--Colors-PrimitiveColorTokens-Teal-700, #118082);
+}
+
+.usage-card-vertical__stat-value--orange {
+  color: var(--Colors-PrimitiveColorTokens-Orange-500, #f27e25);
+}
+
+.usage-card-vertical__stat-value--muted {
+  color: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-700, #4b4b4a);
+}
+
+.usage-card-vertical__stat-value--strong {
+  color: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-800, #303030);
+}
+
+.usage-card-vertical__stat-label {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.455;
+  font-variation-settings: 'opsz' 14;
+  color: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-700, #4b4b4a);
+}
+
+.usage-card-vertical__cta.button--sm {
+  width: 100%;
+  min-height: 40px;
+  height: auto;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  box-sizing: border-box;
+}
+
+.usage-card-vertical__progress {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.usage-card-vertical__progress .progressbar {
+  width: 100%;
+  max-width: 100%;
+}
+
+.usage-card-vertical__trend {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  min-height: 61px;
+  padding: 11px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background: var(--Colors-PrimitiveColorTokens-Teal-100, #d6fffb);
+  border: 1px solid var(--Colors-PrimitiveColorTokens-Teal-200, #b1f4ed);
+}
+
+.usage-card-vertical__trend-icon {
+  flex-shrink: 0;
+  width: 42px;
+  height: 42px;
+  border-radius: 9999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--Colors-PrimitiveColorTokens-Teal-300, #70e5dd);
+  color: var(--Colors-PrimitiveColorTokens-Teal-700, #118082);
+}
+
+.usage-card-vertical__trend-text {
+  flex: 1 1 auto;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  color: var(--Colors-PrimitiveColorTokens-Teal-700, #118082);
+}
+
+.usage-card-vertical__trend-title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.455;
+  font-variation-settings: 'opsz' 14;
+}
+
+.usage-card-vertical__trend-sub {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.455;
+  font-variation-settings: 'opsz' 14;
+}
+
+.usage-card-vertical__divider {
+  width: 100%;
+  height: 1px;
+  background: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-300, #e5e4dd);
+  border: none;
+  margin: 0;
+}
+
+.usage-card-vertical__specs {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  width: 100%;
+}
+
+.usage-card-vertical__spec-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+}
+
+.usage-card-vertical__spec-label {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.455;
+  font-variation-settings: 'opsz' 14;
+  color: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-700, #4b4b4a);
+}
+
+.usage-card-vertical__spec-value {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.455;
+  font-variation-settings: 'opsz' 14;
+  color: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-800, #303030);
+}
+
+.usage-card-vertical__license {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+  margin-top: 2px;
+}
+
+.usage-card-vertical__license-note {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.455;
+  font-variation-settings: 'opsz' 14;
+  color: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-600, #71706c);
+}

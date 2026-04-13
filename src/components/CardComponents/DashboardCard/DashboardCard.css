@@ -1,0 +1,267 @@
+.dashboard-card {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  border-radius: 13px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+  font-family: var(--FontFamily-Family, 'DM Sans', sans-serif);
+  text-align: left;
+  position: relative;
+  /* Grid parents default to align-items: stretch — without this, one tall card (e.g. row=true)
+     stretches siblings in the same row to the same height, which looks like `row` leaked. */
+  align-self: start;
+}
+
+.dashboard-card--variant-standard {
+  max-width: 359px;
+}
+
+.dashboard-card--variant-subscription {
+  max-width: 622px;
+}
+
+.dashboard-card--tone-neutral {
+  background: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-100, #f6f6f1);
+}
+
+.dashboard-card--tone-brand {
+  background: var(--Colors-PrimitiveColorTokens-Fuscia-50, #feecf6);
+}
+
+.dashboard-card--tone-teal {
+  background: var(--Colors-PrimitiveColorTokens-Teal-100, #d6fffb);
+}
+
+/* —— Border state: default (1px) vs hover-focus (2px) —— */
+
+.dashboard-card--state-default.dashboard-card--tone-neutral {
+  outline: 1px solid var(--Colors-Functional-Border-Border_Default, #c3c1b5);
+  outline-offset: -1px;
+}
+
+.dashboard-card--state-hover-focus.dashboard-card--tone-neutral {
+  outline: 2px solid var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-500, #959490);
+  outline-offset: -2px;
+}
+
+.dashboard-card--state-default.dashboard-card--tone-brand {
+  outline: 1px solid var(--Colors-PrimitiveColorTokens-Fuscia-300, #f387c2);
+  outline-offset: -1px;
+}
+
+.dashboard-card--state-hover-focus.dashboard-card--tone-brand {
+  outline: 2px solid var(--Colors-PrimitiveColorTokens-Fuscia-500, #d72d8a);
+  outline-offset: -2px;
+}
+
+.dashboard-card--state-default.dashboard-card--tone-teal {
+  outline: 1px solid var(--Colors-PrimitiveColorTokens-Teal-600, #21a49f);
+  outline-offset: -1px;
+}
+
+.dashboard-card--state-hover-focus.dashboard-card--tone-teal {
+  outline: 2px solid var(--Colors-PrimitiveColorTokens-Teal-700, #118082);
+  outline-offset: -2px;
+}
+
+/* —— Standard variant —— */
+.dashboard-card__standard-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  width: 100%;
+}
+
+.dashboard-card__standard-top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  width: 100%;
+  min-height: 66px;
+}
+
+.dashboard-card__standard-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  gap: 8px;
+}
+
+.dashboard-card__standard-header-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  gap: 5px;
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.dashboard-card__standard-menu {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-700, #4b4b4a);
+}
+
+.dashboard-card__standard-title {
+  margin: 0;
+  color: var(--Colors-Functional-Txt-Txt_Default, #303030);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.28px;
+  word-wrap: break-word;
+}
+
+.dashboard-card__standard-value {
+  width: 100%;
+  color: var(--Colors-Functional-Txt-Txt_Default, #303030);
+  font-family: var(--FontFamily-Roboto, 'Roboto', sans-serif);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  word-wrap: break-word;
+}
+
+/* Figma `rows="2"`: second metric — title + info icon, value max 210px */
+.dashboard-card__standard-row2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  width: 100%;
+  margin-top: 0;
+}
+
+.dashboard-card__standard-row2-head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+}
+
+.dashboard-card__standard-row2-value {
+  max-width: 210px;
+  width: 100%;
+  color: var(--Colors-Functional-Txt-Txt_Default, #303030);
+  font-family: var(--FontFamily-Roboto, 'Roboto', sans-serif);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  word-wrap: break-word;
+}
+
+.dashboard-card__standard-footer {
+  align-self: stretch;
+  color: var(--Colors-Functional-Txt-Txt_Light, #71706c);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17.46px;
+  word-wrap: break-word;
+}
+
+.dashboard-card__icon-slot {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--Colors-PrimitiveColorTokens-Neutrals-Bkg-700, #4b4b4a);
+}
+
+.dashboard-card__icon-slot--ph::after {
+  content: '';
+  display: block;
+  width: 14px;
+  height: 14px;
+  background: currentColor;
+}
+
+/* Inline SVGs from Figma 16px icon frame (~14px artwork) */
+.dashboard-card__icon-slot > svg,
+.dashboard-card__standard-menu > svg {
+  display: block;
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
+/* —— Subscription variant —— */
+.dashboard-card__subscription-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 9px;
+  width: 100%;
+}
+
+.dashboard-card__subscription-label-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 5px;
+  width: 100%;
+  min-width: 0;
+}
+
+.dashboard-card__subscription-main {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+  min-height: 66px;
+}
+
+.dashboard-card__subscription-copy {
+  flex: 1 1 200px;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.dashboard-card__subscription-label {
+  margin: 0;
+  color: var(--Colors-Functional-Txt-Txt_Default, #303030);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23.28px;
+  word-wrap: break-word;
+}
+
+.dashboard-card__subscription-amount {
+  margin: 0;
+  color: var(--Colors-Functional-Txt-Txt_Default, #303030);
+  font-family: var(--FontFamily-Roboto, 'Roboto', sans-serif);
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  word-wrap: break-word;
+}
+
+.dashboard-card__subscription-actions {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+.dashboard-card__subscription-footer {
+  align-self: stretch;
+  color: var(--Colors-Functional-Txt-Txt_Light, #71706c);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17.46px;
+  word-wrap: break-word;
+}
