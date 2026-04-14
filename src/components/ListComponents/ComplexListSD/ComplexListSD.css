@@ -1,0 +1,123 @@
+/* ComplexListSD — Evaa DS (Figma node 11511-2188) */
+
+.complex-list-sd {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-family: var(--FontFamily-Family, 'DM Sans', sans-serif);
+  text-align: left;
+}
+
+.complex-list-sd__intro {
+  margin: 0;
+  align-self: stretch;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.455;
+  font-variation-settings: 'opsz' 14;
+  color: var(--Colors-Functional-Txt-Txt_Light, #71706c);
+  word-wrap: break-word;
+}
+
+.complex-list-sd__inset {
+  align-self: stretch;
+  padding-left: 20px;
+  border-left: 1px solid var(--Colors-Functional-Border-Border_Default, #c3c1b5);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  align-items: stretch;
+  min-width: 0;
+}
+
+.complex-list-sd__rows {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.complex-list-sd__row {
+  margin: 0;
+  padding: 0;
+}
+
+.complex-list-sd__row-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  padding: 4px 0;
+  border-radius: 10px;
+  min-width: 0;
+}
+
+.complex-list-sd__copy {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+}
+
+.complex-list-sd__title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.455;
+  font-variation-settings: 'opsz' 14;
+  color: var(--Colors-Functional-Label-Txt_Label_Default, #4b4b4a);
+  word-wrap: break-word;
+}
+
+.complex-list-sd__desc {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.455;
+  font-variation-settings: 'opsz' 14;
+  color: var(--Colors-Functional-Txt-Txt_Light, #71706c);
+  word-wrap: break-word;
+}
+
+.complex-list-sd__switch {
+  flex-shrink: 0;
+}
+
+.complex-list-sd__dropdown-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  min-width: 0;
+}
+
+.complex-list-sd__dropdown-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  width: 100%;
+  max-width: 274px;
+}
+
+.complex-list-sd__dropdown-inner .single-select-dropdown__label {
+  font-weight: 600;
+  color: var(--Colors-Buttons-ToggleButtons-Filter-Txt_Label_Default, #4b4b4a);
+}
+
+.complex-list-sd__subtext {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.455;
+  font-variation-settings: 'opsz' 14;
+  color: var(--Colors-Functional-Txt-Txt_Light, #71706c);
+  word-wrap: break-word;
+}

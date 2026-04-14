@@ -1,0 +1,64 @@
+/* SwitchList — Evaa DS (Figma node 11377-121) */
+
+.switch-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.switch-list__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.switch-list__row {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 16px;
+  background: var(--Colors-Functional-Bkg-Bkg_Default, #ffffff);
+  border: 1px solid var(--Colors-Functional-Border-Border_Default, #c3c1b5);
+  border-radius: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  font-family: var(--FontFamily-Family, 'DM Sans', sans-serif);
+  text-align: left;
+}
+
+.switch-list__content {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.switch-list__label {
+  margin: 0;
+  align-self: stretch;
+  color: var(--Colors-Functional-Label-Txt_Label_Default, #4b4b4a);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20.37px;
+  word-wrap: break-word;
+}
+
+.switch-list__description {
+  margin: 0;
+  align-self: stretch;
+  color: var(--Colors-Functional-Txt-Txt_Light, #71706c);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.37px;
+  word-wrap: break-word;
+}
+
+.switch-list__toggle {
+  flex-shrink: 0;
+}
+

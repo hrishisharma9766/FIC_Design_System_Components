@@ -1,0 +1,81 @@
+/* RadioButtonList — Evaa DS (Figma node 11308-1652) */
+
+.radio-button-list {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  font-family: var(--FontFamily-Family, 'DM Sans', sans-serif);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.radio-button-list--card {
+  padding: 10px 12px;
+  border-radius: 13px;
+  background: var(--Colors-Functional-Bkg-Bkg_Default, #fff);
+  border: 1px solid var(--Colors-Functional-Border-Border_Default, #c3c1b5);
+}
+
+.radio-button-list--plain {
+  padding: 10px 12px;
+  background: transparent;
+  border: none;
+}
+
+.radio-button-list__heading {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.455;
+  font-variation-settings: 'opsz' 14;
+  color: var(--Colors-Functional-Txt-Txt_Default, #303030);
+  word-wrap: break-word;
+}
+
+.radio-button-list__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.radio-button-list__item {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Tighter than default `RadioButton` gap (5px) between circle and label text. */
+.radio-button-list__item .radio-button {
+  width: 100%;
+  align-items: center;
+  gap: 2px;
+}
+
+.radio-button-list__item .radio-button__wrapper {
+  padding: 5px;
+  margin-top: 0;
+  box-sizing: content-box;
+}
+
+/* Figma description: 14px regular, Txt_Light */
+.radio-button-list .radio-button__subtext {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20.37px;
+  font-variation-settings: 'opsz' 14;
+  color: var(--Colors-Functional-Txt-Txt_Light, #71706c);
+}
+
+.radio-button-list .radio-button__content {
+  flex: 1 1 0;
+  min-width: 0;
+  gap: 0;
+}
+
+.radio-button-list .radio-button__label {
+  line-height: 20.37px;
+}

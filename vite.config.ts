@@ -10,26 +10,25 @@ export default defineConfig({
     react(),
     tailwindcss(),
     dts({ 
-      include: ['src'],
       exclude: ['src/App.tsx', 'src/main.tsx'],
-      insertTypesEntry: true 
+      entryRoot: 'src',
+      outDir: 'dist',
+      rollupTypes: true,
+      tsconfigPath: resolve(__dirname, 'tsconfig.build.json'),
+      insertTypesEntry: true,
     }),
   ],
   build: {
+    copyPublicDir: false,
     lib: {
       entry: resolve(__dirname, 'src/index.ts'),
       name: 'DesignCheckUI',
-      formats: ['es', 'umd'],
-      fileName: (format) => `index.${format === 'es' ? 'mjs' : 'js'}`,
+      formats: ['es', 'cjs'],
+      fileName: (format) => `index.${format === 'es' ? 'mjs' : 'cjs'}`,
     },
     rollupOptions: {
       external: ['react', 'react-dom', 'react/jsx-runtime'],
       output: {
-        globals: {
-          react: 'React',
-          'react-dom': 'ReactDOM',
-          'react/jsx-runtime': 'jsxRuntime',
-        },
         assetFileNames: (assetInfo) => {
           if (assetInfo.name?.endsWith('.css')) {
             return 'style.css';

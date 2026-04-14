@@ -2,7 +2,24 @@ import { useState } from 'react';
 import {
   Button,
   Checkbox,
+  CheckboxSimpleList,
+  ComplexListSD,
+  LicensingList,
+  RadioButtonList,
+  SimpleListHeader,
+  SIMPLE_LIST_HEADER_SUPPORT_BODY,
+  SIMPLE_LIST_HEADER_SAMPLE_ITEMS_ERROR,
+  SIMPLE_LIST_HEADER_SAMPLE_ITEMS_SUCCESS,
   DatePicker,
+  SwitchList,
+  SWITCH_LIST_SAMPLE_ITEMS,
+  TotalsList,
+  TOTALS_LIST_SAMPLE_AMOUNTS,
+  TOTALS_LIST_SAMPLE_NUMBERS,
+  TreeListCheckboxes,
+  TREE_LIST_CHECKBOXES_SAMPLE_ITEMS,
+  TreeListDropdowns,
+  TREE_LIST_DROPDOWNS_SAMPLE_ITEMS,
   InputField,
   InputFieldIcon,
   InputFieldPhone,
@@ -753,6 +770,109 @@ function App() {
                 />
               </div>
             </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-3">Checkbox simple list</h3>
+              <div className="flex flex-wrap gap-8 items-start">
+                <CheckboxSimpleList ariaLabel="Job roles" className="max-w-[220px]" />
+                <CheckboxSimpleList orientation="horizontal" ariaLabel="Job roles (row)" />
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-3">
+                Complex list (switch + dropdown)
+              </h3>
+              <div className="max-w-[800px] border border-dashed border-border rounded-lg p-4">
+                <ComplexListSD />
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-3">Licensing list</h3>
+              <div className="max-w-[900px] border border-dashed border-border rounded-lg p-4">
+                <LicensingList />
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-3">
+                Simple list with header
+              </h3>
+              <div className="flex flex-wrap gap-6 items-start max-w-[1100px]">
+                <div className="border border-dashed border-border rounded-lg p-4">
+                  <SimpleListHeader
+                    heading="Contact Support"
+                    variant="bullet"
+                    body={SIMPLE_LIST_HEADER_SUPPORT_BODY}
+                  />
+                </div>
+                <div className="border border-dashed border-border rounded-lg p-4">
+                  <SimpleListHeader
+                    heading="Contact Support"
+                    variant="numbered"
+                    body={SIMPLE_LIST_HEADER_SUPPORT_BODY}
+                  />
+                </div>
+                <div className="border border-dashed border-border rounded-lg p-4">
+                  <SimpleListHeader
+                    heading="Products not included in your plan"
+                    variant="iconFailed"
+                    items={SIMPLE_LIST_HEADER_SAMPLE_ITEMS_ERROR}
+                  />
+                </div>
+                <div className="border border-dashed border-border rounded-lg p-4">
+                  <SimpleListHeader
+                    heading="Products included in your plan"
+                    variant="iconSuccessful"
+                    items={SIMPLE_LIST_HEADER_SAMPLE_ITEMS_SUCCESS}
+                  />
+                </div>
+                <div className="border border-dashed border-border rounded-lg p-4">
+                  <SimpleListHeader
+                    size="lg"
+                    heading="Products not included in your plan"
+                    variant="iconCheck"
+                    items={SIMPLE_LIST_HEADER_SAMPLE_ITEMS_ERROR}
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-3">Switch list</h3>
+              <div className="max-w-[820px] border border-dashed border-border rounded-lg p-4">
+                <SwitchList ariaLabel="Switch list" items={SWITCH_LIST_SAMPLE_ITEMS} />
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-3">Totals list</h3>
+              <div className="flex flex-wrap gap-8 items-start">
+                <div className="w-[450px] border border-dashed border-border rounded-lg p-4">
+                  <TotalsList items={TOTALS_LIST_SAMPLE_NUMBERS}/>
+                </div>
+                <div className="w-[450px] border border-dashed border-border rounded-lg p-4">
+                  <TotalsList
+                    items={TOTALS_LIST_SAMPLE_AMOUNTS}
+                    summary={{ label: 'Summary', value: '$260.00' }}   
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-3">Tree list (checkboxes)</h3>
+              <div className="max-w-[520px] border border-dashed border-border rounded-lg p-4">
+                <TreeListCheckboxes ariaLabel="Tree list checkboxes" items={TREE_LIST_CHECKBOXES_SAMPLE_ITEMS} />
+              </div>
+            </div>
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-3">Tree list (dropdowns)</h3>
+              <div className="flex flex-wrap gap-8 items-start">
+                <TreeListDropdowns items={TREE_LIST_DROPDOWNS_SAMPLE_ITEMS} />
+              </div>
+            </div>
           </div>
         </section>
 
@@ -820,6 +940,25 @@ function App() {
                   name="radio-group-2"
                   checked={checkedItems.radioChecked}
                   onChange={() => setCheckedItems(prev => ({ ...prev, radioChecked: true, radioDefault: false }))}
+                />
+              </div>
+            </div>
+
+            <div>
+              <h3 className="text-sm font-semibold text-muted-foreground mb-3">Radio button list</h3>
+              <div className="flex flex-col gap-6 max-w-[560px]">
+                <RadioButtonList />
+                <RadioButtonList appearance="plain" />
+                <RadioButtonList
+                  showHeading={false}
+                  items={[
+                    {
+                      id: 'single',
+                      label: 'Organization Level',
+                      description:
+                        'Same configuration for all businesses and locations in the organization',
+                    },
+                  ]}
                 />
               </div>
             </div>

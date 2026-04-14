@@ -1,0 +1,99 @@
+.tree-list-dropdowns {
+  width: 100%;
+  max-width: 326px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.tree-list-dropdowns__title {
+  color: var(--Colors-Functional-Txt-Txt_Default, #303030);
+  font-family: var(--FontFamily-Family, 'DM Sans', sans-serif);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 23.28px;
+  word-wrap: break-word;
+  align-self: stretch;
+}
+
+.tree-list-dropdowns__list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.tree-list-dropdowns__node {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.tree-list-dropdowns__root-block {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+}
+
+.tree-list-dropdowns__root-label {
+  color: var(--Colors-Functional-Label-Txt_Label_Default, #4b4b4a);
+  font-family: var(--FontFamily-Family, 'DM Sans', sans-serif);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20.37px;
+  word-wrap: break-word;
+}
+
+.tree-list-dropdowns__child-block {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+}
+
+.tree-list-dropdowns__child-block-inner {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.tree-list-dropdowns__child-label {
+  color: var(--Colors-Buttons-ToggleButtons-Filter-Txt_Label_Default, #4b4b4a);
+  font-family: var(--FontFamily-Family, 'DM Sans', sans-serif);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20.37px;
+  word-wrap: break-word;
+}
+
+.tree-list-dropdowns__child-description {
+  color: var(--Colors-Functional-Txt-Txt_Light, #71706c);
+  font-family: var(--FontFamily-Family, 'DM Sans', sans-serif);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17.46px;
+  word-wrap: break-word;
+  width: 100%;
+}
+
+.tree-list-dropdowns__children {
+  width: 294px;
+  padding-left: 20px;
+  border-left: 1px solid var(--Colors-Functional-Border-Border_Default, #c3c1b5);
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.tree-list-dropdowns__dropdown-wrapper {
+  width: 274px;
+  /* Rely on the SingleSelectDropDown's native height instead of forcing 36px */
+}
+
+.tree-list-dropdowns__dropdown-wrapper .single-select-dropdown__label {
+  display: none;
+}

@@ -1,0 +1,106 @@
+/* LicensingList — Evaa DS (Figma node 11392-171) */
+
+.licensing-list {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  font-family: var(--FontFamily-Family, 'DM Sans', sans-serif);
+}
+
+.licensing-list__row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom: 1px solid var(--Colors-Functional-Border-Border_Default, #c3c1b5);
+}
+
+.licensing-list__row--surface-white {
+  background: var(--Colors-Functional-Bkg-Bkg_Default, #fff);
+}
+
+.licensing-list__main {
+  flex: 1 1 280px;
+  min-width: 0;
+  padding: 4px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+}
+
+.licensing-list__top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  min-height: 22px;
+}
+
+.licensing-list__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  min-height: 20px;
+}
+
+.licensing-list__price {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.455;
+  font-variation-settings: 'opsz' 14;
+  color: var(--Colors-Functional-Txt-Txt_Light, #71706c);
+  word-wrap: break-word;
+}
+
+.licensing-list__assignment {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.455;
+  font-variation-settings: 'opsz' 14;
+  color: var(--Colors-Functional-Txt-Txt_Light, #71706c);
+  word-wrap: break-word;
+}
+
+.licensing-list__alert-icon {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  color: var(--Colors-Navigation-Icons-Alert-High-Red500, #e73d36);
+}
+
+.licensing-list__alert-icon svg {
+  display: block;
+  width: 14px;
+  height: 13px;
+  margin: 1.5px auto 0;
+}
+
+.licensing-list__actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  padding: 4px;
+}
+
+.licensing-list__count {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.455;
+  font-variation-settings: 'opsz' 14;
+  color: var(--Colors-Functional-Txt-Txt_Default, #303030);
+}
+
+/* Tighten Button to Figma ~32px row height when using sm secondary */
+.licensing-list__cta.button--secondary.button--sm {
+  min-height: 32px;
+  height: auto;
+  padding: 10px 12px;
+}

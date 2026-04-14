@@ -1,0 +1,57 @@
+/* CheckboxSimpleList — Evaa DS (Figma node 11179-6272) */
+
+.checkbox-simple-list {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  padding: 4px;
+  border-radius: 13px;
+  background: var(--Colors-Functional-Bkg-Bkg_Light, #f6f6f1);
+  border: 1px solid var(--Colors-Functional-Border-Border_Default, #c3c1b5);
+  font-family: var(--FontFamily-Family, 'DM Sans', sans-serif);
+}
+
+.checkbox-simple-list__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  align-items: stretch;
+}
+
+.checkbox-simple-list--horizontal .checkbox-simple-list__list {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Figma: vertical rows use gap 8 between box and label; horizontal row uses gap 5 */
+.checkbox-simple-list--vertical .checkbox-row {
+  gap: 8px;
+}
+
+.checkbox-simple-list--horizontal .checkbox-row {
+  gap: 5px;
+}
+
+.checkbox-simple-list__item {
+  margin: 0;
+  padding: 0;
+  min-width: 0;
+}
+
+.checkbox-simple-list--horizontal .checkbox-simple-list__item {
+  flex: 0 1 auto;
+}
+
+.checkbox-simple-list .checkbox-container {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.checkbox-simple-list--horizontal .checkbox-container {
+  width: auto;
+}

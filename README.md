@@ -1,73 +1,93 @@
-# React + TypeScript + Vite
+# fic-designsystem-components
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Evaa Design System components for React.
 
-Currently, two official plugins are available:
+This repository contains:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- A publishable component library (Vite + React + TypeScript)
+- A local showcase app to preview components during development (see [App.tsx](file:///d:/First%20Insight%20Company/New%20folder/designcheck/src/App.tsx))
 
-## React Compiler
+Figma source: https://www.figma.com/design/H9nMooeYt4KObEGnhqxE1A/Evaa-Design-System-V.2
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Install
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm i fic-designsystem-components
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Peer dependencies:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- react >= 18
+- react-dom >= 18
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Usage
+
+Import the stylesheet once (recommended in your app entry):
+
+```ts
+import 'fic-designsystem-components/style.css';
 ```
+
+Then import and use components:
+
+```tsx
+import { Button, PillBadge, TreeListCheckboxes } from 'fic-designsystem-components';
+
+export function Example() {
+  return (
+    <div>
+      <Button variant="primary">Primary</Button>
+      <PillBadge variant="blue" size="sm">Eligibility Verification</PillBadge>
+      <TreeListCheckboxes ariaLabel="Tree list checkboxes" />
+    </div>
+  );
+}
+```
+
+Notes:
+
+- `style.css` includes the design tokens and component styles used by this library.
+- `theme.css` is exported as an alias of `style.css` for compatibility:
+
+```ts
+import 'fic-designsystem-components/theme.css';
+```
+
+## Exports
+
+This package ships:
+
+- ESM: `dist/index.mjs` (via `exports.import`)
+- CJS: `dist/index.cjs` (via `exports.require`)
+- Types: `dist/index.d.ts`
+- CSS: `dist/style.css`
+
+Browse the full export surface in [index.ts](file:///d:/First%20Insight%20Company/New%20folder/designcheck/src/index.ts).
+
+## Development
+
+Run the local component showcase:
+
+```bash
+npm run dev
+```
+
+Other commands:
+
+```bash
+npm run build
+npm run lint
+npm run preview
+```
+
+## Publishing
+
+`prepublishOnly` runs `npm run build` automatically.
+
+```bash
+npm publish
+```
+
+## License
+
+MIT (see [LICENSE](file:///d:/First%20Insight%20Company/New%20folder/designcheck/LICENSE)).

@@ -21,13 +21,13 @@
 }
 
 .single-select-dropdown--md .single-select-dropdown__label {
-  font-size: 16px;
-  line-height: 23.28px;
+  font-size: 14px;
+  line-height: 20.37px;
 }
 
 .single-select-dropdown--lg .single-select-dropdown__label {
-  font-size: 14px;
-  line-height: 20.37px;
+  font-size: 16px;
+  line-height: 23.28px;
 }
 
 .single-select-dropdown__select-container {
@@ -47,22 +47,26 @@
   box-sizing: border-box;
 }
 
+/* Trigger heights — Figma 15644-1993: Small 25px, Medium 36px, Large 45px */
 .single-select-dropdown--sm .single-select-dropdown__select {
   width: 274px;
+  min-height: 25px;
   height: 25px;
-  padding: 0 14px;
+  padding: 0 20px 0 13px;
 }
 
 .single-select-dropdown--md .single-select-dropdown__select {
   width: 274px;
-  height: 45px;
-  padding: 0 14px;
+  min-height: 36px;
+  height: 36px;
+  padding: 0 16px 0 13px;
 }
 
 .single-select-dropdown--lg .single-select-dropdown__select {
   width: 274px;
-  height: 35px;
-  padding: 0 14px;
+  min-height: 45px;
+  height: 45px;
+  padding: 0 14px 0 13px;
 }
 
 .single-select-dropdown__value {
@@ -79,6 +83,11 @@
 }
 
 .single-select-dropdown--md .single-select-dropdown__value {
+  font-size: 14px;
+  line-height: 20.37px;
+}
+
+.single-select-dropdown--lg .single-select-dropdown__value {
   font-size: 16px;
   line-height: 23.28px;
 }
@@ -118,20 +127,34 @@
   outline-offset: -1px;
   z-index: 1000;
   box-sizing: border-box;
-  margin-top: 4px;
+  /* Figma: list stacks 1px below trigger (e.g. mt 46px after 45px field) */
+  margin-top: 1px;
 }
 
 .single-select-dropdown__option {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2px 12px;
+  padding: 4px 12px;
   color: var(--Colors-Functional-Txt-Txt_Default, #303030);
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 500;
-  line-height: 26px;
+  line-height: 20.37px;
   cursor: pointer;
   box-sizing: border-box;
+  min-height: 34px;
+}
+
+.single-select-dropdown--sm .single-select-dropdown__option {
+  font-size: 12px;
+  line-height: 17.46px;
+  min-height: 25px;
+  padding: 2px 12px;
+}
+
+.single-select-dropdown--lg .single-select-dropdown__option {
+  font-size: 16px;
+  line-height: 23.28px;
 }
 
 .single-select-dropdown__option:hover:not(.single-select-dropdown__option--selected) {

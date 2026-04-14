@@ -1,0 +1,144 @@
+/* SimpleListHeader — Evaa DS (Figma node 11392-238) */
+
+.simple-list-header {
+  box-sizing: border-box;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 14px 10px 10px 14px;
+  border-radius: 13px;
+  background: var(--Colors-Functional-Bkg-Bkg_Dark, #efeeea);
+  font-family: var(--FontFamily-Family, 'DM Sans', sans-serif);
+  text-align: left;
+}
+
+.simple-list-header--lg {
+  padding: 18px 14px 14px 18px;
+}
+
+.simple-list-header__heading {
+  margin: 0;
+  align-self: stretch;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.455;
+  font-variation-settings: 'opsz' 14;
+  color: var(--Colors-Functional-Label-Txt_Label_Default, #4b4b4a);
+  word-wrap: break-word;
+}
+
+.simple-list-header--lg .simple-list-header__heading {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.455;
+}
+
+.simple-list-header__body {
+  margin: 0;
+  align-self: stretch;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.455;
+  font-variation-settings: 'opsz' 14;
+  color: var(--Colors-Functional-Txt-Txt_Default, #303030);
+  white-space: pre-line;
+  word-wrap: break-word;
+}
+
+.simple-list-header__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.simple-list-header--lg .simple-list-header__list {
+  gap: 12px;
+  padding: 6px;
+}
+
+.simple-list-header__row {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  min-height: 20px;
+}
+
+.simple-list-header--lg .simple-list-header__row {
+  gap: 6px;
+  padding: 2px;
+}
+
+.simple-list-header__row-label {
+  flex: 1 1 0;
+  margin: 0;
+  min-width: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.455;
+  font-variation-settings: 'opsz' 14;
+  color: var(--Colors-Functional-Txt-Txt_Default, #303030);
+  word-wrap: break-word;
+}
+
+.simple-list-header--lg .simple-list-header__row-label {
+  font-size: 16px;
+  line-height: 1.455;
+}
+
+.simple-list-header__marker-wrap {
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.simple-list-header__marker {
+  display: block;
+  flex-shrink: 0;
+  width: 16px;
+  height: 16px;
+}
+
+.simple-list-header__marker--error {
+  color: var(--Colors-Navigation-Icons-Red700, #9a1712);
+}
+
+.simple-list-header__marker--success {
+  color: var(--Colors-Navigation-Icons-Lime600, #5e981d);
+}
+
+.simple-list-header__marker--check {
+  color: var(--Colors-Navigation-Icons-Lime600, #5e981d);
+}
+
+.simple-list-header__marker--bullet {
+  width: 6px;
+  height: 6px;
+  background: var(--Colors-Functional-Txt-Txt_Default, #303030);
+  border-radius: 999px;
+}
+
+.simple-list-header__marker--number {
+  width: 16px;
+  height: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1;
+  color: var(--Colors-Functional-Label-Txt_Label_Default, #4b4b4a);
+}
+
+.simple-list-header--lg .simple-list-header__marker--number {
+  font-size: 14px;
+}
