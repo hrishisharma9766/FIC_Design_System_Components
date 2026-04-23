@@ -33,7 +33,6 @@ import {
   SwitchWithLabel,
   Table,
   TextArea,
-  AdminTopNav,
   NavigationDropDown,
   AudioPlayer,
   LinkButton,
@@ -60,6 +59,8 @@ import {
   EnterprEyesNavigation,
   Logos,
   type LogosVariant,
+  AdminTopNav,
+  LeftNavigationMenu,
   ScribeEmptyData,
   type ScribeEmptyDataVariant,
   Modal,
@@ -136,36 +137,6 @@ function App() {
 
   return (
     <div className="min-h-screen bg-muted/30 font-sans">
-      <AdminTopNav 
-        leftSelects={[
-          { 
-            placeholder: "Enterprise Optical Group", 
-            options: [
-              { label: "Practice 1", value: "Practice 1" },
-              { label: "Practice 2", value: "Practice 2" }
-            ] 
-          },
-          { 
-            placeholder: "Virtual Assistant", 
-            options: [
-              { label: "Assistant A", value: "Assistant A" },
-              { label: "Assistant B", value: "Assistant B" }
-            ] 
-          }
-        ]}
-        actions={[
-          { icon: <div className="w-4 h-4 bg-gray-400 rounded-full" />, badge: 3 },
-          { icon: <div className="w-4 h-4 bg-gray-400 rounded-full" /> }
-        ]}
-        profileAction={{
-          label: "John Doe",
-          items: [
-            { label: "Profile", onClick: () => console.log("Profile clicked") },
-            { label: "Settings", onClick: () => console.log("Settings clicked") },
-            { label: "Logout", onClick: () => console.log("Logout clicked") }
-          ]
-        }}
-      />
       <div className="p-8">
         <header className="mb-12">
           <h1 className="text-4xl font-extrabold text-foreground mb-2">Evaa Design System</h1>
@@ -212,6 +183,29 @@ function App() {
                   </div>
                 ))}
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Admin Top Nav Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Admin Top Nav</h2>
+          <div className="rounded-[13px] border border-border bg-background">
+            <AdminTopNav />
+          </div>
+        </section>
+
+        {/* Left Navigation Menu Section */}
+        <section className="bg-background p-6 rounded-[13px] border border-border">
+          <h2 className="text-2xl font-bold text-secondary mb-6 border-b pb-2">Left Navigation Menu</h2>
+          <div className="grid grid-cols-1 gap-6 xl:grid-cols-2">
+            <div className="rounded-[13px] border border-border bg-background p-4">
+              <p className="mb-3 text-sm font-semibold text-muted-foreground">Expanded</p>
+              <LeftNavigationMenu variant="expanded" />
+            </div>
+            <div className="rounded-[13px] border border-border bg-background p-4 overflow-visible">
+              <p className="mb-3 text-sm font-semibold text-muted-foreground">Collapsed</p>
+              <LeftNavigationMenu variant="collapsed" />
             </div>
           </div>
         </section>

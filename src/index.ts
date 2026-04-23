@@ -82,7 +82,6 @@ export { SwitchWithLabel, type SwitchWithLabelProps } from './components/SwitchW
 export { Table, type TableProps, type TableColumn } from './components/Table/Table';
 export { SimpleTable, type SimpleTableProps, type SimpleTableColumn } from './components/SimpleTable/SimpleTable';
 export { SearchBox, type SearchBoxProps } from './components/SearchBox/SearchBox';
-export * from './components/AdminTopNav/AdminTopNav';
 export * from './components/AudioPlayer/AudioPlayer';
 export * from './components/LinkButton/LinkButton';
 export * from './components/AddOnsCard/AddOnsCard';
@@ -99,6 +98,13 @@ export * from './components/PriceSlider/PriceSlider';
 export * from './components/PatientDetailsBanner/PatientDetailsBanner';
 export * from './components/EnterprEyesNavigation/EnterprEyesNavigation';
 export { Logos, type LogosProps, type LogosTheme, type LogosVariant } from './components/Logos/Logos';
+export { AdminTopNav, type AdminTopNavProps, type AdminTopNavSize } from './components/AdminTopNav/AdminTopNav';
+export {
+  LeftNavigationMenu,
+  type LeftNavigationMenuProps,
+  type LeftNavigationMenuItem,
+  type LeftNavigationMenuVariant,
+} from './components/LeftNavigationMenu/LeftNavigationMenu';
 export {
   ScribeEmptyData,
   type ScribeEmptyDataProps,
